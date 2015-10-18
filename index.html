@@ -5,9 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="description" content=""/>
     <meta name="author" content=""/>
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="/assets/css/font-awesome.min.css" rel="stylesheet"/>
+    <link href='/assets/css/open-sans-font.css' rel='stylesheet' type='text/css' />
+    <link href="/assets/css/custom.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="/assets/css/flipclock.css">
 
     <title>BEECON</title>
 </head>
-<body>
+<body class="yellow">
+ <script type="text/javascript" src="/assets/js/jquery.min.js"></script>
+ <div class="centered">
+  <h1 class="text-center"><strong>BeeCON 2016</strong></h1>
+  <h2 class="text-center">Brussels, Belgium<br/>April 28-29, 2016</h2>
+ <div class="clock"></div>
+ </div>
+ <div class="footer">
+  <p><a href="http://twitter.com/orderofthebee" class="black"><span class="fa fa-twitter"></span> Stay connected</a>. Details will be published soon.</p>
+ </div>
+
+
+ <script src="/assets/js/flipclock.min.js"></script>
+
+
+<script type="text/javascript">
+  var deadline = 'April 28 2016 09:00:00 GMT+02:00';
+function getTimeRemaining(endtime){
+  var t = Date.parse(endtime) - Date.parse(new Date());
+  var t = Math.floor(t/1000);
+  return t;
+}
+	var clock = $('.clock').FlipClock(getTimeRemaining(deadline), {
+		clockFace: 'DailyCounter',
+		countdown: true,
+		showSeconds: false
+	});
+</script>
 </body>
 </html>
