@@ -2,7 +2,7 @@
 
 body {
 	margin: auto;
-	padding-top: 80px; 
+	padding-top: 30px; 
 	text-align: justify;
 }
 
@@ -110,6 +110,14 @@ header {
 	z-index: 100;
 }
 
+.navbar {
+	min-height: 30px;
+}
+
+.navbar-default {
+    background-color: #ffe14f;
+    border-color: #ffdd35;
+}
 .dropdown-menu > li {
 	text-transform: none;
 	font-size: 14px;
@@ -123,6 +131,31 @@ header {
 	color: #777777;
 	white-space: nowrap;
 	text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav>li>a {
+    padding-top: 10px; 
+    padding-bottom: 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.navbar-text {
+    margin-top: 7px;
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.navbar-toggle {
+    margin-right: 15px;
+    padding: 9px 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
 }
 
 /* modal */
@@ -151,10 +184,10 @@ header {
 /* sections specific */
 
 .bg-lg {
-	background: url(/assets/img/bg1.jpg) no-repeat center center scroll; 
+	background: url(/assets/img/bg.jpg) no-repeat center center scroll; 
 }
 
-.bg-md {
+/*.bg-md {
 	background: url(/assets/img/bg2.jpg) no-repeat center center scroll; 
 }
 
@@ -164,11 +197,60 @@ header {
 
 .bg-xs {
 	background: url(/assets/img/bg4.jpg) no-repeat center center scroll; 
+}*/
+
+#home {
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        text-align: center;
+        position: relative;
+        border-top: 1px solid #e3e3e3;
+}
+
+#home h1 {
+        color: #fff;
+        font-weight: 600;
+}
+
+#home h3 {
+        color: #fff;
+        font-weight: 600;
+}
+
+#home h4 {
+        color: #fff;
+        margin: 40px 0 57px;
+        font-weight: 600;
+}
+
+#home a:hover, #home a:active {
+        opacity: 0.5;
+}
+
+#home a:active {
+        position: relative;
+        top: 1px;
+}
+
+#home img.border {
+	position: absolute;
+	left: 0;
+	top: 0;
+	max-width: 100%;
+    max-height: 100%;
+}
+
+.alfresco-logo {
+	float: right;
+	position: relative;
+	height: 100px;
 }
 
 section {
 	padding-top: 30px;
-
 	-webkit-box-shadow: inset 0 10px 10px rgba(0, 0, 0, 0.1);
 	-moz-box-shadow: inset 0 10px 10px rgba(0, 0, 0, 0.1);
 	box-shadow: inset 0 10px 10px rgba(0, 0, 0, 0.1);
@@ -180,9 +262,6 @@ section {
 
 .yellow {
 	background-color: #ffe14f;
-	-webkit-box-shadow: inset 0 10px 10px rgba(0, 0, 0, 0.1);
-	-moz-box-shadow: inset 0 10px 10px rgba(0, 0, 0, 0.1);
-	box-shadow: inset 0 10px 10px rgba(0, 0, 0, 0.1);
 }
 
 .bg-4 {
@@ -203,10 +282,22 @@ section {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
-.footer {
-  position: fixed;
-  bottom: 2%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.table-bordered>tbody>tr>td.date {
+  background-color: #555;
+  color: #fff;
+  font-weight: 600;
+}
+.table-bordered>tbody>tr>td.time {
+  text-align: center;
+  color: #222;
+  font-weight: 600;
+}
+.table-bordered>tbody>tr>td.session {
+    background-color: #fffcec;
+}
+.table-bordered>tbody>tr>td.hackathon {
+    background-color: #f2ecff;
+}
+.table-bordered>tbody>tr>td.networking {
+    background-color: #ecf9ff;
 }
