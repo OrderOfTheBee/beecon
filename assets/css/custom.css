@@ -90,6 +90,10 @@ img.center {
 	margin-right: auto;
 }
 
+img.margins {
+	margin: 15px;
+}
+
 /* legend for calendars */
 
 .legend-1 {
@@ -305,3 +309,5 @@ section {
 .table-bordered>tbody>tr>td.networking {
     background-color: #ecf9ff;
 }
+
+
