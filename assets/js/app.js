@@ -1,39 +1,39 @@
 var app = angular.module('app', [ 'ui.bootstrap' , 'ngSanitize']);
 
-/*app.controller('MembersCtrl', ['$scope', '$http', '$timeout', '$modal', function($scope, $http, $timeout, $modal, $log){
-	$scope.members = [];
-	$http.get('/assets/data/members.json').success(function(data) {
-		$scope.members = data;
+app.controller('SpeakersCtrl', ['$scope', '$http', '$timeout', '$modal', function($scope, $http, $timeout, $modal, $log){
+	$scope.speakers = [];
+	$http.get('/assets/data/speakers.json').success(function(data) {
+		$scope.speakers = data;
 		$scope.fullList = [];
 		var n = 0;
 		var array = [];
-		while (n < $scope.members.length) {
-			var index = Math.floor(Math.random()*$scope.members.length);
+		while (n < $scope.speakers.length) {
+			var index = Math.floor(Math.random()*$scope.speakers.length);
 			if ($.inArray(index, array) == -1) {
 				array[n+1] = index;
 				n++;
 			}
 		}
-		for (n=1; n < $scope.members.length+1; n++) {
+		for (n=1; n < $scope.speakers.length+1; n++) {
 			$scope.fullList.push(
-				$scope.members[array[n]]
+				$scope.speakers[array[n]]
 			);
 		};
 	});
-	$scope.open = function (_member) {
+	$scope.open = function (_speaker) {
 		var modalInstance = $modal.open({
 			controller: "ModalInstanceCtrl",
-			templateUrl: 'MemberModalContent.html',
+			templateUrl: 'SpeakerModalContent.html',
 			scope: $scope,
 			resolve: {
 				item: function()
 				{
-					$scope.currentItem = _member;
+					$scope.currentItem = _speaker;
 				}
 			}
 		});
 	};
-}]);*/
+}]);
 
 app.controller('ModalInstanceCtrl', function ($scope, $modalInstance, item) {
 
