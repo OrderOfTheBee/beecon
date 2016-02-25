@@ -317,7 +317,7 @@
 "company": "CTO, ITD Systems",
 "companyUrl": "",
 "image": "AlexeyVasyukov.png",
-"summary":"Alexey Vasyukov works as CTO at ITD Systems, developer of Alvex solution. Alexey leads Alvex solution development as chief architect. He is responsible for principal technical decisions during planning. So, if something goes wrong in the wild - non-standard setup is required or Alvex does not work on the latest Alfresco release - it is also Alexey's headache. Prior to ITD Systems he worked for VDEL as consultant and presale team lead helping partners and customers to build solutions based on open source technologies. Alexey has a Ph.D. in Mathematical Modeling, Numerical Methods, and Software Complexes from Moscow Institute of Physics and Technology. ",
+"summary":"Alexey Vasyukov works as CTO at ITD Systems, developer of Alvex solution. Alexey supervises development team and participates in projects directly as an architect. He is directly responsible for principal technical decisions. So, if something is nice on slides, but goes wrong in the wild, it is Alexey's headache.   Alexey has been working with Alfresco since 2010 as developer, consultant and architect. Prior to ITD Systems he worked for VDEL as consultant and presale team lead helping partners and customers to build solutions based on open source technologies. Alexey has a Ph.D. in Mathematical Modeling, Numerical Methods, and Software Complexes from Moscow Institute of Physics and Technology. ",
 "talks":[
 {"title": "Backing data silo attack: Alfresco sharding, SOLR for non-flat objects",
 "type": "20 minutes (Full Talk)",
@@ -399,18 +399,6 @@
 "abstract": "The analytics in Alfresco represent an emerging interest for the users and the integration with Pentaho is the leading solution on both the Community and Enterprise Editions. AAAR is beyond the 4-th version and has bundled reports, dashboards and free analysis on audit data, repository and workflows. But in most cases, the bundled analytics should be customized to cover the business needs. In this talk is shown how to develop a customized set of analytics starting simply from some business questions. All of this to create your own Business Intelligence solution over one or more Alfresco instances."}
 ]},
 {
-"name": "Heiko",
-"surname": "Robert (hi-ko)",
-"company": "ceo, ecm4u GmbH",
-"companyUrl": "",
-"image": "HeikoRobert(hi-ko).png",
-"summary":"null",
-"talks":[
-{"title": "Increase Security and Scalability: Reverse Proxy is Alfresco's buddy",
-"type": "5 minutes (Ignite Style Lightning Talk)",
-"abstract": "In real live it is a very good idea to put Alfresco behind a reverse proxy ( easier adminstration, better control access, speed up the system using several caching strategies) The session compares different concepts and the differences using Apache vs. Nginx and show hints and tricks to get this done."}
-]},
-{
 "name": "Younes",
 "surname": "Regaieg",
 "company": "ECM R&D Engineer",
@@ -432,7 +420,10 @@
 "talks":[
 {"title": "An ECM can only be as good as it's model: Business Document Model",
 "type": "20 minutes (Full Talk)",
-"abstract": "Everyone does it when starting to use Alfresco as a DMS but unfortunately somehow different:  Creating a custom model  This may cause room for disappointments for several reasons (poor support for model changes, hard to combine solutions, time intensive work) The session will introduce a best practice model for business documents which ecm4u created from the experience of the last 5 years and explains the concepts, pitfaults and how to get use it. The model is publised on github and is meant as a starting point for coworking on a growing, documented, reusable document model for alfresco. We don't want to waste time with models and forms - let's create and combine solutions! ;-)"}
+"abstract": "Everyone does it when starting to use Alfresco as a DMS but unfortunately somehow different:  Creating a custom model  This may cause room for disappointments for several reasons (poor support for model changes, hard to combine solutions, time intensive work) The session will introduce a best practice model for business documents which ecm4u created from the experience of the last 5 years and explains the concepts, pitfaults and how to get use it. The model is publised on github and is meant as a starting point for coworking on a growing, documented, reusable document model for alfresco. We don't want to waste time with models and forms - let's create and combine solutions! ;-)"},
+{"title": "Increase Security and Scalability: Reverse Proxy is Alfresco's buddy",
+"type": "5 minutes (Ignite Style Lightning Talk)",
+"abstract": "In real live it is a very good idea to put Alfresco behind a reverse proxy ( easier adminstration, better control access, speed up the system using several caching strategies) The session compares different concepts and the differences using Apache vs. Nginx and show hints and tricks to get this done."}
 ]},
 {
 "name": "Ole",
