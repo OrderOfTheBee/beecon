@@ -283,7 +283,10 @@
                   <div ng-show="item.summary" ng-bind-html="item.summary"></div>
                   <br/>
                   <p><strong>Sessions</strong></p>
-                  Coming soon!
+                  <div ng-repeat="talk in item.talks">
+                    {{talk.title}}<br/>
+                    <small>{{talk.type}}</small>
+                  </div>
                 </div>
                 <div class="modal-footer">
                   <button class="btn btn-danger" ng-click="cancel()">Cancel</button>
@@ -291,7 +294,7 @@
               </script>
 
               <div class="row">
-                <div  class="col-lg-3 col-md-4 col-sm-4 col-xs-6" ng-repeat="speaker in fullList">
+                <div  class="col-lg-3 col-md-4 col-sm-4 col-xs-6" ng-repeat="speaker in speakers">
                   <a href="" ng-click="open(speaker)"><img ng-src="/assets/img/speakers/{{speaker.image}}" class="img-circle purple" height="64px"/></a>
                   <br/>
                   <h4><a ng-click="open(speaker)" href="" class="black">{{speaker.name}}<br/>{{speaker.surname}}</a></h4>
