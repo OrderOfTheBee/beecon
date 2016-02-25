@@ -8,6 +8,14 @@
 "summary":"Alexey Vasyukov works as CTO at ITD Systems, developer of Alvex solution. Alexey leads Alvex solution development as chief architect. He is responsible for principal technical decisions during planning. So, if something goes wrong in the wild - non-standard setup is required or Alvex does not work on the latest Alfresco release - it is also Alexey's headache. Prior to ITD Systems he worked for VDEL as consultant and presale team lead helping partners and customers to build solutions based on open source technologies. Alexey has a Ph.D. in Mathematical Modeling, Numerical Methods, and Software Complexes from Moscow Institute of Physics and Technology. "
 },
 {
+"name": "Alexey",
+"surname": "Ermakov",
+"company": "CTO, ITD Systems",
+"companyUrl": "",
+"image": "AlexeyErmakov.png",
+"summary":"ITD Systems lead developer, his presentation at Alfresco DevCon 2011 - http://www.slideshare.net/oksanakurysheva/alfresco-devcon-2011-implementing-egov-portal-powered-by-alfresco-and-orbeon "
+},
+{
 "name": "Andrew",
 "surname": "Short",
 "company": "CERN - eFiles project leader",
@@ -152,6 +160,14 @@
 "summary":"Alfresco Hobbyist and Activist, Founder- and Board- member of The Order Of The Bee "
 },
 {
+"name": "Daren",
+"surname": "Firminger",
+"company": "Community Volunteer",
+"companyUrl": "",
+"image": "DarenFirminger.png",
+"summary":"Digital Catalyst owner & director. "
+},
+{
 "name": "Samuel",
 "surname": "Masue",
 "company": "Software engineer at CERN",
@@ -181,7 +197,7 @@
 "company": "Project Manager, ITD Systems",
 "companyUrl": "",
 "image": "OksanaKurysheva.png",
-"summary":"See my previous submissions "
+"summary":"Oksana Kurysheva is responsible for project management and business development at ITD Systems, developer of Alvex solution for dynamic business process and case management. Working with partners and customers around whole Eastern Europe since 2009, Oksana has helped many companies to start using Alfresco and many system integrators to implement their first projects successfully. As a project manager of the solution developer she communicates with customers and partners on all stages of their implementation projects every day. Oksana is also a certified Alfresco and Alvex instructor, r̶e̶g̶u̶l̶a̶r̶l̶y̶ rarely conducting training courses throughout Eastern Europe and Russia. Also Oksana is a member of the Order of the Bee. "
 },
 {
 "name": "Ole",
