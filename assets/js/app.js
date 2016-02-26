@@ -47,4 +47,3 @@ app.directive("footer", function() {
        templateUrl: "/elements/footer.html"
     };
 });
-
