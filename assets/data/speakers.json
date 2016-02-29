@@ -422,10 +422,10 @@
 {
 "name": "Younes",
 "surname": "Regaieg",
-"company": "ECM R&D Engineer",
-"companyUrl": "",
+"company": "ArchiveYourDocs",
+"companyUrl": "http://www.archiveyourdocs.com",
 "image": "YounesRegaieg.png",
-"summary":"My job as an ECM R&D Engineer involve interaction with alfresco based solutions and every day basis. Check my linked in profile for further insights: https://fr.linkedin.com/in/younesregaieg<br/>",
+"summary":"Being a Software engineer @ArchiveYourDocs.com, Younes is basically implementing some cool new features in Alfresco and integrating Alfresco based solutions to existing information systems on an every day basis. He is also a community guy, mostly active on #StackOverflow and the community official IRC channel (as yreg).<br/><br/>Linkedin profile: https://fr.linkedin.com/in/younesregaieg <br/>",
 "talks":[
 {"title": "Busines Activity Monitoring, a sample use case",
 "type": "20 minutes (Full Talk)",
