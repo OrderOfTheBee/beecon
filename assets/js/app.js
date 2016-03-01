@@ -20,6 +20,13 @@ app.controller('SpeakersCtrl', ['$scope', '$http', '$timeout', '$modal', functio
 	};
 }]);
 
+app.controller('TalksCtrl', ['$scope', '$http', '$location', '$filter', function($scope, $http, $location, $filter){
+    $scope.talkId = $location.absUrl().split("id=")[1];
+    $http.get('/assets/data/talks.json').success(function(data) {
+      $scope.talk = $filter('getByProperty')('id', $scope.talkId, data);
+    })
+}]);
+
 app.controller('ModalInstanceCtrl', function ($scope, $modalInstance, item) {
 
   $scope.item = $scope.$parent.currentItem;
@@ -29,6 +36,17 @@ app.controller('ModalInstanceCtrl', function ($scope, $modalInstance, item) {
   };
 });
 
+app.filter('getByProperty', function() {
+    return function(propertyName, propertyValue, collection) {
+      var i=0, len=collection.length;
+      for (; i<len; i++) {
+        if (collection[i][propertyName] == propertyValue) {
+          return collection[i];
+        }
+      }
+      return null;
+    }
+  });
 
 function NavBarCtrl($scope) {
     $scope.navbarCollapsed = true;
