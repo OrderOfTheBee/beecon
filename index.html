@@ -298,7 +298,8 @@
                   <a href="" ng-click="open(speaker)"><img ng-src="/assets/img/speakers/{{speaker.image}}" class="img-circle purple" height="64px"/></a>
                   <br/>
                   <h4><a ng-click="open(speaker)" href="" class="black">{{speaker.name}}<br/>{{speaker.surname}}</a></h4>
-                  <p align="left"><a ng-if="speaker.companyUrl" ng-href="{{speaker.companyUrl}}">{{speaker.company | limitTo:30 }}</a><a ng-if="!speaker.companyUrl" ng-click="open(speaker)" href="" class="black">{{speaker.company | limitTo:25 }}...</a></p>
+                  <small><p ng-if="speaker.position.length < 30" align="left">{{speaker.position}}</p><p ng-if="speaker.position.length >= 30" align="left">{{speaker.position | limitTo:30}} ...</p></small>
+                  <p align="left"><a ng-if="speaker.companyUrl" ng-href="{{speaker.companyUrl}}">{{speaker.company | limitTo:30 }}</a><a ng-if="!speaker.companyUrl" ng-click="open(speaker)" href="" class="black">{{speaker.company | limitTo:25 }}</a></p>
                   <br/>
                 </div>
               </div>
