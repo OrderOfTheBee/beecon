@@ -19,7 +19,7 @@ var offset = 20;
     $('.scroll-top').css({'opacity': '1'});
   }
   if($(this).scrollTop() <= offset){
-    $('.navbar').css({'background-color': 'rgba(255,225,79,.0)'});
+    $('.navbar').css({'background-color': 'rgba(255,225,79,1)'});
     $('.scroll-top').css({'opacity': '0'});
   }
   var lastScroll = $(window).scrollTop();
