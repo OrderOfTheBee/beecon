@@ -137,7 +137,13 @@
 "title": "Share Extensions: From the outside in",
 "type": "20 minutes (Full Talk)",
 "targetAudience": "Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
-"abstract": "I spent years working on the core of Share. I now work on the Alfresco Records Management module which includes a large extension to Share. We use the same extension points open to everyone so this is a look at how core Alfresco engineers use Share's extension points."}
+"abstract": "I spent years working on the core of Share. I now work on the Alfresco Records Management module which includes a large extension to Share. We use the same extension points open to everyone so this is a look at how core Alfresco engineers use Share's extension points."},
+{"id": "20160125013",
+"topic": "Alfresco Inc",
+"title": "Alfresco Engineering",
+"type": "5 minutes (Ignite Style Lightning Talk)",
+"targetAudience": "Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
+"abstract": "You all use our software, but do you know how we write it? This will be a quick tour through the processes inside Alfresco Engineering."}
 ]},
 {
 "name": "Joost",
@@ -240,22 +246,6 @@
 "type": "5 minutes (Ignite Style Lightning Talk)",
 "targetAudience": "Developers starting to work with Alfresco, Experienced Alfresco developers",
 "abstract": "Extending the permission service in Alfresco is never an easy task and should be done with extreme cautiousness. In many cases the extension points provided by Alfresco such as rules and dynamic authorities are sufficient. For instance, the need to have permissions that dependent on meta-data.  But then if you have hundreds of rules which set permissions at the node-level it will be difficult to maintain all of this.  Also, in an enterprise environment Alfresco is probably not the only application developed. You might already have business rules and business data in place. You obviously want to re-use the existing and even centralize it. These are some of the reasons which led us in a direction of externalizing the permission system in a Business Rules Engine. Our instance of Alfresco Community now calls the rules-engine to ask whether or not a person has a permission on a document. Behind the scene this could trigger a complex logic involving business data which might even not be stored in Alfresco."}
-]},
-{
-"name": "David",
-"surname": "Webster",
-"position": "Engineer",
-"company": "Alfresco",
-"companyUrl": "",
-"image": "DavidWebster.png",
-"summary":"I started working with Alfresco 6 years ago when I joined the core engineering team. I've been working with Alfresco One on a daily basis since then.<br/>",
-"talks":[
-{"id": "20160125013",
-"topic": "Alfresco Inc",
-"title": "Alfresco Engineering",
-"type": "5 minutes (Ignite Style Lightning Talk)",
-"targetAudience": "Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
-"abstract": "You all use our software, but do you know how we write it? This will be a quick tour through the processes inside Alfresco Engineering."}
 ]},
 {
 "name": "Thomas",
