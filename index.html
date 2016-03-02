@@ -284,7 +284,7 @@
                   <br/>
                   <p><strong>Sessions</strong></p>
                   <div ng-repeat="talk in item.talks">
-                    {{talk.title}}<br/>
+                    <a href="/talks?id={{talk.id}}">{{talk.title}}</a><br/>
                     <small>{{talk.type}}</small>
                   </div>
                 </div>
@@ -327,9 +327,9 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td>Early Bird</td>
-                    <td>29th of February 2016</td>
-                    <td>60.5 EUR *</td>
+                    <td><del>Early Bird</del></td>
+                    <td><del>29th of February 2016</del></td>
+                    <td><del>60.5 EUR *</del></td>
                   </tr>
                   <tr>
                     <td>Standard</td>
