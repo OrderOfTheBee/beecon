@@ -1,2 +1,2 @@
 # beecon
-BeeCon website and additional information
+BeeCon website and additional information.
