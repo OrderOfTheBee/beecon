@@ -10,7 +10,7 @@
 	"talks":[
 		{
 			"id": "20160125001",
-			"topic": "Scaling",
+			"topic": "Repository",
 			"title": "Backing data silo attack: Alfresco sharding, SOLR for non-flat objects",
 			"type": "20 minutes (Full Talk)",
 			"targetAudience": "Experienced Alfresco developers, Architects and Technical Managers",
@@ -52,7 +52,7 @@
 			"title": "Using Alfresco & Activiti to save lives",
 			"type": "20 minutes (Full Talk)",
 			"targetAudience": "Business Users, Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
-			"abstract": "It's a use case where we've used a mail poller to poll mail in Alfresco, send them to a workflow and create cases in Alfresco.<br/>This whole process is used to provide efficiency for organ and tissue donation process within Europe.<br/>The technical pieces will be outlined:<br/>- Zoom-in on the Mail Poller. It's a simple Imap, but it re-uses Alfresco's inbound code to separate mails and attachments (Alfresco's code is buggy so we've fixed a lot of stuff)<br/>- The Activiti process from incoming mail and attachments to custom controls we've used on the workflow form<br/>- Future: Alfresco 5 (in development) and use of Ephesoft classification"
+			"abstract": "It's a use case where we've used a mail poller to poll mail in Alfresco, send them to a workflow and create cases in Alfresco.<br/>This whole process is used to provide efficiency for organ and tissue donation process within Europe.<br/>The technical pieces will be outlined:<br/>- Zoom-in on the Mail Poller. It's a simple Imap, but it re-uses Alfresco's inbound code to separate mails and attachments (Alfresco's code is buggy so we've fixed a lot of stuff)<br/>- The Activiti process from incoming mail and attachments to custom controls we've used on the workflow form<br/>- Future: Alfresco 5 (in development) and use of Ephesoft classification<br/>"
 		}
 	]
 },
@@ -67,7 +67,7 @@
 	"talks":[
 		{
 			"id": "20160125026",
-			"topic": "Installing",
+			"topic": "Administration",
 			"title": "Alfresco SSO using CAS",
 			"type": "5 minutes (Ignite Style Lightning Talk)",
 			"targetAudience": "System Administrators, Experienced Alfresco developers, Architects and Technical Managers",
@@ -86,7 +86,7 @@
 	"talks":[
 		{
 			"id": "20160125036",
-			"topic": "Developing",
+			"topic": "Add-ons",
 			"title": "Top 10 missing features and ways to add them",
 			"type": "5 minutes (Ignite Style Lightning Talk)",
 			"targetAudience": "Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco",
@@ -94,7 +94,7 @@
 		},
 		{
 			"id": "20160125037",
-			"topic": "-",
+			"topic": "20160125037",
 			"title": "Welcome to BeeCon / Introductory Session",
 			"type": "20 minutes (Full Talk)",
 			"targetAudience": "Business Users, Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
@@ -132,7 +132,7 @@
 	"talks":[
 		{
 			"id": "20160125004",
-			"topic": "Installing",
+			"topic": "Administration",
 			"title": "What to think about when you're planning to install Alfresco",
 			"type": "20 minutes (Full Talk)",
 			"targetAudience": "Newbies in Alfresco technologies, System Administrators",
@@ -140,7 +140,7 @@
 		},
 		{
 			"id": "20160125005",
-			"topic": "OCR",
+			"topic": "Add-ons",
 			"title": "Integrating a simple OCR in Alfresco",
 			"type": "5 minutes (Ignite Style Lightning Talk)",
 			"targetAudience": "Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers",
@@ -159,7 +159,7 @@
 	"talks":[
 		{
 			"id": "20160125013",
-			"topic": "Alfresco Inc",
+			"topic": "Community",
 			"title": "Alfresco Engineering",
 			"type": "5 minutes (Ignite Style Lightning Talk)",
 			"targetAudience": "Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
@@ -167,7 +167,7 @@
 		},
 		{
 			"id": "20160125014",
-			"topic": "Developing (Share)",
+			"topic": "Share",
 			"title": "Share Extensions: From the outside in",
 			"type": "20 minutes (Full Talk)",
 			"targetAudience": "Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
@@ -186,7 +186,7 @@
 	"talks":[
 		{
 			"id": "20160125027",
-			"topic": "REST API",
+			"topic": "Dev Fundamentals",
 			"title": "GroovyRunner",
 			"type": "20 minutes (Hands on)",
 			"targetAudience": "System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers",
@@ -205,7 +205,7 @@
 	"talks":[
 		{
 			"id": "20160125033",
-			"topic": "Testing",
+			"topic": "Dev Fundamentals",
 			"title": "How to Load Test Your Alfresco Add-ons",
 			"type": "40 minutes (Extended Talk)",
 			"targetAudience": "Developers starting to work with Alfresco, Experienced Alfresco developers",
@@ -224,7 +224,7 @@
 	"talks":[
 		{
 			"id": "20160125047",
-			"topic": "Developing",
+			"topic": "Best practices",
 			"title": "Alfresco Koans",
 			"type": "5 minutes (Ignite Style Lightning Talk)",
 			"targetAudience": "Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
@@ -232,7 +232,7 @@
 		},
 		{
 			"id": "20160125050",
-			"topic": "Amazon",
+			"topic": "Administration",
 			"title": "Welcome to the jungle - Tips for Alfresco on Amazon Web Services",
 			"type": "20 minutes (Full Talk)",
 			"targetAudience": "Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
@@ -251,7 +251,7 @@
 	"talks":[
 		{
 			"id": "20160125028",
-			"topic": "Activiti",
+			"topic": "Roadmap",
 			"title": "The Next Evolution of BPM Awesomeness: Activiti version 6",
 			"type": "40 minutes (Extended Talk)",
 			"targetAudience": "Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
@@ -270,11 +270,11 @@
 	"talks":[
 		{
 			"id": "20160125019",
-			"topic": "Database",
+			"topic": "Administration",
 			"title": "PostgreSQL: what you should know to improve your Alfresco",
 			"type": "20 minutes (Full Talk)",
 			"targetAudience": "System Administrators, Experienced Alfresco developers, Architects and Technical Managers",
-			"abstract": "The default installation of Alfresco includes a basic installation of<br/>PostgreSQL, which already works well for several scenarios. But you<br/>can do much better with PostgreSQL, improving the performance of<br/>Alfresco, and making things easier to maintain.<br/><br/>In this presentation you will see how to design a robust solution for<br/>a highly-available database; how to take your backups and do auditing<br/>analysis without impacting production performance; how to recover<br/>Alfresco's database just before the point of a critical user mistake,<br/>instead of back to your nightly snapshot.<br/><br/>If you feel (or someone told you) that PostgreSQL is hard to<br/>administrate, we will show you why PostgreSQL is actually<br/>DBA-friendly. It has excellent documentation and a great community<br/>ready to help. In this presentation you will understand how this<br/>forever free database will help you to improve your Alfresco."
+			"abstract": "The default installation of Alfresco includes a basic installation of PostgreSQL, which already works well for several scenarios. But you can do much better with PostgreSQL, improving the performance of Alfresco, and making things easier to maintain.<br/><br/>In this presentation you will see how to design a robust solution for a highly-available database; how to take your backups and do auditing analysis without impacting production performance; how to recover Alfresco's database just before the point of a critical user mistake, instead of back to your nightly snapshot.<br/><br/>If you feel (or someone told you) that PostgreSQL is hard to administrate, we will show you why PostgreSQL is actually DBA-friendly. It has excellent documentation and a great community ready to help. In this presentation you will understand how this forever free database will help you to improve your Alfresco."
 		}
 	]
 },
@@ -308,7 +308,7 @@
 	"talks":[
 		{
 			"id": "20160125053",
-			"topic": "Alfresco Inc",
+			"topic": "Roadmap",
 			"title": "Alfresco One Roadmap",
 			"type": "40 minutes (Extended Talk)",
 			"targetAudience": "Business Users, Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
@@ -346,7 +346,7 @@
 	"talks":[
 		{
 			"id": "20160125051",
-			"topic": "Developing",
+			"topic": "Roadmap",
 			"title": "Alfresco 5.1: separating Platform and Share",
 			"type": "20 minutes (Full Talk)",
 			"targetAudience": "Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
@@ -365,7 +365,7 @@
 	"talks":[
 		{
 			"id": "20160125031",
-			"topic": "Installing",
+			"topic": "Administration",
 			"title": "Honeycomb and Beyond",
 			"type": "20 minutes (Full Talk)",
 			"targetAudience": "Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
@@ -384,7 +384,7 @@
 	"talks":[
 		{
 			"id": "20160125039",
-			"topic": "Business",
+			"topic": "Use case",
 			"title": "Even a shoe manufacturer can use Alfresco (A customer use case)",
 			"type": "20 minutes (Full Talk)",
 			"targetAudience": "Business Users, Newbies in Alfresco technologies, Developers starting to work with Alfresco, Architects and Technical Managers",
@@ -403,11 +403,11 @@
 	"talks":[
 		{
 			"id": "20160125035",
-			"topic": "REST API",
+			"topic": "Dev Fundamentals",
 			"title": "Swagger.io, The  Interface for easy Alfresco API",
 			"type": "20 minutes (Full Talk)",
 			"targetAudience": "Business Users, Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers",
-			"abstract": "I work a lot with Alfresco using its  API's to build frontends for users. The time consuming fact was that I had to always rely on a Alfresco developer for me to debug when something goes wrong. So I thought of making things easier and taking control. In simple terms I invented a better and easy method for users to use and test Alfresco API's using the Swagger.io interface. In this session you will learn how to use Swagger.io to make Alfresco API testing easy. I think this will be a good session for all types of users who use Alfresco because all functions in Alfresco share is an endpoint of an API and you can learn how to use and test it using a awesome interface like Swagger."
+			"abstract": "I work a lot with Alfresco using its API's to build frontends for users. The time consuming fact was that I had to always rely on a Alfresco developer for me to debug when something goes wrong. So I thought of making things easier and taking control. In simple terms I invented a better and easy method for users to use and test Alfresco API's using the Swagger.io interface. In this session you will learn how to use Swagger.io to make Alfresco API testing easy. I think this will be a good session for all types of users who use Alfresco because all functions in Alfresco share is an endpoint of an API and you can learn how to use and test it using a awesome interface like Swagger."
 		}
 	]
 },
@@ -422,7 +422,7 @@
 	"talks":[
 		{
 			"id": "20160125052",
-			"topic": "Aikau",
+			"topic": "Share",
 			"title": "Aikau Audit Report",
 			"type": "5 minutes (Ignite Style Lightning Talk)",
 			"targetAudience": "Business Users, Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers",
@@ -441,7 +441,7 @@
 	"talks":[
 		{
 			"id": "20160125017",
-			"topic": "Analytics",
+			"topic": "Migration",
 			"title": "An Open Source ETL migration tool for Alfresco",
 			"type": "20 minutes (Full Talk)",
 			"targetAudience": "Business Users, Experienced Alfresco developers, Architects and Technical Managers",
@@ -460,7 +460,7 @@
 	"talks":[
 		{
 			"id": "20160125031",
-			"topic": "Installing",
+			"topic": "Administration",
 			"title": "Honeycomb and Beyond",
 			"type": "20 minutes (Full Talk)",
 			"targetAudience": "Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
@@ -479,7 +479,7 @@
 	"talks":[
 		{
 			"id": "20160125002",
-			"topic": "Record Management",
+			"topic": "Use case",
 			"title": "Accelerating records management at CERN",
 			"type": "20 minutes (Full Talk)",
 			"targetAudience": "Business Users, Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco",
@@ -506,7 +506,7 @@
 		},
 		{
 			"id": "20160125046",
-			"topic": "Alfresco Inc",
+			"topic": "Community",
 			"title": "Contributing to Alfresco",
 			"type": "40 minutes (Extended Talk)",
 			"targetAudience": "Developers starting to work with Alfresco, Experienced Alfresco developers",
@@ -525,7 +525,7 @@
 	"talks":[
 		{
 			"id": "20160125001",
-			"topic": "Scaling",
+			"topic": "Repository",
 			"title": "Backing data silo attack: Alfresco sharding, SOLR for non-flat objects",
 			"type": "20 minutes (Full Talk)",
 			"targetAudience": "Experienced Alfresco developers, Architects and Technical Managers",
@@ -544,7 +544,7 @@
 	"talks":[
 		{
 			"id": "20160125100",
-			"topic": "Installing",
+			"topic": "Administration",
 			"title": "Alfresco SPK",
 			"type": "20 minutes (Full Talk)",
 			"targetAudience": "Business Users, Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
@@ -563,7 +563,7 @@
 	"talks":[
 		{
 			"id": "20160125022",
-			"topic": "Scaling",
+			"topic": "Repository",
 			"title": "Multiple Share-based applications on the same back-end Alfresco repository: pitfalls and best practices",
 			"type": "20 minutes (Full Talk)",
 			"targetAudience": "Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
@@ -582,7 +582,7 @@
 	"talks":[
 		{
 			"id": "20160125010",
-			"topic": "Backup",
+			"topic": "Administration",
 			"title": "Have you test your backup?",
 			"type": "5 minutes (Ignite Style Lightning Talk)",
 			"targetAudience": "System Administrators, Architects and Technical Managers",
@@ -590,7 +590,7 @@
 		},
 		{
 			"id": "20160125037",
-			"topic": "-",
+			"topic": "20160125037",
 			"title": "Welcome to BeeCon / Introductory Session",
 			"type": "20 minutes (Full Talk)",
 			"targetAudience": "Business Users, Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
@@ -598,7 +598,7 @@
 		},
 		{
 			"id": "20160125046",
-			"topic": "Alfresco Inc",
+			"topic": "Community",
 			"title": "Contributing to Alfresco",
 			"type": "40 minutes (Extended Talk)",
 			"targetAudience": "Developers starting to work with Alfresco, Experienced Alfresco developers",
@@ -617,7 +617,7 @@
 	"talks":[
 		{
 			"id": "20160125018",
-			"topic": "Analytics",
+			"topic": "Add-ons",
 			"title": "Creating your custom analytics with AAAR",
 			"type": "20 minutes (Full Talk)",
 			"targetAudience": "Business Users, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
@@ -636,7 +636,7 @@
 	"talks":[
 		{
 			"id": "20160125029",
-			"topic": "Transformation",
+			"topic": "Repository",
 			"title": "Gotchas encountered while implementing an asynchronous transformation service for Alfresco",
 			"type": "20 minutes (Full Talk)",
 			"targetAudience": "System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers",
@@ -655,7 +655,7 @@
 	"talks":[
 		{
 			"id": "20160125038",
-			"topic": "Alfresco SDK",
+			"topic": "Dev Fundamentals",
 			"title": "Alfresco SDK - Past, Present and The Future",
 			"type": "40 minutes (Extended Talk)",
 			"targetAudience": "Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
@@ -674,7 +674,7 @@
 	"talks":[
 		{
 			"id": "20160125042",
-			"topic": "Docker",
+			"topic": "Administration",
 			"title": "Running Alfresco under docker",
 			"type": "20 minutes (Full Talk)",
 			"targetAudience": "Business Users, Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
@@ -693,7 +693,7 @@
 	"talks":[
 		{
 			"id": "20160125008",
-			"topic": "Aikau",
+			"topic": "Share",
 			"title": "2 years of Aikau - how is it faring and what do we want from it?",
 			"type": "20 minutes (Full Talk)",
 			"targetAudience": "Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
@@ -701,7 +701,7 @@
 		},
 		{
 			"id": "20160125036",
-			"topic": "Developing",
+			"topic": "Add-ons",
 			"title": "Top 10 missing features and ways to add them",
 			"type": "5 minutes (Ignite Style Lightning Talk)",
 			"targetAudience": "Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco",
@@ -720,7 +720,7 @@
 	"talks":[
 		{
 			"id": "20160125011",
-			"topic": "Classification",
+			"topic": "Add-ons",
 			"title": "Alfresco & Machine learning: The perfect combination :-)",
 			"type": "5 minutes (Ignite Style Lightning Talk)",
 			"targetAudience": "Business Users, Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
@@ -739,7 +739,7 @@
 	"talks":[
 		{
 			"id": "20160125023",
-			"topic": "Content Model",
+			"topic": "Best practices",
 			"title": "An ECM can only be as good as it's model: Business Document Model",
 			"type": "20 minutes (Full Talk)",
 			"targetAudience": "Business Users, Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
@@ -747,7 +747,7 @@
 		},
 		{
 			"id": "20160125025",
-			"topic": "Installing",
+			"topic": "Administration",
 			"title": "Increase Security and Scalability: Reverse Proxy is Alfresco's buddy",
 			"type": "5 minutes (Ignite Style Lightning Talk)",
 			"targetAudience": "System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
@@ -785,7 +785,7 @@
 	"talks":[
 		{
 			"id": "20160125009",
-			"topic": "Developing",
+			"topic": "Best practices",
 			"title": "Accelerate your Alfresco extension workflow",
 			"type": "20 minutes (Full Talk)",
 			"targetAudience": "System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
