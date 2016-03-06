@@ -59,35 +59,40 @@
 
           <div id="sessions" ng-controller="TalksCtrl">
 
-            <form class="form-horizontal">
+            <form class="form-inline">
               <div class="form-group">
-                <br/>
-                <label for="select" class="col-sm-3 col-xs-4 control-label">Category</label> 
-                <div class="col-sm-5 col-xs-5">
-                  <select ng-model="query" id="query" class="form-control" >
-                    <option selected="selected" value=""></option>
-                    <option value="Addons">Addons</option>
-                    <option value="Administration">Administration</option>
-                    <option value="Best practices">Best practices</option>
-                    <option value="Community">Community</option>
-                    <option value="Dev Fundamentals">Dev Fundamentals</option>
-                    <option value="Migration">Migration</option>
-                    <option value="Repository">Repository</option>
-                    <option value="Roadmap">Roadmap</option>
-                    <option value="Share">Share / Aikau</option>
-                    <option value="Use Case">Use Case</option>
-                  </select>
-                </div>
-                <button type="reset" onclick="var e = document.getElementById('query');
-                  var scope = $(e).scope();
-                  scope.$apply(function() {
-                    scope.query = '';
-                  });"
-                  class="btn btn-default col-sm-2 col-xs-3">Reset filter</button>
+                <select ng-model="query" id="query" class="form-control" >
+                  <option selected="selected" value=""></option>
+                  <option value="Add-ons">Add-ons</option>
+                  <option value="Administration">Administration</option>
+                  <option value="Best practices">Best practices</option>
+                  <option value="Community">Community</option>
+                  <option value="Dev Fundamentals">Dev Fundamentals</option>
+                  <option value="Migration">Migration</option>
+                  <option value="Repository">Repository</option>
+                  <option value="Roadmap">Roadmap</option>
+                  <option value="Share">Share / Aikau</option>
+                  <option value="Use Case">Use Case</option>
+                </select>
               </div>
+              <div class="form-group">
+                <input type="text" ng-model="query2" class="form-control" id="query2" placeholder="Search">
+              </div>
+              <button type="reset" onclick="
+                var e = document.getElementById('query');
+                var scope = $(e).scope();
+                scope.$apply(function() {
+                  scope.query = '';
+                });
+                e = document.getElementById('query2');
+                scope = $(e).scope();
+                scope.$apply(function() {
+                  scope.query2 = '';
+                });"
+                class="btn btn-default">Reset filter</button>
             </form>
             <br/><br/>
-            <div ng-repeat="talk in talks | filter:{topic: query} | orderBy:'title'" ng-if='talk.topic!=20160125037' |>
+            <div ng-repeat="talk in talks | filter:{topic: query} | filter:query2 | orderBy:'title'" ng-if='talk.topic!=20160125037' |>
               <h4><strong><a href="/talks?id={{talk.id}}" class="black">{{talk.title}}</a></strong><br/>by <span ng-repeat="speaker in talk.speakers"><span ng-if="!$first">, </span><a ng-click="open(speaker)" href="" class="black">{{speaker.name}} {{speaker.surname}}</a></h4>
               <h4><span class="label label-success">{{talk.topic}}</span></h4>
               <div ng-bind-html="talk.abstract"></div>
