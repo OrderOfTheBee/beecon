@@ -66,15 +66,16 @@ img.yellow {
 	border:2px solid #ffe14f;
 }
 
-img.key {
-	position: absolute;
-	float: right;
-	width: 50px;
-	right:10px;
-}
-
-img.vote-info {
-	width: 50px;
+div.hackathon {
+  float: right;
+  margin: 0 0 5px 20px;
+  background: url(/img/hackathon.jpg) no-repeat;
+  border:2px solid #fff;
+  width: 400px;
+  height: 300px;
+  -moz-box-shadow: inset 0px 0px 20px 15px #fff; 
+  -webkit-box-shadow: inset 0px 0px 20px 15px #fff; 
+  box-shadow: inset 0px 0px 20px 15px #fff;
 }
 
 .bee-right {
@@ -130,6 +131,10 @@ header {
 .dropdown-menu > li {
 	text-transform: none;
 	font-size: 14px;
+}
+
+.dropdown-menu > li > a {
+  padding: 10px 20px;
 }
 
 .dropdown-menu > li.dropdown-header {
@@ -311,8 +316,11 @@ section {
 .table-bordered>tbody>tr>td.hackathon {
     background-color: #f2ecff;
 }
-.table-bordered>tbody>tr>td.networking {
+.table-bordered>tbody>tr>td.session2 {
     background-color: #ecf9ff;
+}
+.table-bordered>tbody>tr>td.index {
+    vertical-align: middle;
 }
 
 
