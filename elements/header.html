@@ -3,18 +3,30 @@
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle" ng-click="navbarCollapsed = !navbarCollapsed">
 	   			<span class="sr-only"></span>
-				<span class="fa fa-bars"></span>
-	   		</button>
+					<span class="fa fa-bars"></span>
+	   	</button>
 		</div>
 		<p class="navbar-text navbar-left hidden-xs"><a href="/" class="black">BeeCon 2016</a></p>
 		<div class="collapse navbar-collapse" collapse="navbarCollapsed">
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="/">About</a></li>
-				<li><a href="/#venue">Venue</a></li>
+				<li class="dropdown" on-toggle="toggled(open)">
+					<a class="dropdown-toggle" href="">Travel <i class="fa fa-angle-down"></i></a>
+					<ul class="dropdown-menu">
+						<li><a href="/travel/">Addresses</a></li>
+						<li><a href="/travel/#hotels">Hotels</a></li>
+					</ul>
+				</li>
+				<li class="dropdown" on-toggle="toggled(open)">
+					<a class="dropdown-toggle" href="">Program <i class="fa fa-angle-down"></i></a>
+					<ul class="dropdown-menu">
+						<li><a href="/agenda/">Agenda (Coming soon)</a></li>
+						<li><a href="/hackathon/">Hack-a-thon</a></li>
+						<li><a href="/sessions/">List of Sessions</a></li>
+					</ul>
+				</li>
 				<li><a href="/#sponsors">Sponsors</a></li>
-				<li><a href="/#schedule">Schedule</a></li>
-				<li><a href="/#speakers">Speakers</a></li>
-				<li><a href="/#register">Register</a></li>
+				<li><a href="/speakers/">Speakers</a></li>
+				<li><a href="https://www.amiando.com/BeeCon2016.html" target="_blank">Register</a></li>
 			</ul>
 		</div>
 	</div>
