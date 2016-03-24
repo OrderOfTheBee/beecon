@@ -285,7 +285,7 @@
 	"company": "Alfresco",
 	"companyUrl": "",
 	"image": "JohnNewton.png",
-	"summary":"null",
+	"summary":"John Newton is the CTO and Founder of Alfresco Software.<br/><br/>In 1990, John co-founded, designed and led the development of Documentum®, acquired by EMC®. For the next ten years, he invented many of the concepts widely used in the industry today. In addition, he built Documentum's marketing and professional services organizations in Europe.<br/><br/>John has also been an Entrepreneur-in-Residence at Benchmark Capital. John was one of the founding engineers at Ingres® where he helped develop the world's first commercial relational database. John graduated with a BS in Electrical Engineering and Computer Science from the University of California at Berkeley.<br/>",
 	"talks":[
 		{
 			"id": "20160125000",
@@ -494,7 +494,7 @@
 	"company": "Alfresco",
 	"companyUrl": "",
 	"image": "RichardEsplin.png",
-	"summary":"Since discovering Linux in college, I have been enamored with open source products. When I got my opportunity to join Alfresco six years ago, I jumped at the chance to be part of an open source business model that works. At Alfresco I have been a solutions engineer, community marketer, developer evangelist, head of community relations, and product manager.<br/>",
+	"summary":"Richard Esplin joined Alfresco 6 years ago and is currently a Product Manager. Since discovering Linux in college, he has been enamored with open source products and business models. This brought him to Alfresco where he has enjoyed his work as a solutions engineer, community marketer, developer evangelist, and as head of community relations. Before Alfresco, Richard worked as a developer and system administrator at a variety of small companies and startups. <br/>",
 	"talks":[
 		{
 			"id": "20160125044",
