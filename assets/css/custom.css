@@ -179,6 +179,14 @@ header {
 	padding: 10px;
 }
 
+.app-modal-window .modal-dialog {
+  width: 700px;
+}
+
+div.modal-body > div > div.col-md-6 {
+  min-height: 114px;
+}
+
 /* calendar */
 
 .fc-event {

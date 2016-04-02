@@ -24,6 +24,7 @@ app.controller('SpeakersCtrl', ['$scope', '$http', '$timeout', '$modal', functio
 		var modalInstance = $modal.open({
 			controller: "ModalInstanceCtrl",
 			templateUrl: 'SpeakerModalContent.html',
+      windowClass: 'app-modal-window',
 			scope: $scope,
 			resolve: {
 				item: function()
@@ -45,6 +46,7 @@ app.controller('TalksCtrl', ['$scope', '$http', '$location', '$filter',  '$timeo
     var modalInstance = $modal.open({
       controller: "ModalInstanceCtrl",
       templateUrl: 'SpeakerModalContent.html',
+      windowClass: 'app-modal-window',
       scope: $scope,
       resolve: {
         item: function()
@@ -133,6 +135,7 @@ app.controller('AgendaCtrl', ['$scope', '$http', '$location', '$filter',  '$time
     var modalInstance = $modal.open({
       controller: "ModalInstanceCtrl",
       templateUrl: 'SessionModalContent.html',
+      windowClass: 'app-modal-window',
       scope: $scope,
       resolve: {
         item: function()
@@ -146,6 +149,7 @@ app.controller('AgendaCtrl', ['$scope', '$http', '$location', '$filter',  '$time
     var modalInstance = $modal.open({
       controller: "ModalInstanceCtrl",
       templateUrl: 'SpeakerModalContent.html',
+      windowClass: 'app-modal-window',
       scope: $scope,
       resolve: {
         item: function()
