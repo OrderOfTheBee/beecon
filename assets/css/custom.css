@@ -301,27 +301,72 @@ section {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.table-bordered>tbody>tr>td.date {
-  background-color: #555;
-  color: #fff;
-  font-weight: 600;
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #FFFAE1;
 }
-.table-bordered>tbody>tr>td.time {
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+  border: 0;
+  width:25%;
+  vertical-align: middle;
+}
+.table>thead>tr>th.room, .table>caption+thead>tr:first-child>th.room, .table>colgroup+thead>tr:first-child>th.room, .table>thead:first-child>tr:first-child>th.room, .table>caption+thead>tr:first-child>td.room, .table>colgroup+thead>tr:first-child>td.room, .table>thead:first-child>tr:first-child>td.room {
   text-align: center;
   color: #222;
   font-weight: 600;
+  border: 2px solid rgba(150,150,150,0.36);
+  background-color: #fff;
+  width:25%;
 }
-.table-bordered>tbody>tr>td.session {
-    background-color: #fffcec;
+.table>tbody>tr>td.time {
+  color: #222;
+  font-weight: 600;
+  height: 50px;
+  line-height: 31px;
+  text-align: right;
+  font-size: 12px;
+  color: #52525F;
 }
-.table-bordered>tbody>tr>td.hackathon {
-    background-color: #f2ecff;
+.table>tbody>tr>td.session {
+    background-color: #fff;
+    border: 2px solid #9E5CC2;
+    height: 60px;
+    padding: 10px;
+    line-height: 1.5;
+    color: #222;
 }
-.table-bordered>tbody>tr>td.session2 {
-    background-color: #ecf9ff;
+.table>tbody>tr>td.session>a,.table>tbody>tr>td.session>span>span>a {
+  color: #222;
 }
-.table-bordered>tbody>tr>td.index {
-    vertical-align: middle;
+.table>tbody>tr>td.practical {
+    background-color: #fff;
+    border: 2px solid #4161AB;
+    height: 60px;
+    color: #222;
 }
-
-
+.table>tbody>tr>td.practical>a,.table>tbody>tr>td.practical>span>span>a {
+  color: #222;
+}
+.table>tbody>tr>td.networking {
+    background-color: #FFE14F;
+    border-left: 0;
+    border-right:0;
+    border-top: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+    padding: 10px;
+    line-height: 1.5;
+    height: 60px;
+    color: #222;
+}
+.table>tbody>tr>td.empty {
+  border: 0;
+}
+@media (min-width:1200px) {
+  .table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td
+  {
+    width:10%;
+  }
+  .table>thead>tr>th.room, .table>caption+thead>tr:first-child>th.room, .table>colgroup+thead>tr:first-child>th.room, .table>thead:first-child>tr:first-child>th.room, .table>caption+thead>tr:first-child>td.room, .table>colgroup+thead>tr:first-child>td.room, .table>thead:first-child>tr:first-child>td.room
+  {
+    width:30%;
+  }
+}

@@ -1,521 +1,918 @@
 [
-{
-	"day":"April 28",
-	"room":"Auditorium",
-	"hourFrom":"8:30",
-	"hourTo":"9:20",
-	"talk":"RegistrationWhere: Hallway",
-},
-{
-	"day":"April 28",
-	"room":"Auditorium",
-	"hourFrom":"9:20",
-	"hourTo":"9:40",
-	"talk":"WelcomeBy: Boriss/Oksana/?",
-},
-{
-	"day":"April 28",
-	"room":"Auditorium",
-	"hourFrom":"9:40",
-	"hourTo":"10:40",
-	"talk":"KeynoteBy: Richard/Ole?",
-},
-{
-	"day":"April 28",
-	"room":"Auditorium",
-	"hourFrom":"10:40",
-	"hourTo":"11:20",
-	"talk":"BreakWhere: Hallway",
-},
-{
-	"day":"April 28",
-	"room":"Auditorium",
-	"hourFrom":"11:20",
-	"hourTo":"11:40",
-	"talk":"38 - Alfresco SDK",
-},
-{
-	"day":"April 28",
-	"room":"Auditorium",
-	"hourFrom":"12:10",
-	"hourTo":"12:30",
-	"talk":"8 - 2 years of Aikau",
-},
-{
-	"day":"April 28",
-	"room":"Sylva",
-	"hourFrom":"12:10",
-	"hourTo":"12:30",
-	"talk":"9 - Yeoman",
-},
-{
-	"day":"April 28",
-	"room":"Auditorium",
-	"hourFrom":"12:30",
-	"hourTo":"12:50",
-	"talk":"51 - Alfresco 5.1 separating",
-},
-{
-	"day":"April 28",
-	"room":"Sylva",
-	"hourFrom":"12:30",
-	"hourTo":"12:50",
-	"talk":"23 - Content model",
-},
-{
-	"day":"April 28",
-	"room":"Auditorium",
-	"hourFrom":"12:50",
-	"hourTo":"14:00",
-	"talk":"Lunch BreakWhere: ?",
-},
-{
-	"day":"April 28",
-	"room":"Auditorium",
-	"hourFrom":"14:00",
-	"hourTo":"14:20",
-	"talk":"14 - Share ext",
-},
-{
-	"day":"April 28",
-	"room":"Sylva",
-	"hourFrom":"14:00",
-	"hourTo":"14:20",
-	"talk":"18 - AAAR",
-},
-{
-	"day":"April 28",
-	"room":"Auditorium",
-	"hourFrom":"14:20",
-	"hourTo":"14:40",
-	"talk":"19 - PostgreSQL",
-},
-{
-	"day":"April 28",
-	"room":"Auditorium",
-	"hourFrom":"14:50",
-	"hourTo":"15:10",
-	"talk":"Lightning 5,11,13,32,36,47,52",
-},
-{
-	"day":"April 28",
-	"room":"Sylva",
-	"hourFrom":"14:50",
-	"hourTo":"15:10",
-	"talk":"35 - Swagger",
-},
-{
-	"day":"April 28",
-	"room":"Auditorium",
-	"hourFrom":"15:10",
-	"hourTo":"15:30",
-	"talk":"29 - Gotchas trans",
-},
-{
-	"day":"April 28",
-	"room":"Auditorium",
-	"hourFrom":"15:30",
-	"hourTo":"16:10",
-	"talk":"BreakWhere: Hallway",
-},
-{
-	"day":"April 28",
-	"room":"Auditorium",
-	"hourFrom":"16:10",
-	"hourTo":"16:30",
-	"talk":"33 - Load Test",
-},
-{
-	"day":"April 28",
-	"room":"Sylva",
-	"hourFrom":"16:10",
-	"hourTo":"16:30",
-	"talk":"9 -Yeoman",
-},
-{
-	"day":"April 28",
-	"room":"Auditorium",
-	"hourFrom":"16:30",
-	"hourTo":"16:50",
-	"talk":"27 - Groovy runner",
-},
-{
-	"day":"April 28",
-	"room":"Auditorium",
-	"hourFrom":"17:00",
-	"hourTo":"18:00",
-	"talk":"KeynoteBy: John Newton",
-},
-{
-	"day":"April 28",
-	"room":"Auditorium",
-	"hourFrom":"19:00",
-	"hourTo":"22:00",
-	"talk":"Social eventWhere: ?",
-},
-{
-	"day":"April 29",
-	"room":"Auditorium",
-	"hourFrom":"09:20",
-	"hourTo":"09:40",
-	"talk":"53 - Alfresco One Roadmap",
-},
-{
-	"day":"April 29",
-	"room":"Sylva",
-	"hourFrom":"09:20",
-	"hourTo":"09:40",
-	"talk":"Hackathon",
-},
-{
-	"day":"April 29",
-	"room":"Terra",
-	"hourFrom":"09:20",
-	"hourTo":"09:40",
-	"talk":"Hackathon",
-},
-{
-	"day":"April 29",
-	"room":"Auditorium",
-	"hourFrom":"09:40",
-	"hourTo":"10:00",
-	"talk":"Hackathon",
-},
-{
-	"day":"April 29",
-	"room":"Sylva",
-	"hourFrom":"09:40",
-	"hourTo":"10:00",
-	"talk":"Hackathon",
-},
-{
-	"day":"April 29",
-	"room":"Auditorium",
-	"hourFrom":"10:10",
-	"hourTo":"10:30",
-	"talk":"28 - Activiti Roadmap",
-},
-{
-	"day":"April 29",
-	"room":"Sylva",
-	"hourFrom":"10:10",
-	"hourTo":"10:30",
-	"talk":"Hackathon",
-},
-{
-	"day":"April 29",
-	"room":"Terra",
-	"hourFrom":"10:10",
-	"hourTo":"10:30",
-	"talk":"Hackathon",
-},
-{
-	"day":"April 29",
-	"room":"Auditorium",
-	"hourFrom":"10:30",
-	"hourTo":"10:50",
-	"talk":"Hackathon",
-},
-{
-	"day":"April 29",
-	"room":"Sylva",
-	"hourFrom":"10:30",
-	"hourTo":"10:50",
-	"talk":"Hackathon",
-},
-{
-	"day":"April 29",
-	"room":"Auditorium",
-	"hourFrom":"10:50",
-	"hourTo":"11:20",
-	"talk":"BreakWhere: Hallway",
-},
-{
-	"day":"April 29",
-	"room":"Auditorium",
-	"hourFrom":"11:20",
-	"hourTo":"11:40",
-	"talk":"4 - Thinking",
-},
-{
-	"day":"April 29",
-	"room":"Sylva",
-	"hourFrom":"11:20",
-	"hourTo":"11:40",
-	"talk":"17 - Open Source ETL",
-},
-{
-	"day":"April 29",
-	"room":"Terra",
-	"hourFrom":"11:20",
-	"hourTo":"11:40",
-	"talk":"Hackathon",
-},
-{
-	"day":"April 29",
-	"room":"Aqua",
-	"hourFrom":"11:20",
-	"hourTo":"11:40",
-	"talk":"Hackathon",
-},
-{
-	"day":"April 29",
-	"room":"Auditorium",
-	"hourFrom":"11:40",
-	"hourTo":"12:00",
-	"talk":"Lightning 10,25,26",
-},
-{
-	"day":"April 29",
-	"room":"Sylva",
-	"hourFrom":"11:40",
-	"hourTo":"12:00",
-	"talk":"101 - Move2Alf",
-},
-{
-	"day":"April 29",
-	"room":"Terra",
-	"hourFrom":"11:40",
-	"hourTo":"12:00",
-	"talk":"Hackathon",
-},
-{
-	"day":"April 29",
-	"room":"Aqua",
-	"hourFrom":"11:40",
-	"hourTo":"12:00",
-	"talk":"Hackathon",
-},
-{
-	"day":"April 29",
-	"room":"Auditorium",
-	"hourFrom":"12:10",
-	"hourTo":"12:30",
-	"talk":"44 - Product vision",
-},
-{
-	"day":"April 29",
-	"room":"Sylva",
-	"hourFrom":"12:10",
-	"hourTo":"12:30",
-	"talk":"39 - Shoe",
-},
-{
-	"day":"April 29",
-	"room":"Terra",
-	"hourFrom":"12:10",
-	"hourTo":"12:30",
-	"talk":"Hackathon",
-},
-{
-	"day":"April 29",
-	"room":"Aqua",
-	"hourFrom":"12:10",
-	"hourTo":"12:30",
-	"talk":"Hackathon",
-},
-{
-	"day":"April 29",
-	"room":"Auditorium",
-	"hourFrom":"12:30",
-	"hourTo":"12:50",
-	"talk":"58 - Zombies",
-},
-{
-	"day":"April 29",
-	"room":"Sylva",
-	"hourFrom":"12:30",
-	"hourTo":"12:50",
-	"talk":"59 - Activiti & Alf",
-},
-{
-	"day":"April 29",
-	"room":"Terra",
-	"hourFrom":"12:30",
-	"hourTo":"12:50",
-	"talk":"Hackathon",
-},
-{
-	"day":"April 29",
-	"room":"Aqua",
-	"hourFrom":"12:30",
-	"hourTo":"12:50",
-	"talk":"Hackathon",
-},
-{
-	"day":"April 29",
-	"room":"Auditorium",
-	"hourFrom":"12:50",
-	"hourTo":"14:00",
-	"talk":"Lunch BreakWhere: ?",
-},
-{
-	"day":"April 29",
-	"room":"Auditorium",
-	"hourFrom":"14:00",
-	"hourTo":"14:20",
-	"talk":"31 - Honeycomb",
-},
-{
-	"day":"April 29",
-	"room":"Sylva",
-	"hourFrom":"14:00",
-	"hourTo":"14:20",
-	"talk":"1 - Data silo attack",
-},
-{
-	"day":"April 29",
-	"room":"Terra",
-	"hourFrom":"14:00",
-	"hourTo":"14:20",
-	"talk":"Hackathon",
-},
-{
-	"day":"April 29",
-	"room":"Aqua",
-	"hourFrom":"14:00",
-	"hourTo":"14:20",
-	"talk":"Hackathon",
-},
-{
-	"day":"April 29",
-	"room":"Auditorium",
-	"hourFrom":"14:20",
-	"hourTo":"14:40",
-	"talk":"100 - Alfresco SPK",
-},
-{
-	"day":"April 29",
-	"room":"Sylva",
-	"hourFrom":"14:20",
-	"hourTo":"14:40",
-	"talk":"22 - Multiple share",
-},
-{
-	"day":"April 29",
-	"room":"Terra",
-	"hourFrom":"14:20",
-	"hourTo":"14:40",
-	"talk":"Hackathon",
-},
-{
-	"day":"April 29",
-	"room":"Aqua",
-	"hourFrom":"14:20",
-	"hourTo":"14:40",
-	"talk":"Hackathon",
-},
-{
-	"day":"April 29",
-	"room":"Auditorium",
-	"hourFrom":"14:50",
-	"hourTo":"15:10",
-	"talk":"50 - Amazon",
-},
-{
-	"day":"April 29",
-	"room":"Sylva",
-	"hourFrom":"14:50",
-	"hourTo":"15:10",
-	"talk":"2 - Record Mgmt",
-},
-{
-	"day":"April 29",
-	"room":"Terra",
-	"hourFrom":"14:50",
-	"hourTo":"15:10",
-	"talk":"Hackathon",
-},
-{
-	"day":"April 29",
-	"room":"Aqua",
-	"hourFrom":"14:50",
-	"hourTo":"15:10",
-	"talk":"Hackathon",
-},
-{
-	"day":"April 29",
-	"room":"Auditorium",
-	"hourFrom":"15:10",
-	"hourTo":"15:30",
-	"talk":"42 - Docker",
-},
-{
-	"day":"April 29",
-	"room":"Sylva",
-	"hourFrom":"15:10",
-	"hourTo":"15:30",
-	"talk":"57 - Activity monitor",
-},
-{
-	"day":"April 29",
-	"room":"Terra",
-	"hourFrom":"15:10",
-	"hourTo":"15:30",
-	"talk":"Hackathon",
-},
-{
-	"day":"April 29",
-	"room":"Aqua",
-	"hourFrom":"15:10",
-	"hourTo":"15:30",
-	"talk":"Hackathon",
-},
-{
-	"day":"April 29",
-	"room":"Auditorium",
-	"hourFrom":"15:30",
-	"hourTo":"16:10",
-	"talk":"BreakWhere: Hallway",
-},
-{
-	"day":"April 29",
-	"room":"Auditorium",
-	"hourFrom":"16:10",
-	"hourTo":"16:30",
-	"talk":"46 - Contributing",
-},
-{
-	"day":"April 29",
-	"room":"Sylva",
-	"hourFrom":"16:10",
-	"hourTo":"16:30",
-	"talk":"Hackathon",
-},
-{
-	"day":"April 29",
-	"room":"Terra",
-	"hourFrom":"16:10",
-	"hourTo":"16:30",
-	"talk":"Hackathon",
-},
-{
-	"day":"April 29",
-	"room":"Auditorium",
-	"hourFrom":"16:30",
-	"hourTo":"16:50",
-	"talk":"Hackathon",
-},
-{
-	"day":"April 29",
-	"room":"Sylva",
-	"hourFrom":"16:30",
-	"hourTo":"16:50",
-	"talk":"Hackathon",
-},
-{
-	"day":"April 29",
-	"room":"Auditorium",
-	"hourFrom":"17:00",
-	"hourTo":"18:00",
-	"talk":"Q&ABy: Alfresco engineers
-and OOTB board",
-},
-{
-	"day":"April 29",
-	"room":"Sylva",
-	"hourFrom":"17:00",
-	"hourTo":"18:00",
-	"talk":"Hackathon DEMO",
-}
+	{
+		"date": "April 27",
+		"slots": [
+			{
+				"time": "19:30 - 22:00",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Atrium"
+					}
+					,
+					{
+						"id": "",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "",
+						"place": "Sylva"
+					}
+					,
+					{
+						"id": "",
+						"place": "Terra"
+					}
+					,
+					{
+						"id": "Welcome drinks",
+						"place": "Social Party"
+					}
+				]
+			}
+		]
+	},
+	{
+		"date": "April 28",
+		"slots": [
+			{
+				"time": "8:30 - 9:20",
+				"sessions": [
+					{
+						"id": "Registration",
+						"place": "Atrium"
+					}
+					,
+					{
+						"id": "",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "",
+						"place": "Sylva"
+					}
+					,
+					{
+						"id": "",
+						"place": "Terra"
+					}
+					,
+					{
+						"id": "",
+						"place": "Social Party"
+					}
+				]
+			},
+			{
+				"time": "9:20 - 9:40",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Atrium"
+					}
+					,
+					{
+						"id": "20160125037",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "",
+						"place": "Sylva"
+					}
+					,
+					{
+						"id": "",
+						"place": "Terra"
+					}
+					,
+					{
+						"id": "",
+						"place": "Social Party"
+					}
+				]
+			},
+			{
+				"time": "9:40 - 10:40",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Atrium"
+					}
+					,
+					{
+						"id": "2016030601",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "",
+						"place": "Sylva"
+					}
+					,
+					{
+						"id": "",
+						"place": "Terra"
+					}
+					,
+					{
+						"id": "",
+						"place": "Social Party"
+					}
+				]
+			},
+			{
+				"time": "10:40 - 11:20",
+				"sessions": [
+					{
+						"id": "Break",
+						"place": "Atrium"
+					}
+					,
+					{
+						"id": "",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "",
+						"place": "Sylva"
+					}
+					,
+					{
+						"id": "",
+						"place": "Terra"
+					}
+					,
+					{
+						"id": "",
+						"place": "Social Party"
+					}
+				]
+			},
+			{
+				"time": "11:20 - 11:45",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Atrium"
+					}
+					,
+					{
+						"id": "20160125008",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "20160125009",
+						"place": "Sylva"
+					}
+					,
+					{
+						"id": "",
+						"place": "Terra"
+					}
+					,
+					{
+						"id": "",
+						"place": "Social Party"
+					}
+				]
+			},
+			{
+				"time": "11:45 - 12:10",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Atrium"
+					}
+					,
+					{
+						"id": "20160125051",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "20160125023",
+						"place": "Sylva"
+					}
+					,
+					{
+						"id": "",
+						"place": "Terra"
+					}
+					,
+					{
+						"id": "",
+						"place": "Social Party"
+					}
+				]
+			},
+			{
+				"time": "12:15 - 12:40",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Atrium"
+					}
+					,
+					{
+						"id": "20160125014",
+						"place": "Auditorium",
+						"length": 2
+					}
+					,
+					{
+						"id": "20160125018",
+						"place": "Sylva"
+					}
+					,
+					{
+						"id": "",
+						"place": "Terra"
+					}
+					,
+					{
+						"id": "",
+						"place": "Social Party"
+					}
+				]
+			},
+			{
+				"time": "12:40 - 13:05",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Atrium"
+					}
+					,
+					{
+						"id": "20160125019",
+						"place": "Sylva"
+					}
+					,
+					{
+						"id": "",
+						"place": "Terra"
+					}
+					,
+					{
+						"id": "",
+						"place": "Social Party"
+					}
+				]
+			},
+			{
+				"time": "13:05 - 14:30",
+				"sessions": [
+					{
+						"id": "Lunch",
+						"place": "Atrium"
+					}
+					,
+					{
+						"id": "",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "",
+						"place": "Sylva"
+					}
+					,
+					{
+						"id": "",
+						"place": "Terra"
+					}
+					,
+					{
+						"id": "",
+						"place": "Social Party"
+					}
+				]
+			},
+			{
+				"time": "14:30 - 14:55",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Atrium"
+					}
+					,
+					{
+						"id": "20160402001",
+						"place": "Auditorium",
+						"length": 2
+					}
+					,
+					{
+						"id": "20160401001",
+						"place": "Sylva"
+					}
+					,
+					{
+						"id": "20160125027",
+						"place": "Terra",
+						"length": 2
+					}
+					,
+					{
+						"id": "",
+						"place": "Social Party"
+					}
+				]
+			},
+			{
+				"time": "14:55 - 15:20",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Atrium"
+					}
+					,
+					{
+						"id": "20160125029",
+						"place": "Sylva"
+					}
+					,
+					{
+						"id": "",
+						"place": "Social Party"
+					}
+				]
+			},
+			{
+				"time": "15:30 - 16:15",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Atrium"
+					}
+					,
+					{
+						"id": "20160125033",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "",
+						"place": "Sylva"
+					}
+					,
+					{
+						"id": "20160125009",
+						"place": "Terra"
+					}
+					,
+					{
+						"id": "",
+						"place": "Social Party"
+					}
+				]
+			},
+			{
+				"time": "16:15 - 17:00",
+				"sessions": [
+					{
+						"id": "Break",
+						"place": "Atrium"
+					}
+					,
+					{
+						"id": "",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "",
+						"place": "Sylva"
+					}
+					,
+					{
+						"id": "",
+						"place": "Terra"
+					}
+					,
+					{
+						"id": "",
+						"place": "Social Party"
+					}
+				]
+			},
+			{
+				"time": "17:00 - 18:00",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Atrium"
+					}
+					,
+					{
+						"id": "20160125053",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "",
+						"place": "Sylva"
+					}
+					,
+					{
+						"id": "",
+						"place": "Terra"
+					}
+					,
+					{
+						"id": "",
+						"place": "Social Party"
+					}
+				]
+			},
+			{
+				"time": "19:00 - 22:00",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Atrium"
+					}
+					,
+					{
+						"id": "",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "",
+						"place": "Sylva"
+					}
+					,
+					{
+						"id": "",
+						"place": "Terra"
+					}
+					,
+					{
+						"id": "Party",
+						"place": "Social Party"
+					}
+				]
+			}
+		]
+	},
+	{
+		"date": "April 29",
+		"slots": [
+			{
+				"time": "09:00 - 09:45",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Atrium"
+					}
+					,
+					{
+						"id": "20160125028",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "",
+						"place": "Sylva"
+					}
+					,
+					{
+						"id": "Hackathon",
+						"place": "Terra",
+						"length": 2
+					}
+					,
+					{
+						"id": "",
+						"place": "Social Party"
+					}
+				]
+			},
+			{
+				"time": "09:55 - 10:40",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Atrium"
+					}
+					,
+					{
+						"id": "20160125038",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "",
+						"place": "Sylva"
+					}
+					,
+					{
+						"id": "",
+						"place": "Social Party"
+					}
+				]
+			},
+			{
+				"time": "10:40 - 11:20",
+				"sessions": [
+					{
+						"id": "Break",
+						"place": "Atrium"
+					}
+					,
+					{
+						"id": "",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "",
+						"place": "Sylva"
+					}
+					,
+					{
+						"id": "",
+						"place": "Terra"
+					}
+					,
+					{
+						"id": "",
+						"place": "Social Party"
+					}
+				]
+			},
+			{
+				"time": "11:20 - 11:40",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Atrium"
+					}
+					,
+					{
+						"id": "20160125001",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "20160125017",
+						"place": "Sylva"
+					}
+					,
+					{
+						"id": "Hackathon",
+						"place": "Terra",
+						"length": 2
+					}
+					,
+					{
+						"id": "",
+						"place": "Social Party"
+					}
+				]
+			},
+			{
+				"time": "11:45 - 12:05",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Atrium"
+					}
+					,
+					{
+						"id": "20160125022",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "20160125102",
+						"place": "Sylva"
+					}
+					,
+					{
+						"id": "",
+						"place": "Social Party"
+					}
+				]
+			},
+			{
+				"time": "12:15 - 12:35",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Atrium"
+					}
+					,
+					{
+						"id": "20160125044",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "20160125039",
+						"place": "Sylva"
+					}
+					,
+					{
+						"id": "Hackathon",
+						"place": "Terra",
+						"length": 2
+					}
+					,
+					{
+						"id": "",
+						"place": "Social Party"
+					}
+				]
+			},
+			{
+				"time": "12:40 - 13:00",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Atrium"
+					}
+					,
+					{
+						"id": "20160125058",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "20160125059",
+						"place": "Sylva"
+					}
+					,
+					{
+						"id": "",
+						"place": "Social Party"
+					}
+				]
+			},
+			{
+				"time": "13:00 - 14:10",
+				"sessions": [
+					{
+						"id": "Lunch",
+						"place": "Atrium"
+					}
+					,
+					{
+						"id": "",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "",
+						"place": "Sylva"
+					}
+					,
+					{
+						"id": "",
+						"place": "Terra"
+					}
+					,
+					{
+						"id": "",
+						"place": "Social Party"
+					}
+				]
+			},
+			{
+				"time": "14:10 - 14:30",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Atrium"
+					}
+					,
+					{
+						"id": "20160125004",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "20160125050",
+						"place": "Sylva"
+					}
+					,
+					{
+						"id": "Hackathon",
+						"place": "Terra",
+						"length": 2
+					}
+					,
+					{
+						"id": "",
+						"place": "Social Party"
+					}
+				]
+			},
+			{
+				"time": "14:35 - 14:55",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Atrium"
+					}
+					,
+					{
+						"id": "20160402002",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "20160125042",
+						"place": "Sylva"
+					}
+					,
+					{
+						"id": "",
+						"place": "Social Party"
+					}
+				]
+			},
+			{
+				"time": "15:05 - 15:25",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Atrium"
+					}
+					,
+					{
+						"id": "20160125031",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "20160125002",
+						"place": "Sylva"
+					}
+					,
+					{
+						"id": "Hackathon",
+						"place": "Terra",
+						"length": 2
+					}
+					,
+					{
+						"id": "",
+						"place": "Social Party"
+					}
+				]
+			},
+			{
+				"time": "15:30 - 15:50",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Atrium"
+					}
+					,
+					{
+						"id": "20160125100",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "20160125057",
+						"place": "Sylva"
+					}
+					,
+					{
+						"id": "",
+						"place": "Social Party"
+					}
+				]
+			},
+			{
+				"time": "15:50 - 16:30",
+				"sessions": [
+					{
+						"id": "Break",
+						"place": "Atrium"
+					}
+					,
+					{
+						"id": "",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "",
+						"place": "Sylva"
+					}
+					,
+					{
+						"id": "",
+						"place": "Terra"
+					}
+					,
+					{
+						"id": "",
+						"place": "Social Party"
+					}
+				]
+			},
+			{
+				"time": "16:30 - 17:15",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Atrium"
+					}
+					,
+					{
+						"id": "20160125046",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "Hackathon DEMO",
+						"place": "Sylva"
+					}
+					,
+					{
+						"id": "Hackathon",
+						"place": "Terra"
+					}
+					,
+					{
+						"id": "",
+						"place": "Social Party"
+					}
+				]
+			},
+			{
+				"time": "17:15 - 18:00",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Atrium"
+					}
+					,
+					{
+						"id": "Q&A by Alfresco engineers and OOTBee key members",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "",
+						"place": "Sylva"
+					}
+					,
+					{
+						"id": "",
+						"place": "Terra"
+					}
+					,
+					{
+						"id": "",
+						"place": "Social Party"
+					}
+				]
+			}
+		]
+	},
+	{
+		"date": "April 30",
+		"slots": [
+			{
+				"time": "9:00 - 15:00",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Atrium"
+					}
+					,
+					{
+						"id": "",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "",
+						"place": "Sylva"
+					}
+					,
+					{
+						"id": "",
+						"place": "Terra"
+					}
+					,
+					{
+						"id": "Team building",
+						"place": "Social Party"
+					}
+				]
+			}
+		]
+	}
 ]

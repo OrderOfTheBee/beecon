@@ -31,161 +31,111 @@
   <script type="text/javascript" src="/assets/js/sanitize.js"></script>
   <script type="text/javascript" src="/assets/js/modernizr.js"></script>
   <script type="text/javascript" src="/assets/js/ui-bootstrap-tpls-0.11.0.min.js"></script>
+  <script type="text/javascript" src="/assets/js/addtocalendar.min.js"></script>
+  <script type="text/javascript" src="/assets/js/download.min.js"></script>
   <script type="text/javascript" src="/assets/js/app.js"></script>
+  <script type="text/javascript">(function () {
+            if (window.addtocalendar)if(typeof window.addtocalendar.start == "function")return;
+            if (window.ifaddtocalendar == undefined) { window.ifaddtocalendar = 1;
+                var d = document, s = d.createElement('script'), g = 'getElementsByTagName';
+                s.type = 'text/javascript';s.charset = 'UTF-8';s.async = true;
+                s.src = ('https:' == window.location.protocol ? 'https' : 'http')+'://addtocalendar.com/atc/1.5/atc.min.js';
+                var h = d[g]('body')[0];h.appendChild(s); }})();
+    </script>
   <header></header>       
 	
-  <section id="schedule">
+  <section id="schedule" ng-controller="AgendaCtrl">
+    <script type="text/ng-template" id="SessionModalContent.html">
+      <div class="modal-header">
+        <h4>{{item.title}}</h4>
+      </div>
+      <div class="modal-body">
+        <p class="text-center"><small>{{talk.type}}</small></p>
+        <div ng-show="item.abstract" ng-bind-html="item.abstract"></div>
+        <div class="row">
+          <div class="col-md-6" ng-repeat="speaker in item.speakers">
+            <p>
+              <img ng-src="/assets/img/speakers/{{speaker.image}}" class="img-circle left"/>
+              <br/><br/>
+              <a href="" ng-click="open2(speaker)">{{speaker.name}} {{speaker.surname}}</a><br/>
+              <small>{{speaker.position}} - {{speaker.company}}</small>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <addtocalendar
+          start-date="{{item.startDate}}"
+          end-date="{{item.endDate}}"
+          ctz="Europe/Brussels"
+          title="{{item.title}}"
+          location="{{item.place}}, Avenue du Port 86C, 1000 Brussels, Belgium"
+          class-name="btn btn-success dropdown-toggle"
+          description="{{item.abstract}}"
+          btn-text="Add to calendar">
+        </addtocalendar>
+        <a class="btn btn-success" target="_blank" ng-href="/talks?id={{item.id}}">Open in new window</a>
+        <a class="btn btn-danger" ng-click="cancel()">Cancel</a>
+      </div>
+    </script>
+    <script type="text/ng-template" id="SpeakerModalContent.html">
+      <div class="modal-header">
+        <h3>{{item.name}} {{item.surname}}</h3>
+      </div>
+      <div class="modal-body">
+        <img ng-src="/assets/img/speakers/{{item.image}}" class="img-circle right"/>
+        <p ng-show="item.summary"><strong>About</strong></p>
+        <div ng-show="item.summary" ng-bind-html="item.summary"></div>
+        <br/>
+        <p><strong>Sessions</strong></p>
+        <div ng-repeat="talk in item.talks">
+          <a href="/talks?id={{talk.id}}">{{talk.title}}</a><br/>
+          <small>{{talk.type}}</small>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-danger" ng-click="cancel()">Cancel</button>
+      </div>
+    </script>
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-xs-12">
           <h2>Agenda</h2>
-          <p class="lead">Agenda is subject to change. You can see sessions description <a href="/sessions/">below</a>. We will publish complete agenda soon.</p>
           <br/>
-          <table class="table text-center table-bordered">
-            <tbody>
-              <tr>
-                <td colspan="4" class="date">Wednesday, April 27, 2016</td>
-              </tr>
-              <tr>
-                <td class="time">7:30pm - 10:00pm</td>
-                <td colspan="3" class="networking"><strong>Welcome Party</strong></td>
-              </tr>
-              <tr>
-                <td colspan="4" class="date">Thursday, April 28, 2016</td>
-              </tr>
-              <tr>
-                <td class="time">8:30am - 9:20am</td>
-                <td colspan="3" class="networking"><strong>Registration</strong><br/>in <i>Atrium</i></td>
-              </tr>
-              <tr>
-                <td class="time">9:20am - 9:40am</td>
-                <td colspan="3" class="session"><strong>Welcome to BeeCon / Introductory Session</strong><br/>by <strong>Order of the Bee</strong> in <i>Auditorium</i></td>
-              </tr>
-              <tr>
-                <td class="time">9:40am - 10:40am</td>
-                <td colspan="3" class="session"><strong>Keynote</strong><br/> by <strong>Alfresco</strong> in <i>Auditorium</i></td>
-              </tr>
-              <tr>
-                <td class="time">10:40am - 11:20am</td>
-                <td colspan="3" class="networking"><strong>Break</strong><br/>in <i>Atrium</i></td>
-              </tr>
-              <tr>
-                <td class="time">11:20am - 12:00pm</td>
-                <td class="session"><strong>Sessions</strong><br/>in <i>Auditorium</i></td>
-                <td class="session"><strong>Sessions</strong><br/>in <i>Sylva</i></td>
-                <td class="session2"><strong>Bird of a Feather</strong><br/>in <i>Terra</td>
-              </tr>
-              <tr>
-                <td class="time">12:10pm - 12:50pm</td>
-                <td class="session"><strong>Sessions</strong><br/>in <i>Auditorium</i></td>
-                <td class="session"><strong>Sessions</strong><br/>in <i>Sylva</i></td>
-                <td class="session2"><strong>Hands-On</strong><br/>in <i>Terra</td>
-              </tr>
-              <tr>
-                <td class="time">12:50pm - 2:00pm</td>
-                <td colspan="3" class="networking"><strong>Lunch</strong><br/>in <i>Atrium</i></td>
-              </tr>
-              <tr>
-                <td class="time">2:00pm - 2:40pm</td>
-                <td class="session"><strong>Sessions</strong><br/>in <i>Auditorium</i></td>
-                <td class="session"><strong>Sessions</strong><br/>in <i>Sylva</i></td>
-                <td class="session2"><strong>Bird of a Feather</strong><br/>in <i>Terra</td>
-              </tr>
-              <tr>
-                <td class="time">2:50pm - 3:30pm</td>
-                <td class="session"><strong>Sessions</strong><br/>in <i>Auditorium</i></td>
-                <td class="session"><strong>Sessions</strong><br/>in <i>Sylva</i></td>
-                <td class="session2"><strong>Bird of a Feather</strong><br/>in <i>Terra</td>
-              </tr>
-              <tr>
-                <td class="time">3:30pm - 4:10pm</td>
-                <td colspan="3" class="networking"><strong>Break</strong><br/>in <i>Atrium</i></td>
-              </tr>
-              <tr>
-                <td class="time">4:10pm - 4:50pm</td>
-                <td class="session"><strong>Sessions</strong><br/>in <i>Auditorium</i></td>
-                <td class="session"><strong>Sessions</strong><br/>in <i>Sylva</i></td>
-                <td class="session2"><strong>Bird of a Feather</strong><br/>in <i>Terra</td>
-              </tr>
-              <tr>
-                <td class="time">5:00pm - 6:00pm</td>
-                <td colspan="3" class="session"><strong>Keynote</strong><br/> by <strong>Alfresco</strong> in <i>Auditorium</i></td>
-              </tr>
-              <tr>
-                <td class="time">7:00pm - 10:00pm</td>
-                <td colspan="3" class="networking"><strong>Social Event</strong></td>
-              </tr>
-              <tr>
-                <td colspan="4" class="date">Friday, April 29, 2016</td>
-              </tr>
-              <tr>
-                <td class="time">9:20am - 10:00am</td>
-                <td class="session"><strong>Sessions</strong><br/>in <i>Auditorium</i></td>
-                <td class="session"><strong>Sessions</strong><br/>in <i>Sylva</i></td>
-                <td class="hackathon"><strong>Hackathon</strong><br/>in <i>Terra&Aqua</i></td>
-              </tr>
-              <tr>
-                <td class="time">10:10am - 10:50am</td>
-                <td class="session"><strong>Sessions</strong><br/>in <i>Auditorium</i></td>
-                <td class="session"><strong>Sessions</strong><br/>in <i>Sylva</i></td>
-                <td class="hackathon"><strong>Hackathon</strong><br/>in <i>Terra&Aqua</i></td>
-              </tr>
-              <tr>
-                <td class="time">10:50am - 11:20am</td>
-                <td colspan="3" class="networking"><strong>Break</strong><br/>in <i>Atrium</i></td>
-              </tr>
-              <tr>
-                <td class="time">11:20am - 12:00pm</td>
-                <td class="session"><strong>Sessions</strong><br/>in <i>Auditorium</i></td>
-                <td class="session"><strong>Sessions</strong><br/>in <i>Sylva</i></td>
-                <td class="hackathon"><strong>Hackathon</strong><br/>in <i>Terra&Aqua</i></td>
-              </tr>
-              <tr>
-                <td  class="time" width="22%">12:10pm - 12:50pm</td>
-                <td width="26%" class="session"><strong>Sessions</strong><br/>in <i>Auditorium</i></td>
-                <td width="26%" class="session"><strong>Sessions</strong><br/>in <i>Sylva</i></td>
-                <td width="26%" class="hackathon"><strong>Hackathon</strong><br/>in <i>Terra&Aqua</i></td>
-              </tr>
-              <tr>
-                <td class="time">12:50pm - 2:00pm</td>
-                <td colspan="3" class="networking"><strong>Lunch</strong><br/>in <i>Atrium</i></td>
-              </tr>
-              <tr>
-                <td class="time">2:00pm - 2:40pm</td>
-                <td class="session"><strong>Sessions</strong><br/>in <i>Auditorium</i></td>
-                <td class="session"><strong>Sessions</strong><br/>in <i>Sylva</i></td>
-                <td class="hackathon"><strong>Hackathon</strong><br/>in <i>Terra&Aqua</i></td>
-              </tr>
-              <tr>
-                <td class="time">2:50pm - 3:30pm</td>
-                <td class="session"><strong>Sessions</strong><br/>in <i>Auditorium</i></td>
-                <td class="session"><strong>Sessions</strong><br/>in <i>Sylva</i></td>
-                <td class="hackathon"><strong>Hackathon</strong><br/>in <i>Terra&Aqua</i></td>
-              </tr>
-              <tr>
-                <td class="time">3:30pm - 4:10pm</td>
-                <td colspan="3" class="networking"><strong>Break</strong><br/>in <i>Atrium</i></td>
-              </tr>
-              <tr>
-                <td class="time">4:10pm - 4:50pm</td>
-                <td class="session"><strong>Sessions</strong><br/>in <i>Auditorium</i></td>
-                <td class="session"><strong>Sessions</strong><br/>in <i>Sylva</i></td>
-                <td class="hackathon"><strong>Hackathon Demo</strong><br/>in <i>Terra&Aqua</i></td>
-              </tr>
-               <tr>
-                <td class="time">5:00pm - 6:00pm</td>
-                <td colspan="3" class="session"><strong>Q&A</strong><br/>by <strong>Alfresco and Order of the Bee</strong> in <i>Auditorium</i></td>
-              </tr>
-              <tr>
-                <td colspan="4" class="date">Saturday, April 30, 2016</td>
-              </tr>
-              <tr>
-                <td class="time">9:00am - 3:00pm</td>
-                <td colspan="3" class="networking"><strong>Unofficial part in Bruges / Brewery</strong></td>
-              </tr>
-            </tbody>
-          </table>
-          <p class="text-center"><a href="/sessions/" class="btn btn-primary btn-lg">Sessions</a></p>
+
+          <div ng-repeat="day in agenda">
+            <h3 class="text-center">{{day.date}}</h3>
+            <table class="table text-center">
+              <thead>
+                <tr>
+                  <th class="time"></th>
+                  <th class="room">Room: Auditorium</th>
+                  <th class="room">Room: Sylva</th>
+                  <th class="room">Room: Terra</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr ng-repeat="slot in day.slots">
+                  <td class="time">{{slot.time}}</td>
+                  <!-- Networking for 3 columns -->
+                  <td ng-repeat="session in slot.sessions" ng-show="(session.place == 'Social Party' && session.id != '' ) || (session.place == 'Atrium' && session.id != '')" colspan="3" class="networking" ><strong>{{session.id}}</strong></td>
+                  <!-- Auditorium -->
+                  <td ng-repeat="session in slot.sessions" class="session" ng-show="session.place == 'Auditorium' && !session.length && session.id != ''"><a href="" ng-click="open(session)"><strong>{{session.title}}</strong></a><span ng-show="session.speakers"><br/>by <span ng-repeat="speaker in session.speakers"><span ng-if="!$first">, </span><a href="" ng-click="open2(speaker)">{{speaker.name}} {{speaker.surname}}</a></span></td>
+                  <td ng-repeat="session in slot.sessions" class="session" ng-show="session.place == 'Auditorium' && session.length==2" rowspan="2"><a href="" ng-click="open(session)"><strong>{{session.title}}</strong></a><span ng-show="session.speakers"><br/>by <span ng-repeat="speaker in session.speakers"><span ng-if="!$first">, </span><a href="" ng-click="open2(speaker)">{{speaker.name}} {{speaker.surname}}</a></span></td>
+                  <td ng-repeat="session in slot.sessions" class="empty" ng-show="session.place == 'Auditorium' && session.id == ''"></td>
+                  <!-- Sylva -->
+                  <td ng-repeat="session in slot.sessions" class="session" ng-show="session.place == 'Sylva' && !session.length && session.id != ''"><a href="" ng-click="open(session)"><strong>{{session.title}}</strong></a><span ng-show="session.speakers"><br/>by <span ng-repeat="speaker in session.speakers"><span ng-if="!$first">, </span><a href="" ng-click="open2(speaker)">{{speaker.name}} {{speaker.surname}}</a></span></td>
+                  <td ng-repeat="session in slot.sessions" class="session" ng-show="session.place == 'Sylva' && session.length==2" rowspan="2"><a href="" ng-click="open(session)"><strong>{{session.title}}</strong></a><span ng-show="session.speakers"><br/>by <span ng-repeat="speaker in session.speakers"><span ng-if="!$first">, </span><a href="" ng-click="open2(speaker)">{{speaker.name}} {{speaker.surname}}</a></span></td>
+                  <td ng-repeat="session in slot.sessions" class="empty" ng-show="session.place == 'Sylva' && session.id == ''"></td>
+                  <!-- Terra -->
+                  <td ng-repeat="session in slot.sessions" class="practical" ng-show="session.place == 'Terra' && !session.length && session.id != ''"><a href="" ng-click="open(session)"><strong>{{session.title}}</strong></a><span ng-show="session.speakers"><br/>by <span ng-repeat="speaker in session.speakers"><span ng-if="!$first">, </span><a href="" ng-click="open2(speaker)">{{speaker.name}} {{speaker.surname}}</a></span></td>
+                  <td ng-repeat="session in slot.sessions" class="practical" ng-show="session.place == 'Terra' && session.length==2" rowspan="2"><a href="" ng-click="open(session)"><strong>{{session.title}}</strong></a><span ng-show="session.speakers"><br/>by <span ng-repeat="speaker in session.speakers"><span ng-if="!$first">, </span><a href="" ng-click="open2(speaker)">{{speaker.name}} {{speaker.surname}}</a></span></td>
+                  <td ng-repeat="session in slot.sessions" class="empty" ng-show="session.place == 'Terra' && session.id == ''"></td>
+                </tr>
+              </tbody>
+            </table>
+            <br/>
+          </div>
         </div>
       </div>
       <br/>
