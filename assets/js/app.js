@@ -66,11 +66,13 @@ app.controller('AgendaCtrl', ['$scope', '$http', '$location', '$filter',  '$time
     $.each(array, function(index, day) {
       date = "201604" + day.date.substr(day.date.length - 2) + "T";
       $.each(day.slots, function(index2, slot) {
+        var startTime = slot.time.split(' ')[0];
         var hour = slot.time.split(' ')[0].split(':')[0];
         if (hour.length == 1) { 
           hour = "0" + hour;
         }
         startDate = date + hour + slot.time.split(' ')[0].split(':')[1];
+        var endTime = slot.time.split(' ')[2];
         var hour = slot.time.split(' ')[2].split(':')[0];
         if (hour.length == 1) { 
           hour = "0" + hour;
@@ -85,9 +87,12 @@ app.controller('AgendaCtrl', ['$scope', '$http', '$location', '$filter',  '$time
             }
             var endDate2 = date + hour + day.slots[index2+1].time.split(' ')[2].split(':')[1] + "00";
             session.endDate = endDate2;
+            session.time = startTime + " - " + day.slots[index2+1].time.split(' ')[2];
           } else {
             session.endDate = endDate + "00";
+            session.time = startTime + " - " + endTime;
           }
+          session.date = day.date;
         });
       });
     });
@@ -104,7 +109,6 @@ app.controller('AgendaCtrl', ['$scope', '$http', '$location', '$filter',  '$time
               session.speakers = [];
               session.speakers = i[0].speakers.slice(0);
               session.abstract = i[0].abstract;
-              session.type = i[0].type;
               session.topic = i[0].topic;
             } else {
               session.title = session.id;
@@ -118,7 +122,7 @@ app.controller('AgendaCtrl', ['$scope', '$http', '$location', '$filter',  '$time
       $.each(array, function(index, day) {
         $.each(day.slots, function(index2, slot) {
           $.each(slot.sessions, function(index3, session) {
-            if (session.id[0] == "2") {
+            if (session.id[0] == "2" && session.speakers) {
               $.each(session.speakers, function(index4, speaker) {
                 var i = speakers.filter(function(e) { return e.surname == speaker.surname; });
                 speaker.talks = i[0].talks.slice(0);

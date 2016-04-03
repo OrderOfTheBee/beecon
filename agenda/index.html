@@ -34,14 +34,6 @@
   <script type="text/javascript" src="/assets/js/addtocalendar.min.js"></script>
   <script type="text/javascript" src="/assets/js/download.min.js"></script>
   <script type="text/javascript" src="/assets/js/app.js"></script>
-  <script type="text/javascript">(function () {
-            if (window.addtocalendar)if(typeof window.addtocalendar.start == "function")return;
-            if (window.ifaddtocalendar == undefined) { window.ifaddtocalendar = 1;
-                var d = document, s = d.createElement('script'), g = 'getElementsByTagName';
-                s.type = 'text/javascript';s.charset = 'UTF-8';s.async = true;
-                s.src = ('https:' == window.location.protocol ? 'https' : 'http')+'://addtocalendar.com/atc/1.5/atc.min.js';
-                var h = d[g]('body')[0];h.appendChild(s); }})();
-    </script>
   <header></header>       
 	
   <section id="schedule" ng-controller="AgendaCtrl">
@@ -50,7 +42,7 @@
         <h4>{{item.title}}</h4>
       </div>
       <div class="modal-body">
-        <p class="text-center"><small>{{talk.type}}</small></p>
+        <h4 class="text-right"><span class="label label-warning">{{item.place}} at {{item.time}} on {{item.date}}</span>&nbsp;&nbsp;&nbsp;<span class="label label-default">{{item.topic}}</span></h4>
         <div ng-show="item.abstract" ng-bind-html="item.abstract"></div>
         <div class="row">
           <div class="col-md-6" ng-repeat="speaker in item.speakers">
