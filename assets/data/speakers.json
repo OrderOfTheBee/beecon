@@ -95,7 +95,7 @@
 		{
 			"id": "20160125037",
 			"topic": "20160125037",
-			"title": "Welcome to BeeCon / Introductory Session",
+			"title": "Welcome to BeeCon",
 			"type": "20 minutes (Full Talk)",
 			"targetAudience": "Business Users, Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
 			"abstract": "Welcome session. Why are we here? What is BeeCon? What will we do next two-three days and why will it be cool?<br/>"
@@ -515,25 +515,6 @@
 	]
 },
 {
-	"name": "Alexey",
-	"surname": "Ermakov",
-	"position": "Lead Developer",
-	"company": "ITD Systems",
-	"companyUrl": "",
-	"image": "AlexeyErmakov.png",
-	"summary":"ITD Systems lead developer, his presentation at Alfresco DevCon 2011 - http://www.slideshare.net/oksanakurysheva/alfresco-devcon-2011-implementing-egov-portal-powered-by-alfresco-and-orbeon<br/>",
-	"talks":[
-		{
-			"id": "20160125001",
-			"topic": "Repository",
-			"title": "Backing data silo attack: Alfresco sharding, SOLR for non-flat objects",
-			"type": "20 minutes (Full Talk)",
-			"targetAudience": "Experienced Alfresco developers, Architects and Technical Managers",
-			"abstract": "Building a single content platform for few dozens quite loaded applications is a complex task. It becomes even worse, if application developers are not sure about expected load and content structure in the next few years. This talk concentrates on two aspects of this challenge.<br/><br/>* Clustering and sharding - different solutions for different problems. Sharding Alfresco - reasons and implementation. Building federation proxy to aggregate multiple independent Alfresco repositories and provide a single API entry point on top of them. Live technical experience only - issues, solutions, limitations, lessons learned. Live benchmark data included.<br/><br/>* Handling complex search queries on top of sharded installation. A lot of search use cases are not covered with out of the box flat SOLR indexing. Sometimes users need to search complex nested objects, not just files. (It's more or less about indexing associations - 'I'd like to find all cases (node A), created by the company (node B) with name matching this, and containing child documents (nodes C) registered not later than that date' - it's quite hard to match this query having only nodes properties in the index.) We implemented an external SOLR Cloud integrated with sharded Alfresco installation to serve such complex search requests using custom indexing logic based on SOLR nested objects. In this talk we will cover reasons for such custom indexing architecture, and share an experience of its implementation.<br/><br/>Bonuses:<br/>* Short live demo - Share UI on top of sharded Alfresco<br/>* Call for community participation - let's turn this experience into open source project<br/>"
-		}
-	]
-},
-{
 	"name": "Enzo",
 	"surname": "Rivello",
 	"position": "Senior DevOps Engineer",
@@ -591,7 +572,7 @@
 		{
 			"id": "20160125037",
 			"topic": "20160125037",
-			"title": "Welcome to BeeCon / Introductory Session",
+			"title": "Welcome to BeeCon",
 			"type": "20 minutes (Full Talk)",
 			"targetAudience": "Business Users, Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
 			"abstract": "Welcome session. Why are we here? What is BeeCon? What will we do next two-three days and why will it be cool?<br/>"
