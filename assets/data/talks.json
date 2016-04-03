@@ -9,16 +9,6 @@
 	"speakers":[
 		{
 			"name": "Alexey",
-			"surname": "Ermakov",
-			"position": "Lead Developer",
-			"company": "ITD Systems",
-			"companyUrl": "",
-			"image": "AlexeyErmakov.png",
-			"summary":"ITD Systems lead developer, his presentation at Alfresco DevCon 2011 - http://www.slideshare.net/oksanakurysheva/alfresco-devcon-2011-implementing-egov-portal-powered-by-alfresco-and-orbeon<br/>"
-		}
-		,
-		{
-			"name": "Alexey",
 			"surname": "Vasyukov",
 			"position": "CTO",
 			"company": "ITD Systems",
@@ -488,7 +478,7 @@
 {
 	"id": "20160125037",
 	"topic": "20160125037",
-	"title": "Welcome to BeeCon / Introductory Session",
+	"title": "Welcome to BeeCon",
 	"type": "20 minutes (Full Talk)",
 	"targetAudience": "Business Users, Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
 	"abstract": "Welcome session. Why are we here? What is BeeCon? What will we do next two-three days and why will it be cool?<br/>",
