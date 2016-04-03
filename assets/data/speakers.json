@@ -188,7 +188,7 @@
 			"id": "20160125027",
 			"topic": "Dev Fundamentals",
 			"title": "GroovyRunner",
-			"type": "20 minutes (Hands on)",
+			"type": "40 minutes (Hands on)",
 			"targetAudience": "System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers",
 			"abstract": "In this session you will learn how to access to the full Alfresco API through GroovyRunner and build small yet powerful scripts for maintenance, testing, setup and development.<br/>"
 		}
@@ -603,6 +603,14 @@
 			"type": "20 minutes (Full Talk)",
 			"targetAudience": "Business Users, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
 			"abstract": "The analytics in Alfresco represent an emerging interest for the users and the integration with the Pentaho Suite was born in the Community Edition since 2012. A.A.A.R. is beyond the 4-th version and has bundled reports, dashboards and free analysis on audit data, repository and workflows. But in most cases, the bundled analytics should be customized to cover the business needs. In this talk is shown how to develop a customized set of analytics with the main goal to create your 'Content Intelligence' solution that includes Alfresco and not only Alfresco.<br/>"
+		},
+		{
+			"id": "20160403018",
+			"topic": "Add-ons",
+			"title": "Content Intelligence on Alfresco with AAAR",
+			"type": "40 minutes (Hands on)",
+			"targetAudience": "Business Users, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
+			"abstract": "The analytics in Alfresco represent an emerging interest for the users and the integration with Pentaho is the leading solution on both the Community and Enterprise Editions. AAAR is beyond the 4-th version and has bundled reports, dashboards and free analysis on audit data, repository and workflows. But in most cases, the bundled analytics should be customized to cover the business needs. In this talk is shown how to develop a customized set of analytics starting simply from some business questions. All of this to create your own Business Intelligence solution over one or more Alfresco instances."
 		}
 	]
 },
@@ -779,6 +787,14 @@
 			"type": "20 minutes (Full Talk)",
 			"targetAudience": "System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
 			"abstract": "Learn how to use Yeoman to create new Alfresco extension projects and how to reduce the amount of boilerplate code you have to write in these projects.<br/>"
+		},
+		{
+			"id": "20160403009",
+			"topic": "Best practices",
+			"title": "Accelerate your Alfresco extension workflow",
+			"type": "40 minutes (Hands on)",
+			"targetAudience": "System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
+			"abstract": "Learn how to use Yeoman to create new Alfresco extension projects and how to reduce the amount of boilerplate code you have to write in these projects."
 		}
 	]
 }
