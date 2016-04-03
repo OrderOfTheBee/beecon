@@ -109,7 +109,9 @@ app.controller('AgendaCtrl', ['$scope', '$http', '$location', '$filter',  '$time
               session.speakers = [];
               session.speakers = i[0].speakers.slice(0);
               session.abstract = i[0].abstract;
-              session.topic = i[0].topic;
+              if (i[0].topic[0] != "2") {
+                session.topic = i[0].topic;
+              }
             } else {
               session.title = session.id;
             }
