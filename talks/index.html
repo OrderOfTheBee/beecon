@@ -47,7 +47,10 @@
 		<div class="row">
 			<br/>
 			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
-        <p class="text-center">{{talk.day}}, {{talk.hour}} in {{talk.room}}</p>
+                <h4 class="text-center">
+                    <span class="label label-warning ng-binding">{{talk.day}}, {{talk.hour}} in {{talk.room}}</span>&nbsp;&nbsp;&nbsp;
+                    <span class="label label-default ng-binding">{{talk.topic}}</span>
+                </h4>
 				<h2 class="text-center">{{talk.title}}</h2>
 				<p class="text-center"><small>{{talk.type}}</small></p>
         <div ng-show="talk.abstract" ng-bind-html="talk.abstract"></div>
