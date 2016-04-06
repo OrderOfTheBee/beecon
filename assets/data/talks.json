@@ -856,21 +856,21 @@
 {
 	"id": "20160125059",
 	"topic": "Use case",
-	"title": "Using Alfresco & Activiti to save lives",
+	"title": "Using Alfresco within the maintenance sector",
 	"type": "20 minutes (Full Talk)",
 	"day": "April 29",
 	"hour": "12:40 - 13:00",
 	"room": "Sylva",
 	"targetAudience": "Business Users, Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
-	"abstract": "It's a use case where we've used a mail poller to poll mail in Alfresco, send them to a workflow and create cases in Alfresco.<br/>This whole process is used to provide efficiency for organ and tissue donation process within Europe.<br/>The technical pieces will be outlined:<br/>- Zoom-in on the Mail Poller. It's a simple Imap, but it re-uses Alfresco's inbound code to separate mails and attachments (Alfresco's code is buggy so we've fixed a lot of stuff)<br/>- The Activiti process from incoming mail and attachments to custom controls we've used on the workflow form<br/>- Future: Alfresco 5 (in development) and use of Ephesoft classification<br/>",
+	"abstract": "We'll be presenting a case study of a Electronic Engineering company who uses an ERP system to manage their work and we've:<br/>- Integrated Alfresco with their ERP system<br/>- Migrated their network drive<br/>- Use of mobile devices to get data into Alfresco<br/><br/>In the future:<br/>- Use Ephesoft to classify data<br/>- Use mobile devices to fetch data directly from Alfresco<br/>",
 	"speakers":[
 		{
-			"name": "Tahir",
-			"surname": "Malik",
+			"name": "Koen",
+			"surname": "Bonnet",
 			"position": "Partner & Senior Alfresco/ECM Engineer",
 			"company": "Contezza",
 			"companyUrl": "",
-			"image": "TahirMalik.png",
+			"image": "KoenBonnet.png",
 			"summary":"It's a use case where we've used a mail poller to poll mail in Alfresco, send them to a workflow and create cases in Alfresco.<br/>This whole process is used to provide efficiency for organ and tissue donation process within Europe.<br/>The technical pieces will be outlined:<br/>- Zoom-in on the Mail Poller. It's a simple Imap, but it re-uses Alfresco's inbound code to separate mails and attachments (Alfresco's code is buggy so we've fixed a lot of stuff)<br/>- The Activiti process from incoming mail and attachments to custom controls we've used on the workflow form<br/>- Future: Alfresco 5 (in development) and use of Ephesoft classification<br/>"
 		}
 	]
