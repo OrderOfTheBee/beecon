@@ -475,7 +475,7 @@
 	"company": "CERN",
 	"companyUrl": "",
 	"image": "AndrewShort.png",
-	"summary":"Andrew works at CERN the European Organization for Nuclear Research based in Geneva Switzerland. Andrew started working with Alfresco over 1 year ago and since then has implemented document and records management at CERNs Records Office and is continuing to roll this success out to many more services at CERN. <br/><br/>https://about.me/andrew.short<br/>",
+	"summary":"Andrew works at CERN the European Organization for Nuclear Research based in Geneva Switzerland. Andrew started working with Alfresco over 2 years ago and since then has implemented document and records management at CERNs Records Office and is continuing to roll this success out to many more services at CERN. <br/><br/>https://about.me/andrew.short<br/>",
 	"talks":[
 		{
 			"id": "20160125002",
@@ -484,6 +484,25 @@
 			"type": "20 minutes (Full Talk)",
 			"targetAudience": "Business Users, Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco",
 			"abstract": "The Records Office at CERN keeps detailed records on each member of personnel, going as far back as the mid 1950’s. There are currently 230 individual document types identified covering everything from cradle to grave. Many of these documents are highly confidential and allow only a few services access, but all documents have some access restriction in place, requiring advanced access control to each document. Here Andrew will present a case study and over view of CERN and its implementation of Alfresco.<br/>"
+		}
+	]
+},
+{
+	"name": "Jan",
+	"surname": "Vonka",
+	"position": "Senior Software Engineer",
+	"company": "Alfresco",
+	"companyUrl": "",
+	"image": "JanVonka.png",
+	"summary":"null",
+	"talks":[
+		{
+			"id": "20160401001",
+			"topic": "Dev Fundamentals",
+			"title": "REST API of the future",
+			"type": "20 minutes (Full Talk)",
+			"targetAudience": "Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
+			"abstract": "Alfresco Repository comes with a great REST API but some of these API's can be difficult to navigate and use. <br/><br/>But Alfresco will show us about the future of REST API's, where the market is moving and how we are embracing this future at Alfresco.<br/>"
 		}
 	]
 },
@@ -649,14 +668,6 @@
 			"type": "40 minutes (Extended Talk)",
 			"targetAudience": "Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
 			"abstract": "The Alfresco SDK have had a rough life, starting out as a community contribution, finally being picked up by Alfresco and treated as part of the product. <br/><br/>With that being said, the Alfresco SDK has not always been easy to work with. Upgrades have been difficult and it can be tricky to understand and get the most out of the setup.<br/><br/>In this session you will hear about where we are today, how we got there and finally how we can learn from history to create a brand new SDK that will empower all Alfresco developers. <br/>"
-		},
-		{
-			"id": "20160401001",
-			"topic": "Dev Fundamentals",
-			"title": "REST API of the future",
-			"type": "20 minutes (Full Talk)",
-			"targetAudience": "Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
-			"abstract": "Alfresco Repository comes with a great REST API but some of these API's can be difficult to navigate and use. <br/><br/>But Alfresco will show us about the future of REST API's, where the market is moving and how we are embracing this future at Alfresco.<br/>"
 		}
 	]
 },
