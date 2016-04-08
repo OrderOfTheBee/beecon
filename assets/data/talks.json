@@ -39,7 +39,7 @@
 			"company": "CERN",
 			"companyUrl": "",
 			"image": "AndrewShort.png",
-			"summary":"Andrew works at CERN the European Organization for Nuclear Research based in Geneva Switzerland. Andrew started working with Alfresco over 2 years ago and since then has implemented document and records management at CERNs Records Office and is continuing to roll this success out to many more services at CERN. <br/><br/>https://about.me/andrew.short<br/>"
+			"summary":"Andrew works at CERN the European Organization for Nuclear Research, based in Geneva Switzerland. Andrew started working with document management at CERN in 2006 as a developer for a custom developed Electronic Document Handling system called EDH. For over 2 years Andrew has been working with Alfresco and since then has implemented document and records management at CERNs Records Office and is continuing to roll this success out to many more services at CERN. <br/><br/>https://about.me/andrew.short<br/>"
 		}
 	]
 },
@@ -338,7 +338,7 @@
 	"hour": "14:35 - 14:55",
 	"room": "Auditorium",
 	"targetAudience": "System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
-	"abstract": "In real live it is a very good idea to put Alfresco behind a reverse proxy ( easier adminstration, better control access, speed up the system using several caching strategies) The session compares different concepts and the differences using Apache vs. Nginx and show hints and tricks to get this done.<br/>",
+	"abstract": "In real live it is a very good idea to put Alfresco behind a reverse proxy (easier adminstration, better control access, speed up the system using several caching strategies)<br/>The session compares different concepts and the differences using Apache vs. Nginx and show hints and tricks to get this done.<br/>",
 	"speakers":[
 		{
 			"name": "Heiko",
@@ -730,7 +730,7 @@
 	"hour": "14:10 - 14:30",
 	"room": "Sylva",
 	"targetAudience": "Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
-	"abstract": "Many people are familiar with spinning up a small Alfresco instance on a virtual machine, but taking a large-scale, content-centric organisation to the cloud is in a different league altogether.<br/><br/>During this session you can learn lessons from a major programme of work that had to overcome significant technical hurdles, some of which have resulted in changes to Alfresco modules. You will find out how best to:<br/><br/>* migrate terabytes of content from on-prem to the cloud  <br/>* adhere to security compliance with encryption at rest<br/>* choose infrastructure options to support rich media production.<br/>",
+	"abstract": "Many people are familiar with spinning up a small Alfresco instance on a virtual machine, but taking a large-scale, content-centric organisation to the cloud is in a different league altogether.<br/><br/>During this session you can learn lessons from a major programme of work that had to overcome significant technical hurdles, some of which have resulted in changes to Alfresco modules. You will find out how best to:<br/><br/>* migrate terabytes of content from on-prem to the cloud  <br/>* adhere to security compliance with encryption at rest.<br/>",
 	"speakers":[
 		{
 			"name": "Robin",
@@ -871,7 +871,7 @@
 			"company": "Contezza",
 			"companyUrl": "",
 			"image": "KoenBonnet.png",
-			"summary":"It's a use case where we've used a mail poller to poll mail in Alfresco, send them to a workflow and create cases in Alfresco.<br/>This whole process is used to provide efficiency for organ and tissue donation process within Europe.<br/>The technical pieces will be outlined:<br/>- Zoom-in on the Mail Poller. It's a simple Imap, but it re-uses Alfresco's inbound code to separate mails and attachments (Alfresco's code is buggy so we've fixed a lot of stuff)<br/>- The Activiti process from incoming mail and attachments to custom controls we've used on the workflow form<br/>- Future: Alfresco 5 (in development) and use of Ephesoft classification<br/>"
+			"summary":"Koen is an implementation consultant for information management.  In the majority of projects  Alfresco is being implemented. In some projects OpenText products are implemented. As an implementation consultant, Koen designs the information architecture, functional specification of the use case and draws the plan to manage the project. Koen is at his best when a combination of users, organisation and technology are involved.<br/>"
 		}
 	]
 },
