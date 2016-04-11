@@ -109,7 +109,7 @@
 	"company": "keensoft",
 	"companyUrl": "",
 	"image": "AngelBorroy.png",
-	"summary":"Angel Borroy is technical lead architect at keensoft. Over the last 15 years, he has been working as a software architect on Java, BPM, document management and electronic signatures. He has been working with Alfresco during the last years to customize several implementations in large organizations and to provide add-ons to the Community based on Record Management and Electronic Signature. <br/>He writes (sometimes) on his personal blog angelborroy.wordpress.com.<br/>He is member of the Order of the Bee.<br/>",
+	"summary":"Angel Borroy is technical lead architect at keensoft. <br/><br/>Over the last 15 years, he has been working as a software architect on Java, BPM, document management and electronic signatures. He has been working with Alfresco during the last years to customize several implementations in large organizations and to provide add-ons to the Community based on Record Management and Electronic Signature. <br/><br/>He writes (sometimes) on his personal blog <a href='http://angelborroy.wordpress.com'>http://angelborroy.wordpress.com</a>.<br/><br/>He is (proud) member of the Order of the Bee.<br/>",
 	"talks":[
 		{
 			"id": "20160125004",
@@ -117,7 +117,7 @@
 			"title": "What to think about when you're planning to install Alfresco",
 			"type": "20 minutes (Full Talk)",
 			"targetAudience": "Newbies in Alfresco technologies, System Administrators",
-			"abstract": "Providing a methodology for a successful installing process:<br/>1. Componentes catalog (server and ports, credentials, service URLs...)<br/>2. Base software installation (database, application sever, authentication software...)<br/>3. Alfresco installation (wizard, from scratch, distro...)<br/>4. Configuration (subsystems, ...)<br/>5. Extension (addons, customizations...)<br/>6. Tuning (web server, application server, database)<br/>7. Administering (start and stop, monitor, backup, upgrade...)<br/>8. Validating the environment<br/>"
+			"abstract": "Providing a methodology for a successful installing process based on elements cataloging and classifying:<br/>* Componentes catalog: programs, protocols and APIs<br/>* Technology stack: server and client<br/>* Subsystems: activities feed, audit, authentication, email, file servers, transformers and search<br/>* Extensions: addons and customizations<br/>* Sizing: web server, application server, SOLR, LibreOffice, database and storage<br/>* Administration<br/>* Installation process<br/>* Validating process<br/><br/>Applying this methodology to a real world use case:<br/>* Use case: Crop Trust<br/>"
 		},
 		{
 			"id": "20160125005",
@@ -125,7 +125,7 @@
 			"title": "Integrating a simple OCR in Alfresco",
 			"type": "5 minutes (Ignite Style Lightning Talk)",
 			"targetAudience": "Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers",
-			"abstract": "Review alternatives (Kofax, Ephesoft...)<br/>What if no so complexity is required? Tesseract OCR, Windows OCR...<br/>Building a simple action in Alfresco to OCRed PDF and TIFF files<br/>Integrating this simple action with OCR software<br/>Integrating this simple action with Alfresco Share<br/>Recap and future additions<br/>"
+			"abstract": "Review of the Simple OCR addon by keensoft available at <a href='https://addons.alfresco.com/addons/alfresco-simple-ocr-action'>https://addons.alfresco.com/addons/alfresco-simple-ocr-action</a><br/><br/>Enterprise alternatives: Kofax and Ephesoft<br/>What if no so complexity is required? Tesseract OCR and Windows.Media.OCR<br/>Building a simple action in Alfresco to OCRed PDF and TIFF files<br/>Integrating this simple action with OCR software<br/>Real world use cases<br/><br/>Recap and future additions<br/>"
 		}
 	]
 },
@@ -412,6 +412,25 @@
 	]
 },
 {
+	"name": "Mikel",
+	"surname": "Asla",
+	"position": "Developer",
+	"company": "keensoft",
+	"companyUrl": "",
+	"image": "MikelAsla.png",
+	"summary":"Mikel Asla is software engineer at keensoft, he has been working with Alfresco for the last ten years, <br/>implementing, extending and maintaining Alfresco installations.<br/>",
+	"talks":[
+		{
+			"id": "20160125042",
+			"topic": "Administration",
+			"title": "Running Alfresco under docker",
+			"type": "20 minutes (Full Talk)",
+			"targetAudience": "Business Users, Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
+			"abstract": "Showing a possible approach on how to run Alfresco in docker containers. How to backup, restore, configure. How to quickly deploy on cloud platforms. <br/>"
+		}
+	]
+},
+{
 	"name": "Sujay",
 	"surname": "Pillai",
 	"position": "Alfresco Consultant",
@@ -668,25 +687,6 @@
 			"type": "40 minutes (Extended Talk)",
 			"targetAudience": "Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
 			"abstract": "The Alfresco SDK have had a rough life, starting out as a community contribution, finally being picked up by Alfresco and treated as part of the product. <br/><br/>With that being said, the Alfresco SDK has not always been easy to work with. Upgrades have been difficult and it can be tricky to understand and get the most out of the setup.<br/><br/>In this session you will hear about where we are today, how we got there and finally how we can learn from history to create a brand new SDK that will empower all Alfresco developers. <br/>"
-		}
-	]
-},
-{
-	"name": "Philippe",
-	"surname": "Dubois",
-	"position": "Support expert team",
-	"company": "Alfresco",
-	"companyUrl": "",
-	"image": "PhilippeDubois.png",
-	"summary":"Working for Alfresco since 10 yars. Working in Alfresco support. <br/>",
-	"talks":[
-		{
-			"id": "20160125042",
-			"topic": "Administration",
-			"title": "Running Alfresco under docker",
-			"type": "20 minutes (Full Talk)",
-			"targetAudience": "Business Users, Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
-			"abstract": "Showing a possible approach on how to run Alfresco in docker containers. How to backup, restore, configure. How to quickly deploy on cloud platforms (ex: digital ocean). <br/>"
 		}
 	]
 },

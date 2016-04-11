@@ -257,7 +257,7 @@
 				]
 			},
 			{
-				"time": "13:00 - 14:30",
+				"time": "13:00 - 14:10",
 				"sessions": [
 					{
 						"id": "Lunch",
@@ -286,7 +286,7 @@
 				]
 			},
 			{
-				"time": "14:30 - 14:50",
+				"time": "14:10 - 14:30",
 				"sessions": [
 					{
 						"id": "",
@@ -317,7 +317,7 @@
 				]
 			},
 			{
-				"time": "14:55 - 15:15",
+				"time": "14:35 - 14:55",
 				"sessions": [
 					{
 						"id": "",
@@ -336,7 +336,7 @@
 				]
 			},
 			{
-				"time": "15:25 - 16:10",
+				"time": "15:05 - 15:50",
 				"sessions": [
 					{
 						"id": "",
@@ -365,7 +365,7 @@
 				]
 			},
 			{
-				"time": "16:10 - 17:00",
+				"time": "15:50 - 16:30",
 				"sessions": [
 					{
 						"id": "Break",
@@ -394,7 +394,36 @@
 				]
 			},
 			{
-				"time": "17:00 - 18:00",
+				"time": "16:30 - 17:15",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Atrium"
+					}
+					,
+					{
+						"id": "20160125046",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "",
+						"place": "Sylva"
+					}
+					,
+					{
+						"id": "",
+						"place": "Terra"
+					}
+					,
+					{
+						"id": "",
+						"place": "Social Party"
+					}
+				]
+			},
+			{
+				"time": "17:15 - 18:00",
 				"sessions": [
 					{
 						"id": "",
@@ -822,17 +851,17 @@
 					}
 					,
 					{
-						"id": "20160125046",
+						"id": "Hackathon DEMO",
 						"place": "Auditorium"
 					}
 					,
 					{
-						"id": "Hackathon DEMO",
+						"id": "",
 						"place": "Sylva"
 					}
 					,
 					{
-						"id": "Hackathon",
+						"id": "",
 						"place": "Terra"
 					}
 					,

@@ -52,7 +52,7 @@
 	"hour": "14:10 - 14:30",
 	"room": "Auditorium",
 	"targetAudience": "Newbies in Alfresco technologies, System Administrators",
-	"abstract": "Providing a methodology for a successful installing process:<br/>1. Componentes catalog (server and ports, credentials, service URLs...)<br/>2. Base software installation (database, application sever, authentication software...)<br/>3. Alfresco installation (wizard, from scratch, distro...)<br/>4. Configuration (subsystems, ...)<br/>5. Extension (addons, customizations...)<br/>6. Tuning (web server, application server, database)<br/>7. Administering (start and stop, monitor, backup, upgrade...)<br/>8. Validating the environment<br/>",
+	"abstract": "Providing a methodology for a successful installing process based on elements cataloging and classifying:<br/>* Componentes catalog: programs, protocols and APIs<br/>* Technology stack: server and client<br/>* Subsystems: activities feed, audit, authentication, email, file servers, transformers and search<br/>* Extensions: addons and customizations<br/>* Sizing: web server, application server, SOLR, LibreOffice, database and storage<br/>* Administration<br/>* Installation process<br/>* Validating process<br/><br/>Applying this methodology to a real world use case:<br/>* Use case: Crop Trust<br/>",
 	"speakers":[
 		{
 			"name": "Angel",
@@ -61,7 +61,7 @@
 			"company": "keensoft",
 			"companyUrl": "",
 			"image": "AngelBorroy.png",
-			"summary":"Angel Borroy is technical lead architect at keensoft. Over the last 15 years, he has been working as a software architect on Java, BPM, document management and electronic signatures. He has been working with Alfresco during the last years to customize several implementations in large organizations and to provide add-ons to the Community based on Record Management and Electronic Signature. <br/>He writes (sometimes) on his personal blog angelborroy.wordpress.com.<br/>He is member of the Order of the Bee.<br/>"
+			"summary":"Angel Borroy is technical lead architect at keensoft. <br/><br/>Over the last 15 years, he has been working as a software architect on Java, BPM, document management and electronic signatures. He has been working with Alfresco during the last years to customize several implementations in large organizations and to provide add-ons to the Community based on Record Management and Electronic Signature. <br/><br/>He writes (sometimes) on his personal blog <a href='http://angelborroy.wordpress.com'>http://angelborroy.wordpress.com</a>.<br/><br/>He is (proud) member of the Order of the Bee.<br/>"
 		}
 	]
 },
@@ -71,10 +71,10 @@
 	"title": "Integrating a simple OCR in Alfresco",
 	"type": "5 minutes (Ignite Style Lightning Talk)",
 	"day": "April 28",
-	"hour": "14:30 - 15:15",
+	"hour": "14:10 - 14:55",
 	"room": "Auditorium",
 	"targetAudience": "Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers",
-	"abstract": "Review alternatives (Kofax, Ephesoft...)<br/>What if no so complexity is required? Tesseract OCR, Windows OCR...<br/>Building a simple action in Alfresco to OCRed PDF and TIFF files<br/>Integrating this simple action with OCR software<br/>Integrating this simple action with Alfresco Share<br/>Recap and future additions<br/>",
+	"abstract": "Review of the Simple OCR addon by keensoft available at <a href='https://addons.alfresco.com/addons/alfresco-simple-ocr-action'>https://addons.alfresco.com/addons/alfresco-simple-ocr-action</a><br/><br/>Enterprise alternatives: Kofax and Ephesoft<br/>What if no so complexity is required? Tesseract OCR and Windows.Media.OCR<br/>Building a simple action in Alfresco to OCRed PDF and TIFF files<br/>Integrating this simple action with OCR software<br/>Real world use cases<br/><br/>Recap and future additions<br/>",
 	"speakers":[
 		{
 			"name": "Angel",
@@ -83,7 +83,7 @@
 			"company": "keensoft",
 			"companyUrl": "",
 			"image": "AngelBorroy.png",
-			"summary":"Angel Borroy is technical lead architect at keensoft. Over the last 15 years, he has been working as a software architect on Java, BPM, document management and electronic signatures. He has been working with Alfresco during the last years to customize several implementations in large organizations and to provide add-ons to the Community based on Record Management and Electronic Signature. <br/>He writes (sometimes) on his personal blog angelborroy.wordpress.com.<br/>He is member of the Order of the Bee.<br/>"
+			"summary":"Angel Borroy is technical lead architect at keensoft. <br/><br/>Over the last 15 years, he has been working as a software architect on Java, BPM, document management and electronic signatures. He has been working with Alfresco during the last years to customize several implementations in large organizations and to provide add-ons to the Community based on Record Management and Electronic Signature. <br/><br/>He writes (sometimes) on his personal blog <a href='http://angelborroy.wordpress.com'>http://angelborroy.wordpress.com</a>.<br/><br/>He is (proud) member of the Order of the Bee.<br/>"
 		}
 	]
 },
@@ -159,7 +159,7 @@
 	"title": "Alfresco & Machine learning: The perfect combination :-)",
 	"type": "5 minutes (Ignite Style Lightning Talk)",
 	"day": "April 28",
-	"hour": "14:30 - 15:15",
+	"hour": "14:10 - 14:55",
 	"room": "Auditorium",
 	"targetAudience": "Business Users, Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
 	"abstract": "I want to show the audience a quick integration in Alfresco with one framework  of Machine Learning about auto classification of pictures. If you want to do some SPOILER, please take a look here: https://twitter.com/VenziaIT/status/654699920666984448 If not, please wait till the session!! :D<br/>",
@@ -181,7 +181,7 @@
 	"title": "Alfresco Engineering",
 	"type": "5 minutes (Ignite Style Lightning Talk)",
 	"day": "April 28",
-	"hour": "14:30 - 15:15",
+	"hour": "14:10 - 14:55",
 	"room": "Auditorium",
 	"targetAudience": "Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
 	"abstract": "You all use our software, but do you know how we write it? This will be a quick tour through the processes inside Alfresco Engineering.<br/>",
@@ -423,7 +423,7 @@
 	"title": "Gotchas encountered while implementing an asynchronous transformation service for Alfresco",
 	"type": "20 minutes (Full Talk)",
 	"day": "April 28",
-	"hour": "14:55 - 15:15",
+	"hour": "14:35 - 14:55",
 	"room": "Sylva",
 	"targetAudience": "System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers",
 	"abstract": "Alfresco Community relies on soffice to transform MS Office documents to text, PDF, and PNG. This synchronous implementation tends to hog the soffice process which can bring down a whole Alfresco installation. To reduce the load generated by these transformations a solution called 'ecm4u Alfresco SmartTransformer' was implemented that performs the transformation asynchronously in a separate process. It was surprisingly difficult to make this approach work with Alfresco. This talk briefly describes the implemented solution and especially gives details for the various problems encountered while fitting an asynchronous transformation into Alfresco.<br/>",
@@ -477,7 +477,7 @@
 	"title": "Externalizing the permission service in a Business Rules Engine",
 	"type": "5 minutes (Ignite Style Lightning Talk)",
 	"day": "April 28",
-	"hour": "14:30 - 15:15",
+	"hour": "14:10 - 14:55",
 	"room": "Auditorium",
 	"targetAudience": "Developers starting to work with Alfresco, Experienced Alfresco developers",
 	"abstract": "Extending the permission service in Alfresco is never an easy task and should be done with extreme cautiousness. In many cases the extension points provided by Alfresco such as rules and dynamic authorities are sufficient. For instance, the need to have permissions that dependent on meta-data.  But then if you have hundreds of rules which set permissions at the node-level it will be difficult to maintain all of this.  Also, in an enterprise environment Alfresco is probably not the only application developed. You might already have business rules and business data in place. You obviously want to re-use the existing and even centralize it. These are some of the reasons which led us in a direction of externalizing the permission system in a Business Rules Engine. Our instance of Alfresco Community now calls the rules-engine to ask whether or not a person has a permission on a document. Behind the scene this could trigger a complex logic involving business data which might even not be stored in Alfresco.<br/>",
@@ -499,7 +499,7 @@
 	"title": "How to Load Test Your Alfresco Add-ons",
 	"type": "40 minutes (Extended Talk)",
 	"day": "April 28",
-	"hour": "15:25 - 16:10",
+	"hour": "15:05 - 15:50",
 	"room": "Auditorium",
 	"targetAudience": "Developers starting to work with Alfresco, Experienced Alfresco developers",
 	"abstract": "Load tests are essential for any software project intended for high-volume usage, ensuring quality and giving you a better understanding of your product. <br/> <br/>Alfresco recently completed the 1 Billion Document Test. In this session we'll cover the tools and processes we used to achieve this, and show you how to successfully load test your own Alfresco add-ons.<br/>",
@@ -521,7 +521,7 @@
 	"title": "Top 10 missing features and ways to add them",
 	"type": "5 minutes (Ignite Style Lightning Talk)",
 	"day": "April 28",
-	"hour": "14:30 - 15:15",
+	"hour": "14:10 - 14:55",
 	"room": "Auditorium",
 	"targetAudience": "Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco",
 	"abstract": "Overview of http://orderofthebee.org/addons/ and some other must-haves.<br/>",
@@ -632,16 +632,16 @@
 	"hour": "14:35 - 14:55",
 	"room": "Sylva",
 	"targetAudience": "Business Users, Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
-	"abstract": "Showing a possible approach on how to run Alfresco in docker containers. How to backup, restore, configure. How to quickly deploy on cloud platforms (ex: digital ocean). <br/>",
+	"abstract": "Showing a possible approach on how to run Alfresco in docker containers. How to backup, restore, configure. How to quickly deploy on cloud platforms. <br/>",
 	"speakers":[
 		{
-			"name": "Philippe",
-			"surname": "Dubois",
-			"position": "Support expert team",
-			"company": "Alfresco",
+			"name": "Mikel",
+			"surname": "Asla",
+			"position": "Developer",
+			"company": "keensoft",
 			"companyUrl": "",
-			"image": "PhilippeDubois.png",
-			"summary":"Working for Alfresco since 10 yars. Working in Alfresco support. <br/>"
+			"image": "MikelAsla.png",
+			"summary":"Mikel Asla is software engineer at keensoft, he has been working with Alfresco for the last ten years, <br/>implementing, extending and maintaining Alfresco installations.<br/>"
 		}
 	]
 },
@@ -672,7 +672,7 @@
 	"topic": "Community",
 	"title": "Contributing to Alfresco",
 	"type": "40 minutes (Extended Talk)",
-	"day": "April 29",
+	"day": "April 28",
 	"hour": "16:30 - 17:15",
 	"room": "Auditorium",
 	"targetAudience": "Developers starting to work with Alfresco, Experienced Alfresco developers",
@@ -705,7 +705,7 @@
 	"title": "Alfresco Koans",
 	"type": "5 minutes (Ignite Style Lightning Talk)",
 	"day": "April 28",
-	"hour": "14:30 - 15:15",
+	"hour": "14:10 - 14:55",
 	"room": "Auditorium",
 	"targetAudience": "Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
 	"abstract": "The koans tutorial style has been around for a few years; we decided it would make a good opportunity for our seasoned & certified Alfresco architects and senior developers to create additional hands-on learning material for new starters.<br/>This session introduces the test-driven path to Alfresco enlightment and the principles behind it.<br/>",
@@ -771,7 +771,7 @@
 	"title": "Aikau Audit Report",
 	"type": "5 minutes (Ignite Style Lightning Talk)",
 	"day": "April 28",
-	"hour": "14:30 - 15:15",
+	"hour": "14:10 - 14:55",
 	"room": "Auditorium",
 	"targetAudience": "Business Users, Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers",
 	"abstract": "Built on AIKAU and existing audit mechanism in alfresco. Enabling Audit and rendering the existing audit information with help of AIKAU pages.<br/>",
@@ -793,7 +793,7 @@
 	"title": "The Alfresco Product Roadmap",
 	"type": "40 minutes (Extended Talk)",
 	"day": "April 28",
-	"hour": "17:00 - 18:00",
+	"hour": "17:15 - 18:00",
 	"room": "Auditorium",
 	"targetAudience": "Business Users, Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
 	"abstract": "The Alfresco open source community has been key to the fast growth and broad adoption of Alfresco. The Alfresco product team wants to share with the BeeCon attendees some of our key initiatives to evolve and improve the product, so that this audience of open source contributors can understand our product goals and roadmap to achieve them.<br/>",
@@ -957,7 +957,7 @@
 	"title": "REST API of the future",
 	"type": "20 minutes (Full Talk)",
 	"day": "April 28",
-	"hour": "14:30 - 14:50",
+	"hour": "14:10 - 14:30",
 	"room": "Sylva",
 	"targetAudience": "Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
 	"abstract": "Alfresco Repository comes with a great REST API but some of these API's can be difficult to navigate and use. <br/><br/>But Alfresco will show us about the future of REST API's, where the market is moving and how we are embracing this future at Alfresco.<br/>",
@@ -979,7 +979,7 @@
 	"title": "Lightning Talks #1",
 	"type": "40 minutes (Extended Talk)",
 	"day": "April 28",
-	"hour": "14:30 - 15:15",
+	"hour": "14:10 - 14:55",
 	"room": "Auditorium",
 	"targetAudience": "Lightning talks are fast-paced and fun. The presentations are strictly limited to five minutes, so each session contains 7 topics with a mix of subjects including both business and technical subjects. All presentations in this session are Ignite-style, with auto-advancing slides.<br/><ul><li><a href='/talks?id=20160125005'>Integrating a simple OCR in Alfresco</a></li><li><a href='/talks?id=20160125011'>Alfresco & Machine learning: The perfect combination :-)</a></li><li><a href='/talks?id=20160125013'>Alfresco Engineering</a></li><li><a href='/talks?id=20160125032'>Externalizing the permission service in a Business Rules Engine</a></li><li><a href='/talks?id=20160125036'>Top 10 missing features and ways to add them</a></li><li><a href='/talks?id=20160125047'>Alfresco Koans</a></li><li><a href='/talks?id=20160125052'>Aikau Audit Report</a></li></ul>",
 	"abstract": "Lightning talks are fast-paced and fun. The presentations are strictly limited to five minutes, so each session contains 7 topics with a mix of subjects including both business and technical subjects. All presentations in this session are Ignite-style, with auto-advancing slides.<br/><ul><li><a href='/talks?id=20160125005'>Integrating a simple OCR in Alfresco</a></li><li><a href='/talks?id=20160125011'>Alfresco & Machine learning: The perfect combination :-)</a></li><li><a href='/talks?id=20160125013'>Alfresco Engineering</a></li><li><a href='/talks?id=20160125032'>Externalizing the permission service in a Business Rules Engine</a></li><li><a href='/talks?id=20160125036'>Top 10 missing features and ways to add them</a></li><li><a href='/talks?id=20160125047'>Alfresco Koans</a></li><li><a href='/talks?id=20160125052'>Aikau Audit Report</a></li></ul>",
@@ -991,7 +991,7 @@
 			"company": "keensoft",
 			"companyUrl": "",
 			"image": "AngelBorroy.png",
-			"summary":"Angel Borroy is technical lead architect at keensoft. Over the last 15 years, he has been working as a software architect on Java, BPM, document management and electronic signatures. He has been working with Alfresco during the last years to customize several implementations in large organizations and to provide add-ons to the Community based on Record Management and Electronic Signature. <br/>He writes (sometimes) on his personal blog angelborroy.wordpress.com.<br/>He is member of the Order of the Bee.<br/>"
+			"summary":"Angel Borroy is technical lead architect at keensoft. <br/><br/>Over the last 15 years, he has been working as a software architect on Java, BPM, document management and electronic signatures. He has been working with Alfresco during the last years to customize several implementations in large organizations and to provide add-ons to the Community based on Record Management and Electronic Signature. <br/><br/>He writes (sometimes) on his personal blog <a href='http://angelborroy.wordpress.com'>http://angelborroy.wordpress.com</a>.<br/><br/>He is (proud) member of the Order of the Bee.<br/>"
 		}
 		,
 		{
@@ -1135,7 +1135,7 @@
 	"title": "Content Intelligence on Alfresco with AAAR",
 	"type": "40 minutes (Hands on)",
 	"day": "April 28",
-	"hour": "14:30 - 15:15",
+	"hour": "14:10 - 14:55",
 	"room": "Terra",
 	"targetAudience": "Business Users, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
 	"abstract": "The analytics in Alfresco represent an emerging interest for the users and the integration with Pentaho is the leading solution on both the Community and Enterprise Editions. AAAR is beyond the 4-th version and has bundled reports, dashboards and free analysis on audit data, repository and workflows. But in most cases, the bundled analytics should be customized to cover the business needs. In this talk is shown how to develop a customized set of analytics starting simply from some business questions. All of this to create your own Business Intelligence solution over one or more Alfresco instances.",
