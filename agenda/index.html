@@ -39,7 +39,8 @@
   <section id="schedule" ng-controller="AgendaCtrl">
     <script type="text/ng-template" id="SessionModalContent.html">
       <div class="modal-header">
-        <h4>{{item.title}}</h4>
+        <h4 class="text-center">{{item.title}}</h4>
+        <p class="text-center">{{item.type}}</p>
       </div>
       <div class="modal-body">
         <h4 class="text-right"><span class="label label-warning">{{item.place}} at {{item.time}} on {{item.date}}</span>&nbsp;&nbsp;&nbsp;<span class="label label-default">{{item.topic}}</span></h4>

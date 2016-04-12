@@ -106,6 +106,7 @@ app.controller('AgendaCtrl', ['$scope', '$http', '$location', '$filter',  '$time
             if (session.id[0] == "2") {
               var i = talks.filter(function(e) { return e.id == session.id; });
               session.title = i[0].title;
+              session.type = i[0].type;
               session.speakers = [];
               session.speakers = i[0].speakers.slice(0);
               session.abstract = i[0].abstract;
