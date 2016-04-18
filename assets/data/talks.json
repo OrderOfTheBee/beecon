@@ -474,7 +474,7 @@
 {
 	"id": "20160125032",
 	"topic": "Repository",
-	"title": "Externalizing the permission service in a Business Rules Engine",
+	"title": "Externalizing permissions in Drools",
 	"type": "5 minutes (Ignite Style Lightning Talk)",
 	"day": "April 28",
 	"hour": "14:10 - 14:55",

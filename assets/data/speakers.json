@@ -290,7 +290,7 @@
 		{
 			"id": "20160125032",
 			"topic": "Repository",
-			"title": "Externalizing the permission service in a Business Rules Engine",
+			"title": "Externalizing permissions in Drools",
 			"type": "5 minutes (Ignite Style Lightning Talk)",
 			"targetAudience": "Developers starting to work with Alfresco, Experienced Alfresco developers",
 			"abstract": "The automation of setting permissions is probably one of the most common extension of Alfresco. To achieve this, Alfresco provides extension points such behaviors coupled with the permission service which allows already many possibilities. However, this logic can be really complex especially when the permissions are set at documents-level. Permissions might depend on meta-data, on external data, can be temporary, even the logic itself could change frequently.  Also, in an enterprise environment Alfresco is probably not the only application developed. You might already have business rules in place about permissions that you want to reuse. In a project at CERN, we decided to externalize all this logic in a Business Rules Engine, and then to interface it with Alfresco. <br/>"
