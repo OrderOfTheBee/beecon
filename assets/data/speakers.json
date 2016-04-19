@@ -591,6 +591,33 @@
 	]
 },
 {
+	"name": "Order",
+	"surname": "of the Bee",
+	"position": "Order of the Bee",
+	"company": "Order of the Bee",
+	"companyUrl": "",
+	"image": "OrderoftheBee.png",
+	"summary":"null",
+	"talks":[
+		{
+			"id": "20160419001",
+			"topic": "Networking",
+			"title": "Welcome drinks",
+			"type": "Welcome drinks",
+			"targetAudience": "A relaxing social event to get to know other attendees. Come to the <a href='http://www.beerproject.be/en/sections/9-contact'>brewery</a> to taste Belgian beer and to meet BeeCon attendees. Party is sponsored by <a href='http://keensoft.es'>keensoft</a>.",
+			"abstract": "A relaxing social event to get to know other attendees. Come to the <a href='http://www.beerproject.be/en/sections/9-contact'>brewery</a> to taste Belgian beer and to meet BeeCon attendees. Party is sponsored by <a href='http://keensoft.es'>keensoft</a>."
+		},
+		{
+			"id": "20160419002",
+			"topic": "Networking",
+			"title": "Party",
+			"type": "Party",
+			"targetAudience": "A relaxing social event to get to know other attendees. Come to La Fabbrica restaurant next to the conference venue to collaborate with other BeeCon attendees. Party is sponsored by <a href='http://xenit.eu'>XeniT</a> and <a href='http://www.alfresco.com'>Alfresco</a>.",
+			"abstract": "A relaxing social event to get to know other attendees. Come to La Fabbrica restaurant next to the conference venue to collaborate with other BeeCon attendees. Party is sponsored by <a href='http://xenit.eu'>XeniT</a> and <a href='http://www.alfresco.com'>Alfresco</a>."
+		}
+	]
+},
+{
 	"name": "Boriss",
 	"surname": "Mejías",
 	"position": "Holistic System Software Engineer",

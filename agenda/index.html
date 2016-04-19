@@ -111,7 +111,14 @@
                 <tr ng-repeat="slot in day.slots">
                   <td class="time">{{slot.time}}</td>
                   <!-- Networking for 3 columns -->
-                  <td ng-repeat="session in slot.sessions" ng-show="(session.place == 'Social Party' && session.id != '' ) || (session.place == 'Atrium' && session.id != '')" colspan="3" class="networking" ><strong>{{session.id}}</strong></td>
+                  <td ng-repeat="session in slot.sessions" ng-show="(session.place == 'Social Party' && session.id != '' ) || (session.place == 'Atrium' && session.id != '')" colspan="3" class="networking" >
+                  <div ng-show="session.id.indexOf('2') == 0">
+                      <a href="" ng-click="open(session)"><strong>{{session.title}}</strong></a>
+                  </div>
+                  <div ng-show="session.id.indexOf('2') == -1">
+                      <strong>{{session.id}}</strong>
+                  </div>
+                  </td>
                   <!-- Auditorium -->
                   <td ng-repeat="session in slot.sessions" class="session" ng-show="session.place == 'Auditorium' && !session.length && session.id != ''"><a href="" ng-click="open(session)"><strong>{{session.title}}</strong></a><span ng-show="session.speakers"><br/>by <span ng-repeat="speaker in session.speakers"><span ng-if="!$first">, </span><a href="" ng-click="open2(speaker)">{{speaker.name}} {{speaker.surname}}</a></span></td>
                   <td ng-repeat="session in slot.sessions" class="session" ng-show="session.place == 'Auditorium' && session.length==2" rowspan="2"><a href="" ng-click="open(session)"><strong>{{session.title}}</strong></a><span ng-show="session.speakers"><br/>by <span ng-repeat="speaker in session.speakers"><span ng-if="!$first">, </span><a href="" ng-click="open2(speaker)">{{speaker.name}} {{speaker.surname}}</a></span></td>
