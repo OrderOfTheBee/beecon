@@ -2,17 +2,21 @@
 
 body {
 	margin: auto;
-	padding-top: 30px; 
+	padding-top: 30px;
 	text-align: justify;
 }
 
 a.black:hover, a.black:focus, a.black {
-	text-decoration: none; 
+	text-decoration: none;
 	color: #3a3a3a;
 }
-
+a.white:hover, a.white:focus, a.white {
+	text-decoration: none;
+	color: #fff;
+	border-color: #fff;
+}
 a.btn {
-	text-decoration: none; 
+	text-decoration: none;
 }
 h1 {
 	margin-top: 40px;
@@ -74,8 +78,8 @@ div.hackathon {
   border:2px solid #fff;
   width: 400px;
   height: 300px;
-  -moz-box-shadow: inset 0px 0px 20px 15px #fff; 
-  -webkit-box-shadow: inset 0px 0px 20px 15px #fff; 
+  -moz-box-shadow: inset 0px 0px 20px 15px #fff;
+  -webkit-box-shadow: inset 0px 0px 20px 15px #fff;
   box-shadow: inset 0px 0px 20px 15px #fff;
 }
 
@@ -149,7 +153,7 @@ header {
 }
 
 .navbar-default .navbar-nav>li>a {
-    padding-top: 10px; 
+    padding-top: 10px;
     padding-bottom: 5px;
     font-weight: 600;
     text-transform: uppercase;
@@ -207,19 +211,19 @@ div.modal-body > div > div.col-md-6 {
 /* sections specific */
 
 .bg-lg {
-	background: url(/assets/img/bg.jpg) no-repeat center center scroll; 
+	background: url(/assets/img/bg.jpg) no-repeat center center scroll;
 }
 
 /*.bg-md {
-	background: url(/assets/img/bg2.jpg) no-repeat center center scroll; 
+	background: url(/assets/img/bg2.jpg) no-repeat center center scroll;
 }
 
 .bg-sm {
-	background: url(/assets/img/bg3.jpg) no-repeat center center scroll; 
+	background: url(/assets/img/bg3.jpg) no-repeat center center scroll;
 }
 
 .bg-xs {
-	background: url(/assets/img/bg4.jpg) no-repeat center center scroll; 
+	background: url(/assets/img/bg4.jpg) no-repeat center center scroll;
 }*/
 
 #home {
