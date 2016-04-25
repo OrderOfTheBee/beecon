@@ -38,6 +38,33 @@
 	]
 },
 {
+	"name": "Order",
+	"surname": "of the Bee",
+	"position": "Order of the Bee",
+	"company": "Order of the Bee",
+	"companyUrl": "",
+	"image": "OrderoftheBee.png",
+	"summary":"null",
+	"talks":[
+		{
+			"id": "20160419001",
+			"topic": "Networking",
+			"title": "Welcome drinks",
+			"type": "Social event",
+			"targetAudience": "A relaxing social event to get to know other attendees. Come to the <a href='http://www.beerproject.be/en/sections/9-contact'>brewery</a> to taste Belgian beer and to meet BeeCon attendees. Party is sponsored by <a href='http://keensoft.es'>keensoft</a>.",
+			"abstract": "A relaxing social event to get to know other attendees. Come to the <a href='http://www.beerproject.be/en/sections/9-contact'>brewery</a> to taste Belgian beer and to meet BeeCon attendees. Party is sponsored by <a href='http://keensoft.es'>keensoft</a>."
+		},
+		{
+			"id": "20160419002",
+			"topic": "Networking",
+			"title": "Party",
+			"type": "Social event",
+			"targetAudience": "A relaxing social event to get to know other attendees. Come to La Fabbrica restaurant next to the conference venue to collaborate with other BeeCon attendees. Party is sponsored by <a href='http://xenit.eu'>XeniT</a> and <a href='http://www.alfresco.com'>Alfresco</a>.",
+			"abstract": "A relaxing social event to get to know other attendees. Come to La Fabbrica restaurant next to the conference venue to collaborate with other BeeCon attendees. Party is sponsored by <a href='http://xenit.eu'>XeniT</a> and <a href='http://www.alfresco.com'>Alfresco</a>."
+		}
+	]
+},
+{
 	"name": "Ian",
 	"surname": "Wright",
 	"position": "Principle Scientific Software Developer",
@@ -426,7 +453,7 @@
 			"title": "Running Alfresco under docker",
 			"type": "20 minutes (Full Talk)",
 			"targetAudience": "Business Users, Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
-			"abstract": "Showing a possible approach on how to run Alfresco in docker containers. How to backup, restore, configure. How to quickly deploy on cloud platforms. <br/>"
+			"abstract": "Showing a possible approach on how to run Alfresco in docker containers. <br/>"
 		}
 	]
 },
@@ -587,33 +614,6 @@
 			"type": "20 minutes (Full Talk)",
 			"targetAudience": "Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
 			"abstract": "Organizations often wish to use Alfresco as the back-end repository for a number of diverse business applications. However straightforward this requirement, the technical implementation is often a challenge since these applications all require specific front-end customisations. When deploying multiple customized Share front-end for these business applications, some aspects such as workflows, dashboards, etc. cannot be easily separated.<br/><br/>One option is building your front-end applications from scratch, but that ignores the wealth of functionality that is available in Share out-of-the-box. Moreover some organizations already use Share as a front-end and would like to keep a consistent experience for their users.<br/><br/>In this talk we share our experience on using multiple customized Share instances as business application front-end on the same Alfresco repository. Some potential pitfalls when developing such solutions are:<br/><br/>* The use of specific personal dashboards for each application, which conflicts with the current single dashboard configuration within Alfresco<br/><br/>* The definition of application-specific workflows, which conflicts with Share’s default behavior of showing all defined workflows<br/><br/>* Out-of-the-box dashlets whose queries are not limited to your application scope.<br/><br/>* …<br/><br/>This talk will give an overview of some of the more dangerous pitfalls we encountered, how we solved them and what best practices to keep in mind.<br/>"
-		}
-	]
-},
-{
-	"name": "Order",
-	"surname": "of the Bee",
-	"position": "Order of the Bee",
-	"company": "Order of the Bee",
-	"companyUrl": "",
-	"image": "OrderoftheBee.png",
-	"summary":"null",
-	"talks":[
-		{
-			"id": "20160419001",
-			"topic": "Networking",
-			"title": "Welcome drinks",
-			"type": "Welcome drinks",
-			"targetAudience": "A relaxing social event to get to know other attendees. Come to the <a href='http://www.beerproject.be/en/sections/9-contact'>brewery</a> to taste Belgian beer and to meet BeeCon attendees. Party is sponsored by <a href='http://keensoft.es'>keensoft</a>.",
-			"abstract": "A relaxing social event to get to know other attendees. Come to the <a href='http://www.beerproject.be/en/sections/9-contact'>brewery</a> to taste Belgian beer and to meet BeeCon attendees. Party is sponsored by <a href='http://keensoft.es'>keensoft</a>."
-		},
-		{
-			"id": "20160419002",
-			"topic": "Networking",
-			"title": "Party",
-			"type": "Party",
-			"targetAudience": "A relaxing social event to get to know other attendees. Come to La Fabbrica restaurant next to the conference venue to collaborate with other BeeCon attendees. Party is sponsored by <a href='http://xenit.eu'>XeniT</a> and <a href='http://www.alfresco.com'>Alfresco</a>.",
-			"abstract": "A relaxing social event to get to know other attendees. Come to La Fabbrica restaurant next to the conference venue to collaborate with other BeeCon attendees. Party is sponsored by <a href='http://xenit.eu'>XeniT</a> and <a href='http://www.alfresco.com'>Alfresco</a>."
 		}
 	]
 },
