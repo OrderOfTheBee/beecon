@@ -125,7 +125,7 @@
 			"title": "Busines Activity Monitoring, a sample use case",
 			"type": "20 minutes (Full Talk)",
 			"targetAudience": "Business Users, Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
-			"abstract": "Sample Activiti workflow, with multiple KPIs in it + a dedicated dashboard for monitoring those indicators<br/>"
+			"abstract": "Business activity monitoring (BAM)�describes the processes and technologies that enhance situation awareness and enable analysis of critical business performance indicators based on real-time data. BAM is used to improve the speed and effectiveness of business operations by keeping track of what is happening and making issues visible quickly. It is a real-time, event-driven concept that is subtle but powerful. Enabling managers to compute high-level, complex event aggregates and thresholds to make better informed, strategic decisions.�<br/><br/>In this session we will dive into the BAM concept and explore a way into BAM implementation inside Alfresco & Activiti, guided by a real life usecase.<br/>"
 		}
 	]
 },
@@ -293,7 +293,7 @@
 	"company": "2ndQuadrant",
 	"companyUrl": "",
 	"image": "GianniCiolli.png",
-	"summary":"I'm quite new to Alfresco, as my expertise is on databases, and in particular PostgreSQL, with which I have been working for almost a decade.<br/><br/>I believe Alfresco can benefit a lot from PostgreSQL by going beyond a default installation; so I will present topics such as Point-In-Time Recovery, High Availability/Replication, simple database management and performance optimisation (some or all depending on the length of<br/>the talk).<br/><br/>My profile suits this topic in view of my experience as a speaker in several PostgreSQL conferences, in Europa and USA, with talks that covered general overviews as well as specific topics.<br/><br/>I always enjoy to take questions from the audience and discuss specific points in more detail, either during the talk or after.<br/>",
+	"summary":"I'm quite new to Alfresco, as my expertise is on databases, and in particular PostgreSQL, with which I have been working for almost a decade.<br/><br/>I believe Alfresco can benefit a lot from PostgreSQL by going beyond a default installation; so I will present topics such as Point-In-Time Recovery, High Availability/Replication, simple database management and performance optimisation.<br/><br/>My profile suits this topic in view of my experience as a speaker in several PostgreSQL conferences, in Europa and USA, with talks that covered general overviews as well as specific topics.<br/><br/>I always enjoy to take questions from the audience and discuss specific points in more detail, either during the talk or after.<br/><br/>I work for 2ndQuadrant (http://www.2ndQuadrant.com), global experts in PostgreSQL support, training, development, migration and consultancy.<br/><br/>@GianniCiolli is my Twitter account.<br/>",
 	"talks":[
 		{
 			"id": "20160125019",
@@ -548,7 +548,7 @@
 			"title": "REST API of the future",
 			"type": "20 minutes (Full Talk)",
 			"targetAudience": "Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
-			"abstract": "Alfresco Repository comes with a great REST API but some of these API's can be difficult to navigate and use. <br/><br/>But Alfresco will show us about the future of REST API's, where the market is moving and how we are embracing this future at Alfresco.<br/>"
+			"abstract": "Alfresco Repository comes with a great REST API but some of these API's can be difficult to navigate and use. <br/><br/>But Alfresco will show us about the future of REST API's, where the market is moving and how we are embracing this future at Alfresco. <br/><br/>Come and see how straightforward it will soon be to manage files, folders, custom node types, shared links and much more. The future is closer than you think !<br/>"
 		}
 	]
 },
