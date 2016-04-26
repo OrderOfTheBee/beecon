@@ -632,7 +632,7 @@
 	"hour": "14:35 - 14:55",
 	"room": "Sylva",
 	"targetAudience": "Business Users, Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
-	"abstract": "Showing a possible approach on how to run Alfresco in docker containers. How to backup, restore, configure. How to quickly deploy on cloud platforms. <br/>",
+	"abstract": "Showing a possible approach on how to run Alfresco in docker containers. <br/>",
 	"speakers":[
 		{
 			"name": "Mikel",
@@ -1155,7 +1155,7 @@
 	"id": "20160419001",
 	"topic": "Networking",
 	"title": "Welcome drinks",
-	"type": "Welcome drinks",
+	"type": "Social event",
 	"day": "April 27",
 	"hour": "19:30 - 22:00",
 	"room": "Social Party",
@@ -1177,7 +1177,7 @@
 	"id": "20160419002",
 	"topic": "Networking",
 	"title": "Party",
-	"type": "Party",
+	"type": "Social event",
 	"day": "April 28",
 	"hour": "19:00 - 22:00",
 	"room": "Social Party",
