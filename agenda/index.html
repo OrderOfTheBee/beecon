@@ -34,6 +34,11 @@
   <script type="text/javascript" src="/assets/js/addtocalendar.min.js"></script>
   <script type="text/javascript" src="/assets/js/download.min.js"></script>
   <script type="text/javascript" src="/assets/js/app.js"></script>
+
+  <script type="text/javascript" src="//newsharecounts.s3-us-west-2.amazonaws.com/nsc.js"></script>
+  <script type="text/javascript">window.newShareCountsAuto="smart";</script>
+
+
   <header></header>       
 	
   <section id="schedule" ng-controller="AgendaCtrl">
@@ -41,6 +46,9 @@
       <div class="modal-header">
         <h4 class="text-center">{{item.title}}</h4>
         <p class="text-center" ng-show="item.type!='Party'&&item.type!='Welcome drinks'">{{item.type}}</p>
+        <p class="text-center lead">
+            <a class="label label-twitter" target="_blank" ng-href="/talks?id={{item.id}}">Tweet in new window</a>
+        </p>
       </div>
       <div class="modal-body">
         <p class="text-right lead"><span class="label label-warning">{{item.place}} at {{item.time}} on {{item.date}}</span>&nbsp;&nbsp;&nbsp;<span class="label label-default">{{item.topic}}</span></p>
