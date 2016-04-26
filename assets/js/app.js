@@ -68,13 +68,13 @@ app.controller('AgendaCtrl', ['$scope', '$http', '$location', '$filter',  '$time
       $.each(day.slots, function(index2, slot) {
         var startTime = slot.time.split(' ')[0];
         var hour = slot.time.split(' ')[0].split(':')[0];
-        if (hour.length == 1) { 
+        if (hour.length == 1) {
           hour = "0" + hour;
         }
         startDate = date + hour + slot.time.split(' ')[0].split(':')[1];
         var endTime = slot.time.split(' ')[2];
         var hour = slot.time.split(' ')[2].split(':')[0];
-        if (hour.length == 1) { 
+        if (hour.length == 1) {
           hour = "0" + hour;
         }
         endDate = date + hour + slot.time.split(' ')[2].split(':')[1];
@@ -82,7 +82,7 @@ app.controller('AgendaCtrl', ['$scope', '$http', '$location', '$filter',  '$time
           session.startDate = startDate + "00";
           if (session["length"] == 2) {
             var hour = day.slots[index2+1].time.split(' ')[2].split(':')[0]
-            if (hour.length == 1) { 
+            if (hour.length == 1) {
               hour = "0" + hour;
             }
             var endDate2 = date + hour + day.slots[index2+1].time.split(' ')[2].split(':')[1] + "00";
@@ -206,3 +206,22 @@ app.directive("footer", function() {
        templateUrl: "/elements/footer.html"
     };
 });
+
+app.directive('twitter', [
+    function() {
+        return {
+            link: function(scope, element, attr) {
+                setTimeout(function() {
+                        twttr.widgets.createShareButton(
+                            attr.url,
+                            element[0],
+                            function(el) {}, {
+                                count: 'none',
+                                text: attr.text
+                            }
+                        );
+                });
+            }
+        }
+    }
+]);
