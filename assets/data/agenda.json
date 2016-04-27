@@ -127,7 +127,7 @@
 				"time": "10:40 - 11:20",
 				"sessions": [
 					{
-						"id": "Break: BoF",
+						"id": "Break",
 						"place": "Atrium"
 					}
 					,
@@ -368,7 +368,7 @@
 				"time": "15:50 - 16:30",
 				"sessions": [
 					{
-						"id": "Break",
+						"id": "Break (BoF in Sylva: Alfresco and Transactions)",
 						"place": "Atrium"
 					}
 					,
@@ -543,7 +543,7 @@
 				"time": "10:40 - 11:20",
 				"sessions": [
 					{
-						"id": "Break",
+						"id": "Break (BoF in Sylva: Alfresco APIs and Frameworks)",
 						"place": "Atrium"
 					}
 					,
@@ -553,7 +553,7 @@
 					}
 					,
 					{
-						"id": "",
+						"id": "Alfresco APIs and Frameworks",
 						"place": "Sylva"
 					}
 					,
@@ -817,7 +817,7 @@
 				"time": "15:50 - 16:30",
 				"sessions": [
 					{
-						"id": "Break",
+						"id": "Break (BoF in Sylva: Discussing Activiti)",
 						"place": "Atrium"
 					}
 					,
