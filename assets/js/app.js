@@ -113,6 +113,7 @@ app.controller('AgendaCtrl', ['$scope', '$http', '$location', '$filter',  '$time
               if (i[0].topic[0] != "2") {
                 session.topic = i[0].topic;
               }
+              session.files = i[0].files;
             } else {
               session.title = session.id;
             }
