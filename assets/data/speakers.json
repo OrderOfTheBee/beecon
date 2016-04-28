@@ -25,7 +25,7 @@
 	"company": "Xenit Solutions",
 	"companyUrl": "",
 	"image": "MichielHuygen.png",
-	"summary":"ECM Software Architect at Xenit.<br/>",
+	"summary":"ECM Software Architect with one year of Alfresco experience at Xenit.<br/>",
 	"talks":[
 		{
 			"id": "20160125102",
@@ -125,7 +125,7 @@
 			"title": "Busines Activity Monitoring, a sample use case",
 			"type": "20 minutes (Full Talk)",
 			"targetAudience": "Business Users, Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
-			"abstract": "Business activity monitoring (BAM)�describes the processes and technologies that enhance situation awareness and enable analysis of critical business performance indicators based on real-time data. BAM is used to improve the speed and effectiveness of business operations by keeping track of what is happening and making issues visible quickly. It is a real-time, event-driven concept that is subtle but powerful. Enabling managers to compute high-level, complex event aggregates and thresholds to make better informed, strategic decisions.�<br/><br/>In this session we will dive into the BAM concept and explore a way into BAM implementation inside Alfresco & Activiti, guided by a real life usecase.<br/>"
+			"abstract": "Business activity monitoring (BAM) describes the processes and technologies that enhance situation awareness and enable analysis of critical business performance indicators based on real-time data. BAM is used to improve the speed and effectiveness of business operations by keeping track of what is happening and making issues visible quickly. It is a real-time, event-driven concept that is subtle but powerful. Enabling managers to compute high-level, complex event aggregates and thresholds to make better informed, strategic decisions.<br/><br/>In this session we will dive into the BAM concept and explore a way into BAM implementation inside Alfresco & Activiti, guided by a real life usecase.<br/>"
 		}
 	]
 },
