@@ -706,6 +706,11 @@
 	"targetAudience": "Business Users, Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
 	"abstract": "Welcome session. Why are we here? What is BeeCon? What will we do next two-three days and why will it be cool?<br/>",
 	"files":[
+
+		{
+			"name": "Welcome_to_beecon.pdf",
+			"path": "/assets/data/files/20160125037/Welcome_to_beecon.pdf"
+		}
 	],
 	"speakers":[
 		{
@@ -1194,6 +1199,11 @@
 	"targetAudience": "Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
 	"abstract": "Alfresco Repository comes with a great REST API but some of these API's can be difficult to navigate and use. <br/><br/>But Alfresco will show us about the future of REST API's, where the market is moving and how we are embracing this future at Alfresco. <br/><br/>Come and see how straightforward it will soon be to manage files, folders, custom node types, shared links and much more. The future is closer than you think !<br/>",
 	"files":[
+
+		{
+			"name": "Alfresco_REST_API_of_the_future_BeeCon2016.pdf",
+			"path": "/assets/data/files/20160401001/Alfresco_REST_API_of_the_future_BeeCon2016.pdf"
+		}
 	],
 	"speakers":[
 		{
