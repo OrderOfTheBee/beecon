@@ -184,6 +184,11 @@
 	"targetAudience": "System Administrators, Architects and Technical Managers",
 	"abstract": "If you are running Alfresco in production, you most probably take backups of your system on a regular basis. But how often do you test your backups? How do you test them? When was the last time you run a recovery test? In this presentation we describe our strategy at CIRB-CIBG with regular and automated recovery tests, so that we identify as quickly as possible if something is going wrong with our backups. We are interested in knowing what is other people's strategy and share ideas and experiences.<br/>",
 	"files":[
+
+		{
+			"name": "BeeCon2016_Lightning_Bee_Mejias.pptx",
+			"path": "/assets/data/files/20160125010/BeeCon2016_Lightning_Bee_Mejias.pptx"
+		}
 	],
 	"speakers":[
 		{
