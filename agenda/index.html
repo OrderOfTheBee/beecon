@@ -57,14 +57,12 @@
             </p>
           </div>
         </div>
-	    <div class="row">
           <div ng-if="item.files.length > 0">
             <h4 class="text-left"><small>Resources</small></h4>
             <div ng-repeat="file in item.files">
-              <a target="_self" href="{{file.path}}" download="{{file.name}}">{{file.name}}</a>
+              <a target="_target" ng-href="{{file.path}}">{{file.name}}</a>
             </div>
           </div>
-	    </div>
       </div>
       <div class="modal-footer">
         <div class="pull-right">

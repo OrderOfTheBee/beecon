@@ -12,8 +12,8 @@
 	"files":[
 
 		{
-			"name": "20160125001 BeeCon2016 Vasyukov - Demo.webm",
-			"path": "/assets/data/files/20160125001/20160125001 BeeCon2016 Vasyukov - Demo.webm"
+			"name": "Alfresco Repositories Federation Demo (Youtube video)",
+			"path": "https://youtu.be/m_YtIKpU7iw"
 		}
 ,
 		{
@@ -170,6 +170,11 @@
 			"name": "BeeCon2016_Presentation_Template_BWv2.pdf",
 			"path": "/assets/data/files/20160125009/BeeCon2016_Presentation_Template_BWv2.pdf"
 		}
+,
+		{
+			"name": "Generator Alfresco for BeeCon (Youtube video)",
+			"path": "https://youtu.be/NMpY5holacQ"
+		}
 	],
 	"speakers":[
 		{
@@ -227,6 +232,11 @@
 		{
 			"name": "BeeCon2016_Lightning_20160125011_LearningMachine&Alfresco.pdf",
 			"path": "/assets/data/files/20160125011/BeeCon2016_Lightning_20160125011_LearningMachine&Alfresco.pdf"
+		}
+,
+		{
+			"name": "Machine Learning Platform for Alfresco Media Content Images & Videos (Youtube video)",
+			"path": "https://youtu.be/9CYdPUhBpE0"
 		}
 	],
 	"speakers":[

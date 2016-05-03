@@ -77,7 +77,7 @@
           <div ng-if="talk.files.length > 0">
             <h4 class="text-left">Resources</h4>
             <div ng-repeat="file in talk.files">
-              <a target="_self" href="{{file.path}}" download="{{file.name}}">{{file.name}}</a>
+              <a target="_blank" ng-href="{{file.path}}">{{file.name}}</a>
             </div>
           </div>
       </div>
