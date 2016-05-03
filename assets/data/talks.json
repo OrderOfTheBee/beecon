@@ -10,6 +10,16 @@
 	"targetAudience": "Experienced Alfresco developers, Architects and Technical Managers",
 	"abstract": "Building a single content platform for few dozens quite loaded applications is a complex task. It becomes even worse, if application developers are not sure about expected load and content structure in the next few years. This talk concentrates on two aspects of this challenge.<br/><br/>* Clustering and sharding - different solutions for different problems. Sharding Alfresco - reasons and implementation. Building federation proxy to aggregate multiple independent Alfresco repositories and provide a single API entry point on top of them. Live technical experience only - issues, solutions, limitations, lessons learned. Live benchmark data included.<br/><br/>* Handling complex search queries on top of sharded installation. A lot of search use cases are not covered with out of the box flat SOLR indexing. Sometimes users need to search complex nested objects, not just files. (It's more or less about indexing associations - 'I'd like to find all cases (node A), created by the company (node B) with name matching this, and containing child documents (nodes C) registered not later than that date' - it's quite hard to match this query having only nodes properties in the index.) We implemented an external SOLR Cloud integrated with sharded Alfresco installation to serve such complex search requests using custom indexing logic based on SOLR nested objects. In this talk we will cover reasons for such custom indexing architecture, and share an experience of its implementation.<br/><br/>Bonuses:<br/>* Short live demo - Share UI on top of sharded Alfresco<br/>* Call for community participation - let's turn this experience into open source project<br/>",
 	"files":[
+
+		{
+			"name": "20160125001 BeeCon2016 Vasyukov - Demo.webm",
+			"path": "/assets/data/files/20160125001/20160125001 BeeCon2016 Vasyukov - Demo.webm"
+		}
+,
+		{
+			"name": "20160125001 BeeCon2016 Vasyukov.pdf",
+			"path": "/assets/data/files/20160125001/20160125001 BeeCon2016 Vasyukov.pdf"
+		}
 	],
 	"speakers":[
 		{
@@ -411,6 +421,11 @@
 	"targetAudience": "Business Users, Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
 	"abstract": "Everyone does it when starting to use Alfresco as a DMS but unfortunately somehow different: <br/>Creating a custom model<br/><br/>This may cause room for disappointments for several reasons (poor support for model changes, hard to combine solutions, time intensive work)<br/>The session will introduce a best practice model for business documents which ecm4u created from the experience of the last 5 years and explains the concepts, pitfaults and how to get use it. The model is publised on github and is meant as a starting point for coworking on a growing, documented, reusable document model for alfresco.<br/>We don't want to waste time with models and forms - let's create and combine solutions! ;-)<br/>",
 	"files":[
+
+		{
+			"name": "BeeCon2016_20160125023_BusinessDocumentModel.pdf",
+			"path": "/assets/data/files/20160125023/BeeCon2016_20160125023_BusinessDocumentModel.pdf"
+		}
 	],
 	"speakers":[
 		{
@@ -579,6 +594,11 @@
 		{
 			"name": "BeeCon2016_HoneyCombBeyond.odp",
 			"path": "/assets/data/files/20160125031/BeeCon2016_HoneyCombBeyond.odp"
+		}
+,
+		{
+			"name": "Script Honeycomb and Beyond.pdf",
+			"path": "/assets/data/files/20160125031/Script Honeycomb and Beyond.pdf"
 		}
 	],
 	"speakers":[
