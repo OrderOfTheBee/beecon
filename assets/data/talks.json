@@ -1089,6 +1089,11 @@
 	"targetAudience": "Business Users, Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
 	"abstract": "Business activity monitoring (BAM) describes the processes and technologies that enhance situation awareness and enable analysis of critical business performance indicators based on real-time data. BAM is used to improve the speed and effectiveness of business operations by keeping track of what is happening and making issues visible quickly. It is a real-time, event-driven concept that is subtle but powerful. Enabling managers to compute high-level, complex event aggregates and thresholds to make better informed, strategic decisions.<br/><br/>In this session we will dive into the BAM concept and explore a way into BAM implementation inside Alfresco & Activiti, guided by a real life usecase.<br/>",
 	"files":[
+
+		{
+			"name": "BeeCon2016_Presentation_20160125057_slides.pdf",
+			"path": "/assets/data/files/20160125057/BeeCon2016_Presentation_20160125057_slides.pdf"
+		}
 	],
 	"speakers":[
 		{
