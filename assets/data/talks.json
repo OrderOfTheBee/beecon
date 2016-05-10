@@ -267,6 +267,11 @@
 			"name": "BeeCon2016_Lightning_Alfresco_Engineering.pdf",
 			"path": "/assets/data/files/20160125013/BeeCon2016_Lightning_Alfresco_Engineering.pdf"
 		}
+,
+		{
+			"name": "BeeCon2016_Lightning_Alfresco_Engineering.pptx",
+			"path": "/assets/data/files/20160125013/BeeCon2016_Lightning_Alfresco_Engineering.pptx"
+		}
 	],
 	"speakers":[
 		{
@@ -295,6 +300,11 @@
 		{
 			"name": "Extending Share - from the outside in.pdf",
 			"path": "/assets/data/files/20160125014/Extending Share - from the outside in.pdf"
+		}
+,
+		{
+			"name": "Extending Share - from the outside in.pptx",
+			"path": "/assets/data/files/20160125014/Extending Share - from the outside in.pptx"
 		}
 	],
 	"speakers":[
@@ -489,6 +499,11 @@
 			"name": "SSO_with_CAS.pdf",
 			"path": "/assets/data/files/20160125026/SSO_with_CAS.pdf"
 		}
+,
+		{
+			"name": "SSO_with_CAS.pptx",
+			"path": "/assets/data/files/20160125026/SSO_with_CAS.pptx"
+		}
 	],
 	"speakers":[
 		{
@@ -644,7 +659,6 @@
 	"targetAudience": "Developers starting to work with Alfresco, Experienced Alfresco developers",
 	"abstract": "The automation of setting permissions is probably one of the most common extension of Alfresco. To achieve this, Alfresco provides extension points such behaviors coupled with the permission service which allows already many possibilities. However, this logic can be really complex especially when the permissions are set at documents-level. Permissions might depend on meta-data, on external data, can be temporary, even the logic itself could change frequently.  Also, in an enterprise environment Alfresco is probably not the only application developed. You might already have business rules in place about permissions that you want to reuse. In a project at CERN, we decided to externalize all this logic in a Business Rules Engine, and then to interface it with Alfresco. <br/>",
 	"files":[
-
 		{
 			"name": "BeeCon2016_Lightning_Presentation_smasue.pptx",
 			"path": "/assets/data/files/20160125032/BeeCon2016_Lightning_Presentation_smasue.pptx"
@@ -743,8 +757,8 @@
 	"files":[
 
 		{
-			"name": "Welcome_to_beecon.pdf",
-			"path": "/assets/data/files/20160125037/Welcome_to_beecon.pdf"
+			"name": "Welcome_to_beecon2016ready.pdf",
+			"path": "/assets/data/files/20160125037/Welcome_to_beecon2016ready.pdf"
 		}
 	],
 	"speakers":[
@@ -886,6 +900,11 @@
 	"targetAudience": "Developers starting to work with Alfresco, Experienced Alfresco developers",
 	"abstract": "The Alfresco product development team recognizes that we need to improve at collaborating with our open source community and accepting contributions. This session continues our conversation on this topic by hosting a panel discussion with various members of the Alfresco product development team and leaders in the open source community.<br/><br/>The session will be moderated by Richard Esplin from Alfresco Product Management, and Boriss Mejias from the Order of the Bee. Topics will include a report from Alfresco Software on changes they have made to make it easier to contribute, the current contribution process, obstacles to contribution, and a discussion on how the contribution process can be further improved.<br/>",
 	"files":[
+
+		{
+			"name": "Beecon2016_panel.pdf",
+			"path": "/assets/data/files/20160125046/Beecon2016_panel.pdf"
+		}
 	],
 	"speakers":[
 		{
@@ -982,6 +1001,11 @@
 		{
 			"name": "slanglois-BeeCon2016-SeparatingPlatformAndShare.pdf",
 			"path": "/assets/data/files/20160125051/slanglois-BeeCon2016-SeparatingPlatformAndShare.pdf"
+		}
+,
+		{
+			"name": "slanglois-BeeCon2016-SeparatingPlatformAndShare.pptx",
+			"path": "/assets/data/files/20160125051/slanglois-BeeCon2016-SeparatingPlatformAndShare.pptx"
 		}
 	],
 	"speakers":[
