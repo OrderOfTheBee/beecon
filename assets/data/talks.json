@@ -1509,5 +1509,34 @@
 			"summary":"null"
 		}
 	]
+},
+{
+	"id": "20160510001",
+	"topic": "Community",
+	"title": "Q&A Alfresco engineers and OOTBee key members",
+	"type": "40 minutes (Full talk)",
+	"day": "April 29",
+	"hour": "17:15 - 18:00",
+	"room": "Auditorium",
+	"targetAudience": "Questions and answer session.",
+	"abstract": "Questions and answer session.",
+	"files":[
+
+		{
+			"name": "Beecon2016_closing.pdf",
+			"path": "/assets/data/files/20160510001/Beecon2016_closing.pdf"
+		}
+	],
+	"speakers":[
+		{
+			"name": "Order",
+			"surname": "of the Bee",
+			"position": "Order of the Bee",
+			"company": "Order of the Bee",
+			"companyUrl": "",
+			"image": "OrderoftheBee.png",
+			"summary":"null"
+		}
+	]
 }
 ]

@@ -61,6 +61,14 @@
 			"type": "Social event",
 			"targetAudience": "A relaxing social event to get to know other attendees. Come to La Fabbrica restaurant next to the conference venue to collaborate with other BeeCon attendees. Party is sponsored by <a href='http://xenit.eu'>XeniT</a> and <a href='http://www.alfresco.com'>Alfresco</a>.",
 			"abstract": "A relaxing social event to get to know other attendees. Come to La Fabbrica restaurant next to the conference venue to collaborate with other BeeCon attendees. Party is sponsored by <a href='http://xenit.eu'>XeniT</a> and <a href='http://www.alfresco.com'>Alfresco</a>."
+		},
+		{
+			"id": "20160510001",
+			"topic": "Community",
+			"title": "Q&A Alfresco engineers and OOTBee key members",
+			"type": "40 minutes (Full talk)",
+			"targetAudience": "Questions and answer session.",
+			"abstract": "Questions and answer session."
 		}
 	]
 },
