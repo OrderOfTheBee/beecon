@@ -1147,6 +1147,10 @@
 	"targetAudience": "Business Users, Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
 	"abstract": "We'll be presenting a case study of a Electronic Engineering company who uses an ERP system to manage their work and we've:<br/>- Integrated Alfresco with their ERP system<br/>- Migrated their network drive<br/>- Use of mobile devices to get data into Alfresco<br/><br/>In the future:<br/>- Use Ephesoft to classify data<br/>- Use mobile devices to fetch data directly from Alfresco<br/>",
 	"files":[
+		{
+			"name": "BeeCon2016_Activiti Workflow.pptx",
+			"path": "/assets/data/files/20160125059/BeeCon2016_Activiti Workflow.pptx"
+		}	
 	],
 	"speakers":[
 		{
