@@ -388,6 +388,10 @@
 	"targetAudience": "System Administrators, Experienced Alfresco developers, Architects and Technical Managers",
 	"abstract": "The default installation of Alfresco includes a basic installation of PostgreSQL, which already works well for several scenarios. But you can do much better with PostgreSQL, improving the performance of Alfresco, and making things easier to maintain.<br/><br/>In this presentation you will see how to design a robust solution for a highly-available database; how to take your backups and do auditing analysis without impacting production performance; how to recover Alfresco's database just before the point of a critical user mistake, instead of back to your nightly snapshot.<br/><br/>If you feel (or someone told you) that PostgreSQL is hard to administrate, we will show you why PostgreSQL is actually DBA-friendly. It has excellent documentation and a great community ready to help. In this presentation you will understand how this forever free database will help you to improve your Alfresco.<br/>",
 	"files":[
+		{
+			"name": "PostgreSQL_what_you_should_know_to_improve_your_Alfresco.pdf",
+			"path": "/assets/data/files/20160125019/PostgreSQL_what_you_should_know_to_improve_your_Alfresco.pdf"
+		}	
 	],
 	"speakers":[
 		{
