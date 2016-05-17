@@ -822,7 +822,11 @@
 	"targetAudience": "Business Users, Newbies in Alfresco technologies, Developers starting to work with Alfresco, Architects and Technical Managers",
 	"abstract": "Bata is a worldwide shoe manufacturer and distributor. We are making and selling them in around 70 countries in our own shop.<br/>In 2013, we built a Shared Service Centre in Europe to consolidate in one place all suppliers invoices. Part of the invoicing system, it has been decided to use Alfresco as document repository of european countries.<br/>The aim of this talk is to present the decisions and challenges that came to choose Alfresco, the way it has been integrated, and also the future of Alfresco within the company.<br/>",
 	"files":[
-	],
+		{
+			"name": "BeeCon2016_Bata.pdf",
+			"path": "/assets/data/files/20160125039/BeeCon2016_Bata.pdf"
+		}
+    ],
 	"speakers":[
 		{
 			"name": "Olivier",
