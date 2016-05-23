@@ -474,6 +474,10 @@
 	"targetAudience": "System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
 	"abstract": "In real live it is a very good idea to put Alfresco behind a reverse proxy (easier adminstration, better control access, speed up the system using several caching strategies)<br/>The session compares different concepts and the differences using Apache vs. Nginx and show hints and tricks to get this done.<br/>",
 	"files":[
+		{
+			"name": "BeeCon2016_20160125025_Reverse-Proxy.pdf",
+			"path": "/assets/data/files/20160125025/BeeCon2016_20160125025_Reverse-Proxy.pdf"
+		}		
 	],
 	"speakers":[
 		{
