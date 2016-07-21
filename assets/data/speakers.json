@@ -61,6 +61,14 @@
 			"type": "Social event",
 			"targetAudience": "A relaxing social event to get to know other attendees. Come to La Fabbrica restaurant next to the conference venue to collaborate with other BeeCon attendees. Party is sponsored by <a href='http://xenit.eu'>XeniT</a> and <a href='http://www.alfresco.com'>Alfresco</a>.",
 			"abstract": "A relaxing social event to get to know other attendees. Come to La Fabbrica restaurant next to the conference venue to collaborate with other BeeCon attendees. Party is sponsored by <a href='http://xenit.eu'>XeniT</a> and <a href='http://www.alfresco.com'>Alfresco</a>."
+		},
+		{
+			"id": "20160510001",
+			"topic": "Community",
+			"title": "Q&A Alfresco engineers and OOTBee key members",
+			"type": "40 minutes (Full talk)",
+			"targetAudience": "Questions and answer session.",
+			"abstract": "Questions and answer session."
 		}
 	]
 },
@@ -540,7 +548,7 @@
 	"company": "Alfresco",
 	"companyUrl": "",
 	"image": "JanVonka.png",
-	"summary":"Jan Vonka has 20+ years experience as a senior dev lead and manager. He has been a member of Alfresco's dev team for 9 years, designing & building enterprise repository infrastructure and platform services that support a variety of app areas; including ECM, RM, WCM, Collaboration & Case Management. He has helped to architect and develop Alfresco's cloud services. Most recently he has been working on extending and improving the Alfresco Platform APIs. Jan has previously worked at Oracle (both in the UK and US) developing CASE design tools, collaboration and CRM products. He has also worked at 3UK and Ericsson Services, as well as a number of start-ups such as Corio (now part of IBM) and Applied Psychology Research / Smartlogic. Jan has a First-Class BSc / MEng (Hons) in Software Engineering from Imperial College.<br/>",
+	"summary":"Jan Vonka has 20+ years experience as a senior dev lead and manager. He has been a member of Alfresco's dev team for 9 years, designing & building enterprise repository infrastructure and platform services that support a variety of app areas; including ECM, RM, WCM, Collaboration & Case Management. He has helped to architect and develop Alfresco's cloud services. Most recently he has been working on extending and improving the Alfresco Platform APIs. <br/><br/>http://www.slideshare.net/jvonka<br/><br/>Jan has previously worked at Oracle (both in the UK and US) developing CASE design tools, collaboration and CRM products. He has also worked at 3UK and Ericsson Services, as well as a number of start-ups such as Corio (now part of IBM) and Applied Psychology Research / Smartlogic. <br/><br/>Jan has a First-Class BSc / MEng (Hons) in Software Engineering from Imperial College.<br/>",
 	"talks":[
 		{
 			"id": "20160401001",

@@ -267,6 +267,11 @@
 			"name": "BeeCon2016_Lightning_Alfresco_Engineering.pdf",
 			"path": "/assets/data/files/20160125013/BeeCon2016_Lightning_Alfresco_Engineering.pdf"
 		}
+,
+		{
+			"name": "BeeCon2016_Lightning_Alfresco_Engineering.pptx",
+			"path": "/assets/data/files/20160125013/BeeCon2016_Lightning_Alfresco_Engineering.pptx"
+		}
 	],
 	"speakers":[
 		{
@@ -295,6 +300,11 @@
 		{
 			"name": "Extending Share - from the outside in.pdf",
 			"path": "/assets/data/files/20160125014/Extending Share - from the outside in.pdf"
+		}
+,
+		{
+			"name": "Extending Share - from the outside in.pptx",
+			"path": "/assets/data/files/20160125014/Extending Share - from the outside in.pptx"
 		}
 	],
 	"speakers":[
@@ -378,6 +388,10 @@
 	"targetAudience": "System Administrators, Experienced Alfresco developers, Architects and Technical Managers",
 	"abstract": "The default installation of Alfresco includes a basic installation of PostgreSQL, which already works well for several scenarios. But you can do much better with PostgreSQL, improving the performance of Alfresco, and making things easier to maintain.<br/><br/>In this presentation you will see how to design a robust solution for a highly-available database; how to take your backups and do auditing analysis without impacting production performance; how to recover Alfresco's database just before the point of a critical user mistake, instead of back to your nightly snapshot.<br/><br/>If you feel (or someone told you) that PostgreSQL is hard to administrate, we will show you why PostgreSQL is actually DBA-friendly. It has excellent documentation and a great community ready to help. In this presentation you will understand how this forever free database will help you to improve your Alfresco.<br/>",
 	"files":[
+		{
+			"name": "PostgreSQL_what_you_should_know_to_improve_your_Alfresco.pdf",
+			"path": "/assets/data/files/20160125019/PostgreSQL_what_you_should_know_to_improve_your_Alfresco.pdf"
+		}	
 	],
 	"speakers":[
 		{
@@ -460,6 +474,10 @@
 	"targetAudience": "System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
 	"abstract": "In real live it is a very good idea to put Alfresco behind a reverse proxy (easier adminstration, better control access, speed up the system using several caching strategies)<br/>The session compares different concepts and the differences using Apache vs. Nginx and show hints and tricks to get this done.<br/>",
 	"files":[
+		{
+			"name": "BeeCon2016_20160125025_Reverse-Proxy.pdf",
+			"path": "/assets/data/files/20160125025/BeeCon2016_20160125025_Reverse-Proxy.pdf"
+		}		
 	],
 	"speakers":[
 		{
@@ -488,6 +506,11 @@
 		{
 			"name": "SSO_with_CAS.pdf",
 			"path": "/assets/data/files/20160125026/SSO_with_CAS.pdf"
+		}
+,
+		{
+			"name": "SSO_with_CAS.pptx",
+			"path": "/assets/data/files/20160125026/SSO_with_CAS.pptx"
 		}
 	],
 	"speakers":[
@@ -644,7 +667,6 @@
 	"targetAudience": "Developers starting to work with Alfresco, Experienced Alfresco developers",
 	"abstract": "The automation of setting permissions is probably one of the most common extension of Alfresco. To achieve this, Alfresco provides extension points such behaviors coupled with the permission service which allows already many possibilities. However, this logic can be really complex especially when the permissions are set at documents-level. Permissions might depend on meta-data, on external data, can be temporary, even the logic itself could change frequently.  Also, in an enterprise environment Alfresco is probably not the only application developed. You might already have business rules in place about permissions that you want to reuse. In a project at CERN, we decided to externalize all this logic in a Business Rules Engine, and then to interface it with Alfresco. <br/>",
 	"files":[
-
 		{
 			"name": "BeeCon2016_Lightning_Presentation_smasue.pptx",
 			"path": "/assets/data/files/20160125032/BeeCon2016_Lightning_Presentation_smasue.pptx"
@@ -743,8 +765,8 @@
 	"files":[
 
 		{
-			"name": "Welcome_to_beecon.pdf",
-			"path": "/assets/data/files/20160125037/Welcome_to_beecon.pdf"
+			"name": "Welcome_to_beecon2016ready.pdf",
+			"path": "/assets/data/files/20160125037/Welcome_to_beecon2016ready.pdf"
 		}
 	],
 	"speakers":[
@@ -780,7 +802,16 @@
 	"targetAudience": "Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
 	"abstract": "The Alfresco SDK have had a rough life, starting out as a community contribution, finally being picked up by Alfresco and treated as part of the product. <br/><br/>With that being said, the Alfresco SDK has not always been easy to work with. Upgrades have been difficult and it can be tricky to understand and get the most out of the setup.<br/><br/>In this session you will hear about where we are today, how we got there and finally how we can learn from history to create a brand new SDK that will empower all Alfresco developers. <br/>",
 	"files":[
-	],
+		{
+			"name": "Alfresco SDK - Past, present and future.pdf",
+			"path": "/assets/data/files/20160125038/Alfresco SDK - Past, present and future.pdf"
+		}
+,
+		{
+			"name": "Alfresco SDK - Past, present and future.pptx",
+			"path": "/assets/data/files/20160125038/Alfresco SDK - Past, present and future.pptx"
+		}
+    ],
 	"speakers":[
 		{
 			"name": "Ole",
@@ -804,7 +835,11 @@
 	"targetAudience": "Business Users, Newbies in Alfresco technologies, Developers starting to work with Alfresco, Architects and Technical Managers",
 	"abstract": "Bata is a worldwide shoe manufacturer and distributor. We are making and selling them in around 70 countries in our own shop.<br/>In 2013, we built a Shared Service Centre in Europe to consolidate in one place all suppliers invoices. Part of the invoicing system, it has been decided to use Alfresco as document repository of european countries.<br/>The aim of this talk is to present the decisions and challenges that came to choose Alfresco, the way it has been integrated, and also the future of Alfresco within the company.<br/>",
 	"files":[
-	],
+		{
+			"name": "BeeCon2016_Bata.pdf",
+			"path": "/assets/data/files/20160125039/BeeCon2016_Bata.pdf"
+		}
+    ],
 	"speakers":[
 		{
 			"name": "Olivier",
@@ -886,6 +921,11 @@
 	"targetAudience": "Developers starting to work with Alfresco, Experienced Alfresco developers",
 	"abstract": "The Alfresco product development team recognizes that we need to improve at collaborating with our open source community and accepting contributions. This session continues our conversation on this topic by hosting a panel discussion with various members of the Alfresco product development team and leaders in the open source community.<br/><br/>The session will be moderated by Richard Esplin from Alfresco Product Management, and Boriss Mejias from the Order of the Bee. Topics will include a report from Alfresco Software on changes they have made to make it easier to contribute, the current contribution process, obstacles to contribution, and a discussion on how the contribution process can be further improved.<br/>",
 	"files":[
+
+		{
+			"name": "Beecon2016_panel.pdf",
+			"path": "/assets/data/files/20160125046/Beecon2016_panel.pdf"
+		}
 	],
 	"speakers":[
 		{
@@ -983,6 +1023,11 @@
 			"name": "slanglois-BeeCon2016-SeparatingPlatformAndShare.pdf",
 			"path": "/assets/data/files/20160125051/slanglois-BeeCon2016-SeparatingPlatformAndShare.pdf"
 		}
+,
+		{
+			"name": "slanglois-BeeCon2016-SeparatingPlatformAndShare.pptx",
+			"path": "/assets/data/files/20160125051/slanglois-BeeCon2016-SeparatingPlatformAndShare.pptx"
+		}
 	],
 	"speakers":[
 		{
@@ -1065,6 +1110,11 @@
 	"targetAudience": "Business Users, Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
 	"abstract": "Business activity monitoring (BAM) describes the processes and technologies that enhance situation awareness and enable analysis of critical business performance indicators based on real-time data. BAM is used to improve the speed and effectiveness of business operations by keeping track of what is happening and making issues visible quickly. It is a real-time, event-driven concept that is subtle but powerful. Enabling managers to compute high-level, complex event aggregates and thresholds to make better informed, strategic decisions.<br/><br/>In this session we will dive into the BAM concept and explore a way into BAM implementation inside Alfresco & Activiti, guided by a real life usecase.<br/>",
 	"files":[
+
+		{
+			"name": "BeeCon2016_Presentation_20160125057_slides.pdf",
+			"path": "/assets/data/files/20160125057/BeeCon2016_Presentation_20160125057_slides.pdf"
+		}
 	],
 	"speakers":[
 		{
@@ -1118,6 +1168,10 @@
 	"targetAudience": "Business Users, Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
 	"abstract": "We'll be presenting a case study of a Electronic Engineering company who uses an ERP system to manage their work and we've:<br/>- Integrated Alfresco with their ERP system<br/>- Migrated their network drive<br/>- Use of mobile devices to get data into Alfresco<br/><br/>In the future:<br/>- Use Ephesoft to classify data<br/>- Use mobile devices to fetch data directly from Alfresco<br/>",
 	"files":[
+		{
+			"name": "BeeCon2016_Activiti Workflow.pptx",
+			"path": "/assets/data/files/20160125059/BeeCon2016_Activiti Workflow.pptx"
+		}	
 	],
 	"speakers":[
 		{
@@ -1210,6 +1264,10 @@
 	"targetAudience": "Everyone",
 	"abstract": "Organizations around the world are facing new problems, increased complexity, and higher expectations of delivery and engagement. New technology often seems to be a part of the problem as much as it is the solution. By looking beyond the technology to find new ways of organizing our business, we can design a future that is more agile and adaptable and that still maintains the stability and resilience that we require to thrive in the long run. In this presentation, John will examine how digital technology will revolutionize the way we do business.<br/>",
 	"files":[
+		{
+			"name": "Beecon 2016 Newton Final.pdf",
+			"path": "/assets/data/files/2016030601/Beecon 2016 Newton Final.pdf"
+		}        
 	],
 	"speakers":[
 		{
@@ -1473,6 +1531,35 @@
 	"targetAudience": "A relaxing social event to get to know other attendees. Come to La Fabbrica restaurant next to the conference venue to collaborate with other BeeCon attendees. Party is sponsored by <a href='http://xenit.eu'>XeniT</a> and <a href='http://www.alfresco.com'>Alfresco</a>.",
 	"abstract": "A relaxing social event to get to know other attendees. Come to La Fabbrica restaurant next to the conference venue to collaborate with other BeeCon attendees. Party is sponsored by <a href='http://xenit.eu'>XeniT</a> and <a href='http://www.alfresco.com'>Alfresco</a>.",
 	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Order",
+			"surname": "of the Bee",
+			"position": "Order of the Bee",
+			"company": "Order of the Bee",
+			"companyUrl": "",
+			"image": "OrderoftheBee.png",
+			"summary":"null"
+		}
+	]
+},
+{
+	"id": "20160510001",
+	"topic": "Community",
+	"title": "Q&A Alfresco engineers and OOTBee key members",
+	"type": "40 minutes (Full talk)",
+	"day": "April 29",
+	"hour": "17:15 - 18:00",
+	"room": "Auditorium",
+	"targetAudience": "Questions and answer session.",
+	"abstract": "Questions and answer session.",
+	"files":[
+
+		{
+			"name": "Beecon2016_closing.pdf",
+			"path": "/assets/data/files/20160510001/Beecon2016_closing.pdf"
+		}
 	],
 	"speakers":[
 		{
