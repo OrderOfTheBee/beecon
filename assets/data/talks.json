@@ -19,6 +19,10 @@
 		{
 			"name": "20160125001 BeeCon2016 Vasyukov.pdf",
 			"path": "/assets/data/files/20160125001/20160125001 BeeCon2016 Vasyukov.pdf"
+		},
+		{
+			"name": "Video Recording of the Talk",
+			"path": "https://youtu.be/7KnMB_F77so"
 		}
 	],
 	"speakers":[
@@ -48,6 +52,10 @@
 		{
 			"name": "20160412 ASHORT BeeCon Presentation.pdf",
 			"path": "/assets/data/files/20160125002/20160412 ASHORT BeeCon Presentation.pdf"
+		},
+		{
+			"name": "Video Recording of the Talk",
+			"path": "https://www.youtube.com/watch?v=urWMiXGQwCE"
 		}
 	],
 	"speakers":[
@@ -77,6 +85,10 @@
 		{
 			"name": "BeeCon2016_Presentation_20160125004_Installing.pdf",
 			"path": "/assets/data/files/20160125004/BeeCon2016_Presentation_20160125004_Installing.pdf"
+		},
+		{
+			"name": "Video Recording of the Talk",
+			"path": "https://youtu.be/Nz3d2gfO-H4"
 		}
 	],
 	"speakers":[
@@ -174,6 +186,10 @@
 		{
 			"name": "Generator Alfresco for BeeCon (Youtube video)",
 			"path": "https://youtu.be/NMpY5holacQ"
+		},
+		{
+			"name": "Video Recording of the Talk",
+			"path": "https://www.youtube.com/watch?v=ZbmLVj5-8h0"
 		}
 	],
 	"speakers":[
@@ -334,6 +350,10 @@
 		{
 			"name": "FAlvarez_AlfrescoETL_BeeCon2016_Session.pptx",
 			"path": "/assets/data/files/20160125017/FAlvarez_AlfrescoETL_BeeCon2016_Session.pptx"
+		},
+		{
+			"name": "Video Recording of the Talk",
+			"path": "https://www.youtube.com/watch?v=D7RTaKwKw0Y"
 		}
 	],
 	"speakers":[
@@ -391,6 +411,10 @@
 		{
 			"name": "PostgreSQL_what_you_should_know_to_improve_your_Alfresco.pdf",
 			"path": "/assets/data/files/20160125019/PostgreSQL_what_you_should_know_to_improve_your_Alfresco.pdf"
+		},
+		{
+			"name": "Video Recording of the Talk",
+			"path": "https://www.youtube.com/watch?v=dGjbqVP87i4"
 		}	
 	],
 	"speakers":[
@@ -420,6 +444,10 @@
 		{
 			"name": "BeeCon2016_MultipleShareOneRepository.pdf",
 			"path": "/assets/data/files/20160125022/BeeCon2016_MultipleShareOneRepository.pdf"
+		},
+		{
+			"name": "Video Recording of the Talk",
+			"path": "https://youtu.be/Eg-NyUYWhVU"
 		}
 	],
 	"speakers":[
@@ -449,6 +477,10 @@
 		{
 			"name": "BeeCon2016_20160125023_BusinessDocumentModel.pdf",
 			"path": "/assets/data/files/20160125023/BeeCon2016_20160125023_BusinessDocumentModel.pdf"
+		},
+		{
+			"name": "Video Recording of the Talk",
+			"path": "https://www.youtube.com/watch?v=D-tjlAt-lXk"
 		}
 	],
 	"speakers":[
@@ -598,6 +630,10 @@
 		{
 			"name": "BeeCon2016_20160125029.pdf",
 			"path": "/assets/data/files/20160125029/BeeCon2016_20160125029.pdf"
+		},
+		{
+			"name": "Video Recording of the Talk",
+			"path": "https://www.youtube.com/watch?v=o9oG6c_H19o"
 		}
 	],
 	"speakers":[
@@ -632,6 +668,10 @@
 		{
 			"name": "Script Honeycomb and Beyond.pdf",
 			"path": "/assets/data/files/20160125031/Script Honeycomb and Beyond.pdf"
+		},
+		{
+			"name": "Video Recording of the Talk",
+			"path": "https://youtu.be/Bn2eu6LpB6w"
 		}
 	],
 	"speakers":[
@@ -838,6 +878,10 @@
 		{
 			"name": "BeeCon2016_Bata.pdf",
 			"path": "/assets/data/files/20160125039/BeeCon2016_Bata.pdf"
+		},
+		{
+			"name": "Video Recording of the Talk",
+			"path": "https://youtu.be/rGQPhY-1Mkc"
 		}
     ],
 	"speakers":[
@@ -867,6 +911,10 @@
 		{
 			"name": "BeeCon2016_Running_Alfresco_Under_Docker.pdf",
 			"path": "/assets/data/files/20160125042/BeeCon2016_Running_Alfresco_Under_Docker.pdf"
+		},
+		{
+			"name": "Video Recording of the Talk",
+			"path": "https://youtu.be/ovS3_bZA49I"
 		}
 	],
 	"speakers":[
@@ -896,6 +944,10 @@
 		{
 			"name": "BeeCon2016_CommunityEdition.pdf",
 			"path": "/assets/data/files/20160125044/BeeCon2016_CommunityEdition.pdf"
+		},
+		{
+			"name": "Video Recording of the Talk",
+			"path": "https://youtu.be/Ri0Y49Q2x-c"
 		}
 	],
 	"speakers":[
@@ -993,7 +1045,11 @@
 		{
 			"name": "RBramley_AWS_BeeCon2016_Presentation.pdf",
 			"path": "/assets/data/files/20160125050/RBramley_AWS_BeeCon2016_Presentation.pdf"
-		}
+		},
+		{
+                        "name": "Video Recording of the Talk",
+                        "path": "https://youtu.be/IDd1GetMRHs"
+                }
 	],
 	"speakers":[
 		{
@@ -1143,6 +1199,10 @@
 		{
 			"name": "zombies.pdf",
 			"path": "/assets/data/files/20160125058/zombies.pdf"
+		},
+		{
+			"name": "Video Recording of the Talk",
+			"path": "https://youtu.be/enXBN7_ZQYg"
 		}
 	],
 	"speakers":[
@@ -1171,6 +1231,10 @@
 		{
 			"name": "BeeCon2016_Activiti Workflow.pptx",
 			"path": "/assets/data/files/20160125059/BeeCon2016_Activiti Workflow.pptx"
+		},
+		{
+			"name": "Video Recording of the Talk",
+			"path": "https://www.youtube.com/watch?v=u__-XrafW5M"
 		}	
 	],
 	"speakers":[
@@ -1200,6 +1264,10 @@
 		{
 			"name": "erivello-Beecon2016-alfresco-spk.pptx",
 			"path": "/assets/data/files/20160125100/erivello-Beecon2016-alfresco-spk.pptx"
+		},
+		{
+			"name": "Video Recording of the Talk",
+			"path": "https://youtu.be/-L1CjPA2R6E"
 		}
 	],
 	"speakers":[
@@ -1229,6 +1297,10 @@
 		{
 			"name": "Beecon 2016 - Move2alf.pdf",
 			"path": "/assets/data/files/20160125102/Beecon 2016 - Move2alf.pdf"
+		},
+		{
+			"name": "Video Recording of the Talk",
+			"path": "https://youtu.be/-4fGdfB6QII"
 		}
 	],
 	"speakers":[
@@ -1296,6 +1368,10 @@
 		{
 			"name": "Alfresco_REST_API_of_the_future_BeeCon2016.pdf",
 			"path": "/assets/data/files/20160401001/Alfresco_REST_API_of_the_future_BeeCon2016.pdf"
+		},
+		{
+			"name": "Video Recording of the Talk",
+			"path": "https://www.youtube.com/watch?v=7jR2PV5w1O4"
 		}
 	],
 	"speakers":[
@@ -1415,6 +1491,10 @@
 	"targetAudience": "Lightning talks are fast-paced and fun. The presentations are strictly limited to five minutes, so this session contains 3 topics with a mix of subjects including both business and technical subjects. All presentations in this session are Ignite-style, with auto-advancing slides.<br/><ul><li><a href='/talks?id=20160125010'>Have you test your backup?</a></li><li><a href='/talks?id=20160125025'>Increase Security and Scalability: Reverse Proxy is Alfresco's buddy</a></li><li><a href='/talks?id=20160125026'>Alfresco SSO using CAS</a></li></ul>'",
 	"abstract": "Lightning talks are fast-paced and fun. The presentations are strictly limited to five minutes, so this session contains 3 topics with a mix of subjects including both business and technical subjects. All presentations in this session are Ignite-style, with auto-advancing slides.<br/><ul><li><a href='/talks?id=20160125010'>Have you test your backup?</a></li><li><a href='/talks?id=20160125025'>Increase Security and Scalability: Reverse Proxy is Alfresco's buddy</a></li><li><a href='/talks?id=20160125026'>Alfresco SSO using CAS</a></li></ul>'",
 	"files":[
+		{
+			"name": "Video Recording of the Talk",
+			"path": "https://youtu.be/kLHbEwCQveo"
+		}
 	],
 	"speakers":[
 		{
