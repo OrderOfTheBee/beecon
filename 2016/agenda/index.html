@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html ng-app="app" lang="en" class="no-js">
+ <head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="keywords" content="alfresco, order, bee, beecon, devcon, summit, conference, technical, developer" />
+  <meta name="description" content=""/>
+  <meta name="author" content=""/>
+
+  <title>BeeCon 2016 >> Agenda</title>
+  <link rel="icon" type="image/png" href="/2016/favicon.png">
+  <link href="/2016/assets/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="/2016/assets/css/font-awesome.min.css" rel="stylesheet"/>
+  <link href='/2016/assets/css/open-sans-font.css' rel='stylesheet' type='text/css' />
+  <link href="/2016/assets/css/custom.css" rel="stylesheet"/>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-53791137-2', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+</head>
+<body>
+  <script type="text/javascript" src="/2016/assets/js/jquery.min.js"></script>
+  <script type="text/javascript" src="/2016/assets/js/angular.min.js"></script>
+  <script type="text/javascript" src="/2016/assets/js/sanitize.js"></script>
+  <script type="text/javascript" src="/2016/assets/js/modernizr.js"></script>
+  <script type="text/javascript" src="/2016/assets/js/ui-bootstrap-tpls-0.11.0.min.js"></script>
+  <script type="text/javascript" src="/2016/assets/js/addtocalendar.min.js"></script>
+  <script type="text/javascript" src="/2016/assets/js/download.min.js"></script>
+  <script type="text/javascript" src="/2016/assets/js/app.js"></script>
+
+
+  <header></header>
+
+  <section id="schedule" ng-controller="AgendaCtrl">
+    <script type="text/ng-template" id="SessionModalContent.html">
+      <div class="modal-header">
+        <h4 class="text-center">{{item.title}}</h4>
+        <p class="text-center" ng-show="item.type!='Party'&&item.type!='Welcome drinks'">{{item.type}}</p>
+      </div>
+      <div class="modal-body">
+        <p class="text-right lead"><span class="label label-warning">{{item.place}} at {{item.time}} on {{item.date}}</span>&nbsp;&nbsp;&nbsp;<span class="label label-default">{{item.topic}}</span></p>
+        <div ng-show="item.abstract" ng-bind-html="item.abstract"></div>
+        <div class="row">
+          <div class="col-md-6" ng-repeat="speaker in item.speakers">
+            <p>
+              <img ng-src="/2016/assets/img/speakers/{{speaker.image}}" class="img-circle left"/>
+              <br/><br/>
+              <a href="" ng-click="open2(speaker)">{{speaker.name}} {{speaker.surname}}</a><br/>
+              <small>{{speaker.position}} - {{speaker.company}}</small>
+            </p>
+          </div>
+        </div>
+          <div ng-if="item.files.length > 0">
+            <h4 class="text-left"><small>Resources</small></h4>
+            <div ng-repeat="file in item.files">
+              <a target="_target" ng-href="{{file.path}}">{{file.name}}</a>
+            </div>
+          </div>
+      </div>
+      <div class="modal-footer">
+        <div class="pull-right">
+          <addtocalendar
+            start-date="{{item.startDate}}"
+            end-date="{{item.endDate}}"
+            ctz="Europe/Brussels"
+            title="{{item.title}}"
+            location="{{item.place}}, Avenue du Port 86C, 1000 Brussels, Belgium"
+            class-name="btn btn-success btn-sm dropdown-toggle"
+            description="{{item.abstract}}"
+            btn-text="Add to calendar">
+          </addtocalendar>
+          <a class="btn btn-success btn-sm" target="_blank" ng-href="/2016/talks?id={{item.id}}">Open in new window</a>
+          <a class="btn btn-link btn-sm" ng-click="cancel()">Cancel</a>
+        </div>
+      </div>
+    </script>
+    <script type="text/ng-template" id="SpeakerModalContent.html">
+      <div class="modal-header">
+        <h3>{{item.name}} {{item.surname}}</h3>
+      </div>
+      <div class="modal-body">
+        <img ng-src="/2016/assets/img/speakers/{{item.image}}" class="img-circle right"/>
+        <p ng-show="item.summary"><strong>About</strong></p>
+        <div ng-show="item.summary" ng-bind-html="item.summary"></div>
+        <br/>
+        <p><strong>Sessions</strong></p>
+        <div ng-repeat="talk in item.talks">
+          <a href="/2016/talks?id={{talk.id}}">{{talk.title}}</a><br/>
+          <small>{{talk.type}}</small>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-danger" ng-click="cancel()">Cancel</button>
+      </div>
+    </script>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-xs-12">
+          <h2>Agenda</h2>
+          <br/>
+
+          <div ng-repeat="day in agenda">
+            <h3 class="text-center">{{day.date}}</h3>
+            <table class="table text-center">
+              <thead>
+                <tr>
+                  <th class="time"></th>
+                  <th class="room">Room: Auditorium</th>
+                  <th class="room">Room: Sylva</th>
+                  <th class="room">Room: Terra</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr ng-repeat="slot in day.slots">
+                  <td class="time">{{slot.time}}</td>
+                  <!-- Networking for 3 columns -->
+                  <td ng-repeat="session in slot.sessions" ng-show="(session.place == 'Social Party' && session.id != '' ) || (session.place == 'Atrium' && session.id != '')" colspan="3" class="networking" >
+                  <div ng-show="session.id.indexOf('2') == 0">
+                      <a href="" ng-click="open(session)"><u><strong>{{session.title}}</strong></u></a>
+                  </div>
+                  <div ng-show="session.id.indexOf('2') == -1">
+                      <strong>{{session.id}}</strong>
+                  </div>
+                  </td>
+                  <!-- Auditorium -->
+                  <td ng-repeat="session in slot.sessions" class="session" ng-show="session.place == 'Auditorium' && !session.length && session.id != ''"><a href="" ng-click="open(session)"><strong>{{session.title}}</strong></a> <a ng-href="{{session.files[session.files.length - 1].path}}" target='_blank' ng-show="session.files[session.files.length - 1].name == 'Video Recording of the Talk'"><i class="fa fa-youtube"></i></a><span ng-show="session.speakers"><br/>by <span ng-repeat="speaker in session.speakers"><span ng-if="!$first">, </span><a href="" ng-click="open2(speaker)">{{speaker.name}} {{speaker.surname}}</a></span></td>
+                  <td ng-repeat="session in slot.sessions" class="session" ng-show="session.place == 'Auditorium' && session.length==2" rowspan="2"><a href="" ng-click="open(session)"><strong>{{session.title}}</strong></a> <a ng-href="{{session.files[session.files.length - 1].path}}" target='_blank' ng-show="session.files[session.files.length - 1].name == 'Video Recording of the Talk'"><i class="fa fa-youtube"></i></a><span ng-show="session.speakers"><br/>by <span ng-repeat="speaker in session.speakers"><span ng-if="!$first">, </span><a href="" ng-click="open2(speaker)">{{speaker.name}} {{speaker.surname}}</a></span></td>
+                  <td ng-repeat="session in slot.sessions" class="empty" ng-show="session.place == 'Auditorium' && session.id == ''"></td>
+                  <!-- Sylva -->
+                  <td ng-repeat="session in slot.sessions" class="session" ng-show="session.place == 'Sylva' && !session.length && session.id != ''"><a href="" ng-click="open(session)"><strong>{{session.title}}</strong></a> <a ng-href="{{session.files[session.files.length - 1].path}}" target='_blank' ng-show="session.files[session.files.length - 1].name == 'Video Recording of the Talk'"><i class="fa fa-youtube"></i></a><span ng-show="session.speakers"><br/>by <span ng-repeat="speaker in session.speakers"><span ng-if="!$first">, </span><a href="" ng-click="open2(speaker)">{{speaker.name}} {{speaker.surname}}</a></span></td>
+                  <td ng-repeat="session in slot.sessions" class="session" ng-show="session.place == 'Sylva' && session.length==2" rowspan="2"><a href="" ng-click="open(session)"><strong>{{session.title}}</strong></a><span ng-show="session.speakers"><br/>by <span ng-repeat="speaker in session.speakers"><span ng-if="!$first">, </span><a href="" ng-click="open2(speaker)">{{speaker.name}} {{speaker.surname}}</a></span></td>
+                  <td ng-repeat="session in slot.sessions" class="empty" ng-show="session.place == 'Sylva' && session.id == ''"></td>
+                  <!-- Terra -->
+                  <td ng-repeat="session in slot.sessions" class="practical" ng-show="session.place == 'Terra' && !session.length && session.id != ''"><a href="" ng-click="open(session)"><strong>{{session.title}}</strong></a><span ng-show="session.speakers"><br/>by <span ng-repeat="speaker in session.speakers"><span ng-if="!$first">, </span><a href="" ng-click="open2(speaker)">{{speaker.name}} {{speaker.surname}}</a></span></td>
+                  <td ng-repeat="session in slot.sessions" class="practical" ng-show="session.place == 'Terra' && session.length==2" rowspan="2"><a href="" ng-click="open(session)"><strong>{{session.title}}</strong></a><span ng-show="session.speakers"><br/>by <span ng-repeat="speaker in session.speakers"><span ng-if="!$first">, </span><a href="" ng-click="open2(speaker)">{{speaker.name}} {{speaker.surname}}</a></span></td>
+                  <td ng-repeat="session in slot.sessions" class="empty" ng-show="session.place == 'Terra' && session.id == ''"></td>
+                </tr>
+              </tbody>
+            </table>
+            <br/>
+          </div>
+        </div>
+      </div>
+      <br/>
+    </div>
+  </section>
+
+
+<footer></footer>
+</body>
+</html>
