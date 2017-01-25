@@ -18,7 +18,7 @@
 ,
 		{
 			"name": "20160125001 BeeCon2016 Vasyukov.pdf",
-			"path": "/assets/data/files/20160125001/20160125001 BeeCon2016 Vasyukov.pdf"
+			"path": "/2016/assets/data/files/20160125001/20160125001 BeeCon2016 Vasyukov.pdf"
 		},
 		{
 			"name": "Video Recording of the Talk",
@@ -51,7 +51,7 @@
 
 		{
 			"name": "20160412 ASHORT BeeCon Presentation.pdf",
-			"path": "/assets/data/files/20160125002/20160412 ASHORT BeeCon Presentation.pdf"
+			"path": "/2016/assets/data/files/20160125002/20160412 ASHORT BeeCon Presentation.pdf"
 		},
 		{
 			"name": "Video Recording of the Talk",
@@ -84,7 +84,7 @@
 
 		{
 			"name": "BeeCon2016_Presentation_20160125004_Installing.pdf",
-			"path": "/assets/data/files/20160125004/BeeCon2016_Presentation_20160125004_Installing.pdf"
+			"path": "/2016/assets/data/files/20160125004/BeeCon2016_Presentation_20160125004_Installing.pdf"
 		},
 		{
 			"name": "Video Recording of the Talk",
@@ -117,7 +117,7 @@
 
 		{
 			"name": "BeeCon2016_Lightning_20160125005_OCR.pdf",
-			"path": "/assets/data/files/20160125005/BeeCon2016_Lightning_20160125005_OCR.pdf"
+			"path": "/2016/assets/data/files/20160125005/BeeCon2016_Lightning_20160125005_OCR.pdf"
 		}
 	],
 	"speakers":[
@@ -146,7 +146,7 @@
 
 		{
 			"name": "2 years of Aikau - BeeCon - wide.pdf",
-			"path": "/assets/data/files/20160125008/2 years of Aikau - BeeCon - wide.pdf"
+			"path": "/2016/assets/data/files/20160125008/2 years of Aikau - BeeCon - wide.pdf"
 		}
 	],
 	"speakers":[
@@ -175,12 +175,12 @@
 
 		{
 			"name": "BeeCon2016_Presentation_Template_BW_HandsOn.pdf",
-			"path": "/assets/data/files/20160125009/BeeCon2016_Presentation_Template_BW_HandsOn.pdf"
+			"path": "/2016/assets/data/files/20160125009/BeeCon2016_Presentation_Template_BW_HandsOn.pdf"
 		}
 ,
 		{
 			"name": "BeeCon2016_Presentation_Template_BWv2.pdf",
-			"path": "/assets/data/files/20160125009/BeeCon2016_Presentation_Template_BWv2.pdf"
+			"path": "/2016/assets/data/files/20160125009/BeeCon2016_Presentation_Template_BWv2.pdf"
 		}
 ,
 		{
@@ -218,7 +218,7 @@
 
 		{
 			"name": "BeeCon2016_Lightning_Bee_Mejias.pptx",
-			"path": "/assets/data/files/20160125010/BeeCon2016_Lightning_Bee_Mejias.pptx"
+			"path": "/2016/assets/data/files/20160125010/BeeCon2016_Lightning_Bee_Mejias.pptx"
 		}
 	],
 	"speakers":[
@@ -247,7 +247,7 @@
 
 		{
 			"name": "BeeCon2016_Lightning_20160125011_LearningMachine&Alfresco.pdf",
-			"path": "/assets/data/files/20160125011/BeeCon2016_Lightning_20160125011_LearningMachine&Alfresco.pdf"
+			"path": "/2016/assets/data/files/20160125011/BeeCon2016_Lightning_20160125011_LearningMachine&Alfresco.pdf"
 		}
 ,
 		{
@@ -281,12 +281,12 @@
 
 		{
 			"name": "BeeCon2016_Lightning_Alfresco_Engineering.pdf",
-			"path": "/assets/data/files/20160125013/BeeCon2016_Lightning_Alfresco_Engineering.pdf"
+			"path": "/2016/assets/data/files/20160125013/BeeCon2016_Lightning_Alfresco_Engineering.pdf"
 		}
 ,
 		{
 			"name": "BeeCon2016_Lightning_Alfresco_Engineering.pptx",
-			"path": "/assets/data/files/20160125013/BeeCon2016_Lightning_Alfresco_Engineering.pptx"
+			"path": "/2016/assets/data/files/20160125013/BeeCon2016_Lightning_Alfresco_Engineering.pptx"
 		}
 	],
 	"speakers":[
@@ -315,12 +315,12 @@
 
 		{
 			"name": "Extending Share - from the outside in.pdf",
-			"path": "/assets/data/files/20160125014/Extending Share - from the outside in.pdf"
+			"path": "/2016/assets/data/files/20160125014/Extending Share - from the outside in.pdf"
 		}
 ,
 		{
 			"name": "Extending Share - from the outside in.pptx",
-			"path": "/assets/data/files/20160125014/Extending Share - from the outside in.pptx"
+			"path": "/2016/assets/data/files/20160125014/Extending Share - from the outside in.pptx"
 		}
 	],
 	"speakers":[
@@ -349,7 +349,7 @@
 
 		{
 			"name": "FAlvarez_AlfrescoETL_BeeCon2016_Session.pptx",
-			"path": "/assets/data/files/20160125017/FAlvarez_AlfrescoETL_BeeCon2016_Session.pptx"
+			"path": "/2016/assets/data/files/20160125017/FAlvarez_AlfrescoETL_BeeCon2016_Session.pptx"
 		},
 		{
 			"name": "Video Recording of the Talk",
@@ -382,7 +382,7 @@
 
 		{
 			"name": "Content Intelligence on Alfresco with AAAR - F.Corti.pdf",
-			"path": "/assets/data/files/20160125018/Content Intelligence on Alfresco with AAAR - F.Corti.pdf"
+			"path": "/2016/assets/data/files/20160125018/Content Intelligence on Alfresco with AAAR - F.Corti.pdf"
 		}
 	],
 	"speakers":[
@@ -410,7 +410,7 @@
 	"files":[
 		{
 			"name": "PostgreSQL_what_you_should_know_to_improve_your_Alfresco.pdf",
-			"path": "/assets/data/files/20160125019/PostgreSQL_what_you_should_know_to_improve_your_Alfresco.pdf"
+			"path": "/2016/assets/data/files/20160125019/PostgreSQL_what_you_should_know_to_improve_your_Alfresco.pdf"
 		},
 		{
 			"name": "Video Recording of the Talk",
@@ -443,7 +443,7 @@
 
 		{
 			"name": "BeeCon2016_MultipleShareOneRepository.pdf",
-			"path": "/assets/data/files/20160125022/BeeCon2016_MultipleShareOneRepository.pdf"
+			"path": "/2016/assets/data/files/20160125022/BeeCon2016_MultipleShareOneRepository.pdf"
 		},
 		{
 			"name": "Video Recording of the Talk",
@@ -476,7 +476,7 @@
 
 		{
 			"name": "BeeCon2016_20160125023_BusinessDocumentModel.pdf",
-			"path": "/assets/data/files/20160125023/BeeCon2016_20160125023_BusinessDocumentModel.pdf"
+			"path": "/2016/assets/data/files/20160125023/BeeCon2016_20160125023_BusinessDocumentModel.pdf"
 		},
 		{
 			"name": "Video Recording of the Talk",
@@ -508,7 +508,7 @@
 	"files":[
 		{
 			"name": "BeeCon2016_20160125025_Reverse-Proxy.pdf",
-			"path": "/assets/data/files/20160125025/BeeCon2016_20160125025_Reverse-Proxy.pdf"
+			"path": "/2016/assets/data/files/20160125025/BeeCon2016_20160125025_Reverse-Proxy.pdf"
 		}		
 	],
 	"speakers":[
@@ -537,12 +537,12 @@
 
 		{
 			"name": "SSO_with_CAS.pdf",
-			"path": "/assets/data/files/20160125026/SSO_with_CAS.pdf"
+			"path": "/2016/assets/data/files/20160125026/SSO_with_CAS.pdf"
 		}
 ,
 		{
 			"name": "SSO_with_CAS.pptx",
-			"path": "/assets/data/files/20160125026/SSO_with_CAS.pptx"
+			"path": "/2016/assets/data/files/20160125026/SSO_with_CAS.pptx"
 		}
 	],
 	"speakers":[
@@ -571,7 +571,7 @@
 
 		{
 			"name": "beecon-groovyrunner.pdf",
-			"path": "/assets/data/files/20160125027/beecon-groovyrunner.pdf"
+			"path": "/2016/assets/data/files/20160125027/beecon-groovyrunner.pdf"
 		}
 	],
 	"speakers":[
@@ -600,7 +600,7 @@
 
 		{
 			"name": "beecon_activiti.pptx",
-			"path": "/assets/data/files/20160125028/beecon_activiti.pptx"
+			"path": "/2016/assets/data/files/20160125028/beecon_activiti.pptx"
 		}
 	],
 	"speakers":[
@@ -629,7 +629,7 @@
 
 		{
 			"name": "BeeCon2016_20160125029.pdf",
-			"path": "/assets/data/files/20160125029/BeeCon2016_20160125029.pdf"
+			"path": "/2016/assets/data/files/20160125029/BeeCon2016_20160125029.pdf"
 		},
 		{
 			"name": "Video Recording of the Talk",
@@ -662,12 +662,12 @@
 
 		{
 			"name": "BeeCon2016_HoneyCombBeyond.odp",
-			"path": "/assets/data/files/20160125031/BeeCon2016_HoneyCombBeyond.odp"
+			"path": "/2016/assets/data/files/20160125031/BeeCon2016_HoneyCombBeyond.odp"
 		}
 ,
 		{
 			"name": "Script Honeycomb and Beyond.pdf",
-			"path": "/assets/data/files/20160125031/Script Honeycomb and Beyond.pdf"
+			"path": "/2016/assets/data/files/20160125031/Script Honeycomb and Beyond.pdf"
 		},
 		{
 			"name": "Video Recording of the Talk",
@@ -709,7 +709,7 @@
 	"files":[
 		{
 			"name": "BeeCon2016_Lightning_Presentation_smasue.pptx",
-			"path": "/assets/data/files/20160125032/BeeCon2016_Lightning_Presentation_smasue.pptx"
+			"path": "/2016/assets/data/files/20160125032/BeeCon2016_Lightning_Presentation_smasue.pptx"
 		}
 	],
 	"speakers":[
@@ -738,7 +738,7 @@
 
 		{
 			"name": "BeeCon2016_Presentation.pptx",
-			"path": "/assets/data/files/20160125033/BeeCon2016_Presentation.pptx"
+			"path": "/2016/assets/data/files/20160125033/BeeCon2016_Presentation.pptx"
 		}
 	],
 	"speakers":[
@@ -767,7 +767,7 @@
 
 		{
 			"name": "Top 10 missing features.pptx",
-			"path": "/assets/data/files/20160125036/Top 10 missing features.pptx"
+			"path": "/2016/assets/data/files/20160125036/Top 10 missing features.pptx"
 		}
 	],
 	"speakers":[
@@ -806,7 +806,7 @@
 
 		{
 			"name": "Welcome_to_beecon2016ready.pdf",
-			"path": "/assets/data/files/20160125037/Welcome_to_beecon2016ready.pdf"
+			"path": "/2016/assets/data/files/20160125037/Welcome_to_beecon2016ready.pdf"
 		}
 	],
 	"speakers":[
@@ -844,12 +844,12 @@
 	"files":[
 		{
 			"name": "Alfresco SDK - Past, present and future.pdf",
-			"path": "/assets/data/files/20160125038/Alfresco SDK - Past, present and future.pdf"
+			"path": "/2016/assets/data/files/20160125038/Alfresco SDK - Past, present and future.pdf"
 		}
 ,
 		{
 			"name": "Alfresco SDK - Past, present and future.pptx",
-			"path": "/assets/data/files/20160125038/Alfresco SDK - Past, present and future.pptx"
+			"path": "/2016/assets/data/files/20160125038/Alfresco SDK - Past, present and future.pptx"
 		}
     ],
 	"speakers":[
@@ -877,7 +877,7 @@
 	"files":[
 		{
 			"name": "BeeCon2016_Bata.pdf",
-			"path": "/assets/data/files/20160125039/BeeCon2016_Bata.pdf"
+			"path": "/2016/assets/data/files/20160125039/BeeCon2016_Bata.pdf"
 		},
 		{
 			"name": "Video Recording of the Talk",
@@ -910,7 +910,7 @@
 
 		{
 			"name": "BeeCon2016_Running_Alfresco_Under_Docker.pdf",
-			"path": "/assets/data/files/20160125042/BeeCon2016_Running_Alfresco_Under_Docker.pdf"
+			"path": "/2016/assets/data/files/20160125042/BeeCon2016_Running_Alfresco_Under_Docker.pdf"
 		},
 		{
 			"name": "Video Recording of the Talk",
@@ -943,7 +943,7 @@
 
 		{
 			"name": "BeeCon2016_CommunityEdition.pdf",
-			"path": "/assets/data/files/20160125044/BeeCon2016_CommunityEdition.pdf"
+			"path": "/2016/assets/data/files/20160125044/BeeCon2016_CommunityEdition.pdf"
 		},
 		{
 			"name": "Video Recording of the Talk",
@@ -976,7 +976,7 @@
 
 		{
 			"name": "Beecon2016_panel.pdf",
-			"path": "/assets/data/files/20160125046/Beecon2016_panel.pdf"
+			"path": "/2016/assets/data/files/20160125046/Beecon2016_panel.pdf"
 		}
 	],
 	"speakers":[
@@ -1015,7 +1015,7 @@
 
 		{
 			"name": "RBramley_AlfrescoKoans_BeeCon2016_LightningTalk.pdf",
-			"path": "/assets/data/files/20160125047/RBramley_AlfrescoKoans_BeeCon2016_LightningTalk.pdf"
+			"path": "/2016/assets/data/files/20160125047/RBramley_AlfrescoKoans_BeeCon2016_LightningTalk.pdf"
 		}
 	],
 	"speakers":[
@@ -1044,7 +1044,7 @@
 
 		{
 			"name": "RBramley_AWS_BeeCon2016_Presentation.pdf",
-			"path": "/assets/data/files/20160125050/RBramley_AWS_BeeCon2016_Presentation.pdf"
+			"path": "/2016/assets/data/files/20160125050/RBramley_AWS_BeeCon2016_Presentation.pdf"
 		},
 		{
                         "name": "Video Recording of the Talk",
@@ -1077,12 +1077,12 @@
 
 		{
 			"name": "slanglois-BeeCon2016-SeparatingPlatformAndShare.pdf",
-			"path": "/assets/data/files/20160125051/slanglois-BeeCon2016-SeparatingPlatformAndShare.pdf"
+			"path": "/2016/assets/data/files/20160125051/slanglois-BeeCon2016-SeparatingPlatformAndShare.pdf"
 		}
 ,
 		{
 			"name": "slanglois-BeeCon2016-SeparatingPlatformAndShare.pptx",
-			"path": "/assets/data/files/20160125051/slanglois-BeeCon2016-SeparatingPlatformAndShare.pptx"
+			"path": "/2016/assets/data/files/20160125051/slanglois-BeeCon2016-SeparatingPlatformAndShare.pptx"
 		}
 	],
 	"speakers":[
@@ -1111,7 +1111,7 @@
 
 		{
 			"name": "BeeCon2016_Lightning_Presentation_SujayPillai.pdf",
-			"path": "/assets/data/files/20160125052/BeeCon2016_Lightning_Presentation_SujayPillai.pdf"
+			"path": "/2016/assets/data/files/20160125052/BeeCon2016_Lightning_Presentation_SujayPillai.pdf"
 		}
 	],
 	"speakers":[
@@ -1140,7 +1140,7 @@
 
 		{
 			"name": "BeeCon_Product_2016_posted.pdf",
-			"path": "/assets/data/files/20160125053/BeeCon_Product_2016_posted.pdf"
+			"path": "/2016/assets/data/files/20160125053/BeeCon_Product_2016_posted.pdf"
 		}
 	],
 	"speakers":[
@@ -1169,7 +1169,7 @@
 
 		{
 			"name": "BeeCon2016_Presentation_20160125057_slides.pdf",
-			"path": "/assets/data/files/20160125057/BeeCon2016_Presentation_20160125057_slides.pdf"
+			"path": "/2016/assets/data/files/20160125057/BeeCon2016_Presentation_20160125057_slides.pdf"
 		}
 	],
 	"speakers":[
@@ -1198,7 +1198,7 @@
 
 		{
 			"name": "zombies.pdf",
-			"path": "/assets/data/files/20160125058/zombies.pdf"
+			"path": "/2016/assets/data/files/20160125058/zombies.pdf"
 		},
 		{
 			"name": "Video Recording of the Talk",
@@ -1230,7 +1230,7 @@
 	"files":[
 		{
 			"name": "BeeCon2016_Activiti Workflow.pptx",
-			"path": "/assets/data/files/20160125059/BeeCon2016_Activiti Workflow.pptx"
+			"path": "/2016/assets/data/files/20160125059/BeeCon2016_Activiti Workflow.pptx"
 		},
 		{
 			"name": "Video Recording of the Talk",
@@ -1263,7 +1263,7 @@
 
 		{
 			"name": "erivello-Beecon2016-alfresco-spk.pptx",
-			"path": "/assets/data/files/20160125100/erivello-Beecon2016-alfresco-spk.pptx"
+			"path": "/2016/assets/data/files/20160125100/erivello-Beecon2016-alfresco-spk.pptx"
 		},
 		{
 			"name": "Video Recording of the Talk",
@@ -1296,7 +1296,7 @@
 
 		{
 			"name": "Beecon 2016 - Move2alf.pdf",
-			"path": "/assets/data/files/20160125102/Beecon 2016 - Move2alf.pdf"
+			"path": "/2016/assets/data/files/20160125102/Beecon 2016 - Move2alf.pdf"
 		},
 		{
 			"name": "Video Recording of the Talk",
@@ -1338,7 +1338,7 @@
 	"files":[
 		{
 			"name": "Beecon 2016 Newton Final.pdf",
-			"path": "/assets/data/files/2016030601/Beecon 2016 Newton Final.pdf"
+			"path": "/2016/assets/data/files/2016030601/Beecon 2016 Newton Final.pdf"
 		}        
 	],
 	"speakers":[
@@ -1367,7 +1367,7 @@
 
 		{
 			"name": "Alfresco_REST_API_of_the_future_BeeCon2016.pdf",
-			"path": "/assets/data/files/20160401001/Alfresco_REST_API_of_the_future_BeeCon2016.pdf"
+			"path": "/2016/assets/data/files/20160401001/Alfresco_REST_API_of_the_future_BeeCon2016.pdf"
 		},
 		{
 			"name": "Video Recording of the Talk",
@@ -1638,7 +1638,7 @@
 
 		{
 			"name": "Beecon2016_closing.pdf",
-			"path": "/assets/data/files/20160510001/Beecon2016_closing.pdf"
+			"path": "/2016/assets/data/files/20160510001/Beecon2016_closing.pdf"
 		}
 	],
 	"speakers":[
