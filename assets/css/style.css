@@ -5755,7 +5755,7 @@ button[type="submit"] .loading {
   max-width: 100%;
 }
 .speaker .photo-wrapper.rounded {
-  border-radius: 50%;
+  border-radius: 10%;
   overflow: hidden;
 }
 .speaker .photo-wrapper img {
