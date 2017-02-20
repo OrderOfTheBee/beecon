@@ -7016,6 +7016,21 @@ button[type="submit"] .loading {
 .bg5 {
   background-image: url("../img/backgrounds/bg6.jpg");
 }
+.bg8 {
+  background-image: url("../img/backgrounds/bg8.jpg");
+}
+.bg9 {
+  background-image: url("../img/backgrounds/bg9.jpg");
+}
+.bg10 {
+  background-image: url("../img/backgrounds/bg10.jpg");
+}
+.bg11 {
+  background-image: url("../img/backgrounds/bg11.jpg");
+}
+.bg12 {
+  background-image: url("../img/backgrounds/bg12.jpg");
+}
 .bg1.overlay:before {
   opacity: 0.9;
 }
