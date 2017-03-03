@@ -5899,7 +5899,7 @@ button[type="submit"] .loading {
   max-width: 80%;
   max-height: 80%;
 }
-.sponsor:not(.inline):not(.big) {
+.sponsor:not(.inline):not(.big):not(.platinum) {
   width: 160px;
   height: 160px;
 }
@@ -5907,6 +5907,10 @@ button[type="submit"] .loading {
   width: 525px;
   height: 255px;
 }
+.sponsor.platinum {
+  width: 240px;
+  height: 160px;
+ }
 .sponsor.inline {
   vertical-align: middle;
 }
