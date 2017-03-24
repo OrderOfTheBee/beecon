@@ -2331,6 +2331,9 @@ input[type=password].error,
 .header .buy-btn {
   background-color: #deb800;
 }
+a.black, .black > .fa, a.black:focus, a.black:hover {
+  color: #ab8e00
+}
 .base-clr-txt,
 .highlight,
 a,
@@ -7309,4 +7312,8 @@ div.padding-vertical {
 
 .contacts-on-map-container .list li {
   list-style-type: none;
+}
+
+.list-instyled {
+  padding-left: 15px;
 }
