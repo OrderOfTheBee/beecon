@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" ng-app="app" class="no-js">
 <head>
 
 	<meta charset="utf-8">
@@ -29,6 +29,32 @@
 	<div class="preloader-mask">
 		<div class="preloader"></div>
 	</div>
+
+	<!--[if lt IE 9]>
+		<script type="text/javascript" src="/assets/js/jquery-1.11.3.min.js?ver=1"></script>
+	<![endif]-->
+	<!--[if (gte IE 9) | (!IE)]><!-->
+		<script type="text/javascript" src="/assets/js/jquery-2.1.4.min.js?ver=1"></script>
+	<!--<![endif]-->
+
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDk_LI4yd2YbXlCb0m1Ix450aM68rdNK4U&v=3&libraries=places&sensor=true"></script>
+	<script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/assets/js/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="/assets/js/toastr.min.js"></script>
+	<script type="text/javascript" src="/assets/js/jquery.waypoints.min.js"></script>
+	<script type="text/javascript" src="/assets/js/jquery.appear.js"></script>
+	<script type="text/javascript" src="/assets/js/jquery.plugin.js"></script>
+	<script type="text/javascript" src="/assets/js/jquery.countTo.js"></script>
+	<script type="text/javascript" src="/assets/js/jquery.countdown.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
+	<script type="text/javascript" src="/assets/js/masonry.pkgd.min.js"></script>
+	<script type="text/javascript" src="/assets/js/modal-box.js"></script>
+	<script type="text/javascript" src="/assets/js/custom.js"></script>
+	<script type="text/javascript" src="/2017/assets/js/ui-bootstrap-tpls-2.5.0.min.js"></script>
+	<script type="text/javascript" src="/2017/assets/js/angular-sanitize.min.js"></script>
+	<script type="text/javascript" src="/2017/assets/js/angular-file-saver.bundle.min.js"></script>
+	<script type="text/javascript" src="/2017/assets/js/addtocalendar.min.js"></script>
+	<script type="text/javascript" src="/2017/assets/js/app.js"></script>
 
 	<section id="hero" class="hero-section bg1 bg-cover window-height light-text">
 		<ul class="socials-nav">
@@ -254,7 +280,7 @@
 	</section>
 
 	<section id="speakers" class="section align-center">
-		<div class="container">
+		<div class="container" ng-controller="SpeakersCtrl">
 			<span class="icon section-icon icon-faces-users-04"></span>
 			<h3>Speakers</h3>
 			<br/>
@@ -286,60 +312,23 @@
 				</div>
 			</div>
 
-			<div class="col-sm-4">
-				<div class="speaker">
-					<div class="photo-wrapper rounded"><img src="/assets/img/speakers/bees.jpg" alt="Order of the Bee members" class="img-responsive"></div>
-					<h3 class="name">Order of the Bee</h3>
-					<p class="text-alt"><small>Alfresco Community members</small></p>
-					<ul class="speaker-socials">
-						<li><a href="http://orderofthebee.org"><span class="fa fa-home"></span></a></li>
-						<li><a href="https://twitter.com/orderofthebee"><span class="fa fa-twitter"></span></a></li>
-						<li><a href="https://github.com/OrderOfTheBee/"><span class="fa fa-github"></span></a></li>
-					</ul>
+			<div class="col-sm-4" ng-repeat="speaker in randomList">
+					<div class="speaker">
+						<div class="photo-wrapper rounded"><img src="https://www.gravatar.com/avatar/{{speaker.image}}?s=150&d=http%3A%2F%2Forderofthebee.org%2Fassets%2Fimg%2Fbee8.png" width="150px" class="img-responsive"></div>
+							<h3 class="name">{{speaker.name}} {{speaker.surname}}</h3>
+							<p class="text-alt"><small>{{speaker.position}} @ {{speaker.company}}</small></p>
+							<ul class="speaker-socials">
+								<li ng-if="speaker.companyUrl"><a href="{{speaker.companyUrl}}" target="_blank"><span class="fa fa-building"></span></a></li>
+								<li ng-if="speaker.linkedin" ><a href="{{speaker.linkedin}}" target="_blank"><span class="fa fa-linkedin"></span></a></li>
+								<li ng-if="speaker.twitter"><a href="https://twitter.com/{{speaker.twitter}}" target="_blank"><span class="fa fa-twitter"></span></a></li>
+							</ul>
+					<br/>
 				</div>
 			</div>
-
-			<!--div class="col-sm-4">
-				<div class="speaker">
-					<div class="photo-wrapper rounded"><img src="/assets/img/speakers/speaker4.jpg" alt="John Doe" class="img-responsive"></div>
-					<h3 class="name">MARTIN BRANSON</h3>
-					<p class="text-alt"><small>Evangelist @ Doogle</small></p>
-					<p class="about">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-					<ul class="speaker-socials">
-						<li><a href="#"><span class="fa fa-facebook"></span></a></li>
-						<li><a href="#"><span class="fa fa-twitter"></span></a></li>
-						<li><a href="#"><span class="fa fa-google-plus"></span></a></li>
-					</ul>
-				</div>
-			</div>
-
-			<div class="col-sm-4">
-				<div class="speaker">
-					<div class="photo-wrapper rounded"><img src="/assets/img/speakers/speaker5.jpg" alt="John Doe" class="img-responsive"></div>
-					<h3 class="name">AMY WARNER</h3>
-					<p class="text-alt"><small>Graphic Designer</small></p>
-					<p class="about">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-					<ul class="speaker-socials">
-						<li><a href="#"><span class="fa fa-facebook"></span></a></li>
-						<li><a href="#"><span class="fa fa-twitter"></span></a></li>
-						<li><a href="#"><span class="fa fa-google-plus"></span></a></li>
-					</ul>
-				</div>
-			</div>
-
-			<div class="col-sm-4">
-				<div class="speaker">
-					<div class="photo-wrapper rounded"><img src="/assets/img/speakers/speaker2.jpg" alt="John Doe" class="img-responsive"></div>
-					<h3 class="name">ALEC KROSOVIC</h3>
-					<p class="text-alt"><small>Project Manager</small></p>
-					<p class="about">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-					<ul class="speaker-socials">
-						<li><a href="#"><span class="fa fa-facebook"></span></a></li>
-						<li><a href="#"><span class="fa fa-twitter"></span></a></li>
-						<li><a href="#"><span class="fa fa-google-plus"></span></a></li>
-					</ul>
-				</div>
-			</div-->
+		</div>
+		<br/>
+		<p class="text-center"><a class="btn btn-primary btn-lg" href="/2017/speakers/">All Speakers</a></p>
+		<br/>
 
 		</div>
 		<br />
@@ -1030,25 +1019,6 @@
 		</div>
 	</div-->
 
-	<!--[if lt IE 9]>
-		<script type="text/javascript" src="/assets/js/jquery-1.11.3.min.js?ver=1"></script>
-	<![endif]-->
-	<!--[if (gte IE 9) | (!IE)]><!-->
-		<script type="text/javascript" src="/assets/js/jquery-2.1.4.min.js?ver=1"></script>
-	<!--<![endif]-->
-
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDk_LI4yd2YbXlCb0m1Ix450aM68rdNK4U&v=3&libraries=places&sensor=true"></script>
-	<script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="/assets/js/jquery.validate.min.js"></script>
-	<script type="text/javascript" src="/assets/js/toastr.min.js"></script>
-	<script type="text/javascript" src="/assets/js/jquery.waypoints.min.js"></script>
-	<script type="text/javascript" src="/assets/js/jquery.appear.js"></script>
-	<script type="text/javascript" src="/assets/js/jquery.plugin.js"></script>
-	<script type="text/javascript" src="/assets/js/jquery.countTo.js"></script>
-	<script type="text/javascript" src="/assets/js/jquery.countdown.js"></script>
-	<script type="text/javascript" src="/assets/js/masonry.pkgd.min.js"></script>
-	<script type="text/javascript" src="/assets/js/modal-box.js"></script>
-	<script type="text/javascript" src="/assets/js/custom.js"></script>
 	<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

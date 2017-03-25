@@ -29,7 +29,7 @@
         "id": "EF09",
         "topic": "Alfresco Platform, Alfresco Share, Search",
         "title": "Installing Alfresco components one by one",
-        "abstract": "<p>Alfresco Community has no support for clustering. Many people is using default wizard installer because of this. But Alfresco Community can be installed in different servers, which allows clusterization configurations for every layer.</p><p>During this session Alfresco components will be installed one by one, using one server per component:</p><ul><li>HTTP server</li><li>Alfresco web app (Tomcat)</li><li>Share web app (Tomcat)</li><li>SOLR 6 (Jetty)</li><li>LibreOffice</li><li>PostgreSQL</li></ul><p>Depending on the attendees, Virtual Box or Docker can be used.</p>",
+        "abstract": "<p>Alfresco Community has no support for clustering. Many people is using default wizard installer because of this. But Alfresco Community can be installed in different servers, which allows clusterization configurations for every layer.</p><p>During this session Alfresco components will be installed one by one, using one server per component:</p><ul class='list-instyled'><li>HTTP server</li><li>Alfresco web app (Tomcat)</li><li>Share web app (Tomcat)</li><li>SOLR 6 (Jetty)</li><li>LibreOffice</li><li>PostgreSQL</li></ul><p>Depending on the attendees, Virtual Box or Docker can be used.</p>",
         "targetaudience": "Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco"
     }]
 }, {
@@ -263,11 +263,17 @@
     "twitter": "jasonjolley",
     "linkedin": "https://www.linkedin.com/in/jasonjolley/",
     "talks": [{
-        "id": "",
-        "topic": "Repository",
-        "title": "",
-        "abstract": "",
-        "targetaudience": ""
+        "id": "L17",
+        "topic": "Alfresco Platform, Alfresco Share, API's",
+        "title": "Automating the Alfresco Taxonomy",
+        "abstract": "<p>This presentation will review tools built to manage and automate an organization's taxonomy. Some of the tools reviewed will be:</p><ul class='list-instyled'><li>Data List backed Content Fields in Share</li><li>Configurable Metadata Inheritance (single and multiple level)</li><li>Automated Site Creation By Template, and from Activiti</li></ul>",
+        "targetaudience": "Business Users, Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers"
+    }, {
+        "id": "F35",
+        "topic": "Alfresco Platform, Workflows",
+        "title": "Machine Learning Best Practices with Alfresco & Activiti BPM",
+        "abstract": "<p>Machine Learning tools have become commonplace in the software industry, but they have infrequently been utilized in an ECM & BPM context. This presentation will review integration patterns between popular machine learning tools such as IBM's Watson and the Alfresco product suite. Real World examples will be reviewed.</p>",
+        "targetaudience": "Business Users, Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers"
     }]
 }, {
     "name": "John",
@@ -280,11 +286,11 @@
     "twitter": "johnnewton",
     "linkedin": "https://www.linkedin.com/in/johnnewton/",
     "talks": [{
-        "id": "",
-        "topic": "Repository",
-        "title": "",
-        "abstract": "",
-        "targetaudience": ""
+        "id": "E04",
+        "topic": "Vision",
+        "title": "Alfresco vision",
+        "abstract": "<p>Digital technology has utterly transformed the business landscape. How employees work. Where value comes from. How to gain an edge. The importance of security. And so much more. In an environment of anywhere, anytime, and always-on commerce, how can your business leverage technology to extract the most possible value for workers and customers? In a word, flow.</p><p>John Newton, Alfresco Co-Founder and CTO, will share his vision about the Digital Transformation using an Open Thinking with the Alfresco Digital Business Platform.</p>",
+        "targetaudience": "Business Users, Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers"
     }]
 }, {
     "name": "José A.",
@@ -296,11 +302,11 @@
     "summary": "I have worked as a programmer (mostly in the Computer Graphics field, but also at Operating System level) in the Technological Institute of Aragón, and as System Analyst at the Computer Science Department in Zaragoza University.<br/>I have experience with all kind of Unix flavours and programming languages, and I run a medium size CPD that serves the biggest department in our University, with thousands of students and teaching and research staff.",
     "linkedin": "https://www.linkedin.com/in/jose-a-gutierrez-778b513b/",
     "talks": [{
-        "id": "",
-        "topic": "Repository",
-        "title": "",
-        "abstract": "",
-        "targetaudience": ""
+        "id": "F03",
+        "topic": "Workflows, API's, Use Case, Add-ons",
+        "title": "A history of (open) conversation: Alfresco at University of Zaragoza",
+        "abstract": "<p>University of Zaragoza has been using Alfresco since 2010 to provide internal entities collaboration facilities. This project has been named “Documenta”, which means something like “You document”.</p><p>From 2014, keensoft has been collaborating in this project to provide advanced customizations and to improve server capacity.</p><p>During this presentation the conversations between University and keensoft are going to be reproduced, in order to describe how a user requirement can be translated into an open source addon.</p><p>Also, when no generic customization can be designed or applied, some specific development is required. Describing how to identify users by integrating the complex structure of University of Zaragoza LDAP will exemplify this scenario.</p><p>On the other hand, when commercial addons are available, as Loftux Alfresco ShareBox, is not required to re-invent the wheel.</p><p>Finally, running system have to be maintained, so contributions to other open source projects like “Alfresco Shell Tools” or raising detected issues at Alfresco public JIRA are also relevant tasks.</p><p>In the end, attendees will learn how an open dialog between people working on the same project will produce much value than expected.</p>",
+        "targetaudience": "Business Users, Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco"
     }]
 }, {
     "name": "Lanre",
@@ -312,11 +318,11 @@
     "summary": "Started working with Alfresco in May 2012 when I was looking for an 'Electronic library'. I am the primary developer of the solution (along with a former colleague) at our company and I am an OOTB member. I also dabble a lot when it comes to technologies and hobbies.",
     "linkedin": "https://www.linkedin.com/in/lanre-abiwon-98a939b1/",
     "talks": [{
-        "id": "",
-        "topic": "Repository",
-        "title": "",
-        "abstract": "",
-        "targetaudience": ""
+        "id": "FE05",
+        "topic": "Use Case, Add-ons",
+        "title": "LibreOffice Online integration with Alfresco",
+        "abstract": "<p>An online version of LibreOffice has been on its way for many years now and was finally released in 2016, offering an alternative to hosted services of Google Docs and Office 365.</p><p>Unlike Google Docs and Office 365, LibreOffice Online (LOOL) is a self hosted alternative, therefore organisations will be able to host the service on their own infrastructure instead of having to trust a third-party SP with their documents.</p><p>The big advantage of this integration is not only that it provides collaborative live editing within alfresco, but  that it also has the potential to further liberate user's workflow completely from the desktop.</p><p>In this presentation, we will go through the technical details of how we integrate LOOL to Alfresco. The presentation will also include a couple of workflow scenarios to demonstrate the interaction of LibreOffice Online with Alfresco on various devices.</p>",
+        "targetaudience": "System Administrators, Experienced Alfresco developers, Architects and Technical Managers"
     }]
 }, {
     "name": "Luis",
@@ -329,11 +335,11 @@
     "twitter": "LuisCabaceira",
     "linkedin": "https://www.linkedin.com/in/cabaceira/",
     "talks": [{
-        "id": "",
-        "topic": "Repository",
-        "title": "",
-        "abstract": "",
-        "targetaudience": ""
+        "id": "F23",
+        "topic": "Alfresco Platform, Search, Add-ons",
+        "title": "Alfresco Best Practices",
+        "abstract": "<p>Whatever challenges you’re facing, most probably others have experienced it before and found solutions that work.  This presentation is about general best practices and golden rules while deploying, configuring, extending and managing your alfresco solution. A great opportunity to take advantage of the consolidated experience gathered while working in many different Alfresco projects.</p>",
+        "targetaudience": "Business Users, Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers"
     }]
 }, {
     "name": "Mario",
@@ -346,7 +352,7 @@
     "linkedin": "https://www.linkedin.com/in/mario-romano-51a6a714/",
     "talks": [{
         "id": "",
-        "topic": "Repository",
+        "topic": "",
         "title": "",
         "abstract": "",
         "targetaudience": ""
@@ -362,11 +368,11 @@
     "twitter": "maculi33",
     "linkedin": "https://www.linkedin.com/in/mikelasla/",
     "talks": [{
-        "id": "",
-        "topic": "Repository",
-        "title": "",
-        "abstract": "",
-        "targetaudience": ""
+        "id": "F10",
+        "topic": "Use Case",
+        "title": "Migration of two different Alfresco 4.2 CE instalations into one instance of Alfresco 201605GA",
+        "abstract": "<p>This was a complex use case where we had to merge two Alfresco 4.2 instances into one Alfresco 5.1, including the transformation of an Oracle database data into PostreSQL using open source tools (ora2pg and docker) and the migration of Users, Groups, Categories and Sites using Will Abson's alfresco-import-export tool.</p>",
+        "targetaudience": "Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers"
     }]
 }, {
     "name": "Nick",
@@ -379,11 +385,11 @@
     "twitter": "gagravarr",
     "linkedin": "https://www.linkedin.com/in/nick-burch-5543b376/",
     "talks": [{
-        "id": "",
-        "topic": "Repository",
-        "title": "",
-        "abstract": "",
-        "targetaudience": ""
+        "id": "F27",
+        "topic": "Alfresco Platform, Alfresco Share, Use Case",
+        "title": "25 Alfresco things you might not know (but should!)",
+        "abstract": "<p>Whether you're an old-hand at Alfresco, or a beginner, there's always more things you can learn about it! Based on my experiences mentoring new Alfresco developers, helping answer questions on StackOverflow, and my own coding, I've pulled together a list of things you might not know, but should, about Alfresco. Come learn my top tips, tricks, APIs and more, leave a better and more productive Alfresco developer!</p>",
+        "targetaudience": "Developers starting to work with Alfresco, Experienced Alfresco developers"
     }]
 }, {
     "name": "Oksana",
@@ -396,11 +402,11 @@
     "twitter": "aviriel",
     "linkedin": "https://www.linkedin.com/in/okurysheva/",
     "talks": [{
-        "id": "",
-        "topic": "Repository",
-        "title": "",
-        "abstract": "",
-        "targetaudience": ""
+        "id": "L02",
+        "topic": "Alfresco Share",
+        "title": "Worst practices for development with Aikau",
+        "abstract": "<p>How to make it works if you are not a developer, don't know dojo, default widget cannot be configured to the state you need and best practices don't work.</p>",
+        "targetaudience": "Newbies in Alfresco technologies, Developers starting to work with Alfresco"
     }]
 }, {
     "name": "Ole",
@@ -413,11 +419,11 @@
     "twitter": "OleHejlskov",
     "linkedin": "https://www.linkedin.com/in/ole-hejlskov-9793b61/",
     "talks": [{
-        "id": "",
-        "topic": "Repository",
-        "title": "",
-        "abstract": "",
-        "targetaudience": ""
+        "id": "E03",
+        "topic": "Alfresco Platform, Alfresco Share",
+        "title": "It's time: Alfresco SDK 3.0",
+        "abstract": "<p>Alfresco SDK 3.0 was announced at BeeCon last year, it has finally arrived.</p><p>The new version is a major rewrite to address a lot of known issues such as upgrading, switching versions and handling artifact name changes. It also offers a set of new features such as full support for JAR modules, better hot reloading, support for Activiti extensions and much more. </p><p>This session will take you through all the details along with an in-depth live demo and answer all your questions.</p>",
+        "targetaudience": "Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers"
     }]
 }, {
     "name": "Peter",
@@ -429,11 +435,11 @@
     "summary": "I started Parashift with 2 other partners in 2013.  Since inception I have been involved in numerous Alfresco-centric projects as Technical Lead in State/Federal Government and Multiple Private Sector verticals requiring system integration, customisation and varying degrees of custom work.<br/>I have a strong background in Network Engineering which has been used as a foundation to provide network based solutions using Alfresco.  Also, living in Australia, which has some of the most remote locations in the world, has provided a unique set of challenges to overcome.<br/>My role has been to ensure that the modules and services we offer to clients extend Alfresco's capabilities and match their requirements.  As an organisation, we have built a repertoire of modules which provide general purpose solutions to Alfresco which have benefited our clients and anyone else who is looking for similar solutions.",
     "linkedin": "https://www.linkedin.com/in/peterlesty/",
     "talks": [{
-        "id": "",
-        "topic": "Repository",
-        "title": "",
-        "abstract": "",
-        "targetaudience": ""
+        "id": "F19",
+        "topic": "Alfresco Platform, API's, Use Case, Add-ons",
+        "title": "Alfresco Two-Way Sync with Apache Camel",
+        "abstract": "<p>This talk will describe the architecture, challenges, solutions and future work of implementing two-way synchronisation between Alfresco instances that are separated halfway across the world.</p><p>We will step through the creation of a module named AlfStream, showing the application of keeping two instances of Alfresco in Sync, even in the event of delays and network outages.</p><p>You will also see by building on Apache Camel, an Open Source EIP framework, you can fully exploit existing camel components to integrate Alfresco into external databases, applications and file systems.</p>",
+        "targetaudience": "System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers"
     }]
 }, {
     "name": "Philippe",
@@ -446,11 +452,11 @@
     "twitter": "PKhazzaka",
     "linkedin": "https://www.linkedin.com/in/philippe-khazzaka-7aba351/",
     "talks": [{
-        "id": "",
-        "topic": "Repository",
-        "title": "",
-        "abstract": "",
-        "targetaudience": ""
+        "id": "F37",
+        "topic": "Use Case",
+        "title": "When Alfresco met Odoo: the marriage of ECM and ERP",
+        "abstract": "<p>The AlfOdoo connector helps to seamlessly integrate the Odoo Open Source ERP system with Alfresco when documents and content management capabilities are necessary. AlfOdoo combines the benefits of both systems and helps to deliver a global platform covering a wide range of functionality that an organization requires. AlfOdoo exploits Alfresco's rich ECM features and the content model capabilities.</p><p>With this combined solution, the Odoo users can create an Alfresco document space for every ERP business record to manage documents related to this record. AlfOdoo will fill standard and custom metadata properties of the document space with the structured data of the record, allowing Alfresco to classify and organise the document space in the repository. Changes of a business record will be reflected on the document space.</p><p>Through a dedicated user interface in Odoo, Odoo users can perform common document operations, like uploading and versioning documents, without leaving their familiar user interface. Of course, users can access and manage the document space and its contents through Share and the other Alfresco interfaces to use the full functionality of these interfaces.</p><p>From a technical point of view, AlfOdoo is a fine example of integrating Alfresco with CMIS V1.1 into another software package.</p><p>This talk will illustrate how easy it is to extend the Odoo platform in order to classify the content related to ERP business records in Alfresco.</p>",
+        "targetaudience": "Business Users"
     }]
 }, {
     "name": "Richard",
@@ -463,11 +469,23 @@
     "twitter": "esplinr",
     "linkedin": "https://www.linkedin.com/in/richardesplin/",
     "talks": [{
-        "id": "",
-        "topic": "Repository",
-        "title": "",
-        "abstract": "",
-        "targetaudience": ""
+        "id": "L05",
+        "topic": "Alfresco Platform, Contribution process",
+        "title": "A Curse of a White Elephant",
+        "abstract": "<p>Contrary to popular opinion, open source contributions are not free. It requires time, effort, and money to sift, vet, merge, test, and support any contribution, whether a major enhancement, a bug report, or a suggestion to the documentation. This lightning talk briefly describes why it is hard to accept a contribution, steps Alfresco is taking to make it easier, and how you can further improve the odds that your contribution benefits the wider community.</p>",
+        "targetaudience": "Developers starting to work with Alfresco, Experienced Alfresco developers"
+    }, {
+        "id": "L04",
+        "topic": "Business model",
+        "title": "Don't Kill Your Golden Goose",
+        "abstract": "<p>Open core businesses grow when they successfully leverage the mass adoption of an open source product while simultaneously delivering proprietary value-add products in the same ecosystem. Such businesses must be careful to differentiate the proprietary products in ways that both add value to paying customers and does not undermine the incentives of other contributors in the open source community. This presentation briefly shares key considerations for achieving these often competing objectives. </p>",
+        "targetaudience": "Experienced Alfresco developers, Architects and Technical Managers"
+    }, {
+        "id": "E06",
+        "topic": "Alfresco Platform, Alfresco Share, Search, Workflows, API's, Open source collaboration",
+        "title": "Contributing to Alfresco, Round 2",
+        "abstract": "<p>BeeCon 2016 featured a discussion of how the Alfresco product development teams could better collaborate with open source contributors. During that panel, Alfresco management explained some of the challenges with accepting contributions and discussed ideas offered by the open source community for improving the situation.</p><p>This year we would like to report on the progress that we have made, and explain the ongoing initiatives to improve our open source collaboration.</p><p>The session will be moderated by Richard Esplin from Alfresco Product Management, and Boriss Mejias from the Order of the Bee. The panel will include Alfresco leadership from the Product Management and Product Development organizations at Alfresco. We plan to reserve lots of time for answering audience questions.</p>",
+        "targetaudience": "Developers starting to work with Alfresco, Experienced Alfresco developers"
     }]
 }, {
     "name": "Robin",
@@ -480,11 +498,11 @@
     "twitter": "rbramley",
     "linkedin": "https://www.linkedin.com/in/rbramley/",
     "talks": [{
-        "id": "",
-        "topic": "Repository",
-        "title": "",
-        "abstract": "",
-        "targetaudience": ""
+        "id": "F31",
+        "topic": "Alfresco Platform",
+        "title": "Alfresco as a Metadata Hub",
+        "abstract": "<p>Metadata is a critical component in digital transformation. The ability to accurately describe content empowers discovery and consumption both within a repository and in downstream systems.</p><p>During this talk we'll explore:</p><ul class='list-instyled'><li>The capabilities of the out of the box content model</li><li>Emerging trends and standards</li><li>Approaches to handle complex metadata needs</li></ul><p>This session is aimed at an intermediate audience.</p>",
+        "targetaudience": "Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers"
     }]
 }, {
     "name": "Samuel",
@@ -497,11 +515,11 @@
     "twitter": "samuel_langlois",
     "linkedin": "https://www.linkedin.com/in/samuellanglois/",
     "talks": [{
-        "id": "",
-        "topic": "Repository",
-        "title": "",
-        "abstract": "",
-        "targetaudience": ""
+        "id": "F14",
+        "topic": "Alfresco Engineering",
+        "title": "Managing Alfresco source code",
+        "abstract": "<p>Come and get a sneak peek at Alfresco Engineering, and how we work!</p><p>Learn how we manage a few millions line of code and a few dozen products.</p><p>Get updates on our migration to the Brave New World of git.</p>",
+        "targetaudience": "Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers"
     }]
 }, {
     "name": "Sergiu",
@@ -513,11 +531,11 @@
     "twitter": "svidrascu",
     "linkedin": "https://www.linkedin.com/in/sergiualexandruvidrascu/",
     "talks": [{
-        "id": "",
-        "topic": "Repository",
-        "title": "",
-        "abstract": "",
-        "targetaudience": ""
+        "id": "F26",
+        "topic": "Alfresco Platform, Alfresco Share, Search, Provisioning Alfresco test infrastructure, Empowering Development teams, Spreading Chef awesomeness, Docker tactics for lightning speed deployments, Jenkins Ad-Hoc Env Provisioning",
+        "title": "Up already? U Serious?",
+        "abstract": "<p>Showcase of how alfresco does provisioning for regression testing on it's huge supported platforms matrix. Using chef and docker to build up infrastructure for testing and development. Instant Ad-hoc provisioning with jenkins, vagrant and docker-compose.</p>",
+        "targetaudience": "Business Users, Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers"
     }]
 }, {
     "name": "Stéphane",
@@ -530,11 +548,11 @@
     "twitter": "SBidoul",
     "linkedin": "https://www.linkedin.com/in/sbidoul/",
     "talks": [{
-        "id": "",
-        "topic": "Repository",
-        "title": "",
-        "abstract": "",
-        "targetaudience": ""
+        "id": "F25",
+        "topic": "Community Management",
+        "title": "Community Management Case study: The Odoo Community Association (OCA)",
+        "abstract": "<p>Odoo is a modern all-in-one management software (aka ERP), focusing on ease of use and extensibility. From many angles Odoo share similarities with Alfresco. It has a comparable licensing model with an open source (LGPL) Community Edition and a closed source Enterprise version built on top of the community version. Both products are driven by a strong editor and have an enthusiastic community. The communities are structuring themselves under the respective banners of Order of the Bee and the Odoo Community Association (OCA).</p><p>The purpose of this talk is to share experiences in building the Odoo Community Association, from the perspective of an OCA board member and active contributor. What is our mission? How are we organised? What works well? What are the current challenges? Relationship with the editor. Growing the community. And more organizational and technical aspects.</p>",
+        "targetaudience": "Business Users, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers"
     }]
 }, {
     "name": "Suresh",
@@ -547,11 +565,11 @@
     "twitter": "sjoshee",
     "linkedin": "https://www.linkedin.com/in/suresh-joshee-51486844/",
     "talks": [{
-        "id": "",
-        "topic": "Repository",
-        "title": "",
-        "abstract": "",
-        "targetaudience": ""
+        "id": "F07",
+        "topic": "Use Case",
+        "title": "'I Wish I Had Done This Differently' - Lesson Learned from Electronic Document and Record Management System (EDRMS) Implementation",
+        "abstract": "<p>The purpose of this talk is to share lesson learned from the implementation of  Electronic Document and Record Management System (EDRMS) at University of Alberta.</p>",
+        "targetaudience": "Business Users, Newbies in Alfresco technologies"
     }]
 }, {
     "name": "Thomas",
@@ -564,11 +582,11 @@
     "twitter": "tedemeo",
     "linkedin": "https://www.linkedin.com/in/thomasdemeo/",
     "talks": [{
-        "id": "",
-        "topic": "Repository",
-        "title": "",
-        "abstract": "",
-        "targetaudience": ""
+        "id": "E07",
+        "topic": "Alfresco Platform, Alfresco Share, Search, Workflows, API's, Use Case",
+        "title": "Power of the Platform",
+        "abstract": "<p>Organizations of all sizes and in all industries are undertaking digital initiatives to increase their agility in the face of rapid market change. This digital transformation requires organizations to optimize productivity through people, processes, and information with an increase in speed of deployment, seamless integration, and intuitive experiences.</p><p>This presentation covers the guiding principles behind the Alfresco Digital Business Platform that allows adopters to conduct their business more intelligently as content finds users when and where they need it, processes directly improve outcomes, and people are informed to act or make decisions at any time or place. We explain how Alfresco products incorporate design thinking, platform thinking, and open thinking to provide the solutions that modern organizations demand.</p>",
+        "targetaudience": "Business Users, Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers"
     }]
 }, {
     "name": "Victor",
@@ -581,11 +599,11 @@
     "twitter": "coffman",
     "linkedin": "https://www.linkedin.com/in/victorfarina/",
     "talks": [{
-        "id": "",
-        "topic": "Repository",
-        "title": "",
-        "abstract": "",
-        "targetaudience": ""
+        "id": "F15",
+        "topic": "Alfresco Platform, Use Case, Add-ons",
+        "title": "Assisting doctors to save lives with Alfresco and Xedoc",
+        "abstract": "<p>Using Alfresco in a high availability environment that helps doctors to find the electronic Medical Record of a patient can save time and lives.</p>",
+        "targetaudience": "Business Users"
     }]
 }, {
     "name": "Will",
@@ -598,11 +616,17 @@
     "twitter": "wabson",
     "linkedin": "https://www.linkedin.com/in/wabson/",
     "talks": [{
-        "id": "",
-        "topic": "Repository",
-        "title": "",
-        "abstract": "",
-        "targetaudience": ""
+        "id": "E08",
+        "topic": "API's, Custom Apps",
+        "title": "Developing applications against Alfresco’s Unified REST APIs",
+        "abstract": "<p>Alfresco's REST APIs allow your custom apps to pull in rich data on your content and processes. This session uses practical examples and demos based on open source code to show how the Alfresco Unified JavaScript API can be used to quickly build out apps on top of the REST API, both from client-side apps and Node.js scripts.</p>",
+        "targetaudience": "Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers"
+    }, {
+        "id": "L10",
+        "topic": "API's",
+        "title": "Automatic APIs with Swagger",
+        "abstract": "<p>A walkthrough of how we use Swagger's tools inside Alfresco to generate specifications and client APIs automatically</p>",
+        "targetaudience": "Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers"
     }]
 }, {
     "name": "Willem",
@@ -614,11 +638,17 @@
     "summary": "Has over 7 years experience with Alfresco setups and customizations. ",
     "linkedin": "https://www.linkedin.com/in/willem-van-den-eynde-5318078/",
     "talks": [{
-        "id": "",
-        "topic": "Repository",
-        "title": "",
-        "abstract": "",
-        "targetaudience": ""
+        "id": "L16",
+        "topic": "Alfresco Platform, Use Case",
+        "title": "Taming large repositories",
+        "abstract": "<p>Building large repositories has it challenges. A quick overview of things learned from setting up several 10M to 50M repositories.</p>",
+        "targetaudience": "System Administrators, Architects and Technical Managers"
+    }, {
+        "id": "F34",
+        "topic": "Alfresco Platform",
+        "title": "Care4Alf - 10 years of experience in one tool",
+        "abstract": "<p>We bundled years of experience handling Alfresco in a tool that helps administrators with common Alfresco problems. It also helps developers with debugging Alfresco.</p>",
+        "targetaudience": "System Administrators, Developers starting to work with Alfresco"
     }]
 }, {
     "name": "Younes",
@@ -631,11 +661,17 @@
     "twitter": "yregaieg",
     "linkedin": "https://www.linkedin.com/in/younesregaieg/",
     "talks": [{
-        "id": "",
-        "topic": "Repository",
-        "title": "",
-        "abstract": "",
-        "targetaudience": ""
+        "id": "E09",
+        "topic": "Alfresco Platform, Workflows, API's, Add-ons, Analytics",
+        "title": "Next Gen “Content Intelligence”: Easier to setup, more reliable and more powerful",
+        "abstract": "<p>Content Intelligence is one of the hottest topics on the ECM Market and the implementation of AAAR (rebranded in the latest version as Alflytics), as a full featured solution, provides both administrators and analysts with powerful analytics for Alfresco on top of the Pentaho Suite.</p><p>In this presentation Younes will show a fully dockerized setup for the solution, involving different containers for Alfresco (Share, Platform and Solr) and Pentaho (Pentaho Business Analytics Platform, Pentaho Data Integration and Pentaho Report Designer). Francesco, first inventor of Alflytics, will talk about new stuff around the 5.0 version with the latest enhancements in terms of features.</p>",
+        "targetaudience": "Business Users, Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers"
+    }, {
+        "id": "L14",
+        "topic": "Alfresco Platform, Transformations",
+        "title": "Externalizing Office document transformations into a remote JODC server",
+        "abstract": "<p>In this presentation we will explore an implementation of a content transformer for Office documents, leveraging the micro-service architecture for scalable & reliable content transformations.</p>",
+        "targetaudience": "System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers"
     }]
 }, {
     "name": "Martin",
@@ -648,11 +684,11 @@
     "twitter": "Python_Primer",
     "linkedin": "https://www.linkedin.com/in/martin-whittington-59359b42/",
     "talks": [{
-        "id": "",
-        "topic": "Repository",
-        "title": "",
-        "abstract": "",
-        "targetaudience": ""
+        "id": "L03",
+        "topic": "AWS, The Cloud",
+        "title": "Managed the DevOps Way",
+        "abstract": "<p>How we use AWS to allocate trials to customers who want to know more about AWS</p>",
+        "targetaudience": "Business Users, Newbies in Alfresco technologies, System Administrators, Architects and Technical Managers"
     }]
 }, {
     "name": "Tom",
@@ -664,11 +700,11 @@
     "summary": "Since more than 7 years I'm working in the ECM-business. I've worked with Documentum but my heart goes out to Alfresco.",
     "linkedin": "https://www.linkedin.com/in/tom-vandepoele-62396725/",
     "talks": [{
-        "id": "",
-        "topic": "Repository",
-        "title": "",
-        "abstract": "",
-        "targetaudience": ""
+        "id": "L07",
+        "topic": "Alfresco Platform, Use Case",
+        "title": "Sending customizable emails in Alfresco",
+        "abstract": "<p>Alfresco has been able to send emails for a long time. Mails are sent when you are invited to sites, when a workflow-task is assigned to you, for daily overviews of activities in your sites, etc.</p><p>There are however a few shortcomings:</p><ul class='list-instyled'><li>The body of the email is not easily customizable.</li><li>Sent email is not stored in Alfresco, so maintaining track of your conversation is hard.</li><li>Recipients cannot be dynamically assigned.</li></ul><p>In this ignite talk I would like to show how to generate custom e-mails from within Alfresco, with pre-populated recipients and automatically stored within Alfresco after sending.</p>",
+        "targetaudience": "Business Users, Developers starting to work with Alfresco, Experienced Alfresco developers"
     }]
 }, {
     "name": "Cesar",
@@ -681,11 +717,11 @@
     "twitter": "zylknet",
     "linkedin": "https://www.linkedin.com/in/cesarcapillas/",
     "talks": [{
-        "id": "",
-        "topic": "Repository",
-        "title": "",
-        "abstract": "",
-        "targetaudience": ""
+        "id": "L08",
+        "topic": "Alfresco Share, Add-ons",
+        "title": "Javascript API based developments for improving your Alfresco experience",
+        "abstract": "<p>Alfresco is a fantastic suite for collaboration. Nevertheless, final and business users require frequently several modifications of the Alfresco interface and functionality OOTB, to customize and, in best cases, to improve Alfresco. In the presentation, I will talk about a set of Alfresco addons, that came from different conversations with clients. They are simple customizations of Alfresco that may be also a a good starting point for developing in Alfresco with Javascript API. All the addons presented are open source licensed and published in github.</p>",
+        "targetaudience": "Business Users, Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco"
     }]
 }, {
     "name": "Alexey",
@@ -698,11 +734,11 @@
     "twitter": "avasyukov",
     "linkedin": "https://www.linkedin.com/in/avasyukov/",
     "talks": [{
-        "id": "",
-        "topic": "Repository",
-        "title": "",
-        "abstract": "",
-        "targetaudience": ""
+        "id": "L11",
+        "topic": "Alfresco Platform, API's",
+        "title": "Alfresco repo under concurrent write load: tips and tricks to make it stable",
+        "abstract": "<p>This talk sums up quite a big amount of painful experience regarding developing Alfresco repo-tier extensions that should handle concurrent write load (10-100 write requests per second). Generic approach with getRetryingTransactionHelper().doInTransaction(...whatever...) is not enough for complex repo tier logic. The talk will cover:</p><ul class='list-instyled'><li>Problems when transactions, optimistic locking and default retrying helper meet exception handling in real life code.</li><li>Issues caused by repo transaction isolation and explicit synchronization in third party code.</li></ul><p>Happy end included: the talk will provide recipes to make code stable under concurrent writes.</p>",
+        "targetaudience": "Experienced Alfresco developers, Architects and Technical Managers"
     }]
 }, {
     "name": "Alexey",
@@ -715,11 +751,11 @@
     "twitter": "fufler",
     "linkedin": "https://www.linkedin.com/in/alexey-ermakov-a885512b/",
     "talks": [{
-        "id": "",
-        "topic": "Repository",
-        "title": "",
-        "abstract": "",
-        "targetaudience": ""
+        "id": "L15",
+        "topic": "Alfresco Platform, Alfresco Share, Workflows, API's",
+        "title": "Fear and loathing in Alfresco workflow development",
+        "abstract": "<p>The main goal of this talk is to provide some tips and tricks to overcome current limitations that one encounters when developing workflows with Alfresco. Despite quite a big progress was made during last few years there are still plenty of hidden problems one have to solve to be able to create a complex workflow.</p><p>For example, there is no easy way to create files that are required to deploy a workflow: models, localizaiton, share forms config. But workflow development time may be significantly decreased when generating these files from templates.</p><p>Another common issue is very limited workflow API: only basic capabilities are exposed through Java Foundation API. For any non-trivial things like adding task listeners programmatically you have to do some magic (a bit dirty sometimes).</p><p>This talk sums up author's experience in Alfresco workflow development and aims at pointing out solutions for some painful problems.</p>",
+        "targetaudience": "Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers"
     }]
 }, {
     "name": "Kristen",
@@ -732,10 +768,10 @@
     "twitter": "KristenGastaldo",
     "linkedin": "https://www.linkedin.com/in/kristengastaldo/",
     "talks": [{
-        "id": "",
-        "topic": "Repository",
-        "title": "",
-        "abstract": "",
-        "targetaudience": ""
+        "id": "L19",
+        "topic": "Resources/Community Platform",
+        "title": "Making the Most of the Alfresco Community",
+        "abstract": "<p>Last year, we launched the new Alfresco community to replace our forums, blogs, and wiki. Since then we've had 5000 people login to the space, with 1600 new discussions and 100 new blogs posted. I'd like to show the attendees the basic layout of the community and provide a few tips for making the most of the community - how to follow certain areas or people, how to participate in challenges and earn points, how to thank other members, and how to use the search effectively.</p>",
+        "targetaudience": "Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers"
     }]
 }]

@@ -17,10 +17,12 @@ app.controller('SpeakersCtrl', ['$scope', '$http', '$timeout', '$uibModal', func
         n++;
       }
     }
-    for (n=1; n < $scope.speakers.length+1; n++) {
-      $scope.randomList.push(
-        $scope.speakers[array[n]]
-      );
+    for (n=1; n < 5; n++) {
+			if ($scope.speakers[array[n]].surname != "Newton" && $scope.speakers[array[n]].surname != "De Meo") {
+      	$scope.randomList.push(
+        	$scope.speakers[array[n]]
+      	);
+			}
     };
   });
 	$scope.open = function (_speaker) {
