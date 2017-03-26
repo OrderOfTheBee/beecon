@@ -7317,3 +7317,25 @@ div.padding-vertical {
 .list-instyled {
   padding-left: 15px;
 }
+
+#ootb-tweets ul li {
+  list-style:none;
+  overflow:hidden;
+  padding:5px;
+}
+
+#ootb-tweets img {
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  vertical-align: text-bottom;
+  border-radius: 6px;
+}
+
+#ootb-tweets p.interact > a {
+  margin: 0 10px;
+}
+
+#ootb-tweets .tweet {
+  margin-bottom: 0;
+}
