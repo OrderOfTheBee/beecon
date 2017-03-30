@@ -107,14 +107,14 @@
 									<div ng-show="item.summary" ng-bind-html="item.summary"></div>
 									<br/>
 									<ul class="list-unstyled">
-										<li ng-if="item.companyUrl"><a class="black" href="{{item.companyUrl}}" target="_blank"><span class="fa fa-building"></span> Company website</a></li>
+										<li ng-if="item.website"><a class="black" href="{{item.website}}" target="_blank"><span class="fa fa-building"></span> Company website</a></li>
 										<li ng-if="item.linkedin"><a class="black" href="{{item.linkedin}}" target="_blank"><span class="fa fa-linkedin"></span> LinkedIn</a></li>
 										<li ng-if="item.twitter" ><a class="black" href="https://twitter.com/{{item.twitter}}" target="_blank"><span class="fa fa-twitter"></span> Twitter</a></li>
 									</ul>
 									<br/>
 								</div>
 								<div class="col-md-4 col-sm-6 col-lg-3">
-									<img src="https://www.gravatar.com/avatar/{{item.image}}?s=150&d=http%3A%2F%2Fbeecon.buzz%2Fassets%2Fimg%2Fspeakers%2Fbees.jpg" class="img-responsive img-rounded right">
+									<img src="https://www.gravatar.com/avatar/{{item.emailMD5}}?s=150&d=http%3A%2F%2Fbeecon.buzz%2Fassets%2Fimg%2Fspeakers%2Fbees.jpg" class="img-responsive img-rounded right">
 								</div>
 							</div>
 							<p class="lead"><strong>Sessions</strong></p>
@@ -134,11 +134,11 @@
 					<div class="row">
 						<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12" ng-repeat="speaker in speakers | orderBy:'surname'">
 							<div class="speaker">
-								<div class="photo-wrapper rounded"><a href="" ng-click="open(speaker)"><img src="https://www.gravatar.com/avatar/{{speaker.image}}?s=150&d=http%3A%2F%2Fbeecon.buzz%2Fassets%2Fimg%2Fspeakers%2Fbees.jpg" class="img-responsive"></a></div>
+								<div class="photo-wrapper rounded"><a href="" ng-click="open(speaker)"><img src="https://www.gravatar.com/avatar/{{speaker.emailMD5}}?s=150&d=http%3A%2F%2Fbeecon.buzz%2Fassets%2Fimg%2Fspeakers%2Fbees.jpg" class="img-responsive"></a></div>
 									<h3 class="name">{{speaker.name}} {{speaker.surname}}</h3>
 									<p class="text-alt"><small>{{speaker.position}} @ {{speaker.company}}</small></p>
 									<ul class="speaker-socials">
-										<li ng-if="speaker.companyUrl"><a href="{{speaker.companyUrl}}" target="_blank"><span class="fa fa-building"></span></a></li>
+										<li ng-if="speaker.website"><a href="{{speaker.website}}" target="_blank"><span class="fa fa-building"></span></a></li>
 										<li ng-if="speaker.linkedin" ><a href="{{speaker.linkedin}}" target="_blank"><span class="fa fa-linkedin"></span></a></li>
 										<li ng-if="speaker.twitter"><a href="https://twitter.com/{{speaker.twitter}}" target="_blank"><span class="fa fa-twitter"></span></a></li>
 									</ul>
