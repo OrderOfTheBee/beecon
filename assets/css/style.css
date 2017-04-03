@@ -7346,6 +7346,6 @@ div.padding-vertical {
   margin-bottom: 0;
 }
 
-.networking, .session {
+.networking, .session, .room {
   text-align: center;
 }
