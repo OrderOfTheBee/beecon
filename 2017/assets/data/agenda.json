@@ -1,0 +1,1211 @@
+[
+	{
+		"date": "April 25",
+		"slots": [
+			{
+				"time": "9:00 - 10:00",
+				"sessions": [
+					{
+						"id": "Registration",
+						"place": "Social"
+					}
+					,
+					{
+						"id": "",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 1"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 2"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 3"
+					}
+				]
+			},
+			{
+				"time": "10:00 - 13:00",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Social"
+					}
+					,
+					{
+						"id": "",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 1"
+					}
+					,
+					{
+						"id": "Hackathon",
+						"place": "Room 2"
+					}
+					,
+					{
+						"id": "Getting started",
+						"place": "Room 3"
+					}
+				]
+			},
+			{
+				"time": "13:00 - 14:00",
+				"sessions": [
+					{
+						"id": "Lunch Break",
+						"place": "Social"
+					}
+					,
+					{
+						"id": "",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 1"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 2"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 3"
+					}
+				]
+			},
+			{
+				"time": "14:00 - 18:00",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Social"
+					}
+					,
+					{
+						"id": "",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 1"
+					}
+					,
+					{
+						"id": "Hackathon",
+						"place": "Room 2"
+					}
+					,
+					{
+						"id": "Getting started",
+						"place": "Room 3"
+					}
+				]
+			},
+			{
+				"time": "19:00 - 22:00",
+				"sessions": [
+					{
+						"id": "Social event",
+						"place": "Social"
+					}
+					,
+					{
+						"id": "",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 1"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 2"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 3"
+					}
+				]
+			}
+		]
+	},
+	{
+		"date": "April 26",
+		"slots": [
+			{
+				"time": "8:30 - 9:30",
+				"sessions": [
+					{
+						"id": "Registration",
+						"place": "Social"
+					}
+					,
+					{
+						"id": "",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 1"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 2"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 3"
+					}
+				]
+			},
+			{
+				"time": "9:30 - 10:00",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Social"
+					}
+					,
+					{
+						"id": "F39",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 1"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 2"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 3"
+					}
+				]
+			},
+			{
+				"time": "10:05 - 10:50",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Social"
+					}
+					,
+					{
+						"id": "E04",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 1"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 2"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 3"
+					}
+				]
+			},
+			{
+				"time": "10:50 - 11:20",
+				"sessions": [
+					{
+						"id": "Break",
+						"place": "Social"
+					}
+					,
+					{
+						"id": "",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 1"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 2"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 3"
+					}
+				]
+			},
+			{
+				"time": "11:20 - 12:05",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Social"
+					}
+					,
+					{
+						"id": "E03",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "E10",
+						"place": "Room 1"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 2"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 3"
+					}
+				]
+			},
+			{
+				"time": "12:10 - 12:55",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Social"
+					}
+					,
+					{
+						"id": "E02",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "E09",
+						"place": "Room 1"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 2"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 3"
+					}
+				]
+			},
+			{
+				"time": "12:50 - 14:00",
+				"sessions": [
+					{
+						"id": "Lunch Break",
+						"place": "Social"
+					}
+					,
+					{
+						"id": "",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 1"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 2"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 3"
+					}
+				]
+			},
+			{
+				"time": "14:00 - 14:30",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Social"
+					}
+					,
+					{
+						"id": "F23",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "F41",
+						"place": "Room 1"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 2"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 3"
+					}
+				]
+			},
+			{
+				"time": "14:30 - 15:00",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Social"
+					}
+					,
+					{
+						"id": "F12",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "F26",
+						"place": "Room 1"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 2"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 3"
+					}
+				]
+			},
+			{
+				"time": "15:05 - 15:35",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Social"
+					}
+					,
+					{
+						"id": "BoF1",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "BoF2",
+						"place": "Room 1"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 2"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 3"
+					}
+				]
+			},
+			{
+				"time": "15:35 - 16:05",
+				"sessions": [
+					{
+						"id": "Break",
+						"place": "Social"
+					}
+					,
+					{
+						"id": "",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 1"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 2"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 3"
+					}
+				]
+			},
+			{
+				"time": "16:05 - 16:35",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Social"
+					}
+					,
+					{
+						"id": "FL01",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "F34",
+						"place": "Room 1"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 2"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 3"
+					}
+				]
+			},
+			{
+				"time": "16:40 - 17:10",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Social"
+					}
+					,
+					{
+						"id": "F03",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "F06",
+						"place": "Room 1"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 2"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 3"
+					}
+				]
+			},
+			{
+				"time": "17:00 - 18:00",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Social"
+					}
+					,
+					{
+						"id": "Hackathon showcase",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 1"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 2"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 3"
+					}
+				]
+			},
+			{
+				"time": "19:00 - 22:00",
+				"sessions": [
+					{
+						"id": "Social event",
+						"place": "Social"
+					}
+					,
+					{
+						"id": "",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 1"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 2"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 3"
+					}
+				]
+			}
+		]
+	},
+	{
+		"date": "April 27",
+		"slots": [
+			{
+				"time": "09:00 - 9:45",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Social"
+					}
+					,
+					{
+						"id": "E07",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 1"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 2"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 3"
+					}
+				]
+			},
+			{
+				"time": "09:50 - 10:35",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Social"
+					}
+					,
+					{
+						"id": "E08",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "EF09",
+						"place": "Room 1"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 2"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 3"
+					}
+				]
+			},
+			{
+				"time": "10:35 - 11:05",
+				"sessions": [
+					{
+						"id": "Break",
+						"place": "Social"
+					}
+					,
+					{
+						"id": "",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 1"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 2"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 3"
+					}
+				]
+			},
+			{
+				"time": "11:05 - 11:50",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Social"
+					}
+					,
+					{
+						"id": "E01",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "EF30",
+						"place": "Room 1"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 2"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 3"
+					}
+				]
+			},
+			{
+				"time": "10:30 - 10:50",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Social"
+					}
+					,
+					{
+						"id": "F02",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "F42",
+						"place": "Room 1"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 2"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 3"
+					}
+				]
+			},
+			{
+				"time": "10:55 - 12:25",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Social"
+					}
+					,
+					{
+						"id": "FL02",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "F28",
+						"place": "Room 1"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 2"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 3"
+					}
+				]
+			},
+			{
+				"time": "12:50 - 14:00",
+				"sessions": [
+					{
+						"id": "Lunch Break",
+						"place": "Social"
+					}
+					,
+					{
+						"id": "",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 1"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 2"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 3"
+					}
+				]
+			},
+			{
+				"time": "14:00 - 14:30",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Social"
+					}
+					,
+					{
+						"id": "BoF3",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "Bof3",
+						"place": "Room 1"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 2"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 3"
+					}
+				]
+			},
+			{
+				"time": "14:30 - 15:00",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Social"
+					}
+					,
+					{
+						"id": "F10",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "F32",
+						"place": "Room 1"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 2"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 3"
+					}
+				]
+			},
+			{
+				"time": "15:05 - 15:35",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Social"
+					}
+					,
+					{
+						"id": "F44",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "F15",
+						"place": "Room 1"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 2"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 3"
+					}
+				]
+			},
+			{
+				"time": "15:35 - 16:05",
+				"sessions": [
+					{
+						"id": "Break",
+						"place": "Social"
+					}
+					,
+					{
+						"id": "",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 1"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 2"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 3"
+					}
+				]
+			},
+			{
+				"time": "16:05 - 16:35",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Social"
+					}
+					,
+					{
+						"id": "FL03",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "F20",
+						"place": "Room 1"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 2"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 3"
+					}
+				]
+			},
+			{
+				"time": "16:40 - 17:10",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Social"
+					}
+					,
+					{
+						"id": "F14",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "F37",
+						"place": "Room 1"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 2"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 3"
+					}
+				]
+			},
+			{
+				"time": "17:15 - 18:00",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Social"
+					}
+					,
+					{
+						"id": "E06",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 1"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 2"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 3"
+					}
+				]
+			}
+		]
+	},
+	{
+		"date": "April 28",
+		"slots": [
+			{
+				"time": "9:00 - 9:30",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Social"
+					}
+					,
+					{
+						"id": "F21",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "F35",
+						"place": "Room 1"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 2"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 3"
+					}
+				]
+			},
+			{
+				"time": "9:35 - 10:05",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Social"
+					}
+					,
+					{
+						"id": "F07",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "F11",
+						"place": "Room 1"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 2"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 3"
+					}
+				]
+			},
+			{
+				"time": "10:10 - 10:40",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Social"
+					}
+					,
+					{
+						"id": "FL04",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "F19",
+						"place": "Room 1"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 2"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 3"
+					}
+				]
+			},
+			{
+				"time": "10:40 - 11:10",
+				"sessions": [
+					{
+						"id": "Break",
+						"place": "Social"
+					}
+					,
+					{
+						"id": "",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 1"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 2"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 3"
+					}
+				]
+			},
+			{
+				"time": "11:10 - 11:40",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Social"
+					}
+					,
+					{
+						"id": "FE05",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "F27",
+						"place": "Room 1"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 2"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 3"
+					}
+				]
+			},
+			{
+				"time": "11:45 - 12:15",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Social"
+					}
+					,
+					{
+						"id": "F31",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "F25",
+						"place": "Room 1"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 2"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 3"
+					}
+				]
+			},
+			{
+				"time": "12:20 - 13:00",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Social"
+					}
+					,
+					{
+						"id": "E11",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 1"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 2"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 3"
+					}
+				]
+			}
+		]
+	}
+]

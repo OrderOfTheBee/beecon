@@ -1,0 +1,1900 @@
+[
+{
+	"id": "F02",
+	"topic": "Search",
+	"title": "SQL in Solr 6",
+	"type": "Full Talk (30 m)",
+	"day": "April 27",
+	"hour": "10:30 - 10:50",
+	"room": "Auditorium",
+	"targetAudience": "Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
+	"abstract": "<p>One of the new upcoming capabilities in Alfresco Search Services is the inclusion of Solr JDBC. This feature was introduced in Solr 6.3 and provides the ability to interact with Solr using SQL. In this presentation we will explore when and how to use SQL in Solr.</p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Michael",
+			"surname": "Suzuki",
+			"emailMD5": "9a89733608a217d557227b3c3d4d357d",
+			"position": "Senior Engineer ",
+			"company": "Alfresco",
+			"twitter": "suzukimichael",
+			"linkedin": "https://www.linkedin.com/in/michael-suzuki-b8864b2/",
+			"website": "https://www.alfresco.com/",
+			"summary":"Michael is an engineer with more than 15 years experience in software development. He is currently a member of the Alfresco Search & Discovery team and a contributor to the Apache Solr project."
+		}
+	]
+},
+{
+	"id": "F03",
+	"topic": "Workflows, API's, Use Case, Add-ons",
+	"title": "A history of (open) conversation: Alfresco at University of Zaragoza",
+	"type": "Full Talk (30 m)",
+	"day": "April 26",
+	"hour": "16:40 - 17:10",
+	"room": "Auditorium",
+	"targetAudience": "Business Users, Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco",
+	"abstract": "<p>University of Zaragoza has been using Alfresco since 2010 to provide internal entities collaboration facilities. This project has been named “Documenta”, which means something like “You document”.</p><p>From 2014, keensoft has been collaborating in this project to provide advanced customizations and to improve server capacity.</p><p>During this presentation the conversations between University and keensoft are going to be reproduced, in order to describe how a user requirement can be translated into an open source addon.</p><p>Also, when no generic customization can be designed or applied, some specific development is required. Describing how to identify users by integrating the complex structure of University of Zaragoza LDAP will exemplify this scenario.</p><p>On the other hand, when commercial addons are available, as Loftux Alfresco ShareBox, is not required to re-invent the wheel.</p><p>Finally, running system have to be maintained, so contributions to other open source projects like “Alfresco Shell Tools” or raising detected issues at Alfresco public JIRA are also relevant tasks.</p><p>In the end, attendees will learn how an open dialog between people working on the same project will produce much value than expected.</p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "José",
+			"surname": "A. Gutiérrez",
+			"emailMD5": "494ba517aae2d59b9efe112493da900a",
+			"position": "System Analyst",
+			"company": "University of Zaragoza",
+			"twitter": "fsck_awk ",
+			"linkedin": "https://www.linkedin.com/in/jose-a-gutierrez-778b513b/",
+			"website": "http://unizar.es/",
+			"summary":"I have worked as a programmer (mostly in the Computer Graphics field, but also at Operating System level) in the Technological Institute of Aragón, and as System Analyst at the Computer Science Department in Zaragoza University.<br/>I have experience with all kind of Unix flavours and programming languages, and I run a medium size CPD that serves the biggest department in our University, with thousands of students and teaching and research staff."
+		}
+		,
+		{
+			"name": "Angel",
+			"surname": "Borroy",
+			"emailMD5": "d2f586d01f6525d68a072c6167462858",
+			"position": "Developer",
+			"company": "keensoft UST Global",
+			"twitter": "AngelBorroy",
+			"linkedin": "https://www.linkedin.com/in/angelborroy/",
+			"website": "http://www.keensoft.es/en/",
+			"summary":"Angel Borroy is technical lead architect at keensoft. Over the last 15 years, he has been working as a software architect on Java, BPM, document management and electronic signatures. He has been working with Alfresco during the last years to customise several implementations in large organisations and to provide add-ons to the Community based on Record Management and Electronic Signature. He writes (sometimes) on his <a class='black' target='_blank' href='http://angelborroy.wordpress.com'>personal blog</a>."
+		}
+	]
+},
+{
+	"id": "F06",
+	"topic": "Alfresco Platform",
+	"title": "Supporting Alfresco Installations",
+	"type": "Full Talk (30 m)",
+	"day": "April 26",
+	"hour": "16:40 - 17:10",
+	"room": "Room 1",
+	"targetAudience": "Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
+	"abstract": "<p>Zia consulting is a platinum Alfresco partner. We are one of the only US partners that is providing Level 1 Alfresco support in concert with the Alfresco support organization. In this presentation we'll go over best practices for investigating and resolving Alfresco issues. We will also cover some best practices for getting the most out of your Alfresco support relationship.</p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Bindu",
+			"surname": "Wavell",
+			"emailMD5": "38dd11f54dc46e44704a926513b35d99",
+			"position": "Chief Architect",
+			"company": "Zia Consulting",
+			"twitter": "binduwavell",
+			"linkedin": "https://www.linkedin.com/in/binduwavell/",
+			"website": "http://www.ziaconsulting.com/",
+			"summary":"Bindu Wavell is the Chief Architect at Zia Consulting. He has been involved in enterprise system integration consulting for 26 years. At Zia, Bindu provides guidance and mentoring around enterprise content management architecture and design in addition to working hands-on with customers.Bindu has been working on enterprise content management engagements for the past 12 years.  Bindu has also been running the support organization at Zia for the last year. Previously he worked at eConvergent and Aspect Communications focusing on customer relationship management systems."
+		}
+	]
+},
+{
+	"id": "F07",
+	"topic": "Use Case",
+	"title": "I Wish I Had Done This Differently - Lesson Learned from Electronic Document and Record Management (EDRMS) System Implementation",
+	"type": "Full Talk (30 m)",
+	"day": "April 28",
+	"hour": "9:35 - 10:05",
+	"room": "Auditorium",
+	"targetAudience": "Business Users, Newbies in Alfresco technologies",
+	"abstract": "<p>The purpose of this talk is to share lesson learned from the implementation of  Electronic Document and Record Management System (EDRMS) at University of Alberta.</p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Suresh",
+			"surname": "Joshee",
+			"emailMD5": "271eff648f4da5afaad6478402a733cb",
+			"position": "Service Delivery Manager",
+			"company": "University of Alberta",
+			"twitter": "sjoshee",
+			"linkedin": "https://www.linkedin.com/in/suresh-joshee-51486844/",
+			"website": "https://www.ualberta.ca/",
+			"summary":"I worked in University of Alberta in Canada. We are one of the first university to use Alfresco in enterprise level. I am the main Alfresco resource in the university and have great experience in implementing Alfresco solutions."
+		}
+	]
+},
+{
+	"id": "F10",
+	"topic": "Use Case",
+	"title": "Migration of two different Alfresco 4.2 CE instalations into one instance of Alfresco 201605GA",
+	"type": "Full Talk (30 m)",
+	"day": "April 27",
+	"hour": "14:30 - 15:00",
+	"room": "Auditorium",
+	"targetAudience": "Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
+	"abstract": "<p>This was a complex use case where we had to merge two Alfresco 4.2 instances into one Alfresco 5.1, including the transformation of an Oracle database data into PostreSQL using open source tools (ora2pg and docker) and the migration of Users, Groups, Categories and Sites using Will Abson's alfresco-import-export tool.</p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Mikel",
+			"surname": "Asla",
+			"emailMD5": "f35f5fe3759ba52302d0fb3e9ea2dc3d",
+			"position": "Alfresco Developer",
+			"company": "keensoft UST Global",
+			"twitter": "maculi33",
+			"linkedin": "https://www.linkedin.com/in/mikelasla/",
+			"website": "http://www.keensoft.es/en/",
+			"summary":"Alfresco Developer and Linux enthusiastic. Worked in ECM projects for the last 10 years."
+		}
+	]
+},
+{
+	"id": "F11",
+	"topic": "Alfresco Platform, Search, API's, Add-ons",
+	"title": "10 unconventional ways to use alfresco",
+	"type": "Full Talk (30 m)",
+	"day": "April 28",
+	"hour": "9:35 - 10:05",
+	"room": "Room 1",
+	"targetAudience": "Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
+	"abstract": "<p>From riding a camel to machine learning. Lets explore some of Alfresco Content Service's not so well known features.</p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Gethin",
+			"surname": "James",
+			"emailMD5": "3f0e93d6254e95bb34831c4843fe931d",
+			"position": "Senior Engineer, Search & Discovery",
+			"company": "Alfresco",
+			"twitter": "covolution",
+			"linkedin": "https://www.linkedin.com/in/gethin-james-3417408/",
+			"website": "https://www.alfresco.com/",
+			"summary":"With more than 5 years working for Alfresco,  Gethin has been a member of the services team, then the platform and now the search team.  During this time the key technologies he worked on are the Public Api Framework, Messaging and Events Subsystems, Analytics (Pentaho) and Search Services (Solr 6)."
+		}
+	]
+},
+{
+	"id": "F12",
+	"topic": "Alfresco Platform, Alfresco Share, Add-ons",
+	"title": "Upgrading extensions - help is at hand",
+	"type": "Full Talk (30 m)",
+	"day": "April 26",
+	"hour": "14:30 - 15:00",
+	"room": "Auditorium",
+	"targetAudience": "Developers starting to work with Alfresco, Experienced Alfresco developers",
+	"abstract": "<p>The annual release of a new version is an exciting time with all the new features to try out but we know that it can be time consuming, tedious and error prone to check our, and other, extensions/bug fixes etc for compatibility.</p><p>This talk demonstrates an approach that attempts to simplify the process and provide a rudimentary form of QA.</p><p>I will go through a number of techniques that can be used in custom code and show how potential problems can be flagged up via an automated checking tool.</p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Ian",
+			"surname": "Wright",
+			"emailMD5": "7fdc31b40243a995a2f4b926f60414d6",
+			"position": "Senior Scientific Software Engineer",
+			"company": "Wellcome Trust Centre for Human Genetics, University of Oxford",
+			"twitter": "techwrighting",
+			"linkedin": "https://www.linkedin.com/in/iandwright/",
+			"website": "http://www.well.ox.ac.uk/home",
+			"summary":"I've been working with Alfresco, on and off, since version 3.4 as part of my work enabling the fight against malaria with MalariaGEN and WWARN. We're supportive of open source and our own extensions are available, as well as making use of those provided by other people. I'm continually learning from the community pages and IRC and hope to share some of that knowledge with others."
+		}
+	]
+},
+{
+	"id": "F14",
+	"topic": "Alfresco Engineering",
+	"title": "Managing Alfresco source code",
+	"type": "Full Talk (30 m)",
+	"day": "April 27",
+	"hour": "16:40 - 17:10",
+	"room": "Auditorium",
+	"targetAudience": "Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
+	"abstract": "<p>Come and get a sneak peek at Alfresco Engineering, and how we work!</p><p>Learn how we manage a few millions line of code and a few dozen products.</p><p>Get updates on our migration to the Brave New World of git.</p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Samuel",
+			"surname": "Langlois",
+			"emailMD5": "bc629a6e575bd7ffe5994a4b4d2a52c1",
+			"position": "Build and Release Manager",
+			"company": "Alfresco",
+			"twitter": "samuel_langlois",
+			"linkedin": "https://www.linkedin.com/in/samuellanglois/",
+			"website": "https://www.alfresco.com/",
+			"summary":"I joined Alfresco in April 2012. My job is to make sure that the Continuous Integration and the Releases are flowing smoothly. I'm usually referred to as 'the Maven guy'…'"
+		}
+	]
+},
+{
+	"id": "F15",
+	"topic": "Alfresco Platform, Use Case, Add-ons",
+	"title": "Assisting doctors to save lives with Alfresco and Xedoc",
+	"type": "Full Talk (30 m)",
+	"day": "April 27",
+	"hour": "15:05 - 15:35",
+	"room": "Room 1",
+	"targetAudience": "Business Users",
+	"abstract": "<p>Using Alfresco in a high availability environment that helps doctors to find the electronic Medical Record of a patient can save time and lives.</p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Victor",
+			"surname": "Fariña",
+			"emailMD5": "e4c85872d12acbde901316c569204449",
+			"position": "CEO",
+			"company": "Queres Tecnologías",
+			"twitter": "coffman",
+			"linkedin": "https://www.linkedin.com/in/victorfarina/",
+			"website": "http://www.queres.es/",
+			"summary":"Working with Alfresco since 2006, I am Alfresco summit speaker, and I have a new fresh topic ;)"
+		}
+	]
+},
+{
+	"id": "F19",
+	"topic": "Alfresco Platform, API's, Use Case, Add-ons",
+	"title": "Alfresco Two-Way Sync with Apache Camel",
+	"type": "Full Talk (30 m)",
+	"day": "April 28",
+	"hour": "10:10 - 10:40",
+	"room": "Room 1",
+	"targetAudience": "System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
+	"abstract": "<p>This talk will describe the architecture, challenges, solutions and future work of implementing two-way synchronisation between Alfresco instances that are separated halfway across the world.</p><p>We will step through the creation of a module named AlfStream, showing the application of keeping two instances of Alfresco in Sync, even in the event of delays and network outages.</p><p>You will also see by building on Apache Camel, an Open Source EIP framework, you can fully exploit existing camel components to integrate Alfresco into external databases, applications and file systems.</p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Peter",
+			"surname": "Lesty",
+			"emailMD5": "0cda9e8d9a0d441f1226b746446fd38d",
+			"position": "Technical Director",
+			"company": "Parashift",
+			"twitter": "",
+			"linkedin": "https://www.linkedin.com/in/peterlesty/",
+			"website": "https://www.parashift.com.au/",
+			"summary":"I started Parashift with 2 other partners in 2013.  Since inception I have been involved in numerous Alfresco-centric projects as Technical Lead in State/Federal Government and Multiple Private Sector verticals requiring system integration, customisation and varying degrees of custom work.<br/>I have a strong background in Network Engineering which has been used as a foundation to provide network based solutions using Alfresco.  Also, living in Australia, which has some of the most remote locations in the world, has provided a unique set of challenges to overcome.<br/>My role has been to ensure that the modules and services we offer to clients extend Alfresco's capabilities and match their requirements.  As an organisation, we have built a repertoire of modules which provide general purpose solutions to Alfresco which have benefited our clients and anyone else who is looking for similar solutions."
+		}
+	]
+},
+{
+	"id": "F20",
+	"topic": "Alfresco Share",
+	"title": "Leveraging search in Share",
+	"type": "Full Talk (30 m)",
+	"day": "April 27",
+	"hour": "16:05 - 16:35",
+	"room": "Room 1",
+	"targetAudience": "Business Users, Developers starting to work with Alfresco, Experienced Alfresco developers",
+	"abstract": "<p>The way search results are displayed in Share is quite simple: a thumbnail and some metadata. You can sort on some fixed fields, change to gallery view and … well that’s basically it. There is so much more you can do:</p><ul class='list-instyled'><li>Display the results in a table view</li><li>Let the user configure which metadata (columns) he/she want to see.</li><li>Allow the user to sort the results on the fields he/she wants</li><li>Save the search-query (incl selected facets) in a report so the same search can be executed again later without re-entering all the search-criteria, even with relative dates (eg. All documents created during the last 5 days).</li><li>Export the results to Excel (customers always want to export to Excel).</li><li>Allow the user to select specific results and execute multi-select actions.</li><li>Define facets per document type, not only per site.</li><li>…</li></ul><p>In this talk I would like to walk you through these options and show you how to accomplish them.</p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Hans",
+			"surname": "De Bal",
+			"emailMD5": "19275ae1f0516c4beaea279e3e7b1ea9",
+			"position": "Senior ECM consultant",
+			"company": "AMPLEXOR NV",
+			"twitter": "hdebal",
+			"linkedin": "https://www.linkedin.com/in/hans-de-bal-13333184/",
+			"website": "http://www.amplexor.com/",
+			"summary":"Since almost 11 years I am working in the ECM-world. I first started with Documentum but since 5 years my focus shifted to Alfresco. I am married and have one daughter."
+		}
+	]
+},
+{
+	"id": "F21",
+	"topic": "API's, Records Management, Governance",
+	"title": "Records Management: the API story",
+	"type": "Full Talk (30 m)",
+	"day": "April 28",
+	"hour": "9:00 - 9:30",
+	"room": "Auditorium",
+	"targetAudience": "Business Users, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
+	"abstract": "<p>Records Management has typically been seen as an application on top of Alfresco. That's not just the case now. Providing a DoD certified application is still very important for us, but we also want to expand the use of the underlying governance capabilities provided in the RM module. In this session, I'll run through the work we've been doing for RM 2.6 to build the public APIs, and walk through an example of bringing those capabilities into external applications.</p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "David",
+			"surname": "Webster",
+			"emailMD5": "e454ccfaa5834b17db7a29bada1b0465",
+			"position": "Staff Software Engineer",
+			"company": "Alfresco",
+			"twitter": "davidcognite",
+			"linkedin": "https://www.linkedin.com/in/davidwebstercognite/",
+			"website": "https://www.alfresco.com/",
+			"summary":"David joined Alfresco Engineering 7 years ago and has worked on everything UI related since then. For the last two years he's been one of the lead engineers on the Governance Services team, looking after the RM module. Outside of work, he splits his time between his two children and volunteering with a Search and Rescue team, where he also acts as a water rescue advisor to the UK's national Lowland Rescue committee."
+		}
+	]
+},
+{
+	"id": "F23",
+	"topic": "Alfresco Platform, Search, Add-ons",
+	"title": "Alfresco Best Practices",
+	"type": "Full Talk (30 m)",
+	"day": "April 26",
+	"hour": "14:00 - 14:30",
+	"room": "Auditorium",
+	"targetAudience": "Business Users, Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
+	"abstract": "<p>Whatever challenges you’re facing, most probably others have experienced it before and found solutions that work.  This presentation is about general best practices and golden rules while deploying, configuring, extending and managing your alfresco solution. A great opportunity to take advantage of the consolidated experience gathered while working in many different Alfresco projects.</p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Luis",
+			"surname": "Cabaceira",
+			"emailMD5": "09c1b9cd482626b2aacc3885708839aa",
+			"position": "Solutions Architect",
+			"company": "Alfresco",
+			"twitter": "LuisCabaceira",
+			"linkedin": "https://www.linkedin.com/in/cabaceira/",
+			"website": "https://www.alfresco.com/",
+			"summary":"Joined Alfresco in 2013 as a Technical Consultant and i've been helping customers on their Alfresco projects since. Occasionally i write blog posts on community.alfresco.com about my field experiences. As a passionate open source enthusiast i share my projects in <a href='http://github.com/lcabaceira' target='_blank' class='black'>github.com/lcabaceira</a> and <a href='github.com/cabaceira' target='_blank' class='black'>github.com/cabaceira</a>."
+		}
+	]
+},
+{
+	"id": "F25",
+	"topic": "Community Management",
+	"title": "Community Management Case study: The Odoo Community Association (OCA)",
+	"type": "Full Talk (30 m)",
+	"day": "April 28",
+	"hour": "11:45 - 12:15",
+	"room": "Room 1",
+	"targetAudience": "Business Users, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
+	"abstract": "<p>Odoo is a modern all-in-one management software (aka ERP), focusing on ease of use and extensibility. From many angles Odoo share similarities with Alfresco. It has a comparable licensing model with an open source (LGPL) Community Edition and a closed source Enterprise version built on top of the community version. Both products are driven by a strong editor and have an enthusiastic community. The communities are structuring themselves under the respective banners of Order of the Bee and the Odoo Community Association (OCA).</p><p>The purpose of this talk is to share experiences in building the Odoo Community Association, from the perspective of an OCA board member and active contributor. What is our mission? How are we organised? What works well? What are the current challenges? Relationship with the editor. Growing the community. And more organizational and technical aspects.</p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Stéphane",
+			"surname": "Bidoul",
+			"emailMD5": "a7c10c1823853eaa3c8539659c74718f",
+			"position": "Operations Director",
+			"company": "ACSONE SA/NV",
+			"twitter": "SBidoul",
+			"linkedin": "https://www.linkedin.com/in/sbidoul/",
+			"website": "https://www.acsone.eu/",
+			"summary":"I'm a co-founder of Acsone a software engineering company creating quality solutions, based on open standards and open source software. I lead the Odoo competence center of Acsone and I'm a board member of the Odoo Community Association. Doing software as a profession since 25 years. I have been doing a lot of SGML and XML. Now doing ERP with Odoo mostly. Always with a passion for open source and quality software architectures."
+		}
+	]
+},
+{
+	"id": "F26",
+	"topic": "Alfresco Platform, Alfresco Share, Search, Provisioning Alfresco test infrastructure, Empowering Development teams, Spreading Chef awesomeness, Docker tactics for lightning speed deployments, Jenkins Ad-Hoc Env Provisioning",
+	"title": "Up already? U Serious?",
+	"type": "Full Talk (30 m)",
+	"day": "April 26",
+	"hour": "14:30 - 15:00",
+	"room": "Room 1",
+	"targetAudience": "Business Users, Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers",
+	"abstract": "<p>Showcase of how alfresco does provisioning for regression testing on it's huge supported platforms matrix. Using chef and docker to build up infrastructure for testing and development. Instant Ad-hoc provisioning with jenkins, vagrant and docker-compose.</p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Sergiu",
+			"surname": "Vidrascu",
+			"emailMD5": "5da4505e8a930beccbd2c7cb53bc54ba",
+			"position": "DevOps Engineer",
+			"company": "Ness Technologies",
+			"twitter": "svidrascu",
+			"linkedin": "https://www.linkedin.com/in/sergiualexandruvidrascu/",
+			"website": "",
+			"summary":"Started working with Alfresco at Alfresco two and a half years ago. Started up with writing Automatic functional test cases for Share/Platform and shortly afterwards as a DevOps Engineer, improving the provisioning process around testing and now helping development teams reach their goals faster, better. I'm an optimistic person, love everything about automation, software quality and world peace :) I've worked with chef, docker, vagrant building the framework to help us reduce the time spent in provisioning alfresco's huge supported platforms matrix, but I keep striving to make it even better."
+		}
+	]
+},
+{
+	"id": "F27",
+	"topic": "Alfresco Platform, Alfresco Share, Use Case",
+	"title": "25 Alfresco things you might not know (but should!)",
+	"type": "Full Talk (30 m)",
+	"day": "April 28",
+	"hour": "11:10 - 11:40",
+	"room": "Room 1",
+	"targetAudience": "Developers starting to work with Alfresco, Experienced Alfresco developers",
+	"abstract": "<p>Whether you're an old-hand at Alfresco, or a beginner, there's always more things you can learn about it! Based on my experiences mentoring new Alfresco developers, helping answer questions on StackOverflow, and my own coding, I've pulled together a list of things you might not know, but should, about Alfresco. Come learn my top tips, tricks, APIs and more, leave a better and more productive Alfresco developer!</p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Nick",
+			"surname": "Burch",
+			"emailMD5": "2d523a87cd6b2f3f6a59697a1555172a",
+			"position": "CTO",
+			"company": "Quanticate",
+			"twitter": "gagravarr",
+			"linkedin": "https://www.linkedin.com/in/nick-burch-5543b376/",
+			"website": "http://www.quanticate.com/",
+			"summary":"Nick spent a number of years working for Alfresco in the Engineering team. Whilst there, integrations, CMIS and REST APIs took up much of his time. Since leaving Alfresco, Nick's now the Nick is CTO at Quanticate, a Clinical Research Organisation (CRO) with a strong focus on data and statistics. He continues to work on Alfresco, as well as contributing to a number of Content-related projects at the ASF."
+		}
+	]
+},
+{
+	"id": "F28",
+	"topic": "Workflows, ADF",
+	"title": "SSO IN/With Alfresco Activiti/ADF",
+	"type": "Full Talk (30 m)",
+	"day": "April 27",
+	"hour": "10:55 - 12:25",
+	"room": "Room 1",
+	"targetAudience": "Developers starting to work with Alfresco, Experienced Alfresco developers",
+	"abstract": "<p>In order to provide a user with a single sign on experience a developer needs to implement a SSO solution. In this talk we are going to focus on how to use AUTH2 in Activiti/ADF. The goal of the presentation is to understand AUTH2.O and how to enable it.</p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Eugenio",
+			"surname": "Romano",
+			"emailMD5": "5d368c2d38c19d391c5c2a33e860cdbc",
+			"position": "Senior Engineer",
+			"company": "Alfresco",
+			"twitter": "RomanoEugenio",
+			"linkedin": "https://www.linkedin.com/in/eugenio-romano-a28a4948/",
+			"website": "https://www.alfresco.com/",
+			"summary":"I am one of the main contributor of ADF, Activiti and alfresco-js-api. My main interest is to Create and Design quality software."
+		}
+	]
+},
+{
+	"id": "F31",
+	"topic": "Alfresco Platform",
+	"title": "Alfresco as a Metadata Hub",
+	"type": "Full Talk (30 m)",
+	"day": "April 28",
+	"hour": "11:45 - 12:15",
+	"room": "Auditorium",
+	"targetAudience": "Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
+	"abstract": "<p>Metadata is a critical component in digital transformation. The ability to accurately describe content empowers discovery and consumption both within a repository and in downstream systems.</p><p>During this talk we'll explore:</p><ul class='list-instyled'><li>The capabilities of the out of the box content model</li><li>Emerging trends and standards</li><li>Approaches to handle complex metadata needs</li></ul><p>This session is aimed at an intermediate audience.</p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Robin",
+			"surname": "Bramley",
+			"emailMD5": "1c0fe173b30f006ed19240e48c644a75",
+			"position": "Chief Scientific Officer",
+			"company": "Ixxus",
+			"twitter": "rbramley",
+			"linkedin": "https://www.linkedin.com/in/rbramley/",
+			"website": "https://www.ixxus.com/",
+			"summary":"He took Alfresco 0.6 to bits in 2005 and has been using/extending/implementing/integrating/scaling it ever since. Whilst Technical Manager at the first UK Alfresco Gold partner, he built the original IMAP interface to Alfresco. Robin has architected many distributed systems over the past 19 years ranging from a Swaps Trading Platform to Insurance Contract Management and a global Alfresco-based DAM system.<br/>Robin has presented at various international conferences and London meetups; his blog is syndicated by DZone and he has written a series of articles for GroovyMag, including one on CMIS integration with Alfresco that NASA wanted the source code for."
+		}
+	]
+},
+{
+	"id": "F32",
+	"topic": "Alfresco Platform, Alfresco Share, API's, Use Case",
+	"title": "Application Development for the Alfresco Digital Platform",
+	"type": "Full Talk (30 m)",
+	"day": "April 27",
+	"hour": "14:30 - 15:00",
+	"room": "Room 1",
+	"targetAudience": "Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
+	"abstract": "<p>Alfresco technologies have added a lot of good choices for building UX experiences across Share, ADF, and native mobile. Similarly, an array of current and coming APIs and REST Services exist for content, process, and records management. This session walks architects and developers through some digital solution use cases, the available Alfresco technology choices, and when the strengths of each are right for the job. You’ll also learn of what’s coming down the pike and how to get involved in the latest open source innovations for Digital Business Solutions.</p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Ole",
+			"surname": "Hejlskov",
+			"emailMD5": "6531fc64422bdb67e868ccb9bded9d26",
+			"position": "Product Manager, Developer Platform",
+			"company": "Alfresco",
+			"twitter": "OleHejlskov",
+			"linkedin": "https://www.linkedin.com/in/ole-hejlskov-9793b61/",
+			"website": "https://www.alfresco.com/",
+			"summary":"After five years as an active member of the Alfresco Community Ole helped co-found The Order Of the Bee and was initially on the board, until he joined Alfresco as Developer Evangelist in April 2015 and later moved into a new role as Product Manager for Developer Platform.<br/>Ole has more than 15 years of experience in the industry ranging from tech support, systems administration, development, project management, team lead, developer evangelism and now Product Management.<br/>Ole is a big contributor to the Alfresco SDK, proud member of The Order Of the Bee, has written various tutorials and video tutorials on both Aikau, Alfresco and Alfresco SDK."
+		}
+		,
+		{
+			"name": "Doug",
+			"surname": "Johnson",
+			"emailMD5": "d8483b2263049bb5617dd73c321c59c2",
+			"position": "Product Manager",
+			"company": "Alfresco",
+			"twitter": "",
+			"linkedin": "https://www.linkedin.com/in/douglasjohnson/",
+			"website": "https://www.alfresco.com/",
+			"summary":"Doug Johnson has a 20-year history in building, deploying, and managing high-technology products. He has spent nearly 15 years is in the BPM space as a solution engineer, consultant, and 10 years managing various BPM, Enterprise Architecture, and Case Management products. He is a member of the Product Management team at Alfresco—running its Enterprise Open Source Process Management and Workflow capabilities. He comes to Alfresco from managing security products at ThreatTrack Security and at Ultramatics he managed the product creation and launch of products in Healthcare using IBM Watson."
+		}
+	]
+},
+{
+	"id": "F34",
+	"topic": "Alfresco Platform",
+	"title": "Care4Alf - 10 years of experience in one tool",
+	"type": "Full Talk (30 m)",
+	"day": "April 26",
+	"hour": "16:05 - 16:35",
+	"room": "Room 1",
+	"targetAudience": "System Administrators, Developers starting to work with Alfresco",
+	"abstract": "<p>We bundled years of experience handling Alfresco in a tool that helps administrators with common Alfresco problems. It also helps developers with debugging Alfresco.</p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Willem",
+			"surname": "Van den Eynde",
+			"emailMD5": "2f838da5246a581bcdfe8895d6325b8b",
+			"position": "ECM Architect",
+			"company": "XeniT",
+			"twitter": "",
+			"linkedin": "https://www.linkedin.com/in/willem-van-den-eynde-5318078/",
+			"website": "https://www.xenit.eu/",
+			"summary":"Has over 7 years experience with Alfresco setups and customizations."
+		}
+		,
+		{
+			"name": "Thomas",
+			"surname": "Straetmans",
+			"emailMD5": "55aee76e403afb5a5294220415617425",
+			"position": "Junior Software Developer",
+			"company": "XeniT",
+			"twitter": "",
+			"linkedin": "",
+			"website": "",
+			"summary":""
+		}
+	]
+},
+{
+	"id": "F35",
+	"topic": "Alfresco Platform, Workflows",
+	"title": "Machine Learning Best Practices with Alfresco & Activiti BPM",
+	"type": "Full Talk (30 m)",
+	"day": "April 28",
+	"hour": "9:00 - 9:30",
+	"room": "Room 1",
+	"targetAudience": "Business Users, Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
+	"abstract": "<p>Machine Learning tools have become commonplace in the software industry, but they have infrequently been utilized in an ECM & BPM context. This presentation will review integration patterns between popular machine learning tools such as IBM's Watson and the Alfresco product suite. Real World examples will be reviewed.</p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Jason",
+			"surname": "Jolley",
+			"emailMD5": "fb8b3a39d0804d45d2798efe260bd589",
+			"position": "Director, Application Development",
+			"company": "Micro Strategies",
+			"twitter": "jasonjolley",
+			"linkedin": "https://www.linkedin.com/in/jasonjolley/",
+			"website": "http://microstrat.com/",
+			"summary":"Jason Jolley is the Director of Application Development at Micro Strategies, an Alfresco Platinum Partner. Jason has spent the last 17 years focused on implementing ECM solutions, and has worked with Alfresco since version 1.4. As the Director of Application Development at Micro Strategies, Inc. he oversees the strategic direction of application development activities, including development methodology and implementation best practices. He previously held the role of Chief Architect of the ECM practice at Entology, Inc."
+		}
+	]
+},
+{
+	"id": "F37",
+	"topic": "Use Case",
+	"title": "When Alfresco met Odoo: the marriage of ECM and ERP",
+	"type": "Full Talk (30 m)",
+	"day": "April 27",
+	"hour": "16:40 - 17:10",
+	"room": "Room 1",
+	"targetAudience": "Business Users",
+	"abstract": "<p>The AlfOdoo connector helps to seamlessly integrate the Odoo Open Source ERP system with Alfresco when documents and content management capabilities are necessary. AlfOdoo combines the benefits of both systems and helps to deliver a global platform covering a wide range of functionality that an organization requires. AlfOdoo exploits Alfresco's rich ECM features and the content model capabilities.</p><p>With this combined solution, the Odoo users can create an Alfresco document space for every ERP business record to manage documents related to this record. AlfOdoo will fill standard and custom metadata properties of the document space with the structured data of the record, allowing Alfresco to classify and organise the document space in the repository. Changes of a business record will be reflected on the document space.</p><p>Through a dedicated user interface in Odoo, Odoo users can perform common document operations, like uploading and versioning documents, without leaving their familiar user interface. Of course, users can access and manage the document space and its contents through Share and the other Alfresco interfaces to use the full functionality of these interfaces.</p><p>From a technical point of view, AlfOdoo is a fine example of integrating Alfresco with CMIS V1.1 into another software package.</p><p>This talk will illustrate how easy it is to extend the Odoo platform in order to classify the content related to ERP business records in Alfresco.</p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Philippe",
+			"surname": "Khazzaka",
+			"emailMD5": "d6458c2873b2d98e72d04fc11ae6550b",
+			"position": "Senior ECM Software Engineer",
+			"company": "Acsone",
+			"twitter": "PKhazzaka",
+			"linkedin": "https://www.linkedin.com/in/philippe-khazzaka-7aba351/",
+			"website": "https://www.acsone.eu/",
+			"summary":"For 17 years I have been designing and implementing ECM solutions for several large customers, mainly as an Acsone consultant. I first started with Documentum, but I am focusing on Alfresco now."
+		}
+		,
+		{
+			"name": "Laurent",
+			"surname": "Mignon",
+			"emailMD5": "197a989c7059bd82d9fa0570a1c43b71",
+			"position": "",
+			"company": "Acsone",
+			"twitter": "acsonelmi",
+			"linkedin": "",
+			"website": "https://www.acsone.eu/",
+			"summary":""
+		}
+	]
+},
+{
+	"id": "F39",
+	"topic": "null",
+	"title": "Welcome Session",
+	"type": "Full Talk (30 m)",
+	"day": "April 26",
+	"hour": "9:30 - 10:00",
+	"room": "Auditorium",
+	"targetAudience": "",
+	"abstract": "",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "OOTBee",
+			"surname": "",
+			"emailMD5": "",
+			"position": "",
+			"company": "Order of the bee",
+			"twitter": "orderofthebee",
+			"linkedin": "",
+			"website": "http://orderofthebee.org",
+			"summary":""
+		}
+	]
+},
+{
+	"id": "F41",
+	"topic": "Alfresco Platform, API's",
+	"title": "What’s going on with your logs?",
+	"type": "Full Talk (30 m)",
+	"day": "April 26",
+	"hour": "14:00 - 14:30",
+	"room": "Room 1",
+	"targetAudience": "System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
+	"abstract": "<p>Delivering a piece of software is not the end of the journey, but the beginning of a story. Alerting and monitoring tools are key in the support, maintenance, continuous delivery and evolution of your software. Graylog is a great Open Source tool to plug into your architecture and facilitates this sometimes unappreciated work.</p><p>Join this talk to find out more about:</p><ul class='list-instyled'><li>Why Graylog can help you to alert and monitor your application</li><li>How it integrates into your architecture</li><li>How to perform cost effective log management as part of your ecosystem</li><li>What other benefits we can leverage from a Graylog integration</li></ul>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Fran",
+			"surname": "Alvarez",
+			"emailMD5": "5b5bf5c6e8eb7856f9fe0faa24686a30",
+			"position": "Technical Architect",
+			"company": "Ixxus",
+			"twitter": "fran7alvarez",
+			"linkedin": "https://www.linkedin.com/in/franalvarezblanco/",
+			"website": "https://www.ixxus.com/",
+			"summary":"Technical Architect at Ixxus, order of the Bee member, working on Alfresco projects for more than 8 years"
+		}
+	]
+},
+{
+	"id": "F42",
+	"topic": "API's, ADF",
+	"title": "A real ADF experience",
+	"type": "Full Talk (30 m)",
+	"day": "April 27",
+	"hour": "10:30 - 10:50",
+	"room": "Room 1",
+	"targetAudience": "Business Users, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
+	"abstract": "<p>Alfresco’s Application Development Framework (ADF) could be one of the best technology decisions Alfresco has made in the last few years - the creation of responsive, adaptive and attractive User Interfaces have been taken to a new level.</p><p>At Ixxus we are excited to have already leveraged the benefits of this framework by integrating it into some of our products and projects. Join us in this session to find out more about:</p><ul class='list-instyled'><li>The benefits of ADF in Alfresco architectures</li><li>Our transition from Share Development to ADF</li><li>Pros and cons, plus the mistakes you should avoid</li><li>The widgets on our wishlist!</li></ul><br/>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Fran",
+			"surname": "Alvarez",
+			"emailMD5": "5b5bf5c6e8eb7856f9fe0faa24686a30",
+			"position": "Technical Architect",
+			"company": "Ixxus",
+			"twitter": "fran7alvarez",
+			"linkedin": "https://www.linkedin.com/in/franalvarezblanco/",
+			"website": "https://www.ixxus.com/",
+			"summary":"Technical Architect at Ixxus, order of the Bee member, working on Alfresco projects for more than 8 years"
+		}
+	]
+},
+{
+	"id": "F44",
+	"topic": "Alfresco Platform, Search",
+	"title": "The art of the cache",
+	"type": "Full Talk (30 m)",
+	"day": "April 27",
+	"hour": "15:05 - 15:35",
+	"room": "Auditorium",
+	"targetAudience": "Experienced Alfresco developers, Architects and Technical Managers",
+	"abstract": "<p>One of the common aspects that can be tuned in Alfresco are its various caches, on the SOLR-tier as well as within the Repository. Quite often the suggestions being offered to someone in need for tuning guidance are based more on anecdotal information than on real understanding. In this session I will give an overview of the caches that Alfresco provides by default, what operations they relate to, how they affect performance; and what kind of optimisations can be applied by using configurable options of the default implementation or even going as far as using a custom cache type. With regards to the Repository-tier caches we will also look at use case-specific caches and the basic steps / considerations involved in setting them up.</p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Axel",
+			"surname": "Faust",
+			"emailMD5": "b79f4e7d952fd329941b96878542fa3c",
+			"position": "Manager",
+			"company": "Acosix GmbH",
+			"twitter": "ReluctantBird83",
+			"linkedin": "https://www.linkedin.com/in/axel-faust-78ab2b3a/",
+			"website": "https://github.com/AFaust",
+			"summary":"I started to work with Alfresco in 2010 and have mostly been working full time on/with it since then. Though my main focus is on software development and architecture, a large part of my work also includes general consulting, use case specific training/education, system operations and support. From 2010 until 2016 I worked for an Alfresco Partner and thus primarily the Enterprise Edition, though I would use Community Edition for most of my engagement in community-oriented collaborations and my own open source projects."
+		}
+	]
+},
+{
+	"id": "FE05",
+	"topic": "Use Case, Add-ons",
+	"title": "LibreOffice Online integration with Alfresco",
+	"type": "Full Talk (30 m)",
+	"day": "April 28",
+	"hour": "11:10 - 11:40",
+	"room": "Auditorium",
+	"targetAudience": "System Administrators, Experienced Alfresco developers, Architects and Technical Managers",
+	"abstract": "<p>An online version of LibreOffice has been on its way for many years now and was finally released in 2016, offering an alternative to hosted services of Google Docs and Office 365.</p><p>Unlike Google Docs and Office 365, LibreOffice Online (LOOL) is a self hosted alternative, therefore organisations will be able to host the service on their own infrastructure instead of having to trust a third-party SP with their documents.</p><p>The big advantage of this integration is not only that it provides collaborative live editing within alfresco, but  that it also has the potential to further liberate user's workflow completely from the desktop.</p><p>In this presentation, we will go through the technical details of how we integrate LOOL to Alfresco. The presentation will also include a couple of workflow scenarios to demonstrate the interaction of LibreOffice Online with Alfresco on various devices.</p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Lanre",
+			"surname": "Abiwon",
+			"emailMD5": "88d2522e8089b4e283645a6ab7d7542a",
+			"position": "Software Developer",
+			"company": "Magenta ApS",
+			"twitter": "",
+			"linkedin": "https://www.linkedin.com/in/lanre-abiwon-98a939b1/",
+			"website": "http://magenta.dk/",
+			"summary":"Started working with Alfresco in May 2012 when I was looking for an 'Electronic library'. I am the primary developer of the solution (along with a former colleague) at our company and I am an OOTB member. I also dabble a lot when it comes to technologies and hobbies."
+		}
+		,
+		{
+			"name": "Henrik",
+			"surname": "Kirk Larsen",
+			"emailMD5": "b2008628b44c6ac62a3cc6c55ad5308e",
+			"position": "Project Manager",
+			"company": "Magenta ApS",
+			"twitter": "",
+			"linkedin": "",
+			"website": "",
+			"summary":""
+		}
+	]
+},
+{
+	"id": "FL01",
+	"topic": "Lightning Talks",
+	"title": "Lightning Talks #1",
+	"type": "Full Talk (30 m)",
+	"day": "April 26",
+	"hour": "16:05 - 16:35",
+	"room": "Auditorium",
+	"targetAudience": "",
+	"abstract": "<p>Lightning talks are fast-paced and fun. The presentations are strictly limited to five minutes, so each session contains 5 topics with a mix of subjects including both business and technical subjects. All presentations in this session are Ignite-style, with auto-advancing slides.</p><ul class='list-instyled'><li><p><strong>Worst practices for development with Aikau</strong> (Oksana Kurysheva)</p><p>How to make it works if you are not a developer, don't know dojo, default widget cannot be configured to the state you need and best practices don't work.</p></li><li><p><strong>A Curse of a White Elephant</strong>(Richard Esplin)</p><p>Contrary to popular opinion, open source contributions are not free. It requires time, effort, and money to sift, vet, merge, test, and support any contribution, whether a major enhancement, a bug report, or a suggestion to the documentation. This lightning talk briefly describes why it is hard to accept a contribution, steps Alfresco is taking to make it easier, and how you can further improve the odds that your contribution benefits the wider community.</p></li><li><p><strong>Alfresco repo under concurrent write load: tips and tricks to make it stable</strong>(Alexey Vasyukov)</p><p><p>This talk sums up quite a big amount of painful experience regarding developing Alfresco repo-tier extensions that should handle concurrent write load (10-100 write requests per second). Generic approach with getRetryingTransactionHelper().doInTransaction(...whatever...) is not enough for complex repo tier logic. The talk will cover:</p><ul class='list-instyled'><li>Problems when transactions, optimistic locking and default retrying helper meet exception handling in real life code.</li><li>Issues caused by repo transaction isolation and explicit synchronization in third party code.</li></ul><p>Happy end included: the talk will provide recipes to make code stable under concurrent writes.</p></li><li><p><strong>Fear and loathing in Alfresco workflow development</strong>(Alexey Ermakov)</p><p>The main goal of this talk is to provide some tips and tricks to overcome current limitations that one encounters when developing workflows with Alfresco. Despite quite a big progress was made during last few years there are still plenty of hidden problems one have to solve to be able to create a complex workflow.</p><p>For example, there is no easy way to create files that are required to deploy a workflow: models, localizaiton, share forms config. But workflow development time may be significantly decreased when generating these files from templates.</p><p>Another common issue is very limited workflow API: only basic capabilities are exposed through Java Foundation API. For any non-trivial things like adding task listeners programmatically you have to do some magic (a bit dirty sometimes).</p><p>This talk sums up author's experience in Alfresco workflow development and aims at pointing out solutions for some painful problems.</p></li><li><p><strong>Alfresco Worst Practices</strong>(Boriss Mejias)</p><p>Learning 'best practices' is always important. But learning the 'worst practices' might not only be fun, but it might even be a more permanent and useful knowledge. In this talk I'll discuss some of the worst practices I have seen (or discussed with the community) across the years. The idea is to have first a 'ha ha ha' reaction, and then make people think 'wait a second, how are *we* doing *that* in production'.</p></li></ul>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Oksana",
+			"surname": "Kurysheva",
+			"emailMD5": "63eae52d6429caf81974ecce529121b5",
+			"position": "Project Manager",
+			"company": "ITD Systems",
+			"twitter": "",
+			"linkedin": "",
+			"website": "",
+			"summary":""
+		}
+		,
+		{
+			"name": "Richard",
+			"surname": "Esplin",
+			"emailMD5": "acd65787dc30a4f2e0ce81b60156c644",
+			"position": "Product Manager",
+			"company": "Alfresco",
+			"twitter": "",
+			"linkedin": "",
+			"website": "",
+			"summary":""
+		}
+		,
+		{
+			"name": "Alexey",
+			"surname": "Vasyukov",
+			"emailMD5": "0431494fb9ecdfac669f52d505f5fdaa",
+			"position": "CTO",
+			"company": "ITD Systems",
+			"twitter": "",
+			"linkedin": "",
+			"website": "",
+			"summary":""
+		}
+		,
+		{
+			"name": "Alexey",
+			"surname": "Ermakov",
+			"emailMD5": "78d3c62dd51f6879ac019ead8f481bd5",
+			"position": "Senior software developer",
+			"company": "ITD Systems",
+			"twitter": "",
+			"linkedin": "",
+			"website": "",
+			"summary":""
+		}
+		,
+		{
+			"name": "Boriss",
+			"surname": "Mejías",
+			"emailMD5": "2ba8cf1c791cdf6156df415d177746e7",
+			"position": "Holistic System Software Engineer",
+			"company": "CIRB-CIBG",
+			"twitter": "",
+			"linkedin": "",
+			"website": "",
+			"summary":""
+		}
+	]
+},
+{
+	"id": "FL02",
+	"topic": "Lightning Talks",
+	"title": "Lightning Talks #2",
+	"type": "Full Talk (30 m)",
+	"day": "April 27",
+	"hour": "10:55 - 12:25",
+	"room": "Auditorium",
+	"targetAudience": "",
+	"abstract": "<p>Lightning talks are fast-paced and fun. The presentations are strictly limited to five minutes, so each session contains 5 topics with a mix of subjects including both business and technical subjects. All presentations in this session are Ignite-style, with auto-advancing slides.</p><ul class='list-instyled'><li><p><strong>Javascript API based developments for improving your Alfresco experience</strong> (Cesar Capillas)</p><p>Alfresco is a fantastic suite for collaboration. Nevertheless, final and business users require frequently several modifications of the Alfresco interface and functionality OOTB, to customize and, in best cases, to improve Alfresco. In the presentation, I will talk about a set of Alfresco addons, that came from different conversations with clients. They are simple customizations of Alfresco that may be also a a good starting point for developing in Alfresco with Javascript API. All the addons presented are open source licensed and published in github.</p></li><li><p><strong>Automatic APIs with Swagger</strong>(Will Abson)</p><p>A walkthrough of how we use Swagger's tools inside Alfresco to generate specifications and client APIs automatically</p></li><li><p><strong>Introducing OOTBee Support Tools</strong>(Axel Faust)</p><p>One of the lightning talks at last years BeeCon listed the Alfresco Support Tools addon as one of the top 10 features missing from Alfresco Community. Since then, a group of community members from the Order of the Bee have ported the existing addon and even added new tools to make them available to all Alfresco users. This talk gives a short introduction and overview of the OOTBee Support Tools addon and how the community can contribute to make it even more of an essential tool for every admin or developer.</p></li><li><p><strong>Making the Most of the Alfresco Community</strong>(Kristen Gastaldo)</p><p>Last year, we launched the new Alfresco community to replace our forums, blogs, and wiki. Since then we've had 5000 people login to the space, with 1600 new discussions and 100 new blogs posted. I'd like to show the attendees the basic layout of the community and provide a few tips for making the most of the community - how to follow certain areas or people, how to participate in challenges and earn points, how to thank other members, and how to use the search effectively.</p></li><li><p><strong>2016 Developer Survey Results & Reactions</strong>(Anthony Jones and Kristen Gastaldo)</p><p>After attending BeeCon last year, we realized we needed much more information about our developers, so that we could analyze their current Alfresco and technology usage and design a better experience for them, whether they were just staring with Alfresco or were experienced developers. We had roughly 1000 developers respond. I’d like to present the results of the survey to the audience, and let them know what we’ve done in response (Jive community, GetStarted pages and resources, tutorials, etc). We'd like to issue another survey, and will explain our thoughts and goals there. </p></li></ul>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Cesar",
+			"surname": "Capillas",
+			"emailMD5": "42d5d82e35c83751b35083dbd209ef0e",
+			"position": "IT/Solution Architect",
+			"company": "ZYLK",
+			"twitter": "",
+			"linkedin": "",
+			"website": "",
+			"summary":""
+		}
+		,
+		{
+			"name": "Will",
+			"surname": "Abson",
+			"emailMD5": "9aac858e8ddaddf70b83c03374b01536",
+			"position": "Senior Solutions Developer",
+			"company": "Alfresco",
+			"twitter": "",
+			"linkedin": "",
+			"website": "",
+			"summary":""
+		}
+		,
+		{
+			"name": "Axel",
+			"surname": "Faust",
+			"emailMD5": "b79f4e7d952fd329941b96878542fa3c",
+			"position": "Manager",
+			"company": "Acosix GmbH",
+			"twitter": "ReluctantBird83",
+			"linkedin": "https://www.linkedin.com/in/axel-faust-78ab2b3a/",
+			"website": "https://github.com/AFaust",
+			"summary":"I started to work with Alfresco in 2010 and have mostly been working full time on/with it since then. Though my main focus is on software development and architecture, a large part of my work also includes general consulting, use case specific training/education, system operations and support. From 2010 until 2016 I worked for an Alfresco Partner and thus primarily the Enterprise Edition, though I would use Community Edition for most of my engagement in community-oriented collaborations and my own open source projects."
+		}
+		,
+		{
+			"name": "Kristen",
+			"surname": "Gastaldo",
+			"emailMD5": "00adbd69bc4a8dc475e7dab23de1ffdb",
+			"position": "Senior Community Marketing Manager",
+			"company": "Alfresco",
+			"twitter": "",
+			"linkedin": "",
+			"website": "",
+			"summary":""
+		}
+		,
+		{
+			"name": "Anthony",
+			"surname": "Jones",
+			"emailMD5": "a8a945e2741c289f2de1803e4473d37d",
+			"position": "Senior Product Marketing Manager",
+			"company": "Alfresco",
+			"twitter": "",
+			"linkedin": "",
+			"website": "",
+			"summary":""
+		}
+		,
+		{
+			"name": "Kristen",
+			"surname": "Gastaldo",
+			"emailMD5": "00adbd69bc4a8dc475e7dab23de1ffdb",
+			"position": "Senior Community Marketing Manager",
+			"company": "Alfresco",
+			"twitter": "",
+			"linkedin": "",
+			"website": "",
+			"summary":""
+		}
+	]
+},
+{
+	"id": "FL03",
+	"topic": "Lightning Talks",
+	"title": "Lightning Talks #3",
+	"type": "Full Talk (30 m)",
+	"day": "April 27",
+	"hour": "16:05 - 16:35",
+	"room": "Auditorium",
+	"targetAudience": "",
+	"abstract": "<p>Lightning talks are fast-paced and fun. The presentations are strictly limited to five minutes, so each session contains 5 topics with a mix of subjects including both business and technical subjects. All presentations in this session are Ignite-style, with auto-advancing slides.</p><ul class='list-instyled'><li><p><strong>Don't Kill Your Golden Goose</strong> (Richard Esplin)</p><p>Open core businesses grow when they successfully leverage the mass adoption of an open source product while simultaneously delivering proprietary value-add products in the same ecosystem. Such businesses must be careful to differentiate the proprietary products in ways that both add value to paying customers and does not undermine the incentives of other contributors in the open source community. This presentation briefly shares key considerations for achieving these often competing objectives. </p></li><li><p><strong>What do you want from me?</strong>(Francesco Corti)</p><p>Being a product evangelist at Alfresco means a lot of things and I had the chance to describe some of them in the following <a href='http://fcorti.com/2016/10/05/alfresco-product-evangelist/' target='_blank' class='black'>blog post</a>. Quoting from the blog post: 'In addition to helping developers adopt Alfresco technologies, this person will need to help Alfresco improve the developer experience with our technologies'. I have some initiatives that I would like to share with the ecosystem of developers, with the goal to have a feedback and understand which is the best way to achieve that goal.</p></li><li><p><strong>Sinadura ECM: Protocol-based signatures for Alfresco</strong>(Cesar Capillas)</p><p>Sinadura 5 is a popular java desktop client for signing documents. One of the new features of the last version is the addition to the main installer of a new mini-client designed for the web. This mini client was developed for the replacement of the java applet technology, by a protocol-based signature registered in your operating system. In this talk, we show the integration and possibilities of Sinadura 5 with Alfresco Share, relating to its advanced signature properties, profiles and visible stamps.</p></li><li><p><strong>Externalizing Office document transformations into a remote JODC server</strong>(Younes Regaieg)</p><p>In this presentation we will explore an implementation of a content transformer for Office documents, leveraging the micro-service architecture for scalable & reliable content transformations.</p></li></ul>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Richard",
+			"surname": "Esplin",
+			"emailMD5": "acd65787dc30a4f2e0ce81b60156c644",
+			"position": "Product Manager",
+			"company": "Alfresco",
+			"twitter": "",
+			"linkedin": "",
+			"website": "",
+			"summary":""
+		}
+		,
+		{
+			"name": "Francesco",
+			"surname": "Corti",
+			"emailMD5": "ec093a71b277cad3be0993c579b3b822",
+			"position": "Alfresco Product Evangelist",
+			"company": "Alfresco",
+			"twitter": "",
+			"linkedin": "",
+			"website": "",
+			"summary":""
+		}
+		,
+		{
+			"name": "Cesar",
+			"surname": "Capillas",
+			"emailMD5": "42d5d82e35c83751b35083dbd209ef0e",
+			"position": "IT/Solution Architect",
+			"company": "ZYLK",
+			"twitter": "",
+			"linkedin": "",
+			"website": "",
+			"summary":""
+		}
+		,
+		{
+			"name": "Younes",
+			"surname": "Regaieg",
+			"emailMD5": "ae059a568da6389915310aeaef7fd371",
+			"position": "ECM Software Engineer",
+			"company": "Xenit Solutions",
+			"twitter": "",
+			"linkedin": "",
+			"website": "",
+			"summary":""
+		}
+	]
+},
+{
+	"id": "FL04",
+	"topic": "Lightning Talks",
+	"title": "Lightning Talks #4",
+	"type": "Full Talk (30 m)",
+	"day": "April 28",
+	"hour": "10:10 - 10:40",
+	"room": "Auditorium",
+	"targetAudience": "",
+	"abstract": "<p>Lightning talks are fast-paced and fun. The presentations are strictly limited to five minutes, so each session contains 5 topics with a mix of subjects including both business and technical subjects. All presentations in this session are Ignite-style, with auto-advancing slides.</p><ul class='list-instyled'><li><p><strong>Managed the DevOps Way</strong> (Martin Whittington)</p><p>How we use AWS to allocate trials to customers who want to know more about AWS</p></li><li><p><strong>Sending customizable emails in Alfresco</strong>(Tom Vandepoele)</p><p>Alfresco has been able to send emails for a long time. Mails are sent when you are invited to sites, when a workflow-task is assigned to you, for daily overviews of activities in your sites, etc.</p><p>There are however a few shortcomings:</p><ul class='list-instyled'><li>The body of the email is not easily customizable.</li><li>Sent email is not stored in Alfresco, so maintaining track of your conversation is hard.</li><li>Recipients cannot be dynamically assigned.</li></ul><p>In this ignite talk I would like to show how to generate custom e-mails from within Alfresco, with pre-populated recipients and automatically stored within Alfresco after sending.</p></li><li><p><strong>Taming large repositories</strong>(Willem Van den Eynde)</p><p>Building large repositories has it challenges. A quick overview of things learned from setting up several 10M to 50M repositories.</p></li><li><p><strong>Automating the Alfresco Taxonomy</strong>(Jason Jolley)</p><p>This presentation will review tools built to manage and automate an organization's taxonomy. Some of the tools reviewed will be:</p><ul class='list-instyled'><li>Data List backed Content Fields in Share</li><li>Configurable Metadata Inheritance (single and multiple level)</li><li>Automated Site Creation By Template, and from Activiti</li></ul></li></ul>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Martin",
+			"surname": "Whittington",
+			"emailMD5": "56b012ba822223bd35c548c2984bc016",
+			"position": "Senior Tooling and Automation Engineer",
+			"company": "Alfresco",
+			"twitter": "",
+			"linkedin": "",
+			"website": "",
+			"summary":""
+		}
+		,
+		{
+			"name": "Tom",
+			"surname": "Vandepoele",
+			"emailMD5": "b9ffea56082d8fb6586edc78fb66dbc7",
+			"position": "Senior ECM consultant",
+			"company": "Amplexor",
+			"twitter": "",
+			"linkedin": "",
+			"website": "",
+			"summary":""
+		}
+		,
+		{
+			"name": "Willem",
+			"surname": "Van den Eynde",
+			"emailMD5": "2f838da5246a581bcdfe8895d6325b8b",
+			"position": "ECM Architect",
+			"company": "XeniT",
+			"twitter": "",
+			"linkedin": "https://www.linkedin.com/in/willem-van-den-eynde-5318078/",
+			"website": "https://www.xenit.eu/",
+			"summary":"Has over 7 years experience with Alfresco setups and customizations."
+		}
+		,
+		{
+			"name": "Jason",
+			"surname": "Jolley",
+			"emailMD5": "fb8b3a39d0804d45d2798efe260bd589",
+			"position": "Director, Application Development",
+			"company": "Micro Strategies",
+			"twitter": "jasonjolley",
+			"linkedin": "https://www.linkedin.com/in/jasonjolley/",
+			"website": "http://microstrat.com/",
+			"summary":"Jason Jolley is the Director of Application Development at Micro Strategies, an Alfresco Platinum Partner. Jason has spent the last 17 years focused on implementing ECM solutions, and has worked with Alfresco since version 1.4. As the Director of Application Development at Micro Strategies, Inc. he oversees the strategic direction of application development activities, including development methodology and implementation best practices. He previously held the role of Chief Architect of the ECM practice at Entology, Inc."
+		}
+	]
+},
+{
+	"id": "E01",
+	"topic": "Alfresco Platform, API's",
+	"title": "Exciting New REST APIs",
+	"type": "Extended Talk (45 m)",
+	"day": "April 27",
+	"hour": "11:05 - 11:50",
+	"room": "Auditorium",
+	"targetAudience": "Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
+	"abstract": "<p>A lot of effort has been put into creating a useful set of REST APIs in the 5.2 release, in this talk we'll cover those new APIs and have a sneak peek at what's coming next.</p><p>An overview of the new and enhanced APIs will be discussed and some of the key endpoints demonstrated via Postman. By the time you leave you should have enough knowledge to consume the APIs in your favourite programming language and create a simple client.</p><p>These APIs will be the foundation of all new clients developed by Alfresco so this is a must attend session!</p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Jan",
+			"surname": "Vonka",
+			"emailMD5": "9579876c7225952c083884bf05f3f2e2",
+			"position": "Senior Software Engineer",
+			"company": "Alfresco",
+			"twitter": "",
+			"linkedin": "",
+			"website": "https://www.alfresco.com/",
+			"summary":"Jan Vonka has 20+ years experience as a senior dev lead and manager. He has been a member of Alfresco's dev team for 9 years, designing & building enterprise repository infrastructure and platform services that support a variety of app areas; including ECM, RM, WCM, Collaboration & Case Management. He has helped to architect and develop Alfresco's cloud services. Most recently he has been working on extending and improving the Alfresco Platform APIs."
+		}
+	]
+},
+{
+	"id": "E02",
+	"topic": "ADF",
+	"title": "How to bring ADF inside an Angular 2 Application",
+	"type": "Extended Talk (45 m)",
+	"day": "April 26",
+	"hour": "12:10 - 12:55",
+	"room": "Auditorium",
+	"targetAudience": "Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
+	"abstract": "<p>Starting from an existing Angular 2 application we will see how to make ADF working side by side with your services. The idea of the talk is to share the best practices around using the Alfresco ADF components for Processes and Content and how to integrate it into your existing application.</p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Mario",
+			"surname": "Romano",
+			"emailMD5": "9616ce3cc1b077a9ecfd4a6e5df8751e",
+			"position": "System Architect",
+			"company": "Alfresco",
+			"twitter": "",
+			"linkedin": "https://www.linkedin.com/in/mario-romano-51a6a714/",
+			"website": "https://www.alfresco.com/",
+			"summary":"I'm a Geek and I like to play with any new technology. In the last few years my attention for evident reason have been captured by Alfresco products and Business Process."
+		}
+	]
+},
+{
+	"id": "E03",
+	"topic": "Alfresco Platform, Alfresco Share",
+	"title": "It's time: Alfresco SDK 3.0",
+	"type": "Extended Talk (45 m)",
+	"day": "April 26",
+	"hour": "11:20 - 12:05",
+	"room": "Auditorium",
+	"targetAudience": "Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers",
+	"abstract": "<p>Alfresco SDK 3.0 was announced at BeeCon last year, it has finally arrived.</p><p>The new version is a major rewrite to address a lot of known issues such as upgrading, switching versions and handling artifact name changes. It also offers a set of new features such as full support for JAR modules, better hot reloading, support for Activiti extensions and much more. </p><p>This session will take you through all the details along with an in-depth live demo and answer all your questions.</p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Ole",
+			"surname": "Hejlskov",
+			"emailMD5": "6531fc64422bdb67e868ccb9bded9d26",
+			"position": "Product Manager, Developer Platform",
+			"company": "Alfresco",
+			"twitter": "OleHejlskov",
+			"linkedin": "https://www.linkedin.com/in/ole-hejlskov-9793b61/",
+			"website": "https://www.alfresco.com/",
+			"summary":"After five years as an active member of the Alfresco Community Ole helped co-found The Order Of the Bee and was initially on the board, until he joined Alfresco as Developer Evangelist in April 2015 and later moved into a new role as Product Manager for Developer Platform.<br/>Ole has more than 15 years of experience in the industry ranging from tech support, systems administration, development, project management, team lead, developer evangelism and now Product Management.<br/>Ole is a big contributor to the Alfresco SDK, proud member of The Order Of the Bee, has written various tutorials and video tutorials on both Aikau, Alfresco and Alfresco SDK."
+		}
+	]
+},
+{
+	"id": "E04",
+	"topic": "Keynote",
+	"title": "Alfresco vision",
+	"type": "Extended Talk (45 m)",
+	"day": "April 26",
+	"hour": "10:05 - 10:50",
+	"room": "Auditorium",
+	"targetAudience": "Business Users, Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
+	"abstract": "<p>Digital technology has utterly transformed the business landscape. How employees work. Where value comes from. How to gain an edge. The importance of security. And so much more. In an environment of anywhere, anytime, and always-on commerce, how can your business leverage technology to extract the most possible value for workers and customers? In a word, flow.</p><p>John Newton, Alfresco Co-Founder and CTO, will share his vision about the Digital Transformation using an Open Thinking with the Alfresco Digital Business Platform.</p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "John",
+			"surname": "Newton",
+			"emailMD5": "5eb7144ee2d3cfc2391c763c2fffbabb",
+			"position": "CTO and Founder",
+			"company": "Alfresco",
+			"twitter": "johnnewton",
+			"linkedin": "https://www.linkedin.com/in/johnnewton/",
+			"website": "https://www.alfresco.com/",
+			"summary":"John Newton, CTO and Founder, has had one of the longest and most influential careers in content management. In 1990, John co-founded, designed and led the development of Documentum®, the leader in content management acquired by EMC®.<br/>For the next ten years, he invented many of the concepts widely used in the industry today. In addition, he built Documentum's marketing and professional services organizations in Europe. John has also been an Entrepreneur-in-Residence at Benchmark Capital. John was one of the founding engineers at Ingres® where he helped develop the world's first commercial relational database. John graduated with a BS in Electrical Engineering and Computer Science from the University of California at Berkeley."
+		}
+	]
+},
+{
+	"id": "E06",
+	"topic": "Alfresco Platform, Alfresco Share, Search, Workflows, API's, Open source collaboration",
+	"title": "Contributing to Alfresco, Round 2",
+	"type": "Extended Talk (45 m)",
+	"day": "April 27",
+	"hour": "17:15 - 18:00",
+	"room": "Auditorium",
+	"targetAudience": "Developers starting to work with Alfresco, Experienced Alfresco developers",
+	"abstract": "<p>BeeCon 2016 featured a discussion of how the Alfresco product development teams could better collaborate with open source contributors. During that panel, Alfresco management explained some of the challenges with accepting contributions and discussed ideas offered by the open source community for improving the situation.</p><p>This year we would like to report on the progress that we have made, and explain the ongoing initiatives to improve our open source collaboration.</p><p>The session will be moderated by Richard Esplin from Alfresco Product Management, and Boriss Mejias from the Order of the Bee. The panel will include Alfresco leadership from the Product Management and Product Development organizations at Alfresco. We plan to reserve lots of time for answering audience questions.</p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Richard",
+			"surname": "Esplin",
+			"emailMD5": "acd65787dc30a4f2e0ce81b60156c644",
+			"position": "Product Manager",
+			"company": "Alfresco",
+			"twitter": "",
+			"linkedin": "",
+			"website": "",
+			"summary":""
+		}
+		,
+		{
+			"name": "Mark",
+			"surname": "Heath",
+			"emailMD5": "13fb1c75a4492221be112132b2ffef5c",
+			"position": "VP for Product Development",
+			"company": "Alfresco",
+			"twitter": "",
+			"linkedin": "",
+			"website": "https://www.alfresco.com/",
+			"summary":""
+		}
+		,
+		{
+			"name": "Boriss",
+			"surname": "Mejías",
+			"emailMD5": "2ba8cf1c791cdf6156df415d177746e7",
+			"position": "Holistic System Software Engineer",
+			"company": "CIRB-CIBG",
+			"twitter": "",
+			"linkedin": "",
+			"website": "",
+			"summary":""
+		}
+	]
+},
+{
+	"id": "E07",
+	"topic": "Keynote",
+	"title": "Power of the Platform",
+	"type": "Extended Talk (45 m)",
+	"day": "April 27",
+	"hour": "09:00 - 9:45",
+	"room": "Auditorium",
+	"targetAudience": "Business Users, Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
+	"abstract": "<p>Organizations of all sizes and in all industries are undertaking digital initiatives to increase their agility in the face of rapid market change. This digital transformation requires organizations to optimize productivity through people, processes, and information with an increase in speed of deployment, seamless integration, and intuitive experiences.</p><p>This presentation covers the guiding principles behind the Alfresco Digital Business Platform that allows adopters to conduct their business more intelligently as content finds users when and where they need it, processes directly improve outcomes, and people are informed to act or make decisions at any time or place. We explain how Alfresco products incorporate design thinking, platform thinking, and open thinking to provide the solutions that modern organizations demand.</p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Thomas",
+			"surname": "De Meo",
+			"emailMD5": "80e6762f298ab478348ac43ee8814777",
+			"position": "Vice President of Product Management",
+			"company": "Alfresco",
+			"twitter": "tedemeo",
+			"linkedin": "https://www.linkedin.com/in/thomasdemeo/",
+			"website": "https://www.alfresco.com/",
+			"summary":"With a mix of early start-up and global corporate experience, Thomas has focused his 25-year career in product roles icons including Adobe, HP and Citrix. With deep leadership and product management experience, he has contributed and led teams responsible for industry-leading product lines that each generated over $1B annually. Most recently Thomas served as Senior Director of Product Management at Citrix and focused on helping enterprises deliver apps and data across private, public and hybrid cloud infrastructure. While at HP, Thomas focused on integrated commerce and accessing apps and data across PC and mobile devices. Thomas spent 7 years at Adobe and led the Creative Suite product teams responsible for product integration, file and metadata management and delivered key interfaces into a range of content management systems.<br/>Thomas earned an MBA from San Jose State University and has an engineering undergraduate degree from Wentworth Institute of Technology in Boston."
+		}
+	]
+},
+{
+	"id": "E08",
+	"topic": "API's, Custom Apps",
+	"title": "Developing applications against Alfresco’s Unified REST APIs",
+	"type": "Extended Talk (45 m)",
+	"day": "April 27",
+	"hour": "09:50 - 10:35",
+	"room": "Auditorium",
+	"targetAudience": "Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
+	"abstract": "<p>Alfresco's REST APIs allow your custom apps to pull in rich data on your content and processes. This session uses practical examples and demos based on open source code to show how the Alfresco Unified JavaScript API can be used to quickly build out apps on top of the REST API, both from client-side apps and Node.js scripts.</p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Will",
+			"surname": "Abson",
+			"emailMD5": "9aac858e8ddaddf70b83c03374b01536",
+			"position": "Senior Solutions Developer",
+			"company": "Alfresco",
+			"twitter": "",
+			"linkedin": "",
+			"website": "",
+			"summary":""
+		}
+	]
+},
+{
+	"id": "E09",
+	"topic": "Alfresco Platform, Workflows, API's, Add-ons, Analytics",
+	"title": "Next Gen “Content Intelligence”: Easier to setup, more reliable and more powerful",
+	"type": "Extended Talk (45 m)",
+	"day": "April 26",
+	"hour": "12:10 - 12:55",
+	"room": "Room 1",
+	"targetAudience": "Business Users, Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
+	"abstract": "<p>Content Intelligence is one of the hottest topics on the ECM Market and the implementation of AAAR (rebranded in the latest version as Alflytics), as a full featured solution, provides both administrators and analysts with powerful analytics for Alfresco on top of the Pentaho Suite.</p><p>In this presentation Younes will show a fully dockerized setup for the solution, involving different containers for Alfresco (Share, Platform and Solr) and Pentaho (Pentaho Business Analytics Platform, Pentaho Data Integration and Pentaho Report Designer). Francesco, first inventor of Alflytics, will talk about new stuff around the 5.0 version with the latest enhancements in terms of features.</p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Younes",
+			"surname": "Regaieg",
+			"emailMD5": "ae059a568da6389915310aeaef7fd371",
+			"position": "ECM Software Engineer",
+			"company": "Xenit Solutions",
+			"twitter": "",
+			"linkedin": "",
+			"website": "",
+			"summary":""
+		}
+		,
+		{
+			"name": "Francesco",
+			"surname": "Corti",
+			"emailMD5": "ec093a71b277cad3be0993c579b3b822",
+			"position": "Alfresco Product Evangelist",
+			"company": "Alfresco",
+			"twitter": "",
+			"linkedin": "",
+			"website": "",
+			"summary":""
+		}
+	]
+},
+{
+	"id": "E10",
+	"topic": "Alfresco Platform, Search",
+	"title": "Making proper use of transactional metadata queries",
+	"type": "Extended Talk (45 m)",
+	"day": "April 26",
+	"hour": "11:20 - 12:05",
+	"room": "Room 1",
+	"targetAudience": "System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
+	"abstract": "<p>Starting with 4.2 Alfresco has had support for transactional metadata queries. Years later it is sometimes stil astounding how little people know about that feature and how few people actively use it. Considering the spotty documentation and bad experiences with performance that float around / are passed along in the community, it is high time to look at this feature a bit more closely. This talk will provide a general overview of transactional metadata query functionality and showcase example use cases. In some cases proper use of transactional metadata queries may necessitate small changes to data modelling or logic, and this talk will list common considerations. Lastly, we will look at typical issues with query performance and how these can be dealth withor avoided.</p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Axel",
+			"surname": "Faust",
+			"emailMD5": "b79f4e7d952fd329941b96878542fa3c",
+			"position": "Manager",
+			"company": "Acosix GmbH",
+			"twitter": "ReluctantBird83",
+			"linkedin": "https://www.linkedin.com/in/axel-faust-78ab2b3a/",
+			"website": "https://github.com/AFaust",
+			"summary":"I started to work with Alfresco in 2010 and have mostly been working full time on/with it since then. Though my main focus is on software development and architecture, a large part of my work also includes general consulting, use case specific training/education, system operations and support. From 2010 until 2016 I worked for an Alfresco Partner and thus primarily the Enterprise Edition, though I would use Community Edition for most of my engagement in community-oriented collaborations and my own open source projects."
+		}
+	]
+},
+{
+	"id": "E11",
+	"topic": "Keynote",
+	"title": "Q&A Alfresco engineers and OOTBee key members",
+	"type": "Extended Talk (45 m)",
+	"day": "April 28",
+	"hour": "12:20 - 13:00",
+	"room": "Auditorium",
+	"targetAudience": "Business Users, Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
+	"abstract": "Last session on the conference. Q&A, open discussion",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "OOTBee",
+			"surname": "",
+			"emailMD5": "",
+			"position": "",
+			"company": "Order of the bee",
+			"twitter": "orderofthebee",
+			"linkedin": "",
+			"website": "http://orderofthebee.org",
+			"summary":""
+		}
+	]
+},
+{
+	"id": "EF09",
+	"topic": "Alfresco Platform, Alfresco Share, Search",
+	"title": "Installing Alfresco components one by one",
+	"type": "Extended Talk (45 m)",
+	"day": "April 27",
+	"hour": "09:50 - 10:35",
+	"room": "Room 1",
+	"targetAudience": "Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco",
+	"abstract": "<p>Alfresco Community has no support for clustering. Many people is using default wizard installer because of this. But Alfresco Community can be installed in different servers, which allows clusterization configurations for every layer.</p><p>During this session Alfresco components will be installed one by one, using one server per component:</p><ul class='list-instyled'><li>HTTP server</li><li>Alfresco web app (Tomcat)</li><li>Share web app (Tomcat)</li><li>SOLR 6 (Jetty)</li><li>LibreOffice</li><li>PostgreSQL</li></ul><p>Depending on the attendees, Virtual Box or Docker can be used.</p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Angel",
+			"surname": "Borroy",
+			"emailMD5": "d2f586d01f6525d68a072c6167462858",
+			"position": "Developer",
+			"company": "keensoft UST Global",
+			"twitter": "AngelBorroy",
+			"linkedin": "https://www.linkedin.com/in/angelborroy/",
+			"website": "http://www.keensoft.es/en/",
+			"summary":"Angel Borroy is technical lead architect at keensoft. Over the last 15 years, he has been working as a software architect on Java, BPM, document management and electronic signatures. He has been working with Alfresco during the last years to customise several implementations in large organisations and to provide add-ons to the Community based on Record Management and Electronic Signature. He writes (sometimes) on his <a class='black' target='_blank' href='http://angelborroy.wordpress.com'>personal blog</a>."
+		}
+	]
+},
+{
+	"id": "EF30",
+	"topic": "Workflows",
+	"title": "The wait is over: Activiti 6 is here",
+	"type": "Extended Talk (45 m)",
+	"day": "April 27",
+	"hour": "11:05 - 11:50",
+	"room": "Room 1",
+	"targetAudience": "Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
+	"abstract": "<p>The wait is over, the release of Activiti 6 is neigh. Through both lecture and live demonstration, learn what is in the Activiti 6 engine and how this technology base will drive additional process- and case-powered use cases.</p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Doug",
+			"surname": "Johnson",
+			"emailMD5": "d8483b2263049bb5617dd73c321c59c2",
+			"position": "Product Manager",
+			"company": "Alfresco",
+			"twitter": "",
+			"linkedin": "https://www.linkedin.com/in/douglasjohnson/",
+			"website": "https://www.alfresco.com/",
+			"summary":"Doug Johnson has a 20-year history in building, deploying, and managing high-technology products. He has spent nearly 15 years is in the BPM space as a solution engineer, consultant, and 10 years managing various BPM, Enterprise Architecture, and Case Management products. He is a member of the Product Management team at Alfresco—running its Enterprise Open Source Process Management and Workflow capabilities. He comes to Alfresco from managing security products at ThreatTrack Security and at Ultramatics he managed the product creation and launch of products in Healthcare using IBM Watson."
+		}
+		,
+		{
+			"name": "Mario",
+			"surname": "Romano",
+			"emailMD5": "9616ce3cc1b077a9ecfd4a6e5df8751e",
+			"position": "System Architect",
+			"company": "Alfresco",
+			"twitter": "",
+			"linkedin": "https://www.linkedin.com/in/mario-romano-51a6a714/",
+			"website": "https://www.alfresco.com/",
+			"summary":"I'm a Geek and I like to play with any new technology. In the last few years my attention for evident reason have been captured by Alfresco products and Business Process."
+		}
+	]
+},
+{
+	"id": "L02",
+	"topic": "Alfresco Share",
+	"title": "Worst practices for development with Aikau",
+	"type": "Lightning Talk (5 m)",
+	"day": "null",
+	"hour": "null",
+	"room": "null",
+	"targetAudience": "Newbies in Alfresco technologies, Developers starting to work with Alfresco",
+	"abstract": "<p>How to make it works if you are not a developer, don't know dojo, default widget cannot be configured to the state you need and best practices don't work.</p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Oksana",
+			"surname": "Kurysheva",
+			"emailMD5": "63eae52d6429caf81974ecce529121b5",
+			"position": "Project Manager",
+			"company": "ITD Systems",
+			"twitter": "",
+			"linkedin": "",
+			"website": "",
+			"summary":""
+		}
+	]
+},
+{
+	"id": "L03",
+	"topic": "AWS",
+	"title": "Managed the DevOps Way",
+	"type": "Lightning Talk (5 m)",
+	"day": "null",
+	"hour": "null",
+	"room": "null",
+	"targetAudience": "Business Users, Newbies in Alfresco technologies, System Administrators, Architects and Technical Managers",
+	"abstract": "<p>How we use AWS to allocate trials to customers who want to know more about AWS</p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Martin",
+			"surname": "Whittington",
+			"emailMD5": "56b012ba822223bd35c548c2984bc016",
+			"position": "Senior Tooling and Automation Engineer",
+			"company": "Alfresco",
+			"twitter": "",
+			"linkedin": "",
+			"website": "",
+			"summary":""
+		}
+	]
+},
+{
+	"id": "L04",
+	"topic": "Business model",
+	"title": "Don't Kill Your Golden Goose",
+	"type": "Lightning Talk (5 m)",
+	"day": "null",
+	"hour": "null",
+	"room": "null",
+	"targetAudience": "Experienced Alfresco developers, Architects and Technical Managers",
+	"abstract": "<p>Open core businesses grow when they successfully leverage the mass adoption of an open source product while simultaneously delivering proprietary value-add products in the same ecosystem. Such businesses must be careful to differentiate the proprietary products in ways that both add value to paying customers and does not undermine the incentives of other contributors in the open source community. This presentation briefly shares key considerations for achieving these often competing objectives. </p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Richard",
+			"surname": "Esplin",
+			"emailMD5": "acd65787dc30a4f2e0ce81b60156c644",
+			"position": "Product Manager",
+			"company": "Alfresco",
+			"twitter": "",
+			"linkedin": "",
+			"website": "",
+			"summary":""
+		}
+	]
+},
+{
+	"id": "L05",
+	"topic": "Alfresco Platform, Contribution process",
+	"title": "A Curse of a White Elephant",
+	"type": "Lightning Talk (5 m)",
+	"day": "null",
+	"hour": "null",
+	"room": "null",
+	"targetAudience": "Developers starting to work with Alfresco, Experienced Alfresco developers",
+	"abstract": "<p>Contrary to popular opinion, open source contributions are not free. It requires time, effort, and money to sift, vet, merge, test, and support any contribution, whether a major enhancement, a bug report, or a suggestion to the documentation. This lightning talk briefly describes why it is hard to accept a contribution, steps Alfresco is taking to make it easier, and how you can further improve the odds that your contribution benefits the wider community.</p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Richard",
+			"surname": "Esplin",
+			"emailMD5": "acd65787dc30a4f2e0ce81b60156c644",
+			"position": "Product Manager",
+			"company": "Alfresco",
+			"twitter": "",
+			"linkedin": "",
+			"website": "",
+			"summary":""
+		}
+	]
+},
+{
+	"id": "L06",
+	"topic": "Education",
+	"title": "What do you want from me?",
+	"type": "Lightning Talk (5 m)",
+	"day": "null",
+	"hour": "null",
+	"room": "null",
+	"targetAudience": "Business Users, Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
+	"abstract": "<p>Being a product evangelist at Alfresco means a lot of things and I had the chance to describe some of them in the following <a href='http://fcorti.com/2016/10/05/alfresco-product-evangelist/' target='_blank' class='black'>blog post</a>. Quoting from the blog post: 'In addition to helping developers adopt Alfresco technologies, this person will need to help Alfresco improve the developer experience with our technologies'. I have some initiatives that I would like to share with the ecosystem of developers, with the goal to have a feedback and understand which is the best way to achieve that goal.</p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Francesco",
+			"surname": "Corti",
+			"emailMD5": "ec093a71b277cad3be0993c579b3b822",
+			"position": "Alfresco Product Evangelist",
+			"company": "Alfresco",
+			"twitter": "",
+			"linkedin": "",
+			"website": "",
+			"summary":""
+		}
+	]
+},
+{
+	"id": "L07",
+	"topic": "Alfresco Platform, Use Case",
+	"title": "Sending customizable emails in Alfresco",
+	"type": "Lightning Talk (5 m)",
+	"day": "null",
+	"hour": "null",
+	"room": "null",
+	"targetAudience": "Business Users, Developers starting to work with Alfresco, Experienced Alfresco developers",
+	"abstract": "<p>Alfresco has been able to send emails for a long time. Mails are sent when you are invited to sites, when a workflow-task is assigned to you, for daily overviews of activities in your sites, etc.</p><p>There are however a few shortcomings:</p><ul class='list-instyled'><li>The body of the email is not easily customizable.</li><li>Sent email is not stored in Alfresco, so maintaining track of your conversation is hard.</li><li>Recipients cannot be dynamically assigned.</li></ul><p>In this ignite talk I would like to show how to generate custom e-mails from within Alfresco, with pre-populated recipients and automatically stored within Alfresco after sending.</p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Tom",
+			"surname": "Vandepoele",
+			"emailMD5": "b9ffea56082d8fb6586edc78fb66dbc7",
+			"position": "Senior ECM consultant",
+			"company": "Amplexor",
+			"twitter": "",
+			"linkedin": "",
+			"website": "",
+			"summary":""
+		}
+	]
+},
+{
+	"id": "L08",
+	"topic": "Alfresco Share, Add-ons",
+	"title": "Javascript API based developments for improving your Alfresco experience",
+	"type": "Lightning Talk (5 m)",
+	"day": "null",
+	"hour": "null",
+	"room": "null",
+	"targetAudience": "Business Users, Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco",
+	"abstract": "<p>Alfresco is a fantastic suite for collaboration. Nevertheless, final and business users require frequently several modifications of the Alfresco interface and functionality OOTB, to customize and, in best cases, to improve Alfresco. In the presentation, I will talk about a set of Alfresco addons, that came from different conversations with clients. They are simple customizations of Alfresco that may be also a a good starting point for developing in Alfresco with Javascript API. All the addons presented are open source licensed and published in github.</p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Cesar",
+			"surname": "Capillas",
+			"emailMD5": "42d5d82e35c83751b35083dbd209ef0e",
+			"position": "IT/Solution Architect",
+			"company": "ZYLK",
+			"twitter": "",
+			"linkedin": "",
+			"website": "",
+			"summary":""
+		}
+	]
+},
+{
+	"id": "L09",
+	"topic": "Alfresco Share, Add-ons",
+	"title": "Sinadura ECM: Protocol-based signatures for Alfresco",
+	"type": "Lightning Talk (5 m)",
+	"day": "null",
+	"hour": "null",
+	"room": "null",
+	"targetAudience": "Business Users, System Administrators, Experienced Alfresco developers, Architects and Technical Managers",
+	"abstract": "<p>Sinadura 5 is a popular java desktop client for signing documents. One of the new features of the last version is the addition to the main installer of a new mini-client designed for the web. This mini client was developed for the replacement of the java applet technology, by a protocol-based signature registered in your operating system. In this talk, we show the integration and possibilities of Sinadura 5 with Alfresco Share, relating to its advanced signature properties, profiles and visible stamps.</p><br/>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Cesar",
+			"surname": "Capillas",
+			"emailMD5": "42d5d82e35c83751b35083dbd209ef0e",
+			"position": "IT/Solution Architect",
+			"company": "ZYLK",
+			"twitter": "",
+			"linkedin": "",
+			"website": "",
+			"summary":""
+		}
+	]
+},
+{
+	"id": "L10",
+	"topic": "API's",
+	"title": "Automatic APIs with Swagger",
+	"type": "Lightning Talk (5 m)",
+	"day": "null",
+	"hour": "null",
+	"room": "null",
+	"targetAudience": "Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
+	"abstract": "<p>A walkthrough of how we use Swagger's tools inside Alfresco to generate specifications and client APIs automatically</p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Will",
+			"surname": "Abson",
+			"emailMD5": "9aac858e8ddaddf70b83c03374b01536",
+			"position": "Senior Solutions Developer",
+			"company": "Alfresco",
+			"twitter": "",
+			"linkedin": "",
+			"website": "",
+			"summary":""
+		}
+	]
+},
+{
+	"id": "L11",
+	"topic": "Alfresco Platform, API's",
+	"title": "Alfresco repo under concurrent write load: tips and tricks to make it stable",
+	"type": "Lightning Talk (5 m)",
+	"day": "null",
+	"hour": "null",
+	"room": "null",
+	"targetAudience": "Experienced Alfresco developers, Architects and Technical Managers",
+	"abstract": "<p>This talk sums up quite a big amount of painful experience regarding developing Alfresco repo-tier extensions that should handle concurrent write load (10-100 write requests per second). Generic approach with getRetryingTransactionHelper().doInTransaction(...whatever...) is not enough for complex repo tier logic. The talk will cover:</p><ul class='list-instyled'><li>Problems when transactions, optimistic locking and default retrying helper meet exception handling in real life code.</li><li>Issues caused by repo transaction isolation and explicit synchronization in third party code.</li></ul><p>Happy end included: the talk will provide recipes to make code stable under concurrent writes.",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Alexey",
+			"surname": "Vasyukov",
+			"emailMD5": "0431494fb9ecdfac669f52d505f5fdaa",
+			"position": "CTO",
+			"company": "ITD Systems",
+			"twitter": "",
+			"linkedin": "",
+			"website": "",
+			"summary":""
+		}
+	]
+},
+{
+	"id": "L12",
+	"topic": "Alfresco Platform, Alfresco Share, Add-ons",
+	"title": "Introducing OOTBee Support Tools",
+	"type": "Lightning Talk (5 m)",
+	"day": "null",
+	"hour": "null",
+	"room": "null",
+	"targetAudience": "System Administrators, Experienced Alfresco developers, Architects and Technical Managers",
+	"abstract": "<p>One of the lightning talks at last years BeeCon listed the Alfresco Support Tools addon as one of the top 10 features missing from Alfresco Community. Since then, a group of community members from the Order of the Bee have ported the existing addon and even added new tools to make them available to all Alfresco users. This talk gives a short introduction and overview of the OOTBee Support Tools addon and how the community can contribute to make it even more of an essential tool for every admin or developer.</p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Axel",
+			"surname": "Faust",
+			"emailMD5": "b79f4e7d952fd329941b96878542fa3c",
+			"position": "Manager",
+			"company": "Acosix GmbH",
+			"twitter": "ReluctantBird83",
+			"linkedin": "https://www.linkedin.com/in/axel-faust-78ab2b3a/",
+			"website": "https://github.com/AFaust",
+			"summary":"I started to work with Alfresco in 2010 and have mostly been working full time on/with it since then. Though my main focus is on software development and architecture, a large part of my work also includes general consulting, use case specific training/education, system operations and support. From 2010 until 2016 I worked for an Alfresco Partner and thus primarily the Enterprise Edition, though I would use Community Edition for most of my engagement in community-oriented collaborations and my own open source projects."
+		}
+		,
+		{
+			"name": "Bindu",
+			"surname": "Wavell",
+			"emailMD5": "38dd11f54dc46e44704a926513b35d99",
+			"position": "Chief Architect",
+			"company": "Zia Consulting",
+			"twitter": "binduwavell",
+			"linkedin": "https://www.linkedin.com/in/binduwavell/",
+			"website": "http://www.ziaconsulting.com/",
+			"summary":"Bindu Wavell is the Chief Architect at Zia Consulting. He has been involved in enterprise system integration consulting for 26 years. At Zia, Bindu provides guidance and mentoring around enterprise content management architecture and design in addition to working hands-on with customers.Bindu has been working on enterprise content management engagements for the past 12 years.  Bindu has also been running the support organization at Zia for the last year. Previously he worked at eConvergent and Aspect Communications focusing on customer relationship management systems."
+		}
+	]
+},
+{
+	"id": "L14",
+	"topic": "Alfresco Platform, Transformations",
+	"title": "Externalizing Office document transformations into a remote JODC server",
+	"type": "Lightning Talk (5 m)",
+	"day": "null",
+	"hour": "null",
+	"room": "null",
+	"targetAudience": "System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
+	"abstract": "<p>In this presentation we will explore an implementation of a content transformer for Office documents, leveraging the micro-service architecture for scalable & reliable content transformations.</p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Younes",
+			"surname": "Regaieg",
+			"emailMD5": "ae059a568da6389915310aeaef7fd371",
+			"position": "ECM Software Engineer",
+			"company": "Xenit Solutions",
+			"twitter": "",
+			"linkedin": "",
+			"website": "",
+			"summary":""
+		}
+	]
+},
+{
+	"id": "L15",
+	"topic": "Alfresco Platform, Alfresco Share, Workflows, API's",
+	"title": "Fear and loathing in Alfresco workflow development",
+	"type": "Lightning Talk (5 m)",
+	"day": "null",
+	"hour": "null",
+	"room": "null",
+	"targetAudience": "Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers",
+	"abstract": "<p>The main goal of this talk is to provide some tips and tricks to overcome current limitations that one encounters when developing workflows with Alfresco. Despite quite a big progress was made during last few years there are still plenty of hidden problems one have to solve to be able to create a complex workflow.</p><p>For example, there is no easy way to create files that are required to deploy a workflow: models, localizaiton, share forms config. But workflow development time may be significantly decreased when generating these files from templates.</p><p>Another common issue is very limited workflow API: only basic capabilities are exposed through Java Foundation API. For any non-trivial things like adding task listeners programmatically you have to do some magic (a bit dirty sometimes).</p><p>This talk sums up author's experience in Alfresco workflow development and aims at pointing out solutions for some painful problems.</p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Alexey",
+			"surname": "Ermakov",
+			"emailMD5": "78d3c62dd51f6879ac019ead8f481bd5",
+			"position": "Senior software developer",
+			"company": "ITD Systems",
+			"twitter": "",
+			"linkedin": "",
+			"website": "",
+			"summary":""
+		}
+	]
+},
+{
+	"id": "L16",
+	"topic": "Alfresco Platform, Use Case",
+	"title": "Taming large repositories",
+	"type": "Lightning Talk (5 m)",
+	"day": "null",
+	"hour": "null",
+	"room": "null",
+	"targetAudience": "System Administrators, Architects and Technical Managers",
+	"abstract": "<p>Building large repositories has it challenges. A quick overview of things learned from setting up several 10M to 50M repositories.</p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Willem",
+			"surname": "Van den Eynde",
+			"emailMD5": "2f838da5246a581bcdfe8895d6325b8b",
+			"position": "ECM Architect",
+			"company": "XeniT",
+			"twitter": "",
+			"linkedin": "https://www.linkedin.com/in/willem-van-den-eynde-5318078/",
+			"website": "https://www.xenit.eu/",
+			"summary":"Has over 7 years experience with Alfresco setups and customizations."
+		}
+	]
+},
+{
+	"id": "L17",
+	"topic": "Alfresco Platform, Alfresco Share, API's",
+	"title": "Automating the Alfresco Taxonomy",
+	"type": "Lightning Talk (5 m)",
+	"day": "null",
+	"hour": "null",
+	"room": "null",
+	"targetAudience": "Business Users, Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
+	"abstract": "<p>This presentation will review tools built to manage and automate an organization's taxonomy. Some of the tools reviewed will be:</p><ul class='list-instyled'><li>Data List backed Content Fields in Share</li><li>Configurable Metadata Inheritance (single and multiple level)</li><li>Automated Site Creation By Template, and from Activiti</li></ul>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Jason",
+			"surname": "Jolley",
+			"emailMD5": "fb8b3a39d0804d45d2798efe260bd589",
+			"position": "Director, Application Development",
+			"company": "Micro Strategies",
+			"twitter": "jasonjolley",
+			"linkedin": "https://www.linkedin.com/in/jasonjolley/",
+			"website": "http://microstrat.com/",
+			"summary":"Jason Jolley is the Director of Application Development at Micro Strategies, an Alfresco Platinum Partner. Jason has spent the last 17 years focused on implementing ECM solutions, and has worked with Alfresco since version 1.4. As the Director of Application Development at Micro Strategies, Inc. he oversees the strategic direction of application development activities, including development methodology and implementation best practices. He previously held the role of Chief Architect of the ECM practice at Entology, Inc."
+		}
+	]
+},
+{
+	"id": "L19",
+	"topic": "Resources/Community Platform",
+	"title": "Making the Most of the Alfresco Community",
+	"type": "Lightning Talk (5 m)",
+	"day": "null",
+	"hour": "null",
+	"room": "null",
+	"targetAudience": "Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers",
+	"abstract": "<p>Last year, we launched the new Alfresco community to replace our forums, blogs, and wiki. Since then we've had 5000 people login to the space, with 1600 new discussions and 100 new blogs posted. I'd like to show the attendees the basic layout of the community and provide a few tips for making the most of the community - how to follow certain areas or people, how to participate in challenges and earn points, how to thank other members, and how to use the search effectively.</p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Kristen",
+			"surname": "Gastaldo",
+			"emailMD5": "00adbd69bc4a8dc475e7dab23de1ffdb",
+			"position": "Senior Community Marketing Manager",
+			"company": "Alfresco",
+			"twitter": "",
+			"linkedin": "",
+			"website": "",
+			"summary":""
+		}
+	]
+},
+{
+	"id": "L20",
+	"topic": "Alfresco Platform, Alfresco Share, Use Case, Alfresco administration",
+	"title": "Alfresco Worst Practices",
+	"type": "Lightning Talk (5 m)",
+	"day": "null",
+	"hour": "null",
+	"room": "null",
+	"targetAudience": "Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco",
+	"abstract": "<p>Learning 'best practices' is always important. But learning the 'worst practices' might not only be fun, but it might even be a more permanent and useful knowledge. In this talk I'll discuss some of the worst practices I have seen (or discussed with the community) across the years. The idea is to have first a 'ha ha ha' reaction, and then make people think 'wait a second, how are *we* doing *that* in production'.</p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Boriss",
+			"surname": "Mejías",
+			"emailMD5": "2ba8cf1c791cdf6156df415d177746e7",
+			"position": "Holistic System Software Engineer",
+			"company": "CIRB-CIBG",
+			"twitter": "",
+			"linkedin": "",
+			"website": "",
+			"summary":""
+		}
+	]
+},
+{
+	"id": "LF38",
+	"topic": "Resources and Research ",
+	"title": "2016 Developer Survey Results & Reactions ",
+	"type": "Lightning Talk (5 m)",
+	"day": "null",
+	"hour": "null",
+	"room": "null",
+	"targetAudience": "System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
+	"abstract": "After attending BeeCon last year, we realized we needed much more information about our developers, so that we could analyze their current Alfresco and technology usage and design a better experience for them, whether they were just staring with Alfresco or were experienced developers. We had roughly 1000 developers respond. I’d like to present the results of the survey to the audience, and let them know what we’ve done in response (Jive community, GetStarted pages and resources, tutorials, etc). We'd like to issue another survey, and will explain our thoughts and goals there. ",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Anthony",
+			"surname": "Jones",
+			"emailMD5": "a8a945e2741c289f2de1803e4473d37d",
+			"position": "Senior Product Marketing Manager",
+			"company": "Alfresco",
+			"twitter": "",
+			"linkedin": "",
+			"website": "",
+			"summary":""
+		}
+		,
+		{
+			"name": "Kristen",
+			"surname": "Gastaldo",
+			"emailMD5": "00adbd69bc4a8dc475e7dab23de1ffdb",
+			"position": "Senior Community Marketing Manager",
+			"company": "Alfresco",
+			"twitter": "",
+			"linkedin": "",
+			"website": "",
+			"summary":""
+		}
+	]
+}
+]

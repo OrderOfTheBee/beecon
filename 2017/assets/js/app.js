@@ -41,11 +41,14 @@ app.controller('SpeakersCtrl', ['$scope', '$http', '$timeout', '$uibModal', func
 	};
 }]);
 
-/*app.controller('TalksCtrl', ['$scope', '$http', '$location', '$filter',  '$timeout', '$modal', function($scope, $http, $location, $filter,  $timeout, $modal){
+app.controller('TalksCtrl', ['$scope', '$http', '$location', '$filter',  '$timeout', '$uibModal', function($scope, $http, $location, $filter,  $timeout, $modal){
     $scope.talkId = $location.absUrl().split("id=")[1];
-    $http.get('/2016/assets/data/talks.json').success(function(data) {
-      $scope.talk = $filter('getByProperty')('id', $scope.talkId, data);
-      $scope.talks = data;
+		$http({
+	    method: 'GET',
+	    url: '/2017/assets/data/talks.json'
+	  }).then(function success(response) {
+      $scope.talk = $filter('getByProperty')('id', $scope.talkId, response.data);
+      $scope.talks = response.data;
     })
     $scope.open = function (_speaker) {
     var modalInstance = $modal.open({
@@ -63,12 +66,24 @@ app.controller('SpeakersCtrl', ['$scope', '$http', '$timeout', '$uibModal', func
   };
 }]);
 
-app.controller('AgendaCtrl', ['$scope', '$http', '$location', '$filter',  '$timeout', '$modal', function($scope, $http, $location, $filter,  $timeout, $modal){
+app.controller('AgendaCtrl', ['$scope', '$http', '$location', '$filter',  '$timeout', '$uibModal', function($scope, $http, $location, $filter,  $timeout, $modal){
   $scope.agenda = [];
-  $http.get('/2016/assets/data/agenda.json').success(function(data) {
-    var array = data;
+	$http({
+		method: 'GET',
+		url: '/2017/assets/data/agenda.json'
+	}).then(function success(response) {
+    var array = response.data;
     var date, startDate, endDate;
     $.each(array, function(index, day) {
+			number = index + 1;
+			day.id = "day" + number;
+			day.label = "Day " + number;
+			day.class = "";
+			day.tabClass = "tab-pane";
+			if (number == 1) {
+				day.class = "active";
+				day.tabClass = "tab-pane fade active in";
+			}
       date = "201604" + day.date.substr(day.date.length - 2) + "T";
       $.each(day.slots, function(index2, slot) {
         var startTime = slot.time.split(' ')[0];
@@ -103,12 +118,15 @@ app.controller('AgendaCtrl', ['$scope', '$http', '$location', '$filter',  '$time
     });
 
 
-    $http.get('/2016/assets/data/talks.json').success(function(data) {
-      var talks = data;
+		$http({
+			method: 'GET',
+			url: '/2017/assets/data/talks.json'
+		}).then(function success(response) {
+      var talks = response.data;
       $.each(array, function(index, day) {
         $.each(day.slots, function(index2, slot) {
           $.each(slot.sessions, function(index3, session) {
-            if (session.id[0] == "2") {
+            if (session.id[0] == "F" || session.id[0] == "E") {
               var i = talks.filter(function(e) { return e.id == session.id; });
               session.title = i[0].title;
               session.type = i[0].type;
@@ -126,8 +144,11 @@ app.controller('AgendaCtrl', ['$scope', '$http', '$location', '$filter',  '$time
         })
       })
     });
-    $http.get('/2016/assets/data/speakers.json').success(function(data) {
-      var speakers = data;
+		$http({
+			method: 'GET',
+			url: '/2017/assets/data/speakers.json'
+		}).then(function success(response) {
+      var speakers = response.data;
       $.each(array, function(index, day) {
         $.each(day.slots, function(index2, slot) {
           $.each(slot.sessions, function(index3, session) {
@@ -172,7 +193,7 @@ app.controller('AgendaCtrl', ['$scope', '$http', '$location', '$filter',  '$time
       }
     });
   };
-}]);*/
+}]);
 
 app.controller('ModalInstanceCtrl', function ($scope, $uibModalInstance, item) {
 
