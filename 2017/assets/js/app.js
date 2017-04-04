@@ -66,7 +66,7 @@ app.controller('TalksCtrl', ['$scope', '$http', '$location', '$filter',  '$timeo
   };
 }]);
 
-app.controller('AgendaCtrl', ['$scope', '$http', '$location', '$filter',  '$timeout', '$uibModal', function($scope, $http, $location, $filter,  $timeout, $modal){
+app.controller('AgendaCtrl', ['$scope', '$http', '$filter',  '$timeout', '$uibModal', function($scope, $http, $filter,  $timeout, $modal){
   $scope.agenda = [];
 	$http({
 		method: 'GET',
@@ -234,3 +234,7 @@ app.directive('twitter', [
         }
     }
 ]);
+
+app.config(['$locationProvider', function($locationProvider) {
+  $locationProvider.hashPrefix('');
+}]);
