@@ -26,6 +26,38 @@
 			"type": "Extended Talk (45 m)",
 			"targetAudience": "Business Users, Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
 			"abstract": "Last session on the conference. Q&A, open discussion"
+		},
+		{
+			"id": "H01",
+			"topic": "Hack-a-thon",
+			"title": "Hack-a-thon",
+			"type": "",
+			"targetAudience": "Developers starting to work with Alfresco, Experienced Alfresco developers",
+			"abstract": "<p>Hack-a-thon is a full-day session completely dedicated to any sort of collaborative projects that attendees are personally interested in or that could be of benefit to the larger Alfresco community. These projects may be technical or non-technical, and range from experimental developments to maintenance of community resources like wiki pages, or definition of business requirements / concepts for feature requests / new project ideas.</p><p><a href='https://docs.google.com/forms/d/e/1FAIpQLSfCtNY5RlHwAPvZhY8z9k49__rQRUMGHcgUP7BW3ieTBCT-Yg/viewform' target='_blank'>Register your intention to attend the hack-a-thon session</a> if you want to join.</p><p>In order to make the most out of the hack-a-thon session it is a good idea to think about project ideas in advance and potentially find other people with which to work during the session. You can use <a href='https://community.alfresco.com/docs/DOC-6575-projects-and-teams-beecon-hackathon-2017' target='_blank'>the projects and teams page</a> to add your project ideas or find other people's ideas that you want to work on with them.</p>"
+		},
+		{
+			"id": "H02",
+			"topic": "Hack-a-thon",
+			"title": "Hack-a-thon",
+			"type": "",
+			"targetAudience": "Developers starting to work with Alfresco, Experienced Alfresco developers",
+			"abstract": "<p>Hack-a-thon is a full-day session completely dedicated to any sort of collaborative projects that attendees are personally interested in or that could be of benefit to the larger Alfresco community. These projects may be technical or non-technical, and range from experimental developments to maintenance of community resources like wiki pages, or definition of business requirements / concepts for feature requests / new project ideas.</p><p><a href='https://docs.google.com/forms/d/e/1FAIpQLSfCtNY5RlHwAPvZhY8z9k49__rQRUMGHcgUP7BW3ieTBCT-Yg/viewform' target='_blank'>Register your intention to attend the hack-a-thon session</a> if you want to join.</p><p>In order to make the most out of the hack-a-thon session it is a good idea to think about project ideas in advance and potentially find other people with which to work during the session. You can use <a href='https://community.alfresco.com/docs/DOC-6575-projects-and-teams-beecon-hackathon-2017' target='_blank'>the projects and teams page</a> to add your project ideas or find other people's ideas that you want to work on with them.</p>"
+		},
+		{
+			"id": "H03",
+			"topic": "Getting started",
+			"title": "Getting started",
+			"type": "",
+			"targetAudience": "Developers starting to work with Alfresco",
+			"abstract": "<p>This training session will cover basics for Alfresco development, focusing the practice on the use of the brand new Alfresco SDK 3.0.0.</p><p><a href='https://docs.google.com/forms/d/e/1FAIpQLSdlI0YYOgJtCFWHyvhLqZL-0DowjOtF73B8XqXaV9hYB37sgA/viewform' target='_blank'>Register your intention</a> to attend the training session. This registration will also be used to provide any updates or other details about the session in advance of BeeCon.</p>"
+		},
+		{
+			"id": "H04",
+			"topic": "Getting started",
+			"title": "Getting started",
+			"type": "",
+			"targetAudience": "Developers starting to work with Alfresco",
+			"abstract": "<p>This training session will cover basics for Alfresco development, focusing the practice on the use of the brand new Alfresco SDK 3.0.0.</p><p><a href='https://docs.google.com/forms/d/e/1FAIpQLSdlI0YYOgJtCFWHyvhLqZL-0DowjOtF73B8XqXaV9hYB37sgA/viewform' target='_blank'>Register your intention</a> to attend the training session. This registration will also be used to provide any updates or other details about the session in advance of BeeCon.</p>"
 		}
 	]
 },
