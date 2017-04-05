@@ -55,6 +55,7 @@
 	<script type="text/javascript" src="/2017/assets/js/angular-file-saver.bundle.min.js"></script>
 	<script type="text/javascript" src="/2017/assets/js/addtocalendar.min.js"></script>
 	<script type="text/javascript" src="/2017/assets/js/moment.min.js"></script>
+	<script type="text/javascript" src="/2017/assets/js/clickoutside.directive.js"></script>
 	<script type="text/javascript" src="/2017/assets/js/app.js"></script>
 
 	<section id="hero" class="hero-section bg1 bg-cover window-height light-text">
@@ -351,17 +352,15 @@
       </div>
       <div class="modal-footer">
         <div class="pull-right">
-          <!--addtocalendar
+          <addtocalendar
             start-date="{{item.startDate}}"
             end-date="{{item.endDate}}"
-            ctz="Europe/Zaragoza"
             title="{{item.title}}"
             location="{{item.place}}, Av. de la Cdad. de Soria, 8, 50003 Zaragoza, Spain"
-            class-name="btn btn-success btn-xs dropdown-toggle"
+            class-name="btn btn-primary btn-xs dropdown-toggle"
             description="{{item.abstract}}"
             btn-text="Add to calendar">
           </addtocalendar>
-          <a class="btn btn-success btn-xs" target="_blank" ng-href="/2017/talks?id={{item.id}}">Open in new window</a-->
           <a class="btn btn-link btn-xs" ng-click="cancel()">Cancel</a>
         </div>
       </div>
