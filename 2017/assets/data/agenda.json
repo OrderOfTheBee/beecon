@@ -50,12 +50,12 @@
 					}
 					,
 					{
-						"id": "Hackathon",
+						"id": "H01",
 						"place": "Room 2"
 					}
 					,
 					{
-						"id": "Getting started",
+						"id": "H03",
 						"place": "Room 3"
 					}
 				]
@@ -108,12 +108,12 @@
 					}
 					,
 					{
-						"id": "Hackathon",
+						"id": "H02",
 						"place": "Room 2"
 					}
 					,
 					{
-						"id": "Getting started",
+						"id": "H04",
 						"place": "Room 3"
 					}
 				]

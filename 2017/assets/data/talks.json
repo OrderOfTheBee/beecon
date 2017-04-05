@@ -550,7 +550,7 @@
 			"company": "XeniT",
 			"twitter": "",
 			"linkedin": "",
-			"website": "",
+			"website": "https://www.xenit.eu/",
 			"summary":""
 		}
 	]
@@ -613,7 +613,7 @@
 			"position": "",
 			"company": "Acsone",
 			"twitter": "acsonelmi",
-			"linkedin": "",
+			"linkedin": "https://www.linkedin.com/in/lamignon/",
 			"website": "https://www.acsone.eu/",
 			"summary":""
 		}
@@ -1074,13 +1074,13 @@
 {
 	"id": "E02",
 	"topic": "ADF",
-	"title": "How to bring ADF inside an Angular 2 Application",
+	"title": "Building the ADF application for your needs",
 	"type": "Extended Talk (45 m)",
 	"day": "April 26",
 	"hour": "12:10 - 12:55",
 	"room": "Auditorium",
 	"targetAudience": "Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
-	"abstract": "<p>Starting from an existing Angular 2 application we will see how to make ADF working side by side with your services. The idea of the talk is to share the best practices around using the Alfresco ADF components for Processes and Content and how to integrate it into your existing application.</p>",
+	"abstract": "<p>Do you want to see ADF in action, building an application during the presentation? Starting from an application built using the Yeoman generator, we will see how to make the ADF components working side by side with external services. The goal is to build an example of solution to a use case, to show the best practice on working with ADF and how it is simple to extend and integrate, starting from the existing components. A brief introduction on top of the talk will give you a overview if you want to know more about the framework.</p>",
 	"files":[
 	],
 	"speakers":[
@@ -1094,6 +1094,18 @@
 			"linkedin": "https://www.linkedin.com/in/mario-romano-51a6a714/",
 			"website": "https://www.alfresco.com/",
 			"summary":"I'm a Geek and I like to play with any new technology. In the last few years my attention for evident reason have been captured by Alfresco products and Business Process.<br/>"
+		}
+		,
+		{
+			"name": "Francesco",
+			"surname": "Corti",
+			"emailMD5": "ec093a71b277cad3be0993c579b3b822",
+			"position": "Alfresco Product Evangelist",
+			"company": "Alfresco",
+			"twitter": "FrkCorti",
+			"linkedin": "https://www.linkedin.com/in/fcorti/",
+			"website": "https://www.alfresco.com/",
+			"summary":"Alfresco Product Evangelist<br/>"
 		}
 	]
 },
@@ -1181,9 +1193,9 @@
 			"position": "VP for Product Development",
 			"company": "Alfresco",
 			"twitter": "",
-			"linkedin": "",
+			"linkedin": "https://www.linkedin.com/in/markheathuk/",
 			"website": "https://www.alfresco.com/",
-			"summary":""
+			"summary":"Mark Heath has a strong track record in Technology and Software Engineering roles at leading Telecommunications and SaaS businesses. These include Symbian, Citrix Systems and Lumesse where he was SVP of Engineering. Mark is a well known industry figure and sits on the industrial steering group of the Oxford University MSc in Software Engineering."
 		}
 		,
 		{
@@ -1868,7 +1880,7 @@
 	"hour": "null",
 	"room": "null",
 	"targetAudience": "System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
-	"abstract": "After attending BeeCon last year, we realized we needed much more information about our developers, so that we could analyze their current Alfresco and technology usage and design a better experience for them, whether they were just staring with Alfresco or were experienced developers. We had roughly 1000 developers respond. I’d like to present the results of the survey to the audience, and let them know what we’ve done in response (Jive community, GetStarted pages and resources, tutorials, etc). We'd like to issue another survey, and will explain our thoughts and goals there. ",
+	"abstract": "<p>After attending BeeCon last year, we realized we needed much more information about our developers, so that we could analyze their current Alfresco and technology usage and design a better experience for them, whether they were just staring with Alfresco or were experienced developers. We had roughly 1000 developers respond. I’d like to present the results of the survey to the audience, and let them know what we’ve done in response (Jive community, GetStarted pages and resources, tutorials, etc). We'd like to issue another survey, and will explain our thoughts and goals there.</p>",
 	"files":[
 	],
 	"speakers":[

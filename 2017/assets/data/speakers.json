@@ -85,7 +85,7 @@
 			"title": "2016 Developer Survey Results & Reactions ",
 			"type": "Lightning Talk (5 m)",
 			"targetAudience": "System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
-			"abstract": "After attending BeeCon last year, we realized we needed much more information about our developers, so that we could analyze their current Alfresco and technology usage and design a better experience for them, whether they were just staring with Alfresco or were experienced developers. We had roughly 1000 developers respond. I’d like to present the results of the survey to the audience, and let them know what we’ve done in response (Jive community, GetStarted pages and resources, tutorials, etc). We'd like to issue another survey, and will explain our thoughts and goals there. "
+			"abstract": "<p>After attending BeeCon last year, we realized we needed much more information about our developers, so that we could analyze their current Alfresco and technology usage and design a better experience for them, whether they were just staring with Alfresco or were experienced developers. We had roughly 1000 developers respond. I’d like to present the results of the survey to the audience, and let them know what we’ve done in response (Jive community, GetStarted pages and resources, tutorials, etc). We'd like to issue another survey, and will explain our thoughts and goals there.</p>"
 		}
 	]
 },
@@ -162,10 +162,10 @@
 	"position": "VP for Product Development",
 	"company": "Alfresco",
 	"twitter": "",
-	"linkedin": "",
+	"linkedin": "https://www.linkedin.com/in/markheathuk/",
 	"website": "https://www.alfresco.com/",
 	"image": "/2017/img/speakers/MarkHeath.png",
-	"summary":"",
+	"summary":"Mark Heath has a strong track record in Technology and Software Engineering roles at leading Telecommunications and SaaS businesses. These include Symbian, Citrix Systems and Lumesse where he was SVP of Engineering. Mark is a well known industry figure and sits on the industrial steering group of the Oxford University MSc in Software Engineering.",
 	"talks":[
 		{
 			"id": "E06",
@@ -566,10 +566,10 @@
 		{
 			"id": "E02",
 			"topic": "ADF",
-			"title": "How to bring ADF inside an Angular 2 Application",
+			"title": "Building the ADF application for your needs",
 			"type": "Extended Talk (45 m)",
 			"targetAudience": "Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
-			"abstract": "<p>Starting from an existing Angular 2 application we will see how to make ADF working side by side with your services. The idea of the talk is to share the best practices around using the Alfresco ADF components for Processes and Content and how to integrate it into your existing application.</p>"
+			"abstract": "<p>Do you want to see ADF in action, building an application during the presentation? Starting from an application built using the Yeoman generator, we will see how to make the ADF components working side by side with external services. The goal is to build an example of solution to a use case, to show the best practice on working with ADF and how it is simple to extend and integrate, starting from the existing components. A brief introduction on top of the talk will give you a overview if you want to know more about the framework.</p>"
 		},
 		{
 			"id": "EF30",
@@ -991,7 +991,7 @@
 	"company": "XeniT",
 	"twitter": "",
 	"linkedin": "",
-	"website": "",
+	"website": "https://www.xenit.eu/",
 	"image": "/2017/img/speakers/ThomasStraetmans.png",
 	"summary":"",
 	"talks":[
@@ -1062,6 +1062,14 @@
 			"type": "Full Talk (30 m)",
 			"targetAudience": "Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
 			"abstract": "<p>Lightning talks are fast-paced and fun. The presentations are strictly limited to five minutes, so each session contains 5 topics with a mix of subjects including both business and technical subjects. All presentations in this session are Ignite-style, with auto-advancing slides.</p><ul class='list-instyled'><li><p><strong>Don't Kill Your Golden Goose</strong> (Richard Esplin)</p><p>Open core businesses grow when they successfully leverage the mass adoption of an open source product while simultaneously delivering proprietary value-add products in the same ecosystem. Such businesses must be careful to differentiate the proprietary products in ways that both add value to paying customers and does not undermine the incentives of other contributors in the open source community. This presentation briefly shares key considerations for achieving these often competing objectives. </p></li><li><p><strong>What do you want from me?</strong>(Francesco Corti)</p><p>Being a product evangelist at Alfresco means a lot of things and I had the chance to describe some of them in the following <a href='http://fcorti.com/2016/10/05/alfresco-product-evangelist/' target='_blank' class='black'>blog post</a>. Quoting from the blog post: 'In addition to helping developers adopt Alfresco technologies, this person will need to help Alfresco improve the developer experience with our technologies'. I have some initiatives that I would like to share with the ecosystem of developers, with the goal to have a feedback and understand which is the best way to achieve that goal.</p></li><li><p><strong>Sinadura ECM: Protocol-based signatures for Alfresco</strong>(Cesar Capillas)</p><p>Sinadura 5 is a popular java desktop client for signing documents. One of the new features of the last version is the addition to the main installer of a new mini-client designed for the web. This mini client was developed for the replacement of the java applet technology, by a protocol-based signature registered in your operating system. In this talk, we show the integration and possibilities of Sinadura 5 with Alfresco Share, relating to its advanced signature properties, profiles and visible stamps.</p></li><li><p><strong>Externalizing Office document transformations into a remote JODC server</strong>(Younes Regaieg)</p><p>In this presentation we will explore an implementation of a content transformer for Office documents, leveraging the micro-service architecture for scalable & reliable content transformations.</p></li></ul>"
+		},
+		{
+			"id": "E02",
+			"topic": "ADF",
+			"title": "Building the ADF application for your needs",
+			"type": "Extended Talk (45 m)",
+			"targetAudience": "Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
+			"abstract": "<p>Do you want to see ADF in action, building an application during the presentation? Starting from an application built using the Yeoman generator, we will see how to make the ADF components working side by side with external services. The goal is to build an example of solution to a use case, to show the best practice on working with ADF and how it is simple to extend and integrate, starting from the existing components. A brief introduction on top of the talk will give you a overview if you want to know more about the framework.</p>"
 		},
 		{
 			"id": "E09",
@@ -1192,7 +1200,7 @@
 	"position": "",
 	"company": "Acsone",
 	"twitter": "acsonelmi",
-	"linkedin": "",
+	"linkedin": "https://www.linkedin.com/in/lamignon/",
 	"website": "https://www.acsone.eu/",
 	"image": "/2017/img/speakers/LaurentMignon.png",
 	"summary":"",
@@ -1347,7 +1355,7 @@
 			"title": "2016 Developer Survey Results & Reactions ",
 			"type": "Lightning Talk (5 m)",
 			"targetAudience": "System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
-			"abstract": "After attending BeeCon last year, we realized we needed much more information about our developers, so that we could analyze their current Alfresco and technology usage and design a better experience for them, whether they were just staring with Alfresco or were experienced developers. We had roughly 1000 developers respond. I’d like to present the results of the survey to the audience, and let them know what we’ve done in response (Jive community, GetStarted pages and resources, tutorials, etc). We'd like to issue another survey, and will explain our thoughts and goals there. "
+			"abstract": "<p>After attending BeeCon last year, we realized we needed much more information about our developers, so that we could analyze their current Alfresco and technology usage and design a better experience for them, whether they were just staring with Alfresco or were experienced developers. We had roughly 1000 developers respond. I’d like to present the results of the survey to the audience, and let them know what we’ve done in response (Jive community, GetStarted pages and resources, tutorials, etc). We'd like to issue another survey, and will explain our thoughts and goals there.</p>"
 		}
 	]
 },
