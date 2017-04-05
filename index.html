@@ -327,7 +327,7 @@
 		<script type="text/ng-template" id="SessionModalContent.html">
       <div class="modal-header">
         <h4 class="text-center">{{item.title}}</h4>
-        <p class="text-center">{{item.type}}</p>
+        <p class="text-center" ng-show="item.type != 'null'">{{item.type}}</p>
       </div>
       <div class="modal-body">
         <p class="text-right lead"><span class="label label-warning">{{item.place}} at {{item.time}} on {{item.date}}</span></p>

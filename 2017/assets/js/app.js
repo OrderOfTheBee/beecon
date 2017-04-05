@@ -135,7 +135,7 @@ app.controller('AgendaCtrl', ['$scope', '$http', '$filter', '$timeout', '$uibMod
                             session.endDate = endDate2;
                             session.time = startTime + " - " + day.slots[index2 + 1].time.split(' ')[2];
                         } else {
-                            session.endDate = endDate + "00";
+                            session.endDate = endDate + "00+0100";
                             session.time = startTime + " - " + endTime;
                         }
                         session.date = day.date;
