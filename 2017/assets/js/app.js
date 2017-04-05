@@ -17,7 +17,7 @@ app.controller('SpeakersCtrl', ['$scope', '$http', '$timeout', '$uibModal', func
                 n++;
             }
         }
-        for (n = 1; n < 6; n++) {
+        for (n = 1; n < 8; n++) {
             if ($scope.speakers[array[n]].surname != "Newton") {
                 $scope.randomList.push(
                     $scope.speakers[array[n]]

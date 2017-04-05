@@ -132,11 +132,11 @@
 						</div>
 					</script>
 					<div class="row">
-						<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12" ng-repeat="speaker in speakers | orderBy:'surname'">
+						<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12" ng-repeat="speaker in speakers | orderBy:'surname'">
 							<div class="speaker">
-								<div class="photo-wrapper rounded"><a href="" ng-click="open(speaker)"><img src="{{speaker.image}}" width="100px" class="img-responsive"></a></div>
+								<div class="photo-wrapper rounded"><a href="" ng-click="open(speaker)"><img src="{{speaker.image}}" height="80px" class="img-responsive"></a></div>
 									<h3 class="name">{{speaker.name}} {{speaker.surname}}</h3>
-									<p class="text-alt"><small>{{speaker.position}} @ {{speaker.company}}</small></p>
+									<p class="text-alt"><small>{{speaker.position}}<br/> @{{speaker.company}}</small></p>
 									<ul class="speaker-socials">
 										<li ng-if="speaker.website"><a href="{{speaker.website}}" target="_blank"><span class="fa fa-building"></span></a></li>
 										<li ng-if="speaker.linkedin" ><a href="{{speaker.linkedin}}" target="_blank"><span class="fa fa-linkedin"></span></a></li>
@@ -146,8 +146,6 @@
 						</div>
 					</div>
 				</div>
-				<br/>
-				<p class="text-center"><a class="btn btn-primary btn-lg">More coming soon</a></p>
 				<br/>
 
 		</div>
