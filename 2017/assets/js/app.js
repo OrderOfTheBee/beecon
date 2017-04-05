@@ -17,8 +17,8 @@ app.controller('SpeakersCtrl', ['$scope', '$http', '$timeout', '$uibModal', func
         n++;
       }
     }
-    for (n=1; n < 5; n++) {
-			if ($scope.speakers[array[n]].surname != "Newton" && $scope.speakers[array[n]].surname != "De Meo") {
+    for (n=1; n < 6; n++) {
+			if ($scope.speakers[array[n]].surname != "Newton") {
       	$scope.randomList.push(
         	$scope.speakers[array[n]]
       	);
@@ -152,7 +152,7 @@ app.controller('AgendaCtrl', ['$scope', '$http', '$filter',  '$timeout', '$uibMo
       $.each(array, function(index, day) {
         $.each(day.slots, function(index2, slot) {
           $.each(slot.sessions, function(index3, session) {
-            if (session.id[0] == "2" && session.speakers) {
+            if (session.speakers) {
               $.each(session.speakers, function(index4, speaker) {
                 var i = speakers.filter(function(e) { return e.surname == speaker.surname; });
                 speaker.talks = i[0].talks.slice(0);

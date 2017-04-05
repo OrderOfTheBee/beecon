@@ -43,7 +43,7 @@
 	<script type="text/javascript" src="/assets/js/jquery.plugin.js"></script>
 	<script type="text/javascript" src="/assets/js/jquery.countTo.js"></script>
 	<script type="text/javascript" src="/assets/js/jquery.countdown.js"></script>
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
+	<script type="text/javascript" src="/2017/assets/js/angular.min.js"></script>
 	<script type="text/javascript" src="/assets/js/masonry.pkgd.min.js"></script>
 	<script type="text/javascript" src="/assets/js/modal-box.js"></script>
 	<script type="text/javascript" src="/assets/js/custom.js"></script>
@@ -118,7 +118,7 @@
 								</div>
 							</div>
 							<p class="lead"><strong>Sessions</strong></p>
-							<div ng-repeat="talk in item.talks">
+							<div ng-repeat="talk in item.talks" ng-show="talk.id != 'FL01' && talk.id != 'FL02' && talk.id != 'FL03' && talk.id != 'FL04'">
 								<!--a href="/2016/talks?id={{talk.id}}">{{talk.title}}</a-->
 								<p><strong>{{talk.title}}</strong> <i><small ng-if="talk.id[0]=='F'">Full talk (30 minutes)</small>
 								<small ng-if="talk.id[0]=='E'">Extended talk (45 minutes)</small>

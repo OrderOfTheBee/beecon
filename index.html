@@ -46,7 +46,7 @@
 	<script type="text/javascript" src="/assets/js/jquery.plugin.js"></script>
 	<script type="text/javascript" src="/assets/js/jquery.countTo.js"></script>
 	<script type="text/javascript" src="/assets/js/jquery.countdown.js"></script>
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
+	<script type="text/javascript" src="/2017/assets/js/angular.min.js"></script>
 	<script type="text/javascript" src="/assets/js/masonry.pkgd.min.js"></script>
 	<script type="text/javascript" src="/assets/js/modal-box.js"></script>
 	<script type="text/javascript" src="/assets/js/custom.js"></script>
@@ -300,19 +300,6 @@
 				</div>
 			</div>
 
-			<div class="col-sm-4">
-				<div class="speaker">
-					<div class="photo-wrapper rounded"><img src="/assets/img/speakers/thomas-demeo.jpg" alt="Thomas DeMeo" class="img-responsive"></div>
-					<h3 class="name">THOMAS DEMEO</h3>
-					<p class="text-alt"><small>VP Product Management @ Alfresco</small></p>
-					<ul class="speaker-socials">
-						<li><a href="https://www.linkedin.com/in/thomasdemeo/"><span class="fa fa-linkedin"></span></a></li>
-						<li><a href="https://twitter.com/tedemeo"><span class="fa fa-twitter"></span></a></li>
-						<li><a href="https://plus.google.com/108023342332175158869"><span class="fa fa-google-plus"></span></a></li>
-					</ul>
-				</div>
-			</div>
-
 			<div class="col-sm-4" ng-repeat="speaker in randomList">
 					<div class="speaker">
 						<div class="photo-wrapper rounded"><img src="https://www.gravatar.com/avatar/{{speaker.emailMD5}}?s=150&d=http%3A%2F%2Forderofthebee.org%2Fassets%2Fimg%2Fbee8.png" width="150px" class="img-responsive"></div>
@@ -398,6 +385,15 @@
 					<div class="col-md-4 col-sm-6 col-lg-3">
 						<img src="https://www.gravatar.com/avatar/{{item.emailMD5}}?s=150&d=http%3A%2F%2Fbeecon.buzz%2Fassets%2Fimg%2Fspeakers%2Fbees.jpg" class="img-responsive img-rounded right">
 					</div>
+				</div>
+				<p class="lead"><strong>Sessions</strong></p>
+				<div ng-repeat="talk in item.talks" ng-show="talk.id != 'FL01' && talk.id != 'FL02' && talk.id != 'FL03' && talk.id != 'FL04'">
+					<!--a href="/2016/talks?id={{talk.id}}">{{talk.title}}</a-->
+					<p><strong>{{talk.title}}</strong> <i><small ng-if="talk.id[0]=='F'">Full talk (30 minutes)</small>
+					<small ng-if="talk.id[0]=='E'">Extended talk (45 minutes)</small>
+					<small ng-if="talk.id[0]=='L'">Lightning talk (5 minutes)</small></i></p>
+					<div ng-show="talk.abstract" ng-bind-html="talk.abstract"></div>
+					<br/>
 				</div>
 			</div>
 			<div class="modal-footer">
@@ -870,7 +866,7 @@
 			</div>
 
 			<script type="text/javascript" src="/2017/assets/js/twitterFetcher.js"></script>
-			<div class="col-md-4">
+			<div class="col-md-8">
 				<div class="widget twitter-widget">
 					<h6 class="widget-head"><span class="fa fa-twitter"></span> Twitter Feed</h6>
 					<script>
@@ -886,26 +882,6 @@
 
 				</div>
 			</div>
-
-			<div class="col-md-4">
-				<div class="widget instagram-widget">
-					<h6 class="widget-head"><span class="fa fa-instagram"></span> Photo feed</h6>
-
-					<!--ul class="instagram-list">
-						<li><img src="/assets/img/gallery/footer-photo.jpg" alt="photo" /></li>
-						<li><img src="/assets/img/gallery/footer-photo.jpg" alt="photo" /></li>
-						<li><img src="/assets/img/gallery/footer-photo.jpg" alt="photo" /></li>
-						<li><img src="/assets/img/gallery/footer-photo.jpg" alt="photo" /></li>
-						<li><img src="/assets/img/gallery/footer-photo.jpg" alt="photo" /></li>
-						<li><img src="/assets/img/gallery/footer-photo.jpg" alt="photo" /></li>
-						<li><img src="/assets/img/gallery/footer-photo.jpg" alt="photo" /></li>
-						<li><img src="/assets/img/gallery/footer-photo.jpg" alt="photo" /></li>
-						<li><img src="/assets/img/gallery/footer-photo.jpg" alt="photo" /></li>
-					</ul-->
-				</div>
-			</div>
-
-		</div>
 
 		<div class="footer-base">
 			<div class="container">
