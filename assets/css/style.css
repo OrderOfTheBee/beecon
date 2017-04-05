@@ -2403,7 +2403,7 @@ input[type="submit"] + .loading,
 .header.header-color .navigation-header .buy-btn.pressed,
 input.header.header-color .navigation-header .buy-btn,
 .header .buy-btn {
-  color: #f7cd00;
+  color: #deb800;
 }
 ::selection {
   color: #ffffff;
