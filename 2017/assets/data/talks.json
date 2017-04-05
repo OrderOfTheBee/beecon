@@ -21,7 +21,7 @@
 			"twitter": "suzukimichael",
 			"linkedin": "https://www.linkedin.com/in/michael-suzuki-b8864b2/",
 			"website": "https://www.alfresco.com/",
-			"summary":"Michael is an engineer with more than 15 years experience in software development. He is currently a member of the Alfresco Search & Discovery team and a contributor to the Apache Solr project."
+			"summary":"Michael is an engineer with more than 15 years experience in software development. He has been a member of Alfresco's benchmarking team for 3+ years. Most recently he has been working on automation and developing the Alfresco Test Platform. <br/>"
 		}
 	]
 },
@@ -47,7 +47,7 @@
 			"twitter": "fsck_awk ",
 			"linkedin": "https://www.linkedin.com/in/jose-a-gutierrez-778b513b/",
 			"website": "http://unizar.es/",
-			"summary":"I have worked as a programmer (mostly in the Computer Graphics field, but also at Operating System level) in the Technological Institute of Aragón, and as System Analyst at the Computer Science Department in Zaragoza University.<br/>I have experience with all kind of Unix flavours and programming languages, and I run a medium size CPD that serves the biggest department in our University, with thousands of students and teaching and research staff."
+			"summary":"I have worked as a programmer (mostly in the Computer Graphics field, but also at Operating System level) in the Technological Institute of Aragón, and as System Analyst at the Computer Science Department in Zaragoza University.<br/>I have experience with all kind of Unix flavours and programming languages, and I run a medium size CPD that serves the biggest department in our University, with thousands of students and teaching and research staff.<br/>"
 		}
 		,
 		{
@@ -59,7 +59,7 @@
 			"twitter": "AngelBorroy",
 			"linkedin": "https://www.linkedin.com/in/angelborroy/",
 			"website": "http://www.keensoft.es/en/",
-			"summary":"Angel Borroy is technical lead architect at keensoft. Over the last 15 years, he has been working as a software architect on Java, BPM, document management and electronic signatures. He has been working with Alfresco during the last years to customise several implementations in large organisations and to provide add-ons to the Community based on Record Management and Electronic Signature. He writes (sometimes) on his <a class='black' target='_blank' href='http://angelborroy.wordpress.com'>personal blog</a>."
+			"summary":"I have worked as a programmer (mostly in the Computer Graphics field, but also at Operating System level) in the Technological Institute of Aragón, and as System Analyst at the Computer Science Department in Zaragoza University.<br/>I have experience with all kind of Unix flavours and programming languages, and I run a medium size CPD that serves the biggest department in our University, with thousands of students and teaching and research staff.<br/>"
 		}
 	]
 },
@@ -85,7 +85,7 @@
 			"twitter": "binduwavell",
 			"linkedin": "https://www.linkedin.com/in/binduwavell/",
 			"website": "http://www.ziaconsulting.com/",
-			"summary":"Bindu Wavell is the Chief Architect at Zia Consulting. He has been involved in enterprise system integration consulting for 26 years. At Zia, Bindu provides guidance and mentoring around enterprise content management architecture and design in addition to working hands-on with customers.Bindu has been working on enterprise content management engagements for the past 12 years.  Bindu has also been running the support organization at Zia for the last year. Previously he worked at eConvergent and Aspect Communications focusing on customer relationship management systems."
+			"summary":"Bindu Wavell is the Chief Architect at Zia Consulting. He has been involved in enterprise system integration consulting for 26 years. At Zia, Bindu provides guidance and mentoring around enterprise content management architecture and design in addition to working hands-on with customers.<br/><br/>Bindu has been working on enterprise content management engagements for the past 12 years.  He has also been running the support organization at Zia for the last year.<br/>"
 		}
 	]
 },
@@ -111,7 +111,7 @@
 			"twitter": "sjoshee",
 			"linkedin": "https://www.linkedin.com/in/suresh-joshee-51486844/",
 			"website": "https://www.ualberta.ca/",
-			"summary":"I worked in University of Alberta in Canada. We are one of the first university to use Alfresco in enterprise level. I am the main Alfresco resource in the university and have great experience in implementing Alfresco solutions."
+			"summary":"Suresh Joshee is a senior developer and Service Delivery Manager at University of Alberta (UofA) in Canada. He has 15+ years of experience in implementing content management solutions in various organizations and countries. Among those 7+ years of experience in implementing Alfresco based solutions. Suresh is working at UofA since 2003 and he is the first and key Alfresco resource for the university. UofA is one of the first university in Canada to implement Alfresco in enterprise level.<br/><br/>Suresh holds Alfresco Certified Engineer and Ephesoft Certified Engineer certifications.<br/>"
 		}
 	]
 },
@@ -137,7 +137,7 @@
 			"twitter": "maculi33",
 			"linkedin": "https://www.linkedin.com/in/mikelasla/",
 			"website": "http://www.keensoft.es/en/",
-			"summary":"Alfresco Developer and Linux enthusiastic. Worked in ECM projects for the last 10 years."
+			"summary":"Alfresco Developer and Linux enthusiastic. Worked in ECM projects for the last 10 years.<br/>"
 		}
 	]
 },
@@ -163,7 +163,7 @@
 			"twitter": "covolution",
 			"linkedin": "https://www.linkedin.com/in/gethin-james-3417408/",
 			"website": "https://www.alfresco.com/",
-			"summary":"With more than 5 years working for Alfresco,  Gethin has been a member of the services team, then the platform and now the search team.  During this time the key technologies he worked on are the Public Api Framework, Messaging and Events Subsystems, Analytics (Pentaho) and Search Services (Solr 6)."
+			"summary":"With more than 5 years working for Alfresco,  Gethin has been a member of the services team, then the platform and now the search team.  During this time the key technologies he worked on are the Public Api Framework, Messaging and Events Subsystems, Analytics (Pentaho) and Search Services (Solr 6).<br/>"
 		}
 	]
 },
@@ -189,7 +189,7 @@
 			"twitter": "techwrighting",
 			"linkedin": "https://www.linkedin.com/in/iandwright/",
 			"website": "http://www.well.ox.ac.uk/home",
-			"summary":"I've been working with Alfresco, on and off, since version 3.4 as part of my work enabling the fight against malaria with MalariaGEN and WWARN. We're supportive of open source and our own extensions are available, as well as making use of those provided by other people. I'm continually learning from the community pages and IRC and hope to share some of that knowledge with others."
+			"summary":"I've been working with Alfresco, on and off, since version 3.4 as part of my work enabling the fight against malaria with MalariaGEN and WWARN. We're supportive of open source and our own extensions are available, as well as making use of those provided by other people. I'm continually learning from the community pages and IRC and hope to share some of that knowledge with others.<br/>"
 		}
 	]
 },
@@ -215,7 +215,7 @@
 			"twitter": "samuel_langlois",
 			"linkedin": "https://www.linkedin.com/in/samuellanglois/",
 			"website": "https://www.alfresco.com/",
-			"summary":"I joined Alfresco in April 2012. My job is to make sure that the Continuous Integration and the Releases are flowing smoothly. I'm usually referred to as 'the Maven guy'…'"
+			"summary":"I joined Alfresco in April 2012. My job is to make sure that the Continuous Integration and the Releases are flowing smoothly. I'm usually referred to as 'the Maven guy'…'<br/>"
 		}
 	]
 },
@@ -241,7 +241,7 @@
 			"twitter": "coffman",
 			"linkedin": "https://www.linkedin.com/in/victorfarina/",
 			"website": "http://www.queres.es/",
-			"summary":"Working with Alfresco since 2006, I am Alfresco summit speaker, and I have a new fresh topic ;)"
+			"summary":"Working with Alfresco since 2006, I am Alfresco summit speaker, and I have a new fresh topic ;)<br/>"
 		}
 	]
 },
@@ -267,7 +267,7 @@
 			"twitter": "",
 			"linkedin": "https://www.linkedin.com/in/peterlesty/",
 			"website": "https://www.parashift.com.au/",
-			"summary":"I started Parashift with 2 other partners in 2013.  Since inception I have been involved in numerous Alfresco-centric projects as Technical Lead in State/Federal Government and Multiple Private Sector verticals requiring system integration, customisation and varying degrees of custom work.<br/>I have a strong background in Network Engineering which has been used as a foundation to provide network based solutions using Alfresco.  Also, living in Australia, which has some of the most remote locations in the world, has provided a unique set of challenges to overcome.<br/>My role has been to ensure that the modules and services we offer to clients extend Alfresco's capabilities and match their requirements.  As an organisation, we have built a repertoire of modules which provide general purpose solutions to Alfresco which have benefited our clients and anyone else who is looking for similar solutions."
+			"summary":"I started Parashift with 2 other partners in 2013.  Since inception I have been involved in numerous Alfresco-centric projects as Technical Lead in State/Federal Government and Multiple Private Sector verticals requiring system integration, customisation and varying degrees of custom work.<br/>I have a strong background in Network Engineering which has been used as a foundation to provide network based solutions using Alfresco.  Also, living in Australia, which has some of the most remote locations in the world, has provided a unique set of challenges to overcome.<br/>My role has been to ensure that the modules and services we offer to clients extend Alfresco's capabilities and match their requirements.  As an organisation, we have built a repertoire of modules which provide general purpose solutions to Alfresco which have benefited our clients and anyone else who is looking for similar solutions.<br/>"
 		}
 	]
 },
@@ -293,7 +293,7 @@
 			"twitter": "hdebal",
 			"linkedin": "https://www.linkedin.com/in/hans-de-bal-13333184/",
 			"website": "http://www.amplexor.com/",
-			"summary":"Since almost 11 years I am working in the ECM-world. I first started with Documentum but since 5 years my focus shifted to Alfresco. I am married and have one daughter."
+			"summary":"Since almost 11 years I am working in the ECM-world. I first started with Documentum but since 5 years my focus shifted to Alfresco. I am married and have one daughter.<br/>"
 		}
 	]
 },
@@ -319,7 +319,7 @@
 			"twitter": "davidcognite",
 			"linkedin": "https://www.linkedin.com/in/davidwebstercognite/",
 			"website": "https://www.alfresco.com/",
-			"summary":"David joined Alfresco Engineering 7 years ago and has worked on everything UI related since then. For the last two years he's been one of the lead engineers on the Governance Services team, looking after the RM module. Outside of work, he splits his time between his two children and volunteering with a Search and Rescue team, where he also acts as a water rescue advisor to the UK's national Lowland Rescue committee."
+			"summary":"David joined Alfresco Engineering 7 years ago and has worked on everything UI related since then. For the last two years he's been one of the lead engineers on the Governance Services team, looking after the RM module. Outside of work, he splits his time between his two children and volunteering with a Search and Rescue team, where he also acts as a water rescue advisor to the UK's national Lowland Rescue committee.<br/>"
 		}
 	]
 },
@@ -345,7 +345,7 @@
 			"twitter": "LuisCabaceira",
 			"linkedin": "https://www.linkedin.com/in/cabaceira/",
 			"website": "https://www.alfresco.com/",
-			"summary":"Joined Alfresco in 2013 as a Technical Consultant and i've been helping customers on their Alfresco projects since. Occasionally i write blog posts on community.alfresco.com about my field experiences. As a passionate open source enthusiast i share my projects in <a href='http://github.com/lcabaceira' target='_blank' class='black'>github.com/lcabaceira</a> and <a href='github.com/cabaceira' target='_blank' class='black'>github.com/cabaceira</a>."
+			"summary":"Joined Alfresco in 2013 as a Technical Consultant and i've been helping customers on their Alfresco projects since. Occasionally i write blog posts on community.alfresco.com about my field experiences. As a passionate open source enthusiast i share my projects in <a href='http://github.com/lcabaceira' target='_blank' class='black'>github.com/lcabaceira</a> and <a href='github.com/cabaceira' target='_blank' class='black'>github.com/cabaceira</a>.<br/>"
 		}
 	]
 },
@@ -371,7 +371,7 @@
 			"twitter": "SBidoul",
 			"linkedin": "https://www.linkedin.com/in/sbidoul/",
 			"website": "https://www.acsone.eu/",
-			"summary":"I'm a co-founder of Acsone a software engineering company creating quality solutions, based on open standards and open source software. I lead the Odoo competence center of Acsone and I'm a board member of the Odoo Community Association. Doing software as a profession since 25 years. I have been doing a lot of SGML and XML. Now doing ERP with Odoo mostly. Always with a passion for open source and quality software architectures."
+			"summary":"I'm a co-founder of Acsone a software engineering company creating quality solutions, based on open standards and open source software. I lead the Odoo competence center of Acsone and I'm a board member of the Odoo Community Association. Doing software as a profession since 25 years. I have been doing a lot of SGML and XML. Now doing ERP with Odoo mostly. Always with a passion for open source and quality software architectures.<br/>"
 		}
 	]
 },
@@ -397,7 +397,7 @@
 			"twitter": "svidrascu",
 			"linkedin": "https://www.linkedin.com/in/sergiualexandruvidrascu/",
 			"website": "",
-			"summary":"Started working with Alfresco at Alfresco two and a half years ago. Started up with writing Automatic functional test cases for Share/Platform and shortly afterwards as a DevOps Engineer, improving the provisioning process around testing and now helping development teams reach their goals faster, better. I'm an optimistic person, love everything about automation, software quality and world peace :) I've worked with chef, docker, vagrant building the framework to help us reduce the time spent in provisioning alfresco's huge supported platforms matrix, but I keep striving to make it even better."
+			"summary":"Started working with Alfresco at Alfresco two and a half years ago. Started up with writing Automatic functional test cases for Share/Platform and shortly afterwards as a DevOps Engineer, improving the provisioning process around testing and now helping development teams reach their goals faster, better. I'm an optimistic person, love everything about automation, software quality and world peace :) I've worked with chef, docker, vagrant building the framework to help us reduce the time spent in provisioning alfresco's huge supported platforms matrix, but I keep striving to make it even better.<br/>"
 		}
 	]
 },
@@ -423,7 +423,7 @@
 			"twitter": "gagravarr",
 			"linkedin": "https://www.linkedin.com/in/nick-burch-5543b376/",
 			"website": "http://www.quanticate.com/",
-			"summary":"Nick spent a number of years working for Alfresco in the Engineering team. Whilst there, integrations, CMIS and REST APIs took up much of his time. Since leaving Alfresco, Nick's now the Nick is CTO at Quanticate, a Clinical Research Organisation (CRO) with a strong focus on data and statistics. He continues to work on Alfresco, as well as contributing to a number of Content-related projects at the ASF."
+			"summary":"Nick spent a number of years working for Alfresco in the Engineering team. Whilst there, integrations, CMIS and REST APIs took up much of his time. Since leaving Alfresco, Nick's now the Nick is CTO at Quanticate, a Clinical Research Organisation (CRO) with a strong focus on data and statistics. He continues to work on Alfresco, as well as contributing to a number of Content-related projects at the ASF.<br/>"
 		}
 	]
 },
@@ -449,7 +449,7 @@
 			"twitter": "RomanoEugenio",
 			"linkedin": "https://www.linkedin.com/in/eugenio-romano-a28a4948/",
 			"website": "https://www.alfresco.com/",
-			"summary":"I am one of the main contributor of ADF, Activiti and alfresco-js-api. My main interest is to Create and Design quality software."
+			"summary":"I am one of the main contributor of ADF, Activiti and alfresco-js-api. My main interest is to Create and Design quality software.<br/>"
 		}
 	]
 },
@@ -475,7 +475,7 @@
 			"twitter": "rbramley",
 			"linkedin": "https://www.linkedin.com/in/rbramley/",
 			"website": "https://www.ixxus.com/",
-			"summary":"He took Alfresco 0.6 to bits in 2005 and has been using/extending/implementing/integrating/scaling it ever since. Whilst Technical Manager at the first UK Alfresco Gold partner, he built the original IMAP interface to Alfresco. Robin has architected many distributed systems over the past 19 years ranging from a Swaps Trading Platform to Insurance Contract Management and a global Alfresco-based DAM system.<br/>Robin has presented at various international conferences and London meetups; his blog is syndicated by DZone and he has written a series of articles for GroovyMag, including one on CMIS integration with Alfresco that NASA wanted the source code for."
+			"summary":"He took Alfresco 0.6 to bits in 2005 and has been using/extending/implementing/integrating/scaling it ever since. Whilst Technical Manager at the first UK Alfresco Gold partner, he built the original IMAP interface to Alfresco. Robin has architected many distributed systems over the past 19 years ranging from a Swaps Trading Platform to Insurance Contract Management and a global Alfresco-based DAM system.<br/>Robin has presented at various international conferences and London meetups; his blog is syndicated by DZone and he has written a series of articles for GroovyMag, including one on CMIS integration with Alfresco that NASA wanted the source code for.<br/>"
 		}
 	]
 },
@@ -501,7 +501,7 @@
 			"twitter": "OleHejlskov",
 			"linkedin": "https://www.linkedin.com/in/ole-hejlskov-9793b61/",
 			"website": "https://www.alfresco.com/",
-			"summary":"After five years as an active member of the Alfresco Community Ole helped co-found The Order Of the Bee and was initially on the board, until he joined Alfresco as Developer Evangelist in April 2015 and later moved into a new role as Product Manager for Developer Platform.<br/>Ole has more than 15 years of experience in the industry ranging from tech support, systems administration, development, project management, team lead, developer evangelism and now Product Management.<br/>Ole is a big contributor to the Alfresco SDK, proud member of The Order Of the Bee, has written various tutorials and video tutorials on both Aikau, Alfresco and Alfresco SDK."
+			"summary":"After five years as an active member of the Alfresco Community Ole helped co-found The Order Of the Bee and was initially on the board, until he joined Alfresco as Developer Evangelist in April 2015 and later moved into a new role as Product Manager for Developer Platform.<br/>Ole has more than 15 years of experience in the industry ranging from tech support, systems administration, development, project management, team lead, developer evangelism and now Product Management.<br/>Ole is a big contributor to the Alfresco SDK, proud member of The Order Of the Bee, has written various tutorials and video tutorials on both Aikau, Alfresco and Alfresco SDK.<br/>"
 		}
 		,
 		{
@@ -513,7 +513,7 @@
 			"twitter": "",
 			"linkedin": "https://www.linkedin.com/in/douglasjohnson/",
 			"website": "https://www.alfresco.com/",
-			"summary":"Doug Johnson has a 20-year history in building, deploying, and managing high-technology products. He has spent nearly 15 years is in the BPM space as a solution engineer, consultant, and 10 years managing various BPM, Enterprise Architecture, and Case Management products. He is a member of the Product Management team at Alfresco—running its Enterprise Open Source Process Management and Workflow capabilities. He comes to Alfresco from managing security products at ThreatTrack Security and at Ultramatics he managed the product creation and launch of products in Healthcare using IBM Watson."
+			"summary":"Doug Johnson has a 20-year history in building, deploying, and managing high-technology products. He has spent nearly 15 years is in the BPM space as a solution engineer, consultant, and 10 years managing various BPM, Enterprise Architecture, and Case Management products. He is a member of the Product Management team at Alfresco—running its Enterprise Open Source Process Management and Workflow capabilities. He comes to Alfresco from managing security products at ThreatTrack Security and at Ultramatics he managed the product creation and launch of products in Healthcare using IBM Watson.<br/>"
 		}
 	]
 },
@@ -539,7 +539,7 @@
 			"twitter": "",
 			"linkedin": "https://www.linkedin.com/in/willem-van-den-eynde-5318078/",
 			"website": "https://www.xenit.eu/",
-			"summary":"Has over 7 years experience with Alfresco setups and customizations."
+			"summary":"Has over 7 years experience with Alfresco setups and customizations.<br/>"
 		}
 		,
 		{
@@ -577,7 +577,7 @@
 			"twitter": "jasonjolley",
 			"linkedin": "https://www.linkedin.com/in/jasonjolley/",
 			"website": "http://microstrat.com/",
-			"summary":"Jason Jolley is the Director of Application Development at Micro Strategies, an Alfresco Platinum Partner. Jason has spent the last 17 years focused on implementing ECM solutions, and has worked with Alfresco since version 1.4. As the Director of Application Development at Micro Strategies, Inc. he oversees the strategic direction of application development activities, including development methodology and implementation best practices. He previously held the role of Chief Architect of the ECM practice at Entology, Inc."
+			"summary":"Jason Jolley is the Director of Application Development at Micro Strategies, an Alfresco Platinum Partner. Jason has spent the last 17 years focused on implementing ECM solutions, and has worked with Alfresco since version 1.4. As the Director of Application Development at Micro Strategies, Inc. he oversees the strategic direction of application development activities, including development methodology and implementation best practices. He previously held the role of Chief Architect of the ECM practice at Entology, Inc.<br/>"
 		}
 	]
 },
@@ -603,7 +603,7 @@
 			"twitter": "PKhazzaka",
 			"linkedin": "https://www.linkedin.com/in/philippe-khazzaka-7aba351/",
 			"website": "https://www.acsone.eu/",
-			"summary":"For 17 years I have been designing and implementing ECM solutions for several large customers, mainly as an Acsone consultant. I first started with Documentum, but I am focusing on Alfresco now."
+			"summary":"For 17 years I have been designing and implementing ECM solutions for several large customers, mainly as an Acsone consultant. I first started with Documentum, but I am focusing on Alfresco now.<br/>"
 		}
 		,
 		{
@@ -667,7 +667,7 @@
 			"twitter": "fran7alvarez",
 			"linkedin": "https://www.linkedin.com/in/franalvarezblanco/",
 			"website": "https://www.ixxus.com/",
-			"summary":"Technical Architect at Ixxus, order of the Bee member, working on Alfresco projects for more than 8 years"
+			"summary":"Technical Architect at Ixxus, order of the Bee member, working on Alfresco projects for more than 8 years<br/>"
 		}
 	]
 },
@@ -693,7 +693,7 @@
 			"twitter": "fran7alvarez",
 			"linkedin": "https://www.linkedin.com/in/franalvarezblanco/",
 			"website": "https://www.ixxus.com/",
-			"summary":"Technical Architect at Ixxus, order of the Bee member, working on Alfresco projects for more than 8 years"
+			"summary":"Technical Architect at Ixxus, order of the Bee member, working on Alfresco projects for more than 8 years<br/>"
 		}
 	]
 },
@@ -719,7 +719,7 @@
 			"twitter": "ReluctantBird83",
 			"linkedin": "https://www.linkedin.com/in/axel-faust-78ab2b3a/",
 			"website": "https://github.com/AFaust",
-			"summary":"I started to work with Alfresco in 2010 and have mostly been working full time on/with it since then. Though my main focus is on software development and architecture, a large part of my work also includes general consulting, use case specific training/education, system operations and support. From 2010 until 2016 I worked for an Alfresco Partner and thus primarily the Enterprise Edition, though I would use Community Edition for most of my engagement in community-oriented collaborations and my own open source projects."
+			"summary":"I started to work with Alfresco in 2010 and have mostly been working full time on/with it since then. Though my main focus is on software development and architecture, a large part of my work also includes general consulting, use case specific training/education, system operations and support. From 2010 until 2016 I worked for an Alfresco Partner and thus primarily the Enterprise Edition, though I would use Community Edition for most of my engagement in community-oriented collaborations and my own open source projects.<br/>"
 		}
 	]
 },
@@ -745,7 +745,7 @@
 			"twitter": "",
 			"linkedin": "https://www.linkedin.com/in/lanre-abiwon-98a939b1/",
 			"website": "http://magenta.dk/",
-			"summary":"Started working with Alfresco in May 2012 when I was looking for an 'Electronic library'. I am the primary developer of the solution (along with a former colleague) at our company and I am an OOTB member. I also dabble a lot when it comes to technologies and hobbies."
+			"summary":"Started working with Alfresco in May 2012 when I was looking for an 'Electronic library'. I am the primary developer of the solution (along with a former colleague) at our company and I am an OOTB member. I also dabble a lot when it comes to technologies and hobbies.<br/>"
 		}
 		,
 		{
@@ -783,7 +783,7 @@
 			"twitter": "aviriel",
 			"linkedin": "https://www.linkedin.com/in/okurysheva/",
 			"website": "http://www.itdhq.com",
-			"summary":"Oksana Kurysheva is a project manager at ITD Systems. Working with partners and customers around whole Eastern Europe since 2009, Oksana has helped many companies to start using Alfresco and many system integrators to implement their first projects successfully. As a project manager she communicates with customers and partners on all stages of their implementation projects every day. Oksana is also a certified Alfresco and Alvex instructor, r̶e̶g̶u̶l̶a̶r̶l̶y̶ rarely conducting training courses throughout Eastern Europe and Russia. Also Oksana is a Board member of the Order of the Bee."
+			"summary":"Oksana Kurysheva is a project manager at ITD Systems. Working with partners and customers around whole Eastern Europe since 2009, Oksana has helped many companies to start using Alfresco and many system integrators to implement their first projects successfully. As a project manager she communicates with customers and partners on all stages of their implementation projects every day. Oksana is also a certified Alfresco and Alvex instructor, r̶e̶g̶u̶l̶a̶r̶l̶y̶ rarely conducting training courses throughout Eastern Europe and Russia. Also Oksana is a Board member of the Order of the Bee.<br/>"
 		}
 		,
 		{
@@ -795,7 +795,7 @@
 			"twitter": "esplinr",
 			"linkedin": "https://www.linkedin.com/in/richardesplin/",
 			"website": "https://www.alfresco.com/",
-			"summary":"Richard Esplin is an open source advocate and technology evangelist who loves creating products that not only meet business goals but also benefit the larger community. His diverse experience spans from development to sales and marketing in both start-up and global companies. Richard is currently the product manager responsible for Alfresco's ECM Platform, including both their proprietary enterprise platform and the open source product at its core.<br/>He holds a Masters of Science degree in Management Science and Engineering from Stanford University and a Bachelor of Science degree in Computer Science from Brigham Young University."
+			"summary":"Richard Esplin is an open source advocate and technology evangelist who loves creating products that not only meet business goals but also benefit the larger community. His diverse experience spans from development to sales and marketing in both start-up and global companies. Richard is currently the product manager responsible for Alfresco's ECM Platform, including both their proprietary enterprise platform and the open source product at its core.<br/>He holds a Masters of Science degree in Management Science and Engineering from Stanford University and a Bachelor of Science degree in Computer Science from Brigham Young University.<br/>"
 		}
 		,
 		{
@@ -807,7 +807,7 @@
 			"twitter": "avasyukov",
 			"linkedin": "https://www.linkedin.com/in/avasyukov/",
 			"website": "http://www.itdhq.com",
-			"summary":"Alexey Vasyukov works as CTO at ITD Systems, developer of Alvex solution. Alexey leads Alvex solution development as chief architect. He is responsible for principal technical decisions during planning. So, if something goes wrong in the wild - non-standard setup is required or Alvex does not work on the latest Alfresco release - it is also Alexey's headache. Prior to ITD Systems he worked for VDEL as consultant and presale team lead helping partners and customers to build solutions based on open source technologies. Alexey has a Ph.D. in Mathematical Modeling, Numerical Methods, and Software Complexes from Moscow Institute of Physics and Technology."
+			"summary":"Alexey Vasyukov works as CTO at ITD Systems, developer of Alvex solution. Alexey leads Alvex solution development as chief architect. He is responsible for principal technical decisions during planning. So, if something goes wrong in the wild - non-standard setup is required or Alvex does not work on the latest Alfresco release - it is also Alexey's headache. Prior to ITD Systems he worked for VDEL as consultant and presale team lead helping partners and customers to build solutions based on open source technologies. Alexey has a Ph.D. in Mathematical Modeling, Numerical Methods, and Software Complexes from Moscow Institute of Physics and Technology.<br/>"
 		}
 		,
 		{
@@ -819,7 +819,7 @@
 			"twitter": "fufler",
 			"linkedin": "https://www.linkedin.com/in/alexey-ermakov-a885512b/",
 			"website": "http://www.itdhq.com",
-			"summary":"Developing Alfresco-based solutions since 2010, ACE."
+			"summary":"Developing Alfresco-based solutions since 2010, ACE.<br/>"
 		}
 		,
 		{
@@ -857,7 +857,7 @@
 			"twitter": "zylknet",
 			"linkedin": "https://www.linkedin.com/in/cesarcapillas/",
 			"website": "http://www.zylk.net/es/home",
-			"summary":"Cesar Capillas is IT/Solution Architect at zylk.net, an OOTB member working with Alfresco-based solutions during the last 8 years in large organisations. He is the author of a <a href='http://www.zylk.net/alfresco-blog' target='_blank'>corporate Alfresco Blog</a>, addons developer and a very active user in Alfresco Community."
+			"summary":"Cesar Capillas is IT/Solution Architect at zylk.net, an OOTB member working with Alfresco-based solutions during the last 8 years in large organisations. He is the author of a <a href='http://www.zylk.net/alfresco-blog' target='_blank'>corporate Alfresco Blog</a>, addons developer and a very active user in Alfresco Community.<br/>"
 		}
 		,
 		{
@@ -869,7 +869,7 @@
 			"twitter": "wabson",
 			"linkedin": "https://www.linkedin.com/in/wabson/",
 			"website": "https://www.alfresco.com/",
-			"summary":"Long-time employee at Alfresco, having worked across both Content and Process-oriented products and now helping to develop solutions using the ADF framework."
+			"summary":"Long-time employee at Alfresco, having worked across both Content and Process-oriented products and now helping to develop solutions using the ADF framework.<br/>"
 		}
 		,
 		{
@@ -881,7 +881,7 @@
 			"twitter": "ReluctantBird83",
 			"linkedin": "https://www.linkedin.com/in/axel-faust-78ab2b3a/",
 			"website": "https://github.com/AFaust",
-			"summary":"I started to work with Alfresco in 2010 and have mostly been working full time on/with it since then. Though my main focus is on software development and architecture, a large part of my work also includes general consulting, use case specific training/education, system operations and support. From 2010 until 2016 I worked for an Alfresco Partner and thus primarily the Enterprise Edition, though I would use Community Edition for most of my engagement in community-oriented collaborations and my own open source projects."
+			"summary":"I started to work with Alfresco in 2010 and have mostly been working full time on/with it since then. Though my main focus is on software development and architecture, a large part of my work also includes general consulting, use case specific training/education, system operations and support. From 2010 until 2016 I worked for an Alfresco Partner and thus primarily the Enterprise Edition, though I would use Community Edition for most of my engagement in community-oriented collaborations and my own open source projects.<br/>"
 		}
 		,
 		{
@@ -943,7 +943,7 @@
 			"twitter": "esplinr",
 			"linkedin": "https://www.linkedin.com/in/richardesplin/",
 			"website": "https://www.alfresco.com/",
-			"summary":"Richard Esplin is an open source advocate and technology evangelist who loves creating products that not only meet business goals but also benefit the larger community. His diverse experience spans from development to sales and marketing in both start-up and global companies. Richard is currently the product manager responsible for Alfresco's ECM Platform, including both their proprietary enterprise platform and the open source product at its core.<br/>He holds a Masters of Science degree in Management Science and Engineering from Stanford University and a Bachelor of Science degree in Computer Science from Brigham Young University."
+			"summary":"Richard Esplin is an open source advocate and technology evangelist who loves creating products that not only meet business goals but also benefit the larger community. His diverse experience spans from development to sales and marketing in both start-up and global companies. Richard is currently the product manager responsible for Alfresco's ECM Platform, including both their proprietary enterprise platform and the open source product at its core.<br/>He holds a Masters of Science degree in Management Science and Engineering from Stanford University and a Bachelor of Science degree in Computer Science from Brigham Young University.<br/>"
 		}
 		,
 		{
@@ -955,7 +955,7 @@
 			"twitter": "FrkCorti",
 			"linkedin": "https://www.linkedin.com/in/fcorti/",
 			"website": "https://www.alfresco.com/",
-			"summary":"Alfresco Product Evangelist"
+			"summary":"Alfresco Product Evangelist<br/>"
 		}
 		,
 		{
@@ -967,7 +967,7 @@
 			"twitter": "zylknet",
 			"linkedin": "https://www.linkedin.com/in/cesarcapillas/",
 			"website": "http://www.zylk.net/es/home",
-			"summary":"Cesar Capillas is IT/Solution Architect at zylk.net, an OOTB member working with Alfresco-based solutions during the last 8 years in large organisations. He is the author of a <a href='http://www.zylk.net/alfresco-blog' target='_blank'>corporate Alfresco Blog</a>, addons developer and a very active user in Alfresco Community."
+			"summary":"Cesar Capillas is IT/Solution Architect at zylk.net, an OOTB member working with Alfresco-based solutions during the last 8 years in large organisations. He is the author of a <a href='http://www.zylk.net/alfresco-blog' target='_blank'>corporate Alfresco Blog</a>, addons developer and a very active user in Alfresco Community.<br/>"
 		}
 		,
 		{
@@ -979,7 +979,7 @@
 			"twitter": "yregaieg",
 			"linkedin": "https://www.linkedin.com/in/younesregaieg/",
 			"website": "https://www.xenit.eu/",
-			"summary":"Being a Software engineer Xenit Solutions, Younes is basically implementing some cool new features in Alfresco and integrating Alfresco based solutions to existing information systems on an every day basis. He is also a community guy, mostly active on the community official IRC channel #alfresco (as yreg)."
+			"summary":"Being a Software engineer Xenit Solutions, Younes is basically implementing some cool new features in Alfresco and integrating Alfresco based solutions to existing information systems on an every day basis. He is also a community guy, mostly active on the community official IRC channel #alfresco (as yreg).<br/>"
 		}
 	]
 },
@@ -1005,7 +1005,7 @@
 			"twitter": "Python_Primer",
 			"linkedin": "https://www.linkedin.com/in/martin-whittington-59359b42/",
 			"website": "https://www.alfresco.com/",
-			"summary":"I started working with Alfresco through a friend who poached me! Its a system I'm currently working on refreshing and moving to a Server-less Architecture."
+			"summary":"I started working with Alfresco through a friend who poached me! Its a system I'm currently working on refreshing and moving to a Server-less Architecture.<br/>"
 		}
 		,
 		{
@@ -1017,7 +1017,7 @@
 			"twitter": "",
 			"linkedin": "https://www.linkedin.com/in/tom-vandepoele-62396725/",
 			"website": "http://www.amplexor.com/",
-			"summary":"Since more than 7 years I'm working in the ECM-business. I've worked with Documentum but my heart goes out to Alfresco."
+			"summary":"Since more than 7 years I'm working in the ECM-business. I've worked with Documentum but my heart goes out to Alfresco.<br/>"
 		}
 		,
 		{
@@ -1029,7 +1029,7 @@
 			"twitter": "",
 			"linkedin": "https://www.linkedin.com/in/willem-van-den-eynde-5318078/",
 			"website": "https://www.xenit.eu/",
-			"summary":"Has over 7 years experience with Alfresco setups and customizations."
+			"summary":"Has over 7 years experience with Alfresco setups and customizations.<br/>"
 		}
 		,
 		{
@@ -1041,7 +1041,7 @@
 			"twitter": "jasonjolley",
 			"linkedin": "https://www.linkedin.com/in/jasonjolley/",
 			"website": "http://microstrat.com/",
-			"summary":"Jason Jolley is the Director of Application Development at Micro Strategies, an Alfresco Platinum Partner. Jason has spent the last 17 years focused on implementing ECM solutions, and has worked with Alfresco since version 1.4. As the Director of Application Development at Micro Strategies, Inc. he oversees the strategic direction of application development activities, including development methodology and implementation best practices. He previously held the role of Chief Architect of the ECM practice at Entology, Inc."
+			"summary":"Jason Jolley is the Director of Application Development at Micro Strategies, an Alfresco Platinum Partner. Jason has spent the last 17 years focused on implementing ECM solutions, and has worked with Alfresco since version 1.4. As the Director of Application Development at Micro Strategies, Inc. he oversees the strategic direction of application development activities, including development methodology and implementation best practices. He previously held the role of Chief Architect of the ECM practice at Entology, Inc.<br/>"
 		}
 	]
 },
@@ -1067,7 +1067,7 @@
 			"twitter": "",
 			"linkedin": "",
 			"website": "https://www.alfresco.com/",
-			"summary":"Jan Vonka has 20+ years experience as a senior dev lead and manager. He has been a member of Alfresco's dev team for 9 years, designing & building enterprise repository infrastructure and platform services that support a variety of app areas; including ECM, RM, WCM, Collaboration & Case Management. He has helped to architect and develop Alfresco's cloud services. Most recently he has been working on extending and improving the Alfresco Platform APIs."
+			"summary":"Jan Vonka has 20+ years experience as a senior dev lead and manager. He has been a member of Alfresco's dev team for 9 years, designing & building enterprise repository infrastructure and platform services that support a variety of app areas; including ECM, RM, WCM, Collaboration & Case Management. He has helped to architect and develop Alfresco's cloud services. Most recently he has been working on extending and improving the Alfresco Platform APIs.<br/>"
 		}
 	]
 },
@@ -1093,7 +1093,7 @@
 			"twitter": "",
 			"linkedin": "https://www.linkedin.com/in/mario-romano-51a6a714/",
 			"website": "https://www.alfresco.com/",
-			"summary":"I'm a Geek and I like to play with any new technology. In the last few years my attention for evident reason have been captured by Alfresco products and Business Process."
+			"summary":"I'm a Geek and I like to play with any new technology. In the last few years my attention for evident reason have been captured by Alfresco products and Business Process.<br/>"
 		}
 	]
 },
@@ -1119,7 +1119,7 @@
 			"twitter": "OleHejlskov",
 			"linkedin": "https://www.linkedin.com/in/ole-hejlskov-9793b61/",
 			"website": "https://www.alfresco.com/",
-			"summary":"After five years as an active member of the Alfresco Community Ole helped co-found The Order Of the Bee and was initially on the board, until he joined Alfresco as Developer Evangelist in April 2015 and later moved into a new role as Product Manager for Developer Platform.<br/>Ole has more than 15 years of experience in the industry ranging from tech support, systems administration, development, project management, team lead, developer evangelism and now Product Management.<br/>Ole is a big contributor to the Alfresco SDK, proud member of The Order Of the Bee, has written various tutorials and video tutorials on both Aikau, Alfresco and Alfresco SDK."
+			"summary":"After five years as an active member of the Alfresco Community Ole helped co-found The Order Of the Bee and was initially on the board, until he joined Alfresco as Developer Evangelist in April 2015 and later moved into a new role as Product Manager for Developer Platform.<br/>Ole has more than 15 years of experience in the industry ranging from tech support, systems administration, development, project management, team lead, developer evangelism and now Product Management.<br/>Ole is a big contributor to the Alfresco SDK, proud member of The Order Of the Bee, has written various tutorials and video tutorials on both Aikau, Alfresco and Alfresco SDK.<br/>"
 		}
 	]
 },
@@ -1145,7 +1145,7 @@
 			"twitter": "johnnewton",
 			"linkedin": "https://www.linkedin.com/in/johnnewton/",
 			"website": "https://www.alfresco.com/",
-			"summary":"John Newton, CTO and Founder, has had one of the longest and most influential careers in content management. In 1990, John co-founded, designed and led the development of Documentum®, the leader in content management acquired by EMC®.<br/>For the next ten years, he invented many of the concepts widely used in the industry today. In addition, he built Documentum's marketing and professional services organizations in Europe. John has also been an Entrepreneur-in-Residence at Benchmark Capital. John was one of the founding engineers at Ingres® where he helped develop the world's first commercial relational database. John graduated with a BS in Electrical Engineering and Computer Science from the University of California at Berkeley."
+			"summary":"John Newton, CTO and Founder, has had one of the longest and most influential careers in content management. In 1990, John co-founded, designed and led the development of Documentum®, the leader in content management acquired by EMC®.<br/>For the next ten years, he invented many of the concepts widely used in the industry today. In addition, he built Documentum's marketing and professional services organizations in Europe. John has also been an Entrepreneur-in-Residence at Benchmark Capital. John was one of the founding engineers at Ingres® where he helped develop the world's first commercial relational database. John graduated with a BS in Electrical Engineering and Computer Science from the University of California at Berkeley.<br/>"
 		}
 	]
 },
@@ -1171,7 +1171,7 @@
 			"twitter": "esplinr",
 			"linkedin": "https://www.linkedin.com/in/richardesplin/",
 			"website": "https://www.alfresco.com/",
-			"summary":"Richard Esplin is an open source advocate and technology evangelist who loves creating products that not only meet business goals but also benefit the larger community. His diverse experience spans from development to sales and marketing in both start-up and global companies. Richard is currently the product manager responsible for Alfresco's ECM Platform, including both their proprietary enterprise platform and the open source product at its core.<br/>He holds a Masters of Science degree in Management Science and Engineering from Stanford University and a Bachelor of Science degree in Computer Science from Brigham Young University."
+			"summary":"Richard Esplin is an open source advocate and technology evangelist who loves creating products that not only meet business goals but also benefit the larger community. His diverse experience spans from development to sales and marketing in both start-up and global companies. Richard is currently the product manager responsible for Alfresco's ECM Platform, including both their proprietary enterprise platform and the open source product at its core.<br/>He holds a Masters of Science degree in Management Science and Engineering from Stanford University and a Bachelor of Science degree in Computer Science from Brigham Young University.<br/>"
 		}
 		,
 		{
@@ -1221,7 +1221,7 @@
 			"twitter": "tedemeo",
 			"linkedin": "https://www.linkedin.com/in/thomasdemeo/",
 			"website": "https://www.alfresco.com/",
-			"summary":"With a mix of early start-up and global corporate experience, Thomas has focused his 25-year career in product roles icons including Adobe, HP and Citrix. With deep leadership and product management experience, he has contributed and led teams responsible for industry-leading product lines that each generated over $1B annually. Most recently Thomas served as Senior Director of Product Management at Citrix and focused on helping enterprises deliver apps and data across private, public and hybrid cloud infrastructure. While at HP, Thomas focused on integrated commerce and accessing apps and data across PC and mobile devices. Thomas spent 7 years at Adobe and led the Creative Suite product teams responsible for product integration, file and metadata management and delivered key interfaces into a range of content management systems.<br/>Thomas earned an MBA from San Jose State University and has an engineering undergraduate degree from Wentworth Institute of Technology in Boston."
+			"summary":"With a mix of early start-up and global corporate experience, Thomas has focused his 25-year career in product roles icons including Adobe, HP and Citrix. With deep leadership and product management experience, he has contributed and led teams responsible for industry-leading product lines that each generated over $1B annually. Most recently Thomas served as Senior Director of Product Management at Citrix and focused on helping enterprises deliver apps and data across private, public and hybrid cloud infrastructure. While at HP, Thomas focused on integrated commerce and accessing apps and data across PC and mobile devices. Thomas spent 7 years at Adobe and led the Creative Suite product teams responsible for product integration, file and metadata management and delivered key interfaces into a range of content management systems.<br/>Thomas earned an MBA from San Jose State University and has an engineering undergraduate degree from Wentworth Institute of Technology in Boston.<br/>"
 		}
 	]
 },
@@ -1247,7 +1247,7 @@
 			"twitter": "wabson",
 			"linkedin": "https://www.linkedin.com/in/wabson/",
 			"website": "https://www.alfresco.com/",
-			"summary":"Long-time employee at Alfresco, having worked across both Content and Process-oriented products and now helping to develop solutions using the ADF framework."
+			"summary":"Long-time employee at Alfresco, having worked across both Content and Process-oriented products and now helping to develop solutions using the ADF framework.<br/>"
 		}
 	]
 },
@@ -1273,7 +1273,7 @@
 			"twitter": "yregaieg",
 			"linkedin": "https://www.linkedin.com/in/younesregaieg/",
 			"website": "https://www.xenit.eu/",
-			"summary":"Being a Software engineer Xenit Solutions, Younes is basically implementing some cool new features in Alfresco and integrating Alfresco based solutions to existing information systems on an every day basis. He is also a community guy, mostly active on the community official IRC channel #alfresco (as yreg)."
+			"summary":"Being a Software engineer Xenit Solutions, Younes is basically implementing some cool new features in Alfresco and integrating Alfresco based solutions to existing information systems on an every day basis. He is also a community guy, mostly active on the community official IRC channel #alfresco (as yreg).<br/>"
 		}
 		,
 		{
@@ -1285,7 +1285,7 @@
 			"twitter": "FrkCorti",
 			"linkedin": "https://www.linkedin.com/in/fcorti/",
 			"website": "https://www.alfresco.com/",
-			"summary":"Alfresco Product Evangelist"
+			"summary":"Alfresco Product Evangelist<br/>"
 		}
 	]
 },
@@ -1311,7 +1311,7 @@
 			"twitter": "ReluctantBird83",
 			"linkedin": "https://www.linkedin.com/in/axel-faust-78ab2b3a/",
 			"website": "https://github.com/AFaust",
-			"summary":"I started to work with Alfresco in 2010 and have mostly been working full time on/with it since then. Though my main focus is on software development and architecture, a large part of my work also includes general consulting, use case specific training/education, system operations and support. From 2010 until 2016 I worked for an Alfresco Partner and thus primarily the Enterprise Edition, though I would use Community Edition for most of my engagement in community-oriented collaborations and my own open source projects."
+			"summary":"I started to work with Alfresco in 2010 and have mostly been working full time on/with it since then. Though my main focus is on software development and architecture, a large part of my work also includes general consulting, use case specific training/education, system operations and support. From 2010 until 2016 I worked for an Alfresco Partner and thus primarily the Enterprise Edition, though I would use Community Edition for most of my engagement in community-oriented collaborations and my own open source projects.<br/>"
 		}
 	]
 },
@@ -1363,7 +1363,7 @@
 			"twitter": "AngelBorroy",
 			"linkedin": "https://www.linkedin.com/in/angelborroy/",
 			"website": "http://www.keensoft.es/en/",
-			"summary":"Angel Borroy is technical lead architect at keensoft. Over the last 15 years, he has been working as a software architect on Java, BPM, document management and electronic signatures. He has been working with Alfresco during the last years to customise several implementations in large organisations and to provide add-ons to the Community based on Record Management and Electronic Signature. He writes (sometimes) on his <a class='black' target='_blank' href='http://angelborroy.wordpress.com'>personal blog</a>."
+			"summary":"I have worked as a programmer (mostly in the Computer Graphics field, but also at Operating System level) in the Technological Institute of Aragón, and as System Analyst at the Computer Science Department in Zaragoza University.<br/>I have experience with all kind of Unix flavours and programming languages, and I run a medium size CPD that serves the biggest department in our University, with thousands of students and teaching and research staff.<br/>"
 		}
 	]
 },
@@ -1389,7 +1389,7 @@
 			"twitter": "",
 			"linkedin": "https://www.linkedin.com/in/douglasjohnson/",
 			"website": "https://www.alfresco.com/",
-			"summary":"Doug Johnson has a 20-year history in building, deploying, and managing high-technology products. He has spent nearly 15 years is in the BPM space as a solution engineer, consultant, and 10 years managing various BPM, Enterprise Architecture, and Case Management products. He is a member of the Product Management team at Alfresco—running its Enterprise Open Source Process Management and Workflow capabilities. He comes to Alfresco from managing security products at ThreatTrack Security and at Ultramatics he managed the product creation and launch of products in Healthcare using IBM Watson."
+			"summary":"Doug Johnson has a 20-year history in building, deploying, and managing high-technology products. He has spent nearly 15 years is in the BPM space as a solution engineer, consultant, and 10 years managing various BPM, Enterprise Architecture, and Case Management products. He is a member of the Product Management team at Alfresco—running its Enterprise Open Source Process Management and Workflow capabilities. He comes to Alfresco from managing security products at ThreatTrack Security and at Ultramatics he managed the product creation and launch of products in Healthcare using IBM Watson.<br/>"
 		}
 		,
 		{
@@ -1401,7 +1401,7 @@
 			"twitter": "",
 			"linkedin": "https://www.linkedin.com/in/mario-romano-51a6a714/",
 			"website": "https://www.alfresco.com/",
-			"summary":"I'm a Geek and I like to play with any new technology. In the last few years my attention for evident reason have been captured by Alfresco products and Business Process."
+			"summary":"I'm a Geek and I like to play with any new technology. In the last few years my attention for evident reason have been captured by Alfresco products and Business Process.<br/>"
 		}
 	]
 },
@@ -1427,7 +1427,7 @@
 			"twitter": "aviriel",
 			"linkedin": "https://www.linkedin.com/in/okurysheva/",
 			"website": "http://www.itdhq.com",
-			"summary":"Oksana Kurysheva is a project manager at ITD Systems. Working with partners and customers around whole Eastern Europe since 2009, Oksana has helped many companies to start using Alfresco and many system integrators to implement their first projects successfully. As a project manager she communicates with customers and partners on all stages of their implementation projects every day. Oksana is also a certified Alfresco and Alvex instructor, r̶e̶g̶u̶l̶a̶r̶l̶y̶ rarely conducting training courses throughout Eastern Europe and Russia. Also Oksana is a Board member of the Order of the Bee."
+			"summary":"Oksana Kurysheva is a project manager at ITD Systems. Working with partners and customers around whole Eastern Europe since 2009, Oksana has helped many companies to start using Alfresco and many system integrators to implement their first projects successfully. As a project manager she communicates with customers and partners on all stages of their implementation projects every day. Oksana is also a certified Alfresco and Alvex instructor, r̶e̶g̶u̶l̶a̶r̶l̶y̶ rarely conducting training courses throughout Eastern Europe and Russia. Also Oksana is a Board member of the Order of the Bee.<br/>"
 		}
 	]
 },
@@ -1453,7 +1453,7 @@
 			"twitter": "Python_Primer",
 			"linkedin": "https://www.linkedin.com/in/martin-whittington-59359b42/",
 			"website": "https://www.alfresco.com/",
-			"summary":"I started working with Alfresco through a friend who poached me! Its a system I'm currently working on refreshing and moving to a Server-less Architecture."
+			"summary":"I started working with Alfresco through a friend who poached me! Its a system I'm currently working on refreshing and moving to a Server-less Architecture.<br/>"
 		}
 	]
 },
@@ -1479,7 +1479,7 @@
 			"twitter": "esplinr",
 			"linkedin": "https://www.linkedin.com/in/richardesplin/",
 			"website": "https://www.alfresco.com/",
-			"summary":"Richard Esplin is an open source advocate and technology evangelist who loves creating products that not only meet business goals but also benefit the larger community. His diverse experience spans from development to sales and marketing in both start-up and global companies. Richard is currently the product manager responsible for Alfresco's ECM Platform, including both their proprietary enterprise platform and the open source product at its core.<br/>He holds a Masters of Science degree in Management Science and Engineering from Stanford University and a Bachelor of Science degree in Computer Science from Brigham Young University."
+			"summary":"Richard Esplin is an open source advocate and technology evangelist who loves creating products that not only meet business goals but also benefit the larger community. His diverse experience spans from development to sales and marketing in both start-up and global companies. Richard is currently the product manager responsible for Alfresco's ECM Platform, including both their proprietary enterprise platform and the open source product at its core.<br/>He holds a Masters of Science degree in Management Science and Engineering from Stanford University and a Bachelor of Science degree in Computer Science from Brigham Young University.<br/>"
 		}
 	]
 },
@@ -1505,7 +1505,7 @@
 			"twitter": "esplinr",
 			"linkedin": "https://www.linkedin.com/in/richardesplin/",
 			"website": "https://www.alfresco.com/",
-			"summary":"Richard Esplin is an open source advocate and technology evangelist who loves creating products that not only meet business goals but also benefit the larger community. His diverse experience spans from development to sales and marketing in both start-up and global companies. Richard is currently the product manager responsible for Alfresco's ECM Platform, including both their proprietary enterprise platform and the open source product at its core.<br/>He holds a Masters of Science degree in Management Science and Engineering from Stanford University and a Bachelor of Science degree in Computer Science from Brigham Young University."
+			"summary":"Richard Esplin is an open source advocate and technology evangelist who loves creating products that not only meet business goals but also benefit the larger community. His diverse experience spans from development to sales and marketing in both start-up and global companies. Richard is currently the product manager responsible for Alfresco's ECM Platform, including both their proprietary enterprise platform and the open source product at its core.<br/>He holds a Masters of Science degree in Management Science and Engineering from Stanford University and a Bachelor of Science degree in Computer Science from Brigham Young University.<br/>"
 		}
 	]
 },
@@ -1531,7 +1531,7 @@
 			"twitter": "FrkCorti",
 			"linkedin": "https://www.linkedin.com/in/fcorti/",
 			"website": "https://www.alfresco.com/",
-			"summary":"Alfresco Product Evangelist"
+			"summary":"Alfresco Product Evangelist<br/>"
 		}
 	]
 },
@@ -1557,7 +1557,7 @@
 			"twitter": "",
 			"linkedin": "https://www.linkedin.com/in/tom-vandepoele-62396725/",
 			"website": "http://www.amplexor.com/",
-			"summary":"Since more than 7 years I'm working in the ECM-business. I've worked with Documentum but my heart goes out to Alfresco."
+			"summary":"Since more than 7 years I'm working in the ECM-business. I've worked with Documentum but my heart goes out to Alfresco.<br/>"
 		}
 	]
 },
@@ -1583,7 +1583,7 @@
 			"twitter": "zylknet",
 			"linkedin": "https://www.linkedin.com/in/cesarcapillas/",
 			"website": "http://www.zylk.net/es/home",
-			"summary":"Cesar Capillas is IT/Solution Architect at zylk.net, an OOTB member working with Alfresco-based solutions during the last 8 years in large organisations. He is the author of a <a href='http://www.zylk.net/alfresco-blog' target='_blank'>corporate Alfresco Blog</a>, addons developer and a very active user in Alfresco Community."
+			"summary":"Cesar Capillas is IT/Solution Architect at zylk.net, an OOTB member working with Alfresco-based solutions during the last 8 years in large organisations. He is the author of a <a href='http://www.zylk.net/alfresco-blog' target='_blank'>corporate Alfresco Blog</a>, addons developer and a very active user in Alfresco Community.<br/>"
 		}
 	]
 },
@@ -1609,7 +1609,7 @@
 			"twitter": "zylknet",
 			"linkedin": "https://www.linkedin.com/in/cesarcapillas/",
 			"website": "http://www.zylk.net/es/home",
-			"summary":"Cesar Capillas is IT/Solution Architect at zylk.net, an OOTB member working with Alfresco-based solutions during the last 8 years in large organisations. He is the author of a <a href='http://www.zylk.net/alfresco-blog' target='_blank'>corporate Alfresco Blog</a>, addons developer and a very active user in Alfresco Community."
+			"summary":"Cesar Capillas is IT/Solution Architect at zylk.net, an OOTB member working with Alfresco-based solutions during the last 8 years in large organisations. He is the author of a <a href='http://www.zylk.net/alfresco-blog' target='_blank'>corporate Alfresco Blog</a>, addons developer and a very active user in Alfresco Community.<br/>"
 		}
 	]
 },
@@ -1635,7 +1635,7 @@
 			"twitter": "wabson",
 			"linkedin": "https://www.linkedin.com/in/wabson/",
 			"website": "https://www.alfresco.com/",
-			"summary":"Long-time employee at Alfresco, having worked across both Content and Process-oriented products and now helping to develop solutions using the ADF framework."
+			"summary":"Long-time employee at Alfresco, having worked across both Content and Process-oriented products and now helping to develop solutions using the ADF framework.<br/>"
 		}
 	]
 },
@@ -1661,7 +1661,7 @@
 			"twitter": "avasyukov",
 			"linkedin": "https://www.linkedin.com/in/avasyukov/",
 			"website": "http://www.itdhq.com",
-			"summary":"Alexey Vasyukov works as CTO at ITD Systems, developer of Alvex solution. Alexey leads Alvex solution development as chief architect. He is responsible for principal technical decisions during planning. So, if something goes wrong in the wild - non-standard setup is required or Alvex does not work on the latest Alfresco release - it is also Alexey's headache. Prior to ITD Systems he worked for VDEL as consultant and presale team lead helping partners and customers to build solutions based on open source technologies. Alexey has a Ph.D. in Mathematical Modeling, Numerical Methods, and Software Complexes from Moscow Institute of Physics and Technology."
+			"summary":"Alexey Vasyukov works as CTO at ITD Systems, developer of Alvex solution. Alexey leads Alvex solution development as chief architect. He is responsible for principal technical decisions during planning. So, if something goes wrong in the wild - non-standard setup is required or Alvex does not work on the latest Alfresco release - it is also Alexey's headache. Prior to ITD Systems he worked for VDEL as consultant and presale team lead helping partners and customers to build solutions based on open source technologies. Alexey has a Ph.D. in Mathematical Modeling, Numerical Methods, and Software Complexes from Moscow Institute of Physics and Technology.<br/>"
 		}
 	]
 },
@@ -1687,7 +1687,7 @@
 			"twitter": "ReluctantBird83",
 			"linkedin": "https://www.linkedin.com/in/axel-faust-78ab2b3a/",
 			"website": "https://github.com/AFaust",
-			"summary":"I started to work with Alfresco in 2010 and have mostly been working full time on/with it since then. Though my main focus is on software development and architecture, a large part of my work also includes general consulting, use case specific training/education, system operations and support. From 2010 until 2016 I worked for an Alfresco Partner and thus primarily the Enterprise Edition, though I would use Community Edition for most of my engagement in community-oriented collaborations and my own open source projects."
+			"summary":"I started to work with Alfresco in 2010 and have mostly been working full time on/with it since then. Though my main focus is on software development and architecture, a large part of my work also includes general consulting, use case specific training/education, system operations and support. From 2010 until 2016 I worked for an Alfresco Partner and thus primarily the Enterprise Edition, though I would use Community Edition for most of my engagement in community-oriented collaborations and my own open source projects.<br/>"
 		}
 		,
 		{
@@ -1699,7 +1699,7 @@
 			"twitter": "binduwavell",
 			"linkedin": "https://www.linkedin.com/in/binduwavell/",
 			"website": "http://www.ziaconsulting.com/",
-			"summary":"Bindu Wavell is the Chief Architect at Zia Consulting. He has been involved in enterprise system integration consulting for 26 years. At Zia, Bindu provides guidance and mentoring around enterprise content management architecture and design in addition to working hands-on with customers.Bindu has been working on enterprise content management engagements for the past 12 years.  Bindu has also been running the support organization at Zia for the last year. Previously he worked at eConvergent and Aspect Communications focusing on customer relationship management systems."
+			"summary":"Bindu Wavell is the Chief Architect at Zia Consulting. He has been involved in enterprise system integration consulting for 26 years. At Zia, Bindu provides guidance and mentoring around enterprise content management architecture and design in addition to working hands-on with customers.<br/><br/>Bindu has been working on enterprise content management engagements for the past 12 years.  He has also been running the support organization at Zia for the last year.<br/>"
 		}
 	]
 },
@@ -1725,7 +1725,7 @@
 			"twitter": "yregaieg",
 			"linkedin": "https://www.linkedin.com/in/younesregaieg/",
 			"website": "https://www.xenit.eu/",
-			"summary":"Being a Software engineer Xenit Solutions, Younes is basically implementing some cool new features in Alfresco and integrating Alfresco based solutions to existing information systems on an every day basis. He is also a community guy, mostly active on the community official IRC channel #alfresco (as yreg)."
+			"summary":"Being a Software engineer Xenit Solutions, Younes is basically implementing some cool new features in Alfresco and integrating Alfresco based solutions to existing information systems on an every day basis. He is also a community guy, mostly active on the community official IRC channel #alfresco (as yreg).<br/>"
 		}
 	]
 },
@@ -1751,7 +1751,7 @@
 			"twitter": "fufler",
 			"linkedin": "https://www.linkedin.com/in/alexey-ermakov-a885512b/",
 			"website": "http://www.itdhq.com",
-			"summary":"Developing Alfresco-based solutions since 2010, ACE."
+			"summary":"Developing Alfresco-based solutions since 2010, ACE.<br/>"
 		}
 	]
 },
@@ -1777,7 +1777,7 @@
 			"twitter": "",
 			"linkedin": "https://www.linkedin.com/in/willem-van-den-eynde-5318078/",
 			"website": "https://www.xenit.eu/",
-			"summary":"Has over 7 years experience with Alfresco setups and customizations."
+			"summary":"Has over 7 years experience with Alfresco setups and customizations.<br/>"
 		}
 	]
 },
@@ -1803,7 +1803,7 @@
 			"twitter": "jasonjolley",
 			"linkedin": "https://www.linkedin.com/in/jasonjolley/",
 			"website": "http://microstrat.com/",
-			"summary":"Jason Jolley is the Director of Application Development at Micro Strategies, an Alfresco Platinum Partner. Jason has spent the last 17 years focused on implementing ECM solutions, and has worked with Alfresco since version 1.4. As the Director of Application Development at Micro Strategies, Inc. he oversees the strategic direction of application development activities, including development methodology and implementation best practices. He previously held the role of Chief Architect of the ECM practice at Entology, Inc."
+			"summary":"Jason Jolley is the Director of Application Development at Micro Strategies, an Alfresco Platinum Partner. Jason has spent the last 17 years focused on implementing ECM solutions, and has worked with Alfresco since version 1.4. As the Director of Application Development at Micro Strategies, Inc. he oversees the strategic direction of application development activities, including development methodology and implementation best practices. He previously held the role of Chief Architect of the ECM practice at Entology, Inc.<br/>"
 		}
 	]
 },

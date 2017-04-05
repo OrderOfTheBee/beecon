@@ -303,7 +303,7 @@
 
 			<div class="col-sm-4" ng-repeat="speaker in randomList">
 					<div class="speaker">
-						<div class="photo-wrapper rounded"><img src="https://www.gravatar.com/avatar/{{speaker.emailMD5}}?s=150&d=http%3A%2F%2Forderofthebee.org%2Fassets%2Fimg%2Fbee8.png" width="150px" class="img-responsive"></div>
+						<div class="photo-wrapper rounded"><img src="{{speaker.image}}" width="100px" class="img-responsive"></div>
 							<h3 class="name">{{speaker.name}} {{speaker.surname}}</h3>
 							<p class="text-alt"><small>{{speaker.position}} @ {{speaker.company}}</small></p>
 							<ul class="speaker-socials">
@@ -382,7 +382,7 @@
 						<br/>
 					</div>
 					<div class="col-md-4 col-sm-6 col-lg-3">
-						<img src="https://www.gravatar.com/avatar/{{item.emailMD5}}?s=150&d=http%3A%2F%2Fbeecon.buzz%2Fassets%2Fimg%2Fspeakers%2Fbees.jpg" class="img-responsive img-rounded right">
+						<img src="{{item.image}}" class="img-responsive img-rounded right">
 					</div>
 				</div>
 				<p class="lead"><strong>Sessions</strong></p>
