@@ -114,7 +114,7 @@
 									<br/>
 								</div>
 								<div class="col-md-4 col-sm-6 col-lg-3">
-									<img src="{{item.image}}" class="img-responsive img-rounded right">
+									<img ng-src="{{item.image}}" class="img-responsive img-rounded right">
 								</div>
 							</div>
 							<p class="lead"><strong>Sessions</strong></p>
@@ -134,7 +134,7 @@
 					<div class="row">
 						<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12" ng-repeat="speaker in speakers | orderBy:'surname'">
 							<div class="speaker">
-								<div class="photo-wrapper rounded"><a href="" ng-click="open(speaker)"><img src="{{speaker.image}}" height="80px" class="img-responsive"></a></div>
+								<div class="photo-wrapper rounded"><a href="" ng-click="open(speaker)"><img ng-src="{{speaker.image}}" height="80px" class="img-responsive"></a></div>
 									<h3 class="name">{{speaker.name}} {{speaker.surname}}</h3>
 									<p class="text-alt"><small>{{speaker.position}}<br/> @{{speaker.company}}</small></p>
 									<ul class="speaker-socials">

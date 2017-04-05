@@ -112,8 +112,8 @@
 
 				<h6 class="base-font">The place for the Alfresco community of professionals and enthusiasts to meet, share, learn, build, and enrich relationships.</h6>
 				<div class="btns-container">
-					<a href="#tickets" class="btn btn-md">Register</a><br/><br/>
-					<a href="/2017/assets/files/Sponsorship%20offering.pdf" class="btn btn-md">Become a sponsor</a>
+					<a href="#tickets" class="btn btn-md">Register</a>
+					<a href="#schedule" class="btn btn-md">Schedule</a>
 				</div>
 
 			</div>
@@ -303,7 +303,7 @@
 
 			<div class="col-sm-3" ng-repeat="speaker in randomList">
 					<div class="speaker">
-						<div class="photo-wrapper rounded"><img src="{{speaker.image}}" class="img-responsive"></div>
+						<div class="photo-wrapper rounded"><img ng-src="{{speaker.image}}" class="img-responsive"></div>
 							<h3 class="name">{{speaker.name}} {{speaker.surname}}</h3>
 							<p class="text-alt"><small>{{speaker.position}}<br/>@{{speaker.company}}</small></p>
 							<ul class="speaker-socials">

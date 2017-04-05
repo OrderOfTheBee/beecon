@@ -3916,17 +3916,6 @@ button.btn.btn-block {
     padding: 90px 100px 80px 80px;
 }
 
-.schedule .tab-content-schedule:before {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 104px;
-    width: 0;
-    display: block;
-    content: "";
-    border-right: 1px solid #eff1f5;
-}
-
 .schedule .tab-content-schedule .panel-group {
     margin-bottom: 0;
 }
