@@ -144,7 +144,7 @@
 {
 	"id": "F11",
 	"topic": "Alfresco Platform, Search, API's, Add-ons",
-	"title": "10 unconventional ways to use alfresco",
+	"title": "10 novel ways to use alfresco",
 	"type": "Full Talk (30 m)",
 	"day": "April 26",
 	"hour": "16:40 - 17:10",
@@ -930,7 +930,7 @@
 	"hour": "16:05 - 16:35",
 	"room": "Auditorium",
 	"targetAudience": "Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
-	"abstract": "<p>Lightning talks are fast-paced and fun. The presentations are strictly limited to five minutes, so each session contains 5 topics with a mix of subjects including both business and technical subjects. All presentations in this session are Ignite-style, with auto-advancing slides.</p><ul class='list-instyled'><li><p><strong>Don't Kill Your Golden Goose</strong> (Richard Esplin)</p><p>Open core businesses grow when they successfully leverage the mass adoption of an open source product while simultaneously delivering proprietary value-add products in the same ecosystem. Such businesses must be careful to differentiate the proprietary products in ways that both add value to paying customers and does not undermine the incentives of other contributors in the open source community. This presentation briefly shares key considerations for achieving these often competing objectives. </p></li><li><p><strong>What do you want from me?</strong>(Francesco Corti)</p><p>Being a product evangelist at Alfresco means a lot of things and I had the chance to describe some of them in the following <a href='http://fcorti.com/2016/10/05/alfresco-product-evangelist/' target='_blank' class='black'>blog post</a>. Quoting from the blog post: 'In addition to helping developers adopt Alfresco technologies, this person will need to help Alfresco improve the developer experience with our technologies'. I have some initiatives that I would like to share with the ecosystem of developers, with the goal to have a feedback and understand which is the best way to achieve that goal.</p></li><li><p><strong>Sinadura ECM: Protocol-based signatures for Alfresco</strong>(Cesar Capillas)</p><p>Sinadura 5 is a popular java desktop client for signing documents. One of the new features of the last version is the addition to the main installer of a new mini-client designed for the web. This mini client was developed for the replacement of the java applet technology, by a protocol-based signature registered in your operating system. In this talk, we show the integration and possibilities of Sinadura 5 with Alfresco Share, relating to its advanced signature properties, profiles and visible stamps.</p></li><li><p><strong>Externalizing Office document transformations into a remote JODC server</strong>(Younes Regaieg)</p><p>In this presentation we will explore an implementation of a content transformer for Office documents, leveraging the micro-service architecture for scalable & reliable content transformations.</p></li></ul>",
+	"abstract": "<p>Lightning talks are fast-paced and fun. The presentations are strictly limited to five minutes, so each session contains 5 topics with a mix of subjects including both business and technical subjects. All presentations in this session are Ignite-style, with auto-advancing slides.</p><ul class='list-instyled'><li><p><strong>Don't Kill Your Golden Goose</strong> (Richard Esplin)</p><p>Open core businesses grow when they successfully leverage the mass adoption of an open source product while simultaneously delivering proprietary value-add products in the same ecosystem. Such businesses must be careful to differentiate the proprietary products in ways that both add value to paying customers and does not undermine the incentives of other contributors in the open source community. This presentation briefly shares key considerations for achieving these often competing objectives. </p></li><li><p><strong>What do you want from me?</strong>(Francesco Corti)</p><p>Being a product evangelist at Alfresco means a lot of things and I had the chance to describe some of them in the following <a href='http://fcorti.com/2016/10/05/alfresco-product-evangelist/' target='_blank' class='black'>blog post</a>. Quoting from the blog post: 'In addition to helping developers adopt Alfresco technologies, this person will need to help Alfresco improve the developer experience with our technologies'. I have some initiatives that I would like to share with the ecosystem of developers, with the goal to have a feedback and understand which is the best way to achieve that goal.</p></li><li><p><strong>Sinadura ECM: Protocol-based signatures for Alfresco</strong>(Cesar Capillas)</p><p>Sinadura 5 is a popular java desktop client for signing documents. One of the new features of the last version is the addition to the main installer of a new mini-client designed for the web. This mini client was developed for the replacement of the java applet technology, by a protocol-based signature registered in your operating system. In this talk, we show the integration and possibilities of Sinadura 5 with Alfresco Share, relating to its advanced signature properties, profiles and visible stamps.</p></li><li><p><strong>Externalizing Office document transformations into a remote JODC server</strong>(Younes Regaieg)</p><p>In this presentation we will explore an implementation of a content transformer for Office documents, leveraging the micro-service architecture for scalable & reliable content transformations.</p></li><li><p><strong>Solr lab for sharding experiments</strong>(Roxana Angheluta, Axel Faust)</p><p>The audience will see a setup allowing to quickly experiment with various parameters on Alfresco and on Solr side and a custom implementation for sharding by property. Results and lessons learned from experiments will shortly be presented as well.</p></li></ul>",
 	"files":[
 	],
 	"speakers":[
@@ -981,6 +981,30 @@
 			"website": "https://www.xenit.eu/",
 			"summary":"Being a Software engineer Xenit Solutions, Younes is basically implementing some cool new features in Alfresco and integrating Alfresco based solutions to existing information systems on an every day basis. He is also a community guy, mostly active on the community official IRC channel #alfresco (as yreg).<br/>"
 		}
+		,
+		{
+			"name": "Roxana",
+			"surname": "Angheluta",
+			"emailMD5": "402d05dad4a5808926da65f02fa77b41",
+			"position": "Senior ECM engineer",
+			"company": "Xenit Solutions",
+			"twitter": "",
+			"linkedin": "https://www.linkedin.com/in/roxana-angheluta-4402031/",
+			"website": "https://www.xenit.eu/",
+			"summary":"I am using Alfresco professionally for 4 years, starting to experiment with new features for search"
+		}
+		,
+		{
+			"name": "Axel",
+			"surname": "Faust",
+			"emailMD5": "b79f4e7d952fd329941b96878542fa3c",
+			"position": "Manager",
+			"company": "Acosix GmbH",
+			"twitter": "ReluctantBird83",
+			"linkedin": "https://www.linkedin.com/in/axel-faust-78ab2b3a/",
+			"website": "https://github.com/AFaust",
+			"summary":"I started to work with Alfresco in 2010 and have mostly been working full time on/with it since then. Though my main focus is on software development and architecture, a large part of my work also includes general consulting, use case specific training/education, system operations and support. From 2010 until 2016 I worked for an Alfresco Partner and thus primarily the Enterprise Edition, though I would use Community Edition for most of my engagement in community-oriented collaborations and my own open source projects.<br/>"
+		}
 	]
 },
 {
@@ -992,7 +1016,7 @@
 	"hour": "10:10 - 10:40",
 	"room": "Auditorium",
 	"targetAudience": "Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
-	"abstract": "<p>Lightning talks are fast-paced and fun. The presentations are strictly limited to five minutes, so each session contains 5 topics with a mix of subjects including both business and technical subjects. All presentations in this session are Ignite-style, with auto-advancing slides.</p><ul class='list-instyled'><li><p><strong>Managed the DevOps Way</strong> (Martin Whittington)</p><p>How we use AWS to allocate trials to customers who want to know more about AWS</p></li><li><p><strong>Sending customizable emails in Alfresco</strong>(Tom Vandepoele)</p><p>Alfresco has been able to send emails for a long time. Mails are sent when you are invited to sites, when a workflow-task is assigned to you, for daily overviews of activities in your sites, etc.</p><p>There are however a few shortcomings:</p><ul class='list-instyled'><li>The body of the email is not easily customizable.</li><li>Sent email is not stored in Alfresco, so maintaining track of your conversation is hard.</li><li>Recipients cannot be dynamically assigned.</li></ul><p>In this ignite talk I would like to show how to generate custom e-mails from within Alfresco, with pre-populated recipients and automatically stored within Alfresco after sending.</p></li><li><p><strong>Taming large repositories</strong>(Willem Van den Eynde)</p><p>Building large repositories has it challenges. A quick overview of things learned from setting up several 10M to 50M repositories.</p></li><li><p><strong>Automating the Alfresco Taxonomy</strong>(Jason Jolley)</p><p>This presentation will review tools built to manage and automate an organization's taxonomy. Some of the tools reviewed will be:</p><ul class='list-instyled'><li>Data List backed Content Fields in Share</li><li>Configurable Metadata Inheritance (single and multiple level)</li><li>Automated Site Creation By Template, and from Activiti</li></ul></li></ul>",
+	"abstract": "<p>Lightning talks are fast-paced and fun. The presentations are strictly limited to five minutes, so each session contains 5 topics with a mix of subjects including both business and technical subjects. All presentations in this session are Ignite-style, with auto-advancing slides.</p><ul class='list-instyled'><li><p><strong>Managed the DevOps Way</strong> (Martin Whittington)</p><p>How we use AWS to allocate trials to customers who want to know more about AWS</p></li><li><p><strong>Sending customizable emails in Alfresco</strong>(Tom Vandepoele)</p><p>Alfresco has been able to send emails for a long time. Mails are sent when you are invited to sites, when a workflow-task is assigned to you, for daily overviews of activities in your sites, etc.</p><p>There are however a few shortcomings:</p><ul class='list-instyled'><li>The body of the email is not easily customizable.</li><li>Sent email is not stored in Alfresco, so maintaining track of your conversation is hard.</li><li>Recipients cannot be dynamically assigned.</li></ul><p>In this ignite talk I would like to show how to generate custom e-mails from within Alfresco, with pre-populated recipients and automatically stored within Alfresco after sending.</p></li><li><p><strong>Taming large repositories</strong>(Willem Van den Eynde)</p><p>Building large repositories has it challenges. A quick overview of things learned from setting up several 10M to 50M repositories.</p></li><li><p><strong>Automating the Alfresco Taxonomy</strong>(Jason Jolley)</p><p>This presentation will review tools built to manage and automate an organization's taxonomy. Some of the tools reviewed will be:</p><ul class='list-instyled'><li>Data List backed Content Fields in Share</li><li>Configurable Metadata Inheritance (single and multiple level)</li><li>Automated Site Creation By Template, and from Activiti</li></ul></li><li><p><strong>Boost your career with Alfresco</strong>(Vasil Iliev)</p><p>Help users/developers/enthusiast to start/continue using Alfresco. The presentation will cover all aspects as a developer, end user or as a business operation. Will answer: why? how? should I? for how long?</p></li></ul>",
 	"files":[
 	],
 	"speakers":[
@@ -1042,6 +1066,18 @@
 			"linkedin": "https://www.linkedin.com/in/jasonjolley/",
 			"website": "http://microstrat.com/",
 			"summary":"Jason Jolley is the Director of Application Development at Micro Strategies, an Alfresco Platinum Partner. Jason has spent the last 17 years focused on implementing ECM solutions, and has worked with Alfresco since version 1.4. As the Director of Application Development at Micro Strategies, Inc. he oversees the strategic direction of application development activities, including development methodology and implementation best practices. He previously held the role of Chief Architect of the ECM practice at Entology, Inc.<br/>"
+		}
+		,
+		{
+			"name": "Vasil",
+			"surname": "Iliev",
+			"emailMD5": "b29c5125d9310817367f12362e9348f0",
+			"position": "Software Developer",
+			"company": "Monsenso",
+			"twitter": "",
+			"linkedin": "https://www.linkedin.com/in/ilievvasil/",
+			"website": "https://www.monsenso.com/",
+			"summary":"I am 25 year old software developer from Macedonia. I'm currently living in Copenhagen and working in the same field.<br/>I started out my career with Alfresco and it has brought me a long way. Working with Alfresco wasn't my number 1 choice when I started working, however my views on the subject have drastically changed.<br/>Having the chance to share my experience and views on the topic can help many people with Alfresco as a career path."
 		}
 	]
 },
@@ -1968,32 +2004,6 @@
 	"type": "null",
 	"day": "April 25",
 	"hour": "10:00 - 13:00",
-	"room": "Room 3",
-	"targetAudience": "Developers starting to work with Alfresco",
-	"abstract": "<p>This training session will cover basics for Alfresco development, focusing the practice on the use of the brand new Alfresco SDK 3.0.0.</p><p><a href='https://docs.google.com/forms/d/e/1FAIpQLSdlI0YYOgJtCFWHyvhLqZL-0DowjOtF73B8XqXaV9hYB37sgA/viewform' target='_blank'>Register your intention</a> to attend the training session. This registration will also be used to provide any updates or other details about the session in advance of BeeCon.</p>",
-	"files":[
-	],
-	"speakers":[
-		{
-			"name": "OOTBee",
-			"surname": "",
-			"emailMD5": "",
-			"position": "",
-			"company": "Order of the bee",
-			"twitter": "orderofthebee",
-			"linkedin": "",
-			"website": "http://orderofthebee.org",
-			"summary":""
-		}
-	]
-},
-{
-	"id": "H04",
-	"topic": "Getting started",
-	"title": "Getting started",
-	"type": "null",
-	"day": "April 25",
-	"hour": "14:00 - 18:00",
 	"room": "Room 3",
 	"targetAudience": "Developers starting to work with Alfresco",
 	"abstract": "<p>This training session will cover basics for Alfresco development, focusing the practice on the use of the brand new Alfresco SDK 3.0.0.</p><p><a href='https://docs.google.com/forms/d/e/1FAIpQLSdlI0YYOgJtCFWHyvhLqZL-0DowjOtF73B8XqXaV9hYB37sgA/viewform' target='_blank'>Register your intention</a> to attend the training session. This registration will also be used to provide any updates or other details about the session in advance of BeeCon.</p>",
