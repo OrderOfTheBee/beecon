@@ -68,8 +68,8 @@
 	"topic": "Alfresco Platform",
 	"title": "Supporting Alfresco Installations",
 	"type": "Full Talk (30 m)",
-	"day": "April 26",
-	"hour": "16:40 - 17:10",
+	"day": "April 28",
+	"hour": "9:35 - 10:05",
 	"room": "Room 1",
 	"targetAudience": "Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
 	"abstract": "<p>Zia consulting is a platinum Alfresco partner. We are one of the only US partners that is providing Level 1 Alfresco support in concert with the Alfresco support organization. In this presentation we'll go over best practices for investigating and resolving Alfresco issues. We will also cover some best practices for getting the most out of your Alfresco support relationship.</p>",
@@ -146,8 +146,8 @@
 	"topic": "Alfresco Platform, Search, API's, Add-ons",
 	"title": "10 unconventional ways to use alfresco",
 	"type": "Full Talk (30 m)",
-	"day": "April 28",
-	"hour": "9:35 - 10:05",
+	"day": "April 26",
+	"hour": "16:40 - 17:10",
 	"room": "Room 1",
 	"targetAudience": "Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
 	"abstract": "<p>From riding a camel to machine learning. Lets explore some of Alfresco Content Service's not so well known features.</p>",
@@ -458,8 +458,8 @@
 	"topic": "Alfresco Platform",
 	"title": "Alfresco as a Metadata Hub",
 	"type": "Full Talk (30 m)",
-	"day": "April 28",
-	"hour": "11:45 - 12:15",
+	"day": "April 27",
+	"hour": "15:05 - 15:35",
 	"room": "Auditorium",
 	"targetAudience": "Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
 	"abstract": "<p>Metadata is a critical component in digital transformation. The ability to accurately describe content empowers discovery and consumption both within a repository and in downstream systems.</p><p>During this talk we'll explore:</p><ul class='list-instyled'><li>The capabilities of the out of the box content model</li><li>Emerging trends and standards</li><li>Approaches to handle complex metadata needs</li></ul><p>This session is aimed at an intermediate audience.</p>",
@@ -522,9 +522,9 @@
 	"topic": "Alfresco Platform",
 	"title": "Care4Alf - 10 years of experience in one tool",
 	"type": "Full Talk (30 m)",
-	"day": "April 26",
-	"hour": "16:05 - 16:35",
-	"room": "Room 1",
+	"day": "April 28",
+	"hour": "11:45 - 12:15",
+	"room": "Auditorium",
 	"targetAudience": "System Administrators, Developers starting to work with Alfresco",
 	"abstract": "<p>We bundled years of experience handling Alfresco in a tool that helps administrators with common Alfresco problems. It also helps developers with debugging Alfresco.</p>",
 	"files":[
@@ -702,8 +702,8 @@
 	"topic": "Alfresco Platform, Search",
 	"title": "The art of the cache",
 	"type": "Full Talk (30 m)",
-	"day": "April 27",
-	"hour": "15:05 - 15:35",
+	"day": "April 28",
+	"hour": "11:10 - 11:40",
 	"room": "Auditorium",
 	"targetAudience": "Experienced Alfresco developers, Architects and Technical Managers",
 	"abstract": "<p>One of the common aspects that can be tuned in Alfresco are its various caches, on the SOLR-tier as well as within the Repository. Quite often the suggestions being offered to someone in need for tuning guidance are based more on anecdotal information than on real understanding. In this session I will give an overview of the caches that Alfresco provides by default, what operations they relate to, how they affect performance; and what kind of optimisations can be applied by using configurable options of the default implementation or even going as far as using a custom cache type. With regards to the Repository-tier caches we will also look at use case-specific caches and the basic steps / considerations involved in setting them up.</p>",
@@ -728,9 +728,9 @@
 	"topic": "Use Case, Add-ons",
 	"title": "LibreOffice Online integration with Alfresco",
 	"type": "Full Talk (30 m)",
-	"day": "April 28",
-	"hour": "11:10 - 11:40",
-	"room": "Auditorium",
+	"day": "April 26",
+	"hour": "16:05 - 16:35",
+	"room": "Room 1",
 	"targetAudience": "System Administrators, Experienced Alfresco developers, Architects and Technical Managers",
 	"abstract": "<p>An online version of LibreOffice has been on its way for many years now and was finally released in 2016, offering an alternative to hosted services of Google Docs and Office 365.</p><p>Unlike Google Docs and Office 365, LibreOffice Online (LOOL) is a self hosted alternative, therefore organisations will be able to host the service on their own infrastructure instead of having to trust a third-party SP with their documents.</p><p>The big advantage of this integration is not only that it provides collaborative live editing within alfresco, but  that it also has the potential to further liberate user's workflow completely from the desktop.</p><p>In this presentation, we will go through the technical details of how we integrate LOOL to Alfresco. The presentation will also include a couple of workflow scenarios to demonstrate the interaction of LibreOffice Online with Alfresco on various devices.</p>",
 	"files":[
@@ -955,7 +955,7 @@
 			"twitter": "FrkCorti",
 			"linkedin": "https://www.linkedin.com/in/fcorti/",
 			"website": "https://www.alfresco.com/",
-			"summary":"Alfresco Product Evangelist<br/>"
+			"summary":"Enthusiast Consultant in software and solutions, I love working in team with Developers, Sales and Customers. Proud of the role of Software Engineer, I?m often involved in Presale presentations, public speaking and IT courses.<br/><br/>Developing software, designing architectures and definition of solutions in ECM/BPM and BI are my favourites areas of interest. Dozens of projects done, from the very small ones to the more complexes, in almost 20 years of experience.<br/><br/>Product Evangelist  at Alfresco  since October 2016, I?m the public figure representing the famous Open Source ECM into the developer community. In addition to helping developers to adopt Alfresco technologies, I usually help Alfresco to improve the developer experience through talks, articles, blogging, user demonstrations, recorded demonstrations, or the creation of sample projects.<br/>"
 		}
 		,
 		{
@@ -1105,7 +1105,7 @@
 			"twitter": "FrkCorti",
 			"linkedin": "https://www.linkedin.com/in/fcorti/",
 			"website": "https://www.alfresco.com/",
-			"summary":"Alfresco Product Evangelist<br/>"
+			"summary":"Enthusiast Consultant in software and solutions, I love working in team with Developers, Sales and Customers. Proud of the role of Software Engineer, I?m often involved in Presale presentations, public speaking and IT courses.<br/><br/>Developing software, designing architectures and definition of solutions in ECM/BPM and BI are my favourites areas of interest. Dozens of projects done, from the very small ones to the more complexes, in almost 20 years of experience.<br/><br/>Product Evangelist  at Alfresco  since October 2016, I?m the public figure representing the famous Open Source ECM into the developer community. In addition to helping developers to adopt Alfresco technologies, I usually help Alfresco to improve the developer experience through talks, articles, blogging, user demonstrations, recorded demonstrations, or the creation of sample projects.<br/>"
 		}
 	]
 },
@@ -1166,8 +1166,8 @@
 	"topic": "Alfresco Platform, Alfresco Share, Search, Workflows, API's, Open source collaboration",
 	"title": "Contributing to Alfresco, Round 2",
 	"type": "Extended Talk (45 m)",
-	"day": "April 27",
-	"hour": "17:15 - 18:00",
+	"day": "April 26",
+	"hour": "17:00 - 18:00",
 	"room": "Auditorium",
 	"targetAudience": "Developers starting to work with Alfresco, Experienced Alfresco developers",
 	"abstract": "<p>BeeCon 2016 featured a discussion of how the Alfresco product development teams could better collaborate with open source contributors. During that panel, Alfresco management explained some of the challenges with accepting contributions and discussed ideas offered by the open source community for improving the situation.</p><p>This year we would like to report on the progress that we have made, and explain the ongoing initiatives to improve our open source collaboration.</p><p>The session will be moderated by Richard Esplin from Alfresco Product Management, and Boriss Mejias from the Order of the Bee. The panel will include Alfresco leadership from the Product Management and Product Development organizations at Alfresco. We plan to reserve lots of time for answering audience questions.</p>",
@@ -1268,8 +1268,8 @@
 	"topic": "Alfresco Platform, Workflows, API's, Add-ons, Analytics",
 	"title": "Next Gen “Content Intelligence”: Easier to setup, more reliable and more powerful",
 	"type": "Extended Talk (45 m)",
-	"day": "April 26",
-	"hour": "12:10 - 12:55",
+	"day": "April 27",
+	"hour": "11:05 - 11:50",
 	"room": "Room 1",
 	"targetAudience": "Business Users, Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
 	"abstract": "<p>Content Intelligence is one of the hottest topics on the ECM Market and the implementation of AAAR (rebranded in the latest version as Alflytics), as a full featured solution, provides both administrators and analysts with powerful analytics for Alfresco on top of the Pentaho Suite.</p><p>In this presentation Younes will show a fully dockerized setup for the solution, involving different containers for Alfresco (Share, Platform and Solr) and Pentaho (Pentaho Business Analytics Platform, Pentaho Data Integration and Pentaho Report Designer). Francesco, first inventor of Alflytics, will talk about new stuff around the 5.0 version with the latest enhancements in terms of features.</p>",
@@ -1297,7 +1297,7 @@
 			"twitter": "FrkCorti",
 			"linkedin": "https://www.linkedin.com/in/fcorti/",
 			"website": "https://www.alfresco.com/",
-			"summary":"Alfresco Product Evangelist<br/>"
+			"summary":"Enthusiast Consultant in software and solutions, I love working in team with Developers, Sales and Customers. Proud of the role of Software Engineer, I?m often involved in Presale presentations, public speaking and IT courses.<br/><br/>Developing software, designing architectures and definition of solutions in ECM/BPM and BI are my favourites areas of interest. Dozens of projects done, from the very small ones to the more complexes, in almost 20 years of experience.<br/><br/>Product Evangelist  at Alfresco  since October 2016, I?m the public figure representing the famous Open Source ECM into the developer community. In addition to helping developers to adopt Alfresco technologies, I usually help Alfresco to improve the developer experience through talks, articles, blogging, user demonstrations, recorded demonstrations, or the creation of sample projects.<br/>"
 		}
 	]
 },
@@ -1384,8 +1384,8 @@
 	"topic": "Workflows",
 	"title": "The wait is over: Activiti 6 is here",
 	"type": "Extended Talk (45 m)",
-	"day": "April 27",
-	"hour": "11:05 - 11:50",
+	"day": "April 26",
+	"hour": "12:10 - 12:55",
 	"room": "Room 1",
 	"targetAudience": "Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
 	"abstract": "<p>The wait is over, the release of Activiti 6 is neigh. Through both lecture and live demonstration, learn what is in the Activiti 6 engine and how this technology base will drive additional process- and case-powered use cases.</p>",
@@ -1543,7 +1543,7 @@
 			"twitter": "FrkCorti",
 			"linkedin": "https://www.linkedin.com/in/fcorti/",
 			"website": "https://www.alfresco.com/",
-			"summary":"Alfresco Product Evangelist<br/>"
+			"summary":"Enthusiast Consultant in software and solutions, I love working in team with Developers, Sales and Customers. Proud of the role of Software Engineer, I?m often involved in Presale presentations, public speaking and IT courses.<br/><br/>Developing software, designing architectures and definition of solutions in ECM/BPM and BI are my favourites areas of interest. Dozens of projects done, from the very small ones to the more complexes, in almost 20 years of experience.<br/><br/>Product Evangelist  at Alfresco  since October 2016, I?m the public figure representing the famous Open Source ECM into the developer community. In addition to helping developers to adopt Alfresco technologies, I usually help Alfresco to improve the developer experience through talks, articles, blogging, user demonstrations, recorded demonstrations, or the creation of sample projects.<br/>"
 		}
 	]
 },
