@@ -441,8 +441,11 @@
 		                  <td class="time">{{slot.time}}</td>
 
 											<!-- Networking for 3 columns -->
-		                  <td ng-repeat="session in slot.sessions" ng-show="( session.id != '' && session.place == 'Social' )" colspan="4" class="networking" >
+		                  <td ng-repeat="session in slot.sessions" ng-show="( session.id != '' && session.id[0] != 'H' && session.place == 'Social' )" colspan="4" class="networking" >
 		                      <strong>{{session.id}}</strong>
+		                  </td>
+											<td ng-repeat="session in slot.sessions" ng-show="( session.id[0] == 'H' && session.place == 'Social' )" colspan="4" class="networking" >
+		                      <a href="" ng-click="open(session)"><strong>{{session.title}}</strong></a>
 		                  </td>
 
 											<!-- Auditorium -->
