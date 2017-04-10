@@ -339,7 +339,7 @@
 	"linkedin": "https://www.linkedin.com/in/ilievvasil/",
 	"website": "https://www.monsenso.com/",
 	"image": "/2017/img/speakers/VasilIliev.png",
-	"summary":"I am 25 year old software developer from Macedonia. I'm currently living in Copenhagen and working in the same field. I started out my career with Alfresco and it has brought me a long way. Working with Alfresco wasn't my number 1 choice when I started working, however my views on the subject have drastically changed. Having the chance to share my experience and views on the topic can help many people with Alfresco as a career path.",
+	"summary":"<p>I am 25 year old software developer from Macedonia. I'm currently living in Copenhagen and working in the same field.</p><p>I started out my career with Alfresco and it has brought me a long way. Working with Alfresco wasn't my number 1 choice when I started working, however my views on the subject have drastically changed.</p><p>Having the chance to share my experience and views on the topic can help many people with Alfresco as a career path.</p><br/>",
 	"talks":[
 		{
 			"id": "FL04",
@@ -1303,7 +1303,7 @@
 	"linkedin": "https://www.linkedin.com/in/roxana-angheluta-4402031/",
 	"website": "https://www.xenit.eu/",
 	"image": "/2017/img/speakers/RoxanaAngheluta.png",
-	"summary":"I am using Alfresco professionally for 4 years, starting to experiment with new features for search",
+	"summary":"<p>I am using Alfresco professionally for 4 years, starting to experiment with new features for search</p><br/>",
 	"talks":[
 		{
 			"id": "FL03",
