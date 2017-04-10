@@ -680,35 +680,6 @@
 				]
 			},
 			{
-				"time": "11:05 - 11:50",
-				"sessions": [
-					{
-						"id": "",
-						"place": "Social"
-					}
-					,
-					{
-						"id": "E01",
-						"place": "Auditorium"
-					}
-					,
-					{
-						"id": "E09",
-						"place": "Room 1"
-					}
-					,
-					{
-						"id": "",
-						"place": "Room 2"
-					}
-					,
-					{
-						"id": "",
-						"place": "Room 3"
-					}
-				]
-			},
-			{
 				"time": "10:30 - 10:50",
 				"sessions": [
 					{
@@ -738,7 +709,36 @@
 				]
 			},
 			{
-				"time": "10:55 - 12:25",
+				"time": "11:05 - 11:50",
+				"sessions": [
+					{
+						"id": "",
+						"place": "Social"
+					}
+					,
+					{
+						"id": "E01",
+						"place": "Auditorium"
+					}
+					,
+					{
+						"id": "E09",
+						"place": "Room 1"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 2"
+					}
+					,
+					{
+						"id": "",
+						"place": "Room 3"
+					}
+				]
+			},
+			{
+				"time": "11:55 - 12:25",
 				"sessions": [
 					{
 						"id": "",
