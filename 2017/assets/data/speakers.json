@@ -58,6 +58,22 @@
 			"type": "",
 			"targetAudience": "Developers starting to work with Alfresco",
 			"abstract": "<p>This training session will cover basics for Alfresco development, focusing the practice on the use of the brand new Alfresco SDK 3.0.0.</p><p><a href='https://docs.google.com/forms/d/e/1FAIpQLSdlI0YYOgJtCFWHyvhLqZL-0DowjOtF73B8XqXaV9hYB37sgA/viewform' target='_blank'>Register your intention</a> to attend the training session. This registration will also be used to provide any updates or other details about the session in advance of BeeCon.</p>"
+		},
+		{
+			"id": "H05",
+			"topic": "Networking",
+			"title": "Welcome Party",
+			"type": "",
+			"targetAudience": "",
+			"abstract": "<p>Dinner at <a href='http://www.espacioebro.es/' target='_blank'>Espacio Ebro</a>, an open space near Etopia and the river to welcome all you to BeeCon.</p><p>You can reach the <a href='https://www.google.com/maps/d/viewer?mid=1nKI0w7RO3SkirXrCDO79f6kfq28&hl=en_US&ll=41.667438514248516%2C-0.9134695000000193&z=17' target='_blank'>place</a> walking from Etopia.</p>"
+		},
+		{
+			"id": "H06",
+			"topic": "Networking",
+			"title": "Party",
+			"type": "",
+			"targetAudience": "",
+			"abstract": "<p>Dinner at <a href='http://www.elcachirulorestaurante.es/'  target='_blank'>El Cachirulo</a>, where we’ll share local food enjoying one of the beauties gardens in the city.<br/>You can reach the <a href='https://www.google.es/maps/dir/41.6568833,-0.9371118/Restaurante+El+Cachirulo+N-232,+km+1.5/@41.6651837,-0.9508613,15z/data=!3m1!4b1!4m15!1m6!3m5!1s0xd596fa99292bb8d:0x4171e546c7248e63!2sRestaurante+El+Cachirulo!8m2!3d41.6681635!4d-0.9424622!4m7!1m0!1m5!1m1!1s0xd596fa99292bb8d:0x4171e546c7248e63!2m2!1d-0.9424622!2d41.6681635' target='_blank'>place</a> by taxi or you can take the free bus provided by us from Etopia at 18:45 and to Etopia at 22:00.</p>"
 		}
 	]
 },
