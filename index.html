@@ -427,13 +427,18 @@
 							<div class="tab-pane fade active in">
 
 								<table class="table text-center">
-		              <thead>
+		              <thead ng-show="day.id == 'day1'">
+		                <tr>
+		                  <th class="time" width="140px"></th>
+		                  <th class="room">Room 2</th>
+											<th class="room">Room 3</th>
+		                </tr>
+		              </thead>
+									<thead ng-show="day.id == 'day2' || day.id == 'day3' || day.id == 'day4'">
 		                <tr>
 		                  <th class="time" width="140px"></th>
 		                  <th class="room">Auditorium</th>
 		                  <th class="room">Room 1</th>
-		                  <th class="room">Room 2</th>
-											<th class="room">Room 3</th>
 		                </tr>
 		              </thead>
 		              <tbody>
@@ -441,42 +446,40 @@
 		                  <td class="time">{{slot.time}}</td>
 
 											<!-- Networking for 3 columns -->
-		                  <td ng-repeat="session in slot.sessions" ng-show="( session.id != '' && session.id[0] != 'H' && session.place == 'Social' )" colspan="4" class="networking" >
+		                  <td ng-repeat="session in slot.sessions" ng-show="( session.id != '' && session.id[0] != 'H' && session.place == 'Social' )" colspan="2" class="networking" >
 		                      <strong>{{session.id}}</strong>
 		                  </td>
-											<td ng-repeat="session in slot.sessions" ng-show="( session.id[0] == 'H' && session.place == 'Social' )" colspan="4" class="networking" >
+											<td ng-repeat="session in slot.sessions" ng-show="( session.id[0] == 'H' && session.place == 'Social' )" colspan="2" class="networking" >
 		                      <a href="" ng-click="open(session)"><strong>{{session.title}}</strong></a>
 		                  </td>
 
 											<!-- Auditorium -->
-		                  <td ng-repeat="session in slot.sessions" class="session" ng-show="session.place == 'Auditorium' && session.id != ''">
+		                  <td ng-repeat="session in slot.sessions" class="session" ng-show="(session.place == 'Auditorium' && session.id != '' && (day.id == 'day2' || day.id == 'day3' || day.id == 'day4'))">
 												<a href="" ng-click="open(session)"><strong>{{session.title}}</strong></a>
 												<a ng-href="{{session.files[session.files.length - 1].path}}" target='_blank' ng-show="session.files[session.files.length - 1].name == 'Video Recording of the Talk'"><i class="fa fa-youtube"></i></a>
 												<span ng-show="session.speakers"><br/>by <span ng-repeat="speaker in session.speakers"><span ng-if="!$first">, </span><a href="" ng-click="open2(speaker)">{{speaker.name}} {{speaker.surname}}</a></span>
 											</td>
-		                  <td ng-repeat="session in slot.sessions" class="empty" ng-show="session.place == 'Auditorium' && session.id == '' && slot.sessions[0].id == ''"></td>
+		                  <td ng-repeat="session in slot.sessions" class="empty" ng-show="session.place == 'Auditorium' && session.id == '' && slot.sessions[0].id == '' && (day.id == 'day2' || day.id == 'day3' || day.id == 'day4')"></td>
 
 											<!-- Room 1 -->
-		                  <td ng-repeat="session in slot.sessions" class="session" ng-show="session.place == 'Room 1' && session.id != ''">
+		                  <td ng-repeat="session in slot.sessions" class="session" ng-show="session.place == 'Room 1' && session.id != '' && (day.id == 'day2' || day.id == 'day3' || day.id == 'day4')">
 												<a href="" ng-click="open(session)"><strong>{{session.title}}</strong></a>
 												<a ng-href="{{session.files[session.files.length - 1].path}}" target='_blank' ng-show="session.files[session.files.length - 1].name == 'Video Recording of the Talk'"><i class="fa fa-youtube"></i></a>
 												<span ng-show="session.speakers"><br/>by <span ng-repeat="speaker in session.speakers"><span ng-if="!$first">, </span><a href="" ng-click="open2(speaker)">{{speaker.name}} {{speaker.surname}}</a></span>
 											</td>
-		                  <td ng-repeat="session in slot.sessions" class="empty" ng-show="session.place == 'Room 1' && session.id == '' && slot.sessions[0].id == ''"></td>
+		                  <td ng-repeat="session in slot.sessions" class="empty" ng-show="session.place == 'Room 1' && session.id == '' && slot.sessions[0].id == '' && (day.id == 'day2' || day.id == 'day3' || day.id == 'day4')"></td>
 
 											<!-- Room 2 -->
-		                  <td ng-repeat="session in slot.sessions" class="session" ng-show="session.place == 'Room 2' && session.id != ''">
+		                  <td ng-repeat="session in slot.sessions" class="session" ng-show="session.place == 'Room 2' && session.id != '' && day.id == 'day1'">
 												<a href="" ng-click="open(session)"><strong>{{session.title}}</strong></a>
-												<span ng-show="session.speakers"><br/>by <span ng-repeat="speaker in session.speakers"><span ng-if="!$first">, </span><a href="" ng-click="open2(speaker)">{{speaker.name}} {{speaker.surname}}</a></span>
 											</td>
-		                  <td ng-repeat="session in slot.sessions" class="empty" ng-show="session.place == 'Room 2' && session.id == '' && slot.sessions[0].id == ''"></td>
+		                  <td ng-repeat="session in slot.sessions" class="empty" ng-show="session.place == 'Room 2' && session.id == '' && slot.sessions[0].id == '' && day.id == 'day1'"></td>
 
 											<!-- Room 3 -->
-		                  <td ng-repeat="session in slot.sessions" class="session" ng-show="session.place == 'Room 3' && session.id != ''">
+		                  <td ng-repeat="session in slot.sessions" class="session" ng-show="session.place == 'Room 3' && session.id != '' && day.id == 'day1'">
 												<a href="" ng-click="open(session)"><strong>{{session.title}}</strong></a>
-												<span ng-show="session.speakers"><br/>by <span ng-repeat="speaker in session.speakers"><span ng-if="!$first">, </span><a href="" ng-click="open2(speaker)">{{speaker.name}} {{speaker.surname}}</a></span>
 											</td>
-		                  <td ng-repeat="session in slot.sessions" class="empty" ng-show="session.place == 'Room 3' && session.id == '' && slot.sessions[0].id == ''"></td>
+		                  <td ng-repeat="session in slot.sessions" class="empty" ng-show="session.place == 'Room 3' && session.id == '' && slot.sessions[0].id == '' && day.id == 'day1'"></td>
 		                </tr>
 		              </tbody>
 		            </table>
