@@ -6764,7 +6764,7 @@ button[type="submit"] .loading {
 
 .header {
     position: relative;
-    line-height: 1.5625;
+    line-height: 1;
     z-index: 1000;
 }
 
@@ -6823,7 +6823,7 @@ button[type="submit"] .loading {
 }
 
 .header .buy-btn {
-    margin: 29px 0 0;
+    margin: 20px 0 0;
 }
 
 .header-wrapper {
@@ -6831,7 +6831,7 @@ button[type="submit"] .loading {
     -moz-box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.18);
     box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.18);
     zoom: 1;
-    height: 100px;
+    height: 80px;
     padding: 0 0;
     background-color: #ffffff;
 }
@@ -6898,7 +6898,7 @@ button[type="submit"] .loading {
 .navigation-item {
     margin-left: 21px;
     display: inline-block;
-    padding: 34px 0 33px;
+    padding: 30px 0 30px;
 }
 
 .navigation-item:first-child {
