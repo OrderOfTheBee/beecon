@@ -47,7 +47,7 @@
 			"twitter": "fsck_awk ",
 			"linkedin": "https://www.linkedin.com/in/jose-a-gutierrez-778b513b/",
 			"website": "http://unizar.es/",
-			"summary":"I have worked as a programmer (mostly in the Computer Graphics field, but also at Operating System level) in the Technological Institute of Aragón, and as System Analyst at the Computer Science Department in Zaragoza University.<br/>I have experience with all kind of Unix flavours and programming languages, and I run a medium size CPD that serves the biggest department in our University, with thousands of students and teaching and research staff.<br/>"
+			"summary":"I have worked as a programmer (mostly in the Computer Graphics field, but also at Operating System level) in the Technological Institute of Aragón, and as System Analyst at the Computer Science Department in Zaragoza University.<br/>I have experience with all kind of Unix flavours and programming languages, and I run a medium size CPD that serves the biggest department in our University, with thousands of students and teaching and research staff.<br/><br/>https://www.facebook.com/fsckawk<br/>https://twitter.com/fsck_awk<br/>"
 		}
 		,
 		{
@@ -111,7 +111,7 @@
 			"twitter": "sjoshee",
 			"linkedin": "https://www.linkedin.com/in/suresh-joshee-51486844/",
 			"website": "https://www.ualberta.ca/",
-			"summary":"Suresh Joshee is a senior developer and Service Delivery Manager at University of Alberta (UofA) in Canada. He has 15+ years of experience in implementing content management solutions in various organizations and countries. Among those 7+ years of experience in implementing Alfresco based solutions. Suresh is working at UofA since 2003 and he is the first and key Alfresco resource for the university. UofA is one of the first university in Canada to implement Alfresco in enterprise level.<br/><br/>Suresh holds Alfresco Certified Engineer and Ephesoft Certified Engineer certifications.<br/>"
+			"summary":"Suresh Joshee is a senior developer and Service Delivery Manager at University of Alberta (UofA) in Canada. He has 15+ years of experience in implementing content management solutions in various organizations and countries. Among those 7+ years of experience in implementing Alfresco based solutions. Suresh is working at UofA since 2013 and he is the first and key Alfresco resource for the university. UofA is one of the first university in Canada to implement Alfresco in enterprise level.<br/><br/>Suresh holds Alfresco Certified Engineer and Ephesoft Certified Engineer certifications.<br/>"
 		}
 	]
 },
@@ -172,8 +172,8 @@
 	"topic": "Alfresco Platform, Alfresco Share, Add-ons",
 	"title": "Upgrading extensions - help is at hand",
 	"type": "Full Talk (30 m)",
-	"day": "April 26",
-	"hour": "14:15 - 14:45",
+	"day": "April 27",
+	"hour": "15:05 - 15:35",
 	"room": "Auditorium",
 	"targetAudience": "Developers starting to work with Alfresco, Experienced Alfresco developers",
 	"abstract": "<p>The annual release of a new version is an exciting time with all the new features to try out but we know that it can be time consuming, tedious and error prone to check our, and other, extensions/bug fixes etc for compatibility.</p><p>This talk demonstrates an approach that attempts to simplify the process and provide a rudimentary form of QA.</p><p>I will go through a number of techniques that can be used in custom code and show how potential problems can be flagged up via an automated checking tool.</p>",
@@ -458,8 +458,8 @@
 	"topic": "Alfresco Platform",
 	"title": "Alfresco as a Metadata Hub",
 	"type": "Full Talk (30 m)",
-	"day": "April 27",
-	"hour": "15:05 - 15:35",
+	"day": "April 26",
+	"hour": "14:15 - 14:45",
 	"room": "Auditorium",
 	"targetAudience": "Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
 	"abstract": "<p>Metadata is a critical component in digital transformation. The ability to accurately describe content empowers discovery and consumption both within a repository and in downstream systems.</p><p>During this talk we'll explore:</p><ul class='list-instyled'><li>The capabilities of the out of the box content model</li><li>Emerging trends and standards</li><li>Approaches to handle complex metadata needs</li></ul><p>This session is aimed at an intermediate audience.</p>",
@@ -633,15 +633,51 @@
 	],
 	"speakers":[
 		{
-			"name": "OOTBee",
-			"surname": "",
-			"emailMD5": "",
-			"position": "",
-			"company": "Order of the bee",
-			"twitter": "orderofthebee",
-			"linkedin": "",
-			"website": "http://orderofthebee.org",
-			"summary":""
+			"name": "Jeff",
+			"surname": "Potts",
+			"emailMD5": "6d6951fa4cf3687e1938d2a630ebecdd",
+			"position": "Developer",
+			"company": "Metaversant",
+			"twitter": "jeffpotts01",
+			"linkedin": "https://www.linkedin.com/in/jpotts/",
+			"website": "http://www.metaversant.com/",
+			"summary":"Jeff has made many contributions to the Alfresco community since he started working with Alfresco in 2005. Examples range from code, to tutorials and informative blog posts, to code camps, meetups, and conference sessions. In 2008, Jeff wrote the Alfresco Developer Guide, the first developer-focused book on Alfresco and in 2013, Jeff co-authored CMIS and Apache Chemistry in Action. Jeff was the Chief Community Officer at Alfresco until 2014. Jeff is the founder of Metaversant Group, a consulting firm focused on content management and search. He has spent nearly 20 years delivering ECM and search solutions to Fortune 500 and Global 1000 clients. In addition to frequent appearances at Alfresco events, Jeff has spoken at conferences such as JBoss World, KMWorld, ApacheCon, OSCON, JavaONE, and Devoxx."
+		}
+		,
+		{
+			"name": "Oksana",
+			"surname": "Kurysheva",
+			"emailMD5": "63eae52d6429caf81974ecce529121b5",
+			"position": "Project Manager",
+			"company": "ITD Systems",
+			"twitter": "aviriel",
+			"linkedin": "https://www.linkedin.com/in/okurysheva/",
+			"website": "http://www.itdhq.com",
+			"summary":"Oksana Kurysheva is a project manager at ITD Systems. Working with partners and customers around whole Eastern Europe since 2009, Oksana has helped many companies to start using Alfresco and many system integrators to implement their first projects successfully. As a project manager she communicates with customers and partners on all stages of their implementation projects every day. Oksana is also a certified Alfresco and Alvex instructor, r̶e̶g̶u̶l̶a̶r̶l̶y̶ rarely conducting training courses throughout Eastern Europe and Russia. Also Oksana is a Board member of the Order of the Bee.<br/>"
+		}
+		,
+		{
+			"name": "Boriss",
+			"surname": "Mejías",
+			"emailMD5": "2ba8cf1c791cdf6156df415d177746e7",
+			"position": "Holistic System Software Engineer",
+			"company": "CIRB-CIBG",
+			"twitter": "tchorix",
+			"linkedin": "https://www.linkedin.com/in/boris-mej%C3%ADas-4637401/",
+			"website": "http://cirb.brussels/",
+			"summary":"Co-founder and active member of the Order of the Bee. I've been involved with the Alfresco community and the Alfresco software since 2011. My work at CIRB-CIBG involves the administration of several Alfresco instances, being responsible for their correct operation. Hence, I'm really interesting in monitoring the system to anticipate problems."
+		}
+		,
+		{
+			"name": "Angel",
+			"surname": "Borroy",
+			"emailMD5": "d2f586d01f6525d68a072c6167462858",
+			"position": "Developer",
+			"company": "keensoft UST Global",
+			"twitter": "AngelBorroy",
+			"linkedin": "https://www.linkedin.com/in/angelborroy/",
+			"website": "http://www.keensoft.es/en/",
+			"summary":"I have worked as a programmer (mostly in the Computer Graphics field, but also at Operating System level) in the Technological Institute of Aragón, and as System Analyst at the Computer Science Department in Zaragoza University.<br/>I have experience with all kind of Unix flavours and programming languages, and I run a medium size CPD that serves the biggest department in our University, with thousands of students and teaching and research staff.<br/>"
 		}
 	]
 },
@@ -724,6 +760,32 @@
 	]
 },
 {
+	"id": "F45",
+	"topic": "PostgreSQL",
+	"title": "Running Alfresco against PostgreSQL: Performance, Stability & Beyond...",
+	"type": "Full Talk (30 m)",
+	"day": "April 26",
+	"hour": "14:50 - 15:20",
+	"room": "Auditorium",
+	"targetAudience": "System Administrators, Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
+	"abstract": "",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Simon",
+			"surname": "Riggs",
+			"emailMD5": "e74afd3b20cdef76a3c2a3b6b157fd45",
+			"position": "Founder and Chief Technology Officer",
+			"company": "2ndQuadrant",
+			"twitter": "",
+			"linkedin": "https://www.linkedin.com/in/simonat2ndquadrantdotcom/",
+			"website": "",
+			"summary":"Simon Riggs is the Founder and Chief Technology Officer of 2ndQuadrant. He is also a major developer and committer of the PostgreSQL project.<br/>Simon has contributed major features in each of the last 6 versions of PostgreSQL.His work includes recovery and replication performance and monitoring as well as designs for many other features. Simon has worked as a Database Architect for 20 years with high-end solutions experience and certifications on Oracle Teradata and DB2.<br/>"
+		}
+	]
+},
+{
 	"id": "FE05",
 	"topic": "Use Case, Add-ons",
 	"title": "LibreOffice Online integration with Alfresco",
@@ -755,7 +817,7 @@
 			"position": "Project Manager",
 			"company": "Magenta ApS",
 			"twitter": "",
-			"linkedin": "",
+			"linkedin": "https://www.linkedin.com/in/henrik-kirk-larsen-1a6a334/",
 			"website": "",
 			"summary":""
 		}
@@ -1343,7 +1405,7 @@
 	"title": "Making proper use of transactional metadata queries",
 	"type": "Extended Talk (45 m)",
 	"day": "April 26",
-	"hour": "11:00 - 11:45",
+	"hour": "11:50 - 12:35",
 	"room": "Room 1",
 	"targetAudience": "System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
 	"abstract": "<p>Starting with 4.2 Alfresco has had support for transactional metadata queries. Years later it is sometimes stil astounding how little people know about that feature and how few people actively use it. Considering the spotty documentation and bad experiences with performance that float around / are passed along in the community, it is high time to look at this feature a bit more closely. This talk will provide a general overview of transactional metadata query functionality and showcase example use cases. In some cases proper use of transactional metadata queries may necessitate small changes to data modelling or logic, and this talk will list common considerations. Lastly, we will look at typical issues with query performance and how these can be dealth withor avoided.</p>",
@@ -1377,7 +1439,7 @@
 	],
 	"speakers":[
 		{
-			"name": "OOTBee",
+			"name": "Alfresco engineers and OOTBee key members",
 			"surname": "",
 			"emailMD5": "",
 			"position": "",
@@ -1385,7 +1447,7 @@
 			"twitter": "orderofthebee",
 			"linkedin": "",
 			"website": "http://orderofthebee.org",
-			"summary":""
+			"summary":"BeeCon2016<br/>"
 		}
 	]
 },
@@ -1421,7 +1483,7 @@
 	"title": "The wait is over: Activiti 6 is here",
 	"type": "Extended Talk (45 m)",
 	"day": "April 26",
-	"hour": "11:50 - 12:35",
+	"hour": "11:00 - 11:45",
 	"room": "Room 1",
 	"targetAudience": "Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
 	"abstract": "<p>The wait is over, the release of Activiti 6 is neigh. Through both lecture and live demonstration, learn what is in the Activiti 6 engine and how this technology base will drive additional process- and case-powered use cases.</p>",
@@ -1959,7 +2021,7 @@
 	],
 	"speakers":[
 		{
-			"name": "OOTBee",
+			"name": "Alfresco engineers and OOTBee key members",
 			"surname": "",
 			"emailMD5": "",
 			"position": "",
@@ -1967,7 +2029,7 @@
 			"twitter": "orderofthebee",
 			"linkedin": "",
 			"website": "http://orderofthebee.org",
-			"summary":""
+			"summary":"BeeCon2016<br/>"
 		}
 	]
 },
@@ -1985,7 +2047,7 @@
 	],
 	"speakers":[
 		{
-			"name": "OOTBee",
+			"name": "Alfresco engineers and OOTBee key members",
 			"surname": "",
 			"emailMD5": "",
 			"position": "",
@@ -1993,7 +2055,7 @@
 			"twitter": "orderofthebee",
 			"linkedin": "",
 			"website": "http://orderofthebee.org",
-			"summary":""
+			"summary":"BeeCon2016<br/>"
 		}
 	]
 },
@@ -2011,7 +2073,7 @@
 	],
 	"speakers":[
 		{
-			"name": "OOTBee",
+			"name": "Alfresco engineers and OOTBee key members",
 			"surname": "",
 			"emailMD5": "",
 			"position": "",
@@ -2019,7 +2081,7 @@
 			"twitter": "orderofthebee",
 			"linkedin": "",
 			"website": "http://orderofthebee.org",
-			"summary":""
+			"summary":"BeeCon2016<br/>"
 		}
 	]
 },
@@ -2037,7 +2099,7 @@
 	],
 	"speakers":[
 		{
-			"name": "OOTBee",
+			"name": "Alfresco engineers and OOTBee key members",
 			"surname": "",
 			"emailMD5": "",
 			"position": "",
@@ -2045,7 +2107,7 @@
 			"twitter": "orderofthebee",
 			"linkedin": "",
 			"website": "http://orderofthebee.org",
-			"summary":""
+			"summary":"BeeCon2016<br/>"
 		}
 	]
 },
@@ -2063,7 +2125,7 @@
 	],
 	"speakers":[
 		{
-			"name": "OOTBee",
+			"name": "Alfresco engineers and OOTBee key members",
 			"surname": "",
 			"emailMD5": "",
 			"position": "",
@@ -2071,7 +2133,7 @@
 			"twitter": "orderofthebee",
 			"linkedin": "",
 			"website": "http://orderofthebee.org",
-			"summary":""
+			"summary":"BeeCon2016<br/>"
 		}
 	]
 },
@@ -2089,7 +2151,7 @@
 	],
 	"speakers":[
 		{
-			"name": "OOTBee",
+			"name": "Alfresco engineers and OOTBee key members",
 			"surname": "",
 			"emailMD5": "",
 			"position": "",
@@ -2097,7 +2159,7 @@
 			"twitter": "orderofthebee",
 			"linkedin": "",
 			"website": "http://orderofthebee.org",
-			"summary":""
+			"summary":"BeeCon2016<br/>"
 		}
 	]
 },
@@ -2148,7 +2210,7 @@
 	"hour": "null",
 	"room": "null",
 	"targetAudience": "Business Users, Newbies in Alfresco technologies, Developers starting to work with Alfresco",
-	"abstract": "<p>Help users/developers/enthusiast to start/continue using Alfresco. <br/>The presentation will cover all aspects as a developer, end user or as a business operation. <br/>Will answer: why? how? should I? for how long?</p>",
+	"abstract": "<p>Help users/developers/enthusiast to start/continue using Alfresco. The presentation will cover all aspects as a developer, end user or as a business operation. <br/>Will answer: why? how? should I? for how long?</p>",
 	"files":[
 	],
 	"speakers":[

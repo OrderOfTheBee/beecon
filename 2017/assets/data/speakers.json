@@ -1,6 +1,36 @@
 [
 {
-	"name": "OOTBee",
+	"name": "Alexey",
+	"surname": "Vasyukov",
+	"emailMD5": "0431494fb9ecdfac669f52d505f5fdaa",
+	"position": "CTO",
+	"company": "ITD Systems",
+	"twitter": "avasyukov",
+	"linkedin": "https://www.linkedin.com/in/avasyukov/",
+	"website": "http://www.itdhq.com",
+	"image": "/2017/img/speakers/AlexeyVasyukov.png",
+	"summary":"Alexey Vasyukov works as CTO at ITD Systems, developer of Alvex solution. Alexey leads Alvex solution development as chief architect. He is responsible for principal technical decisions during planning. So, if something goes wrong in the wild - non-standard setup is required or Alvex does not work on the latest Alfresco release - it is also Alexey's headache. Prior to ITD Systems he worked for VDEL as consultant and presale team lead helping partners and customers to build solutions based on open source technologies. Alexey has a Ph.D. in Mathematical Modeling, Numerical Methods, and Software Complexes from Moscow Institute of Physics and Technology.<br/>",
+	"talks":[
+		{
+			"id": "FL01",
+			"topic": "Lightning Talks",
+			"title": "Lightning Talks #1",
+			"type": "Full Talk (30 m)",
+			"targetAudience": "Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
+			"abstract": "<p>Lightning talks are fast-paced and fun. The presentations are strictly limited to five minutes, so each session contains 5 topics with a mix of subjects including both business and technical subjects. All presentations in this session are Ignite-style, with auto-advancing slides.</p><ul class='list-instyled'><li><p><strong>Worst practices for development with Aikau</strong> (Oksana Kurysheva)</p><p>How to make it works if you are not a developer, don't know dojo, default widget cannot be configured to the state you need and best practices don't work.</p></li><li><p><strong>A Curse of a White Elephant</strong>(Richard Esplin)</p><p>Contrary to popular opinion, open source contributions are not free. It requires time, effort, and money to sift, vet, merge, test, and support any contribution, whether a major enhancement, a bug report, or a suggestion to the documentation. This lightning talk briefly describes why it is hard to accept a contribution, steps Alfresco is taking to make it easier, and how you can further improve the odds that your contribution benefits the wider community.</p></li><li><p><strong>Alfresco repo under concurrent write load: tips and tricks to make it stable</strong>(Alexey Vasyukov)</p><p><p>This talk sums up quite a big amount of painful experience regarding developing Alfresco repo-tier extensions that should handle concurrent write load (10-100 write requests per second). Generic approach with getRetryingTransactionHelper().doInTransaction(...whatever...) is not enough for complex repo tier logic. The talk will cover:</p><ul class='list-instyled'><li>Problems when transactions, optimistic locking and default retrying helper meet exception handling in real life code.</li><li>Issues caused by repo transaction isolation and explicit synchronization in third party code.</li></ul><p>Happy end included: the talk will provide recipes to make code stable under concurrent writes.</p></li><li><p><strong>Fear and loathing in Alfresco workflow development</strong>(Alexey Ermakov)</p><p>The main goal of this talk is to provide some tips and tricks to overcome current limitations that one encounters when developing workflows with Alfresco. Despite quite a big progress was made during last few years there are still plenty of hidden problems one have to solve to be able to create a complex workflow.</p><p>For example, there is no easy way to create files that are required to deploy a workflow: models, localizaiton, share forms config. But workflow development time may be significantly decreased when generating these files from templates.</p><p>Another common issue is very limited workflow API: only basic capabilities are exposed through Java Foundation API. For any non-trivial things like adding task listeners programmatically you have to do some magic (a bit dirty sometimes).</p><p>This talk sums up author's experience in Alfresco workflow development and aims at pointing out solutions for some painful problems.</p></li><li><p><strong>Alfresco Worst Practices</strong>(Boriss Mejias)</p><p>Learning 'best practices' is always important. But learning the 'worst practices' might not only be fun, but it might even be a more permanent and useful knowledge. In this talk I'll discuss some of the worst practices I have seen (or discussed with the community) across the years. The idea is to have first a 'ha ha ha' reaction, and then make people think 'wait a second, how are *we* doing *that* in production'.</p></li></ul>"
+		},
+		{
+			"id": "L11",
+			"topic": "Alfresco Platform, API's",
+			"title": "Alfresco repo under concurrent write load: tips and tricks to make it stable",
+			"type": "Lightning Talk (5 m)",
+			"targetAudience": "Experienced Alfresco developers, Architects and Technical Managers",
+			"abstract": "<p>This talk sums up quite a big amount of painful experience regarding developing Alfresco repo-tier extensions that should handle concurrent write load (10-100 write requests per second). Generic approach with getRetryingTransactionHelper().doInTransaction(...whatever...) is not enough for complex repo tier logic. The talk will cover:</p><ul class='list-instyled'><li>Problems when transactions, optimistic locking and default retrying helper meet exception handling in real life code.</li><li>Issues caused by repo transaction isolation and explicit synchronization in third party code.</li></ul><p>Happy end included: the talk will provide recipes to make code stable under concurrent writes."
+		}
+	]
+},
+{
+	"name": "Alfresco engineers and OOTBee key members",
 	"surname": "",
 	"emailMD5": "",
 	"position": "",
@@ -8,17 +38,9 @@
 	"twitter": "orderofthebee",
 	"linkedin": "",
 	"website": "http://orderofthebee.org",
-	"image": "/2017/img/speakers/OOTBee.png",
-	"summary":"",
+	"image": "/2017/img/speakers/AlfrescoengineersandOOTBeekeymembers.png",
+	"summary":"BeeCon2016<br/>",
 	"talks":[
-		{
-			"id": "F39",
-			"topic": "",
-			"title": "Welcome Session",
-			"type": "Full Talk (30 m)",
-			"targetAudience": "",
-			"abstract": ""
-		},
 		{
 			"id": "E11",
 			"topic": "Keynote",
@@ -74,36 +96,6 @@
 			"type": "",
 			"targetAudience": "",
 			"abstract": "<p>Dinner at <a href='http://www.elcachirulorestaurante.es/'  target='_blank'>El Cachirulo</a>, where we’ll share local food enjoying one of the beauties gardens in the city.<br/>You can reach the <a href='https://www.google.es/maps/dir/41.6568833,-0.9371118/Restaurante+El+Cachirulo+N-232,+km+1.5/@41.6651837,-0.9508613,15z/data=!3m1!4b1!4m15!1m6!3m5!1s0xd596fa99292bb8d:0x4171e546c7248e63!2sRestaurante+El+Cachirulo!8m2!3d41.6681635!4d-0.9424622!4m7!1m0!1m5!1m1!1s0xd596fa99292bb8d:0x4171e546c7248e63!2m2!1d-0.9424622!2d41.6681635' target='_blank'>place</a> by taxi or you can take the free bus provided by us from Etopia at 18:45 and to Etopia at 22:00.</p>"
-		}
-	]
-},
-{
-	"name": "Alexey",
-	"surname": "Vasyukov",
-	"emailMD5": "0431494fb9ecdfac669f52d505f5fdaa",
-	"position": "CTO",
-	"company": "ITD Systems",
-	"twitter": "avasyukov",
-	"linkedin": "https://www.linkedin.com/in/avasyukov/",
-	"website": "http://www.itdhq.com",
-	"image": "/2017/img/speakers/AlexeyVasyukov.png",
-	"summary":"Alexey Vasyukov works as CTO at ITD Systems, developer of Alvex solution. Alexey leads Alvex solution development as chief architect. He is responsible for principal technical decisions during planning. So, if something goes wrong in the wild - non-standard setup is required or Alvex does not work on the latest Alfresco release - it is also Alexey's headache. Prior to ITD Systems he worked for VDEL as consultant and presale team lead helping partners and customers to build solutions based on open source technologies. Alexey has a Ph.D. in Mathematical Modeling, Numerical Methods, and Software Complexes from Moscow Institute of Physics and Technology.<br/>",
-	"talks":[
-		{
-			"id": "FL01",
-			"topic": "Lightning Talks",
-			"title": "Lightning Talks #1",
-			"type": "Full Talk (30 m)",
-			"targetAudience": "Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
-			"abstract": "<p>Lightning talks are fast-paced and fun. The presentations are strictly limited to five minutes, so each session contains 5 topics with a mix of subjects including both business and technical subjects. All presentations in this session are Ignite-style, with auto-advancing slides.</p><ul class='list-instyled'><li><p><strong>Worst practices for development with Aikau</strong> (Oksana Kurysheva)</p><p>How to make it works if you are not a developer, don't know dojo, default widget cannot be configured to the state you need and best practices don't work.</p></li><li><p><strong>A Curse of a White Elephant</strong>(Richard Esplin)</p><p>Contrary to popular opinion, open source contributions are not free. It requires time, effort, and money to sift, vet, merge, test, and support any contribution, whether a major enhancement, a bug report, or a suggestion to the documentation. This lightning talk briefly describes why it is hard to accept a contribution, steps Alfresco is taking to make it easier, and how you can further improve the odds that your contribution benefits the wider community.</p></li><li><p><strong>Alfresco repo under concurrent write load: tips and tricks to make it stable</strong>(Alexey Vasyukov)</p><p><p>This talk sums up quite a big amount of painful experience regarding developing Alfresco repo-tier extensions that should handle concurrent write load (10-100 write requests per second). Generic approach with getRetryingTransactionHelper().doInTransaction(...whatever...) is not enough for complex repo tier logic. The talk will cover:</p><ul class='list-instyled'><li>Problems when transactions, optimistic locking and default retrying helper meet exception handling in real life code.</li><li>Issues caused by repo transaction isolation and explicit synchronization in third party code.</li></ul><p>Happy end included: the talk will provide recipes to make code stable under concurrent writes.</p></li><li><p><strong>Fear and loathing in Alfresco workflow development</strong>(Alexey Ermakov)</p><p>The main goal of this talk is to provide some tips and tricks to overcome current limitations that one encounters when developing workflows with Alfresco. Despite quite a big progress was made during last few years there are still plenty of hidden problems one have to solve to be able to create a complex workflow.</p><p>For example, there is no easy way to create files that are required to deploy a workflow: models, localizaiton, share forms config. But workflow development time may be significantly decreased when generating these files from templates.</p><p>Another common issue is very limited workflow API: only basic capabilities are exposed through Java Foundation API. For any non-trivial things like adding task listeners programmatically you have to do some magic (a bit dirty sometimes).</p><p>This talk sums up author's experience in Alfresco workflow development and aims at pointing out solutions for some painful problems.</p></li><li><p><strong>Alfresco Worst Practices</strong>(Boriss Mejias)</p><p>Learning 'best practices' is always important. But learning the 'worst practices' might not only be fun, but it might even be a more permanent and useful knowledge. In this talk I'll discuss some of the worst practices I have seen (or discussed with the community) across the years. The idea is to have first a 'ha ha ha' reaction, and then make people think 'wait a second, how are *we* doing *that* in production'.</p></li></ul>"
-		},
-		{
-			"id": "L11",
-			"topic": "Alfresco Platform, API's",
-			"title": "Alfresco repo under concurrent write load: tips and tricks to make it stable",
-			"type": "Lightning Talk (5 m)",
-			"targetAudience": "Experienced Alfresco developers, Architects and Technical Managers",
-			"abstract": "<p>This talk sums up quite a big amount of painful experience regarding developing Alfresco repo-tier extensions that should handle concurrent write load (10-100 write requests per second). Generic approach with getRetryingTransactionHelper().doInTransaction(...whatever...) is not enough for complex repo tier logic. The talk will cover:</p><ul class='list-instyled'><li>Problems when transactions, optimistic locking and default retrying helper meet exception handling in real life code.</li><li>Issues caused by repo transaction isolation and explicit synchronization in third party code.</li></ul><p>Happy end included: the talk will provide recipes to make code stable under concurrent writes."
 		}
 	]
 },
@@ -290,6 +282,14 @@
 	"summary":"Oksana Kurysheva is a project manager at ITD Systems. Working with partners and customers around whole Eastern Europe since 2009, Oksana has helped many companies to start using Alfresco and many system integrators to implement their first projects successfully. As a project manager she communicates with customers and partners on all stages of their implementation projects every day. Oksana is also a certified Alfresco and Alvex instructor, r̶e̶g̶u̶l̶a̶r̶l̶y̶ rarely conducting training courses throughout Eastern Europe and Russia. Also Oksana is a Board member of the Order of the Bee.<br/>",
 	"talks":[
 		{
+			"id": "F39",
+			"topic": "",
+			"title": "Welcome Session",
+			"type": "Full Talk (30 m)",
+			"targetAudience": "",
+			"abstract": ""
+		},
+		{
 			"id": "FL01",
 			"topic": "Lightning Talks",
 			"title": "Lightning Talks #1",
@@ -346,6 +346,29 @@
 	]
 },
 {
+	"name": "Simon",
+	"surname": "Riggs",
+	"emailMD5": "e74afd3b20cdef76a3c2a3b6b157fd45",
+	"position": "Founder and Chief Technology Officer",
+	"company": "2ndQuadrant",
+	"twitter": "",
+	"linkedin": "https://www.linkedin.com/in/simonat2ndquadrantdotcom/",
+	"website": "",
+	"image": "/2017/img/speakers/SimonRiggs.png",
+	"summary":"Simon Riggs is the Founder and Chief Technology Officer of 2ndQuadrant. He is also a major developer and committer of the PostgreSQL project.<br/>Simon has contributed major features in each of the last 6 versions of PostgreSQL.His work includes recovery and replication performance and monitoring as well as designs for many other features. Simon has worked as a Database Architect for 20 years with high-end solutions experience and certifications on Oracle Teradata and DB2.
+",
+	"talks":[
+		{
+			"id": "F45",
+			"topic": "PostgreSQL",
+			"title": "Running Alfresco against PostgreSQL: Performance, Stability & Beyond...",
+			"type": "Full Talk (30 m)",
+			"targetAudience": "System Administrators, Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
+			"abstract": ""
+		}
+	]
+},
+{
 	"name": "Vasil",
 	"surname": "Iliev",
 	"emailMD5": "b29c5125d9310817367f12362e9348f0",
@@ -371,7 +394,7 @@
 			"title": "Boost your career with Alfresco",
 			"type": "Lightning Talk (5 m)",
 			"targetAudience": "Business Users, Newbies in Alfresco technologies, Developers starting to work with Alfresco",
-			"abstract": "<p>Help users/developers/enthusiast to start/continue using Alfresco. <br/>The presentation will cover all aspects as a developer, end user or as a business operation. <br/>Will answer: why? how? should I? for how long?</p>"
+			"abstract": "<p>Help users/developers/enthusiast to start/continue using Alfresco. The presentation will cover all aspects as a developer, end user or as a business operation. <br/>Will answer: why? how? should I? for how long?</p>"
 		}
 	]
 },
@@ -387,6 +410,14 @@
 	"image": "/2017/img/speakers/BorissMejías.png",
 	"summary":"Co-founder and active member of the Order of the Bee. I've been involved with the Alfresco community and the Alfresco software since 2011. My work at CIRB-CIBG involves the administration of several Alfresco instances, being responsible for their correct operation. Hence, I'm really interesting in monitoring the system to anticipate problems.",
 	"talks":[
+		{
+			"id": "F39",
+			"topic": "",
+			"title": "Welcome Session",
+			"type": "Full Talk (30 m)",
+			"targetAudience": "",
+			"abstract": ""
+		},
 		{
 			"id": "FL01",
 			"topic": "Lightning Talks",
@@ -559,7 +590,7 @@
 	"linkedin": "https://www.linkedin.com/in/jose-a-gutierrez-778b513b/",
 	"website": "http://unizar.es/",
 	"image": "/2017/img/speakers/JoséA.Gutiérrez.png",
-	"summary":"I have worked as a programmer (mostly in the Computer Graphics field, but also at Operating System level) in the Technological Institute of Aragón, and as System Analyst at the Computer Science Department in Zaragoza University.<br/>I have experience with all kind of Unix flavours and programming languages, and I run a medium size CPD that serves the biggest department in our University, with thousands of students and teaching and research staff.<br/>",
+	"summary":"I have worked as a programmer (mostly in the Computer Graphics field, but also at Operating System level) in the Technological Institute of Aragón, and as System Analyst at the Computer Science Department in Zaragoza University.<br/>I have experience with all kind of Unix flavours and programming languages, and I run a medium size CPD that serves the biggest department in our University, with thousands of students and teaching and research staff.<br/><br/>https://www.facebook.com/fsckawk<br/>https://twitter.com/fsck_awk<br/>",
 	"talks":[
 		{
 			"id": "F03",
@@ -581,7 +612,7 @@
 	"linkedin": "https://www.linkedin.com/in/suresh-joshee-51486844/",
 	"website": "https://www.ualberta.ca/",
 	"image": "/2017/img/speakers/SureshJoshee.png",
-	"summary":"Suresh Joshee is a senior developer and Service Delivery Manager at University of Alberta (UofA) in Canada. He has 15+ years of experience in implementing content management solutions in various organizations and countries. Among those 7+ years of experience in implementing Alfresco based solutions. Suresh is working at UofA since 2003 and he is the first and key Alfresco resource for the university. UofA is one of the first university in Canada to implement Alfresco in enterprise level.<br/><br/>Suresh holds Alfresco Certified Engineer and Ephesoft Certified Engineer certifications.<br/>",
+	"summary":"Suresh Joshee is a senior developer and Service Delivery Manager at University of Alberta (UofA) in Canada. He has 15+ years of experience in implementing content management solutions in various organizations and countries. Among those 7+ years of experience in implementing Alfresco based solutions. Suresh is working at UofA since 2013 and he is the first and key Alfresco resource for the university. UofA is one of the first university in Canada to implement Alfresco in enterprise level.<br/><br/>Suresh holds Alfresco Certified Engineer and Ephesoft Certified Engineer certifications.<br/>",
 	"talks":[
 		{
 			"id": "F07",
@@ -772,6 +803,28 @@
 	]
 },
 {
+	"name": "Jeff",
+	"surname": "Potts",
+	"emailMD5": "6d6951fa4cf3687e1938d2a630ebecdd",
+	"position": "Developer",
+	"company": "Metaversant",
+	"twitter": "jeffpotts01",
+	"linkedin": "https://www.linkedin.com/in/jpotts/",
+	"website": "http://www.metaversant.com/",
+	"image": "/2017/img/speakers/JeffPotts.png",
+	"summary":"Jeff has made many contributions to the Alfresco community since he started working with Alfresco in 2005. Examples range from code, to tutorials and informative blog posts, to code camps, meetups, and conference sessions. In 2008, Jeff wrote the Alfresco Developer Guide, the first developer-focused book on Alfresco and in 2013, Jeff co-authored CMIS and Apache Chemistry in Action. Jeff was the Chief Community Officer at Alfresco until 2014. Jeff is the founder of Metaversant Group, a consulting firm focused on content management and search. He has spent nearly 20 years delivering ECM and search solutions to Fortune 500 and Global 1000 clients. In addition to frequent appearances at Alfresco events, Jeff has spoken at conferences such as JBoss World, KMWorld, ApacheCon, OSCON, JavaONE, and Devoxx.",
+	"talks":[
+		{
+			"id": "F39",
+			"topic": "",
+			"title": "Welcome Session",
+			"type": "Full Talk (30 m)",
+			"targetAudience": "",
+			"abstract": ""
+		}
+	]
+},
+{
 	"name": "Bindu",
 	"surname": "Wavell",
 	"emailMD5": "38dd11f54dc46e44704a926513b35d99",
@@ -808,7 +861,7 @@
 	"position": "Project Manager",
 	"company": "Magenta ApS",
 	"twitter": "",
-	"linkedin": "",
+	"linkedin": "https://www.linkedin.com/in/henrik-kirk-larsen-1a6a334/",
 	"website": "",
 	"image": "/2017/img/speakers/HenrikKirkLarsen.png",
 	"summary":"",
@@ -970,6 +1023,14 @@
 			"type": "Full Talk (30 m)",
 			"targetAudience": "Business Users, Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco",
 			"abstract": "<p>University of Zaragoza has been using Alfresco since 2010 to provide internal entities collaboration facilities. This project has been named “Documenta”, which means something like “You document”.</p><p>From 2014, keensoft has been collaborating in this project to provide advanced customizations and to improve server capacity.</p><p>During this presentation the conversations between University and keensoft are going to be reproduced, in order to describe how a user requirement can be translated into an open source addon.</p><p>Also, when no generic customization can be designed or applied, some specific development is required. Describing how to identify users by integrating the complex structure of University of Zaragoza LDAP will exemplify this scenario.</p><p>On the other hand, when commercial addons are available, as Loftux Alfresco ShareBox, is not required to re-invent the wheel.</p><p>Finally, running system have to be maintained, so contributions to other open source projects like “Alfresco Shell Tools” or raising detected issues at Alfresco public JIRA are also relevant tasks.</p><p>In the end, attendees will learn how an open dialog between people working on the same project will produce much value than expected.</p>"
+		},
+		{
+			"id": "F39",
+			"topic": "",
+			"title": "Welcome Session",
+			"type": "Full Talk (30 m)",
+			"targetAudience": "",
+			"abstract": ""
 		},
 		{
 			"id": "EF09",
