@@ -1037,7 +1037,7 @@
 			"title": "Installing Alfresco components one by one",
 			"type": "Extended Talk (45 m)",
 			"targetAudience": "Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco",
-			"abstract": "<p>Alfresco Community has no support for clustering. Many people is using default wizard installer because of this. But Alfresco Community can be installed in different servers, which allows clusterization configurations for every layer.</p><p>During this session Alfresco components will be installed one by one, using one server per component:</p><ul class='list-instyled'><li>HTTP server</li><li>Alfresco web app (Tomcat)</li><li>Share web app (Tomcat)</li><li>SOLR 6 (Jetty)</li><li>LibreOffice</li><li>PostgreSQL</li></ul><p>Depending on the attendees, Virtual Box or Docker can be used.</p>"
+			"abstract": "<p>Alfresco Community has no support for clustering. Many people is using default wizard installer because of this. But Alfresco Community can be installed in different servers, which allows clusterization configurations for every layer.</p><p>During this session Alfresco components will be installed one by one, using one server per component:</p><ul class='list-instyled'><li>HTTP server</li><li>Alfresco web app (Tomcat)</li><li>Share web app (Tomcat)</li><li>SOLR 6 (Jetty)</li><li>LibreOffice</li><li>PostgreSQL</li></ul><p>Including a 30 minutes count down <em>racing against the machine</em> to have all set up!</p><p>Virtual Box base image can be downloaded at <a href='https://www.dropbox.com/s/mm43kmzg4jtrueb/alfresco-centos.ova?dl=0'>DropBox</a> (root/keensoft).</p>"
 		}
 	]
 },
