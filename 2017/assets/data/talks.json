@@ -146,6 +146,11 @@
 	"targetAudience": "Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
 	"abstract": "<p>This was a complex use case where we had to merge two Alfresco 4.2 instances into one Alfresco 5.1, including the transformation of an Oracle database data into PostreSQL using open source tools (ora2pg and docker) and the migration of Users, Groups, Categories and Sites using Will Abson's alfresco-import-export tool.</p>",
 	"files":[
+
+		{
+			"name": "Alfresco 4.2.c - 201605GA Migration use case .pdf",
+			"path": "/2017/assets/files/F10/Alfresco 4.2.c - 201605GA Migration use case .pdf"
+		}
 	],
 	"speakers":[
 		{
@@ -877,6 +882,26 @@
 	"targetAudience": "Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
 	"abstract": "<p>Lightning talks are fast-paced and fun. The presentations are strictly limited to five minutes, so each session contains 5 topics with a mix of subjects including both business and technical subjects. All presentations in this session are Ignite-style, with auto-advancing slides.</p><ul class='list-instyled'><li><p><strong>Worst practices for development with Aikau</strong> (Oksana Kurysheva)</p><p>How to make it works if you are not a developer, don't know dojo, default widget cannot be configured to the state you need and best practices don't work.</p></li><li><p><strong>A Curse of a White Elephant</strong> (Richard Esplin)</p><p>Contrary to popular opinion, open source contributions are not free. It requires time, effort, and money to sift, vet, merge, test, and support any contribution, whether a major enhancement, a bug report, or a suggestion to the documentation. This lightning talk briefly describes why it is hard to accept a contribution, steps Alfresco is taking to make it easier, and how you can further improve the odds that your contribution benefits the wider community.</p></li><li><p><strong>Alfresco repo under concurrent write load: tips and tricks to make it stable</strong> (Alexey Vasyukov)</p><p><p>This talk sums up quite a big amount of painful experience regarding developing Alfresco repo-tier extensions that should handle concurrent write load (10-100 write requests per second). Generic approach with getRetryingTransactionHelper().doInTransaction(...whatever...) is not enough for complex repo tier logic. The talk will cover:</p><ul class='list-instyled'><li>Problems when transactions, optimistic locking and default retrying helper meet exception handling in real life code.</li><li>Issues caused by repo transaction isolation and explicit synchronization in third party code.</li></ul><p>Happy end included: the talk will provide recipes to make code stable under concurrent writes.</p></li><li><p><strong>Fear and loathing in Alfresco workflow development</strong> (Alexey Ermakov)</p><p>The main goal of this talk is to provide some tips and tricks to overcome current limitations that one encounters when developing workflows with Alfresco. Despite quite a big progress was made during last few years there are still plenty of hidden problems one have to solve to be able to create a complex workflow.</p><p>For example, there is no easy way to create files that are required to deploy a workflow: models, localizaiton, share forms config. But workflow development time may be significantly decreased when generating these files from templates.</p><p>Another common issue is very limited workflow API: only basic capabilities are exposed through Java Foundation API. For any non-trivial things like adding task listeners programmatically you have to do some magic (a bit dirty sometimes).</p><p>This talk sums up author's experience in Alfresco workflow development and aims at pointing out solutions for some painful problems.</p></li><li><p><strong>Alfresco Worst Practices</strong> (Boriss Mejias)</p><p>Learning 'best practices' is always important. But learning the 'worst practices' might not only be fun, but it might even be a more permanent and useful knowledge. In this talk I'll discuss some of the worst practices I have seen (or discussed with the community) across the years. The idea is to have first a 'ha ha ha' reaction, and then make people think 'wait a second, how are *we* doing *that* in production'.</p></li></ul>",
 	"files":[
+
+		{
+			"name": "BeeCon2017_Lightning_White-Elephant.pdf",
+			"path": "/2017/assets/files/FL01/BeeCon2017_Lightning_White-Elephant.pdf"
+		}
+,
+		{
+			"name": "BeeCon2017_LT_Alexey_Ermakov.pdf",
+			"path": "/2017/assets/files/FL01/BeeCon2017_LT_Alexey_Ermakov.pdf"
+		}
+,
+		{
+			"name": "BeeCon2017_Vasyukov.pdf",
+			"path": "/2017/assets/files/FL01/BeeCon2017_Vasyukov.pdf"
+		}
+,
+		{
+			"name": "Worst Practices_Aikau.pdf",
+			"path": "/2017/assets/files/FL01/Worst Practices_Aikau.pdf"
+		}
 	],
 	"speakers":[
 		{
@@ -949,7 +974,7 @@
 	"hour": "12:15 - 12:45",
 	"room": "Auditorium",
 	"targetAudience": "Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
-	"abstract": "<p>Lightning talks are fast-paced and fun. The presentations are strictly limited to five minutes, so each session contains 5 topics with a mix of subjects including both business and technical subjects. All presentations in this session are Ignite-style, with auto-advancing slides.</p><ul class='list-instyled'><li><p><strong>Javascript API based developments for improving your Alfresco experience</strong> (Cesar Capillas)</p><p>Alfresco is a fantastic suite for collaboration. Nevertheless, final and business users require frequently several modifications of the Alfresco interface and functionality OOTB, to customize and, in best cases, to improve Alfresco. In the presentation, I will talk about a set of Alfresco addons, that came from different conversations with clients. They are simple customizations of Alfresco that may be also a a good starting point for developing in Alfresco with Javascript API. All the addons presented are open source licensed and published in github.</p></li><li><p><strong>Automatic APIs with Swagger</strong> (Will Abson)</p><p>A walkthrough of how we use Swagger's tools inside Alfresco to generate specifications and client APIs automatically</p></li><li><p><strong>Introducing OOTBee Support Tools</strong> (Axel Faust)</p><p>One of the lightning talks at last years BeeCon listed the Alfresco Support Tools addon as one of the top 10 features missing from Alfresco Community. Since then, a group of community members from the Order of the Bee have ported the existing addon and even added new tools to make them available to all Alfresco users. This talk gives a short introduction and overview of the OOTBee Support Tools addon and how the community can contribute to make it even more of an essential tool for every admin or developer.</p></li><li><p><strong>Making the Most of the Alfresco Community</strong> (Kristen Gastaldo)</p><p>Last year, we launched the new Alfresco community to replace our forums, blogs, and wiki. Since then we've had 5000 people login to the space, with 1600 new discussions and 100 new blogs posted. I'd like to show the attendees the basic layout of the community and provide a few tips for making the most of the community - how to follow certain areas or people, how to participate in challenges and earn points, how to thank other members, and how to use the search effectively.</p></li><li><p><strong>2016 Developer Survey Results & Reactions</strong> (Helen Mullally and Kristen Gastaldo)</p><p>After attending BeeCon last year, we realized we needed much more information about our developers, so that we could analyze their current Alfresco and technology usage and design a better experience for them, whether they were just staring with Alfresco or were experienced developers. We had roughly 1000 developers respond. I’d like to present the results of the survey to the audience, and let them know what we’ve done in response (Jive community, GetStarted pages and resources, tutorials, etc). We'd like to issue another survey, and will explain our thoughts and goals there. </p></li></ul>",
+	"abstract": "<p>Lightning talks are fast-paced and fun. The presentations are strictly limited to five minutes, so each session contains 5 topics with a mix of subjects including both business and technical subjects. All presentations in this session are Ignite-style, with auto-advancing slides.</p><ul class='list-instyled'><li><p><strong>Javascript API based developments for improving your Alfresco experience</strong> (Cesar Capillas)</p><p>Alfresco is a fantastic suite for collaboration. Nevertheless, final and business users require frequently several modifications of the Alfresco interface and functionality OOTB, to customize and, in best cases, to improve Alfresco. In the presentation, I will talk about a set of Alfresco addons, that came from different conversations with clients. They are simple customizations of Alfresco that may be also a a good starting point for developing in Alfresco with Javascript API. All the addons presented are open source licensed and published in github.</p></li><li><p><strong>Automatic APIs with Swagger</strong> (Will Abson)</p><p>A walkthrough of how we use Swagger's tools inside Alfresco to generate specifications and client APIs automatically</p></li><li><p><strong>Introducing OOTBee Support Tools</strong> (Axel Faust)</p><p>One of the lightning talks at last years BeeCon listed the Alfresco Support Tools addon as one of the top 10 features missing from Alfresco Community. Since then, a group of community members from the Order of the Bee have ported the existing addon and even added new tools to make them available to all Alfresco users. This talk gives a short introduction and overview of the OOTBee Support Tools addon and how the community can contribute to make it even more of an essential tool for every admin or developer.</p></li><li><p><strong>Making the Most of the Alfresco Community</strong> (Kristen Gastaldo)</p><p>Last year, we launched the new Alfresco community to replace our forums, blogs, and wiki. Since then we've had 5000 people login to the space, with 1600 new discussions and 100 new blogs posted. I'd like to show the attendees the basic layout of the community and provide a few tips for making the most of the community - how to follow certain areas or people, how to participate in challenges and earn points, how to thank other members, and how to use the search effectively.</p></li><li><p><strong>2016 Developer Survey Results & Reactions</strong> (Helen Mullally and Francesco Corti)</p><p>After attending BeeCon last year, we realized we needed much more information about our developers, so that we could analyze their current Alfresco and technology usage and design a better experience for them, whether they were just staring with Alfresco or were experienced developers. We had roughly 1000 developers respond. I’d like to present the results of the survey to the audience, and let them know what we’ve done in response (Jive community, GetStarted pages and resources, tutorials, etc). We'd like to issue another survey, and will explain our thoughts and goals there. </p></li></ul>",
 	"files":[
 	],
 	"speakers":[
@@ -1014,15 +1039,15 @@
 		}
 		,
 		{
-			"name": "Kristen",
-			"surname": "Gastaldo",
-			"emailMD5": "00adbd69bc4a8dc475e7dab23de1ffdb",
-			"position": "Senior Community Marketing Manager",
+			"name": "Francesco",
+			"surname": "Corti",
+			"emailMD5": "ec093a71b277cad3be0993c579b3b822",
+			"position": "Alfresco Product Evangelist",
 			"company": "Alfresco",
-			"twitter": "KristenGastaldo",
-			"linkedin": "https://www.linkedin.com/in/kristengastaldo/",
+			"twitter": "FrkCorti",
+			"linkedin": "https://www.linkedin.com/in/fcorti/",
 			"website": "https://www.alfresco.com/",
-			"summary":"I've been with Alfresco a year, with BeeCon last year being my first week on the job! In the last year, we've launched our new community platform, and it's been my job to ensure that it is a valuable resource for our community."
+			"summary":"Enthusiast Consultant in software and solutions, I love working in team with Developers, Sales and Customers. Proud of the role of Software Engineer, I?m often involved in Presale presentations, public speaking and IT courses.<br/><br/>Developing software, designing architectures and definition of solutions in ECM/BPM and BI are my favourites areas of interest. Dozens of projects done, from the very small ones to the more complexes, in almost 20 years of experience.<br/><br/>Product Evangelist  at Alfresco  since October 2016, I?m the public figure representing the famous Open Source ECM into the developer community. In addition to helping developers to adopt Alfresco technologies, I usually help Alfresco to improve the developer experience through talks, articles, blogging, user demonstrations, recorded demonstrations, or the creation of sample projects.<br/>"
 		}
 	]
 },
@@ -1610,6 +1635,11 @@
 	"targetAudience": "Business Users, Newbies in Alfresco technologies, System Administrators, Architects and Technical Managers",
 	"abstract": "<p>How we use AWS to allocate trials to customers who want to know more about AWS</p>",
 	"files":[
+
+		{
+			"name": "TrialsLightningTalk.pptx",
+			"path": "/2017/assets/files/L03/TrialsLightningTalk.pptx"
+		}
 	],
 	"speakers":[
 		{
@@ -1863,6 +1893,11 @@
 	"targetAudience": "Experienced Alfresco developers, Architects and Technical Managers",
 	"abstract": "<p>This talk sums up quite a big amount of painful experience regarding developing Alfresco repo-tier extensions that should handle concurrent write load (10-100 write requests per second). Generic approach with getRetryingTransactionHelper().doInTransaction(...whatever...) is not enough for complex repo tier logic. The talk will cover:</p><ul class='list-instyled'><li>Problems when transactions, optimistic locking and default retrying helper meet exception handling in real life code.</li><li>Issues caused by repo transaction isolation and explicit synchronization in third party code.</li></ul><p>Happy end included: the talk will provide recipes to make code stable under concurrent writes.",
 	"files":[
+
+		{
+			"name": "BeeCon2017_Vasyukov.pdf",
+			"path": "/2017/assets/files/L11/BeeCon2017_Vasyukov.pdf"
+		}
 	],
 	"speakers":[
 		{
@@ -2118,15 +2153,15 @@
 		}
 		,
 		{
-			"name": "Kristen",
-			"surname": "Gastaldo",
-			"emailMD5": "00adbd69bc4a8dc475e7dab23de1ffdb",
-			"position": "Senior Community Marketing Manager",
+			"name": "Francesco",
+			"surname": "Corti",
+			"emailMD5": "ec093a71b277cad3be0993c579b3b822",
+			"position": "Alfresco Product Evangelist",
 			"company": "Alfresco",
-			"twitter": "KristenGastaldo",
-			"linkedin": "https://www.linkedin.com/in/kristengastaldo/",
+			"twitter": "FrkCorti",
+			"linkedin": "https://www.linkedin.com/in/fcorti/",
 			"website": "https://www.alfresco.com/",
-			"summary":"I've been with Alfresco a year, with BeeCon last year being my first week on the job! In the last year, we've launched our new community platform, and it's been my job to ensure that it is a valuable resource for our community."
+			"summary":"Enthusiast Consultant in software and solutions, I love working in team with Developers, Sales and Customers. Proud of the role of Software Engineer, I?m often involved in Presale presentations, public speaking and IT courses.<br/><br/>Developing software, designing architectures and definition of solutions in ECM/BPM and BI are my favourites areas of interest. Dozens of projects done, from the very small ones to the more complexes, in almost 20 years of experience.<br/><br/>Product Evangelist  at Alfresco  since October 2016, I?m the public figure representing the famous Open Source ECM into the developer community. In addition to helping developers to adopt Alfresco technologies, I usually help Alfresco to improve the developer experience through talks, articles, blogging, user demonstrations, recorded demonstrations, or the creation of sample projects.<br/>"
 		}
 	]
 },
