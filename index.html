@@ -333,18 +333,22 @@
         <p class="text-right lead"><span class="label label-warning">{{item.place}} at {{item.time}} on {{item.date}}</span></p>
 				<p class="text-right lead" ng-show="item.topic && item.topic != 'null'"><span class="label label-default">{{item.topic}}</span></p>
         <div ng-show="item.abstract" ng-bind-html="item.abstract"></div>
-        <div class="row">
-          <div class="col-md-6" ng-repeat="speaker in item.speakers">
-            <p>
-              <img ng-src="/2016/assets/img/speakers/{{speaker.image}}" class="img-circle left"/>
-              <br/><br/>
-              <a href="" ng-click="open2(speaker)">{{speaker.name}} {{speaker.surname}}</a><br/>
-              <small>{{speaker.position}} - {{speaker.company}}</small>
-            </p>
-          </div>
-        </div>
+				<div ng-if="item.speakers.length > 0">
+					<br/>
+					<p class="lead"><strong>Speakers</strong></p>
+	        <div class="row">
+	          <div class="col-md-6" ng-repeat="speaker in item.speakers">
+	            <p>
+	              <img ng-src="/2016/assets/img/speakers/{{speaker.image}}" class="img-circle left"/>
+	              <a href="" ng-click="open2(speaker)">{{speaker.name}} {{speaker.surname}}</a><br/>
+	              <small>{{speaker.position}} - {{speaker.company}}</small>
+	            </p>
+	          </div>
+	        </div>
+				</div>
           <div ng-if="item.files.length > 0">
-            <h4 class="text-left"><small>Resources</small></h4>
+						<br/>
+            <p class="lead"><strong>Resources</strong></p>
             <div ng-repeat="file in item.files">
               <a target="_target" ng-href="{{file.path}}">{{file.name}}</a>
             </div>
