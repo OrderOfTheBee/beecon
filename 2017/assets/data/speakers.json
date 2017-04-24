@@ -841,7 +841,7 @@
 			"title": "Supporting Alfresco Installations",
 			"type": "Full Talk (30 m)",
 			"targetAudience": "Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
-			"abstract": "Zia Consulting is one of the only US partners that provides Level 1 Alfresco support in concert with the Alfresco support organization. In this presentation we'll go over best practices for investigating and resolving Alfresco issues. We will also cover some best practices for getting the most from your Alfresco support relationship and finally we'll cover some advice on how to file effective JIRAs for folks using community.<br/>"
+			"abstract": "<p>Zia Consulting is one of the only US partners that provides Level 1 Alfresco support in concert with the Alfresco support organization. In this presentation we'll go over best practices for investigating and resolving Alfresco issues. We will also cover some best practices for getting the most from your Alfresco support relationship and finally we'll cover some advice on how to file effective JIRAs for folks using community.</p><br/>"
 		},
 		{
 			"id": "L12",
