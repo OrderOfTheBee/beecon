@@ -198,7 +198,10 @@
 	"targetAudience": "Developers starting to work with Alfresco, Experienced Alfresco developers",
 	"abstract": "<p>The annual release of a new version is an exciting time with all the new features to try out but we know that it can be time consuming, tedious and error prone to check our, and other, extensions/bug fixes etc for compatibility.</p><p>This talk demonstrates an approach that attempts to simplify the process and provide a rudimentary form of QA.</p><p>I will go through a number of techniques that can be used in custom code and show how potential problems can be flagged up via an automated checking tool.</p>",
 	"files":[
-
+		{
+			"name": "UpgradeExtensions.pdf",
+			"path": "/2017/assets/files/F12/UpgradeExtensions.pdf"
+		},
 		{
 			"name": "UpgradeExtensions.odp",
 			"path": "/2017/assets/files/F12/UpgradeExtensions.odp"
