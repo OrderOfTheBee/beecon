@@ -108,7 +108,7 @@ app.controller('AgendaCtrl', ['$scope', '$http', '$filter', '$timeout', '$uibMod
                     }
                     endDate = date + hour + slot.time.split(' ')[2].split(':')[1];
                     $.each(slot.sessions, function(index3, session) {
-                        if (session.id[0] == "F" || session.id[0] == "E" || ( session.id[0] == "H" && session.id[1] == "0")) {
+                        if (session.id[0] == "F" || session.id[0] == "E" || session.id == "BoF2" ||session.id == "BoF3" || session.id == "BoF4" || session.id == "BoF5" ||( session.id[0] == "H" && session.id[1] == "0")) {
                             var i = talks.filter(function(e) {
                                 return e.id == session.id;
                             });
