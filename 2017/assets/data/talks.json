@@ -535,44 +535,6 @@
 	]
 },
 {
-	"id": "F32",
-	"topic": "Alfresco Platform, Alfresco Share, API's, Use Case",
-	"title": "Application Development for the Alfresco Digital Platform",
-	"type": "Full Talk (30 m)",
-	"day": "April 27",
-	"hour": "14:30 - 15:00",
-	"room": "Room 1",
-	"targetAudience": "Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
-	"abstract": "<p>Alfresco technologies have added a lot of good choices for building UX experiences across Share, ADF, and native mobile. Similarly, an array of current and coming APIs and REST Services exist for content, process, and records management. This session walks architects and developers through some digital solution use cases, the available Alfresco technology choices, and when the strengths of each are right for the job. You’ll also learn of what’s coming down the pike and how to get involved in the latest open source innovations for Digital Business Solutions.</p>",
-	"files":[
-	],
-	"speakers":[
-		{
-			"name": "Ole",
-			"surname": "Hejlskov",
-			"emailMD5": "6531fc64422bdb67e868ccb9bded9d26",
-			"position": "Product Manager, Developer Platform",
-			"company": "Alfresco",
-			"twitter": "OleHejlskov",
-			"linkedin": "https://www.linkedin.com/in/ole-hejlskov-9793b61/",
-			"website": "https://www.alfresco.com/",
-			"summary":"After five years as an active member of the Alfresco Community Ole helped co-found The Order Of the Bee and was initially on the board, until he joined Alfresco as Developer Evangelist in April 2015 and later moved into a new role as Product Manager for Developer Platform.<br/>Ole has more than 15 years of experience in the industry ranging from tech support, systems administration, development, project management, team lead, developer evangelism and now Product Management.<br/>Ole is a big contributor to the Alfresco SDK, proud member of The Order Of the Bee, has written various tutorials and video tutorials on both Aikau, Alfresco and Alfresco SDK.<br/>"
-		}
-		,
-		{
-			"name": "Doug",
-			"surname": "Johnson",
-			"emailMD5": "d8483b2263049bb5617dd73c321c59c2",
-			"position": "Product Manager",
-			"company": "Alfresco",
-			"twitter": "",
-			"linkedin": "https://www.linkedin.com/in/douglasjohnson/",
-			"website": "https://www.alfresco.com/",
-			"summary":"Doug Johnson has a 20-year history in building, deploying, and managing high-technology products. He has spent nearly 15 years is in the BPM space as a solution engineer, consultant, and 10 years managing various BPM, Enterprise Architecture, and Case Management products. He is a member of the Product Management team at Alfresco—running its Enterprise Open Source Process Management and Workflow capabilities. He comes to Alfresco from managing security products at ThreatTrack Security and at Ultramatics he managed the product creation and launch of products in Healthcare using IBM Watson.<br/>"
-		}
-	]
-},
-{
 	"id": "F34",
 	"topic": "Alfresco Platform",
 	"title": "Care4Alf - 10 years of experience in one tool",
@@ -1213,7 +1175,7 @@
 	"hour": "10:10 - 10:40",
 	"room": "Auditorium",
 	"targetAudience": "Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
-	"abstract": "<p>Lightning talks are fast-paced and fun. The presentations are strictly limited to five minutes, so each session contains 5 topics with a mix of subjects including both business and technical subjects. All presentations in this session are Ignite-style, with auto-advancing slides.</p><ul class='list-instyled'><li><p><strong>Managed the DevOps Way</strong> (Martin Whittington)</p><p>How we use AWS to allocate trials to customers who want to know more about AWS</p></li><li><p><strong>Sending customizable emails in Alfresco</strong> (Tom Vandepoele)</p><p>Alfresco has been able to send emails for a long time. Mails are sent when you are invited to sites, when a workflow-task is assigned to you, for daily overviews of activities in your sites, etc.</p><p>There are however a few shortcomings:</p><ul class='list-instyled'><li>The body of the email is not easily customizable.</li><li>Sent email is not stored in Alfresco, so maintaining track of your conversation is hard.</li><li>Recipients cannot be dynamically assigned.</li></ul><p>In this ignite talk I would like to show how to generate custom e-mails from within Alfresco, with pre-populated recipients and automatically stored within Alfresco after sending.</p></li><li><p><strong>Taming large repositories</strong> (Willem Van den Eynde)</p><p>Building large repositories has it challenges. A quick overview of things learned from setting up several 10M to 50M repositories.</p></li><li><p><strong>Automating the Alfresco Taxonomy</strong> (Jason Jolley)</p><p>This presentation will review tools built to manage and automate an organization's taxonomy. Some of the tools reviewed will be:</p><ul class='list-instyled'><li>Data List backed Content Fields in Share</li><li>Configurable Metadata Inheritance (single and multiple level)</li><li>Automated Site Creation By Template, and from Activiti</li></ul></li><li><p><strong>Boost your career with Alfresco</strong> (Vasil Iliev)</p><p>Help users/developers/enthusiast to start/continue using Alfresco. The presentation will cover all aspects as a developer, end user or as a business operation. Will answer: why? how? should I? for how long?</p></li></ul>",
+	"abstract": "<p>Lightning talks are fast-paced and fun. The presentations are strictly limited to five minutes, so each session contains 5 topics with a mix of subjects including both business and technical subjects. All presentations in this session are Ignite-style, with auto-advancing slides.</p><ul class='list-instyled'><li><p><strong>&lt;online-trials&gt;Managed the DevOps way&lt;/online-trials&gt;</strong> (Martin Whittington)</p><p>How we use AWS to allocate trials to customers who want to know more about AWS</p></li><li><p><strong>Sending customizable emails in Alfresco</strong> (Tom Vandepoele)</p><p>Alfresco has been able to send emails for a long time. Mails are sent when you are invited to sites, when a workflow-task is assigned to you, for daily overviews of activities in your sites, etc.</p><p>There are however a few shortcomings:</p><ul class='list-instyled'><li>The body of the email is not easily customizable.</li><li>Sent email is not stored in Alfresco, so maintaining track of your conversation is hard.</li><li>Recipients cannot be dynamically assigned.</li></ul><p>In this ignite talk I would like to show how to generate custom e-mails from within Alfresco, with pre-populated recipients and automatically stored within Alfresco after sending.</p></li><li><p><strong>Taming large repositories</strong> (Willem Van den Eynde)</p><p>Building large repositories has it challenges. A quick overview of things learned from setting up several 10M to 50M repositories.</p></li><li><p><strong>Automating the Alfresco Taxonomy</strong> (Jason Jolley)</p><p>This presentation will review tools built to manage and automate an organization's taxonomy. Some of the tools reviewed will be:</p><ul class='list-instyled'><li>Data List backed Content Fields in Share</li><li>Configurable Metadata Inheritance (single and multiple level)</li><li>Automated Site Creation By Template, and from Activiti</li></ul></li><li><p><strong>Boost your career with Alfresco</strong> (Vasil Iliev)</p><p>Help users/developers/enthusiast to start/continue using Alfresco. The presentation will cover all aspects as a developer, end user or as a business operation. Will answer: why? how? should I? for how long?</p></li></ul>",
 	"files":[
 
 		{
@@ -1719,7 +1681,7 @@
 {
 	"id": "L03",
 	"topic": "AWS",
-	"title": "Managed the DevOps Way",
+	"title": "&lt;online-trials&gt;Managed the DevOps way&lt;/online-trials&gt;",
 	"type": "Lightning Talk (5 m)",
 	"day": "null",
 	"hour": "null",
@@ -2502,6 +2464,136 @@
 			"linkedin": "https://www.linkedin.com/in/ilievvasil/",
 			"website": "https://www.monsenso.com/",
 			"summary":"<p>I am 25 year old software developer from Macedonia. I'm currently living in Copenhagen and working in the same field.</p><p>I started out my career with Alfresco and it has brought me a long way. Working with Alfresco wasn't my number 1 choice when I started working, however my views on the subject have drastically changed.</p><p>Having the chance to share my experience and views on the topic can help many people with Alfresco as a career path.</p><br/>"
+		}
+	]
+},
+{
+	"id": "BoF1",
+	"topic": "Birds of Feathers",
+	"title": "BoF - Continuous Integration",
+	"type": "null",
+	"day": "null",
+	"hour": "null",
+	"room": "null",
+	"targetAudience": "Developers starting to work with Alfresco, Experienced Alfresco developers",
+	"abstract": "<p>Birds of a Feather sessions allow interested participants to have a conversation about a specific topic. In this session, we want to discuss the tools and technologies used by the alfresco community for Continuous Integration & test automation: Jenkins, TravisCI, pipelines, Unit tests, Integration tests, UI testing...</p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Alfresco engineers and OOTBee key members",
+			"surname": "",
+			"emailMD5": "",
+			"position": "",
+			"company": "Order of the bee",
+			"twitter": "orderofthebee",
+			"linkedin": "",
+			"website": "http://orderofthebee.org",
+			"summary":"BeeCon2016<br/>"
+		}
+	]
+},
+{
+	"id": "BoF2",
+	"topic": "Birds of Feathers",
+	"title": "BoF - Alfresco clients & UI",
+	"type": "null",
+	"day": "April 26",
+	"hour": "14:50 - 15:20",
+	"room": "Room 1",
+	"targetAudience": "Developers starting to work with Alfresco, Experienced Alfresco developers",
+	"abstract": "<p>Birds of a Feather sessions allow interested participants to have a conversation about a specific topic. In this session, we want to discuss the Clients & UI frameworks used by the alfresco community as well as have some insights into Share & Aikau's future...</p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Alfresco engineers and OOTBee key members",
+			"surname": "",
+			"emailMD5": "",
+			"position": "",
+			"company": "Order of the bee",
+			"twitter": "orderofthebee",
+			"linkedin": "",
+			"website": "http://orderofthebee.org",
+			"summary":"BeeCon2016<br/>"
+		}
+	]
+},
+{
+	"id": "BoF3",
+	"topic": "Birds of Feathers",
+	"title": "BoF - Improving the Alfresco community",
+	"type": "null",
+	"day": "April 27",
+	"hour": "13:55 - 14:25",
+	"room": "Auditorium",
+	"targetAudience": "Developers starting to work with Alfresco, Experienced Alfresco developers",
+	"abstract": "<p>Birds of a Feather sessions allow interested participants to have a conversation about a specific topic. We want to discuss the tools that Alfresco provides for participating in the Alfresco community, such as the social community at <a href='http://community.alfresco.com'>http://community.alfresco.com</a>. Please share with us your feedback on that site, and other tools you think would help the Alfresco community to grow.</p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Alfresco engineers and OOTBee key members",
+			"surname": "",
+			"emailMD5": "",
+			"position": "",
+			"company": "Order of the bee",
+			"twitter": "orderofthebee",
+			"linkedin": "",
+			"website": "http://orderofthebee.org",
+			"summary":"BeeCon2016<br/>"
+		}
+	]
+},
+{
+	"id": "BoF4",
+	"topic": "Birds of Feathers",
+	"title": "BoF - Process powering the Content flow",
+	"type": "null",
+	"day": "April 27",
+	"hour": "13:55 - 14:25",
+	"room": "Room 1",
+	"targetAudience": "Developers starting to work with Alfresco, Experienced Alfresco developers",
+	"abstract": "<p>Birds of a Feather sessions allow interested participants to have a conversation about a specific topic. In this session, we want to discuss how are processes defined, analysed and then implemented; as well as exchange around the recurring use cases for using process to empower content flows: Standalone BPM, embedded BPM...</p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Alfresco engineers and OOTBee key members",
+			"surname": "",
+			"emailMD5": "",
+			"position": "",
+			"company": "Order of the bee",
+			"twitter": "orderofthebee",
+			"linkedin": "",
+			"website": "http://orderofthebee.org",
+			"summary":"BeeCon2016<br/>"
+		}
+	]
+},
+{
+	"id": "BoF5",
+	"topic": "Birds of Feathers",
+	"title": "BoF - Add on development best practices",
+	"type": "null",
+	"day": "April 27",
+	"hour": "14:30 - 15:00",
+	"room": "Room 1",
+	"targetAudience": "Developers starting to work with Alfresco, Experienced Alfresco developers",
+	"abstract": "<p>Birds of a Feather sessions allow interested participants to have a conversation about a specific topic. In this session, we want to discuss the developer experience from different development approaches as well as share best practices and tips&tricks !</p>",
+	"files":[
+	],
+	"speakers":[
+		{
+			"name": "Alfresco engineers and OOTBee key members",
+			"surname": "",
+			"emailMD5": "",
+			"position": "",
+			"company": "Order of the bee",
+			"twitter": "orderofthebee",
+			"linkedin": "",
+			"website": "http://orderofthebee.org",
+			"summary":"BeeCon2016<br/>"
 		}
 	]
 }
