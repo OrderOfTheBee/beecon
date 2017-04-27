@@ -250,28 +250,6 @@
 	]
 },
 {
-	"name": "Doug",
-	"surname": "Johnson",
-	"emailMD5": "d8483b2263049bb5617dd73c321c59c2",
-	"position": "Product Manager",
-	"company": "Alfresco",
-	"twitter": "",
-	"linkedin": "https://www.linkedin.com/in/douglasjohnson/",
-	"website": "https://www.alfresco.com/",
-	"image": "/2017/img/speakers/DougJohnson.png",
-	"summary":"Doug Johnson has a 20-year history in building, deploying, and managing high-technology products. He has spent nearly 15 years is in the BPM space as a solution engineer, consultant, and 10 years managing various BPM, Enterprise Architecture, and Case Management products. He is a member of the Product Management team at Alfresco—running its Enterprise Open Source Process Management and Workflow capabilities. He comes to Alfresco from managing security products at ThreatTrack Security and at Ultramatics he managed the product creation and launch of products in Healthcare using IBM Watson.<br/>",
-	"talks":[
-		{
-			"id": "EF30",
-			"topic": "Workflows",
-			"title": "The wait is over: Activiti 6 is here",
-			"type": "Extended Talk (45 m)",
-			"targetAudience": "Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
-			"abstract": "<p>The wait is over, the release of Activiti 6 is neigh. Through both lecture and live demonstration, learn what is in the Activiti 6 engine and how this technology base will drive additional process- and case-powered use cases.</p>"
-		}
-	]
-},
-{
 	"name": "Oksana",
 	"surname": "Kurysheva",
 	"emailMD5": "63eae52d6429caf81974ecce529121b5",
@@ -556,6 +534,14 @@
 			"type": "Extended Talk (45 m)",
 			"targetAudience": "Business Users, Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
 			"abstract": "<p>Organizations of all sizes and in all industries are undertaking digital initiatives to increase their agility in the face of rapid market change. This digital transformation requires organizations to optimize productivity through people, processes, and information with an increase in speed of deployment, seamless integration, and intuitive experiences.</p><p>This presentation covers the guiding principles behind the Alfresco Digital Business Platform that allows adopters to conduct their business more intelligently as content finds users when and where they need it, processes directly improve outcomes, and people are informed to act or make decisions at any time or place. We explain how Alfresco products incorporate design thinking, platform thinking, and open thinking to provide the solutions that modern organizations demand.</p>"
+		},
+		{
+			"id": "EF30",
+			"topic": "Workflows",
+			"title": "The wait is over: Activiti 6 is here",
+			"type": "Extended Talk (45 m)",
+			"targetAudience": "Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
+			"abstract": "<p>The wait is over, the release of Activiti 6 is neigh. Through both lecture and live demonstration, learn what is in the Activiti 6 engine and how this technology base will drive additional process- and case-powered use cases.</p>"
 		}
 	]
 },
@@ -1476,10 +1462,10 @@
 		{
 			"id": "F28",
 			"topic": "Workflows, ADF",
-			"title": "SSO IN/With Alfresco Activiti/ADF",
+			"title": "Integrate Cognitive service with ADF framework - (Detect sentiment topics and metadata from Images and text)",
 			"type": "Full Talk (30 m)",
 			"targetAudience": "Developers starting to work with Alfresco, Experienced Alfresco developers",
-			"abstract": "<p>In order to provide a user with a single sign on experience a developer needs to implement a SSO solution. In this talk we are going to focus on how to use AUTH2 in Activiti/ADF. The goal of the presentation is to understand AUTH2.O and how to enable it.</p>"
+			"abstract": "<p>How to use an external Angular 2 component and ADF to enrich the Alfresco content service with cognitive analysis metadata and how to start a business process based on the collected data. The goal of the demo is to show the flexibility of the ADF framework and how to use it to integrate an external machine learning service in the Digital Business Platform.</p>"
 		}
 	]
 },
