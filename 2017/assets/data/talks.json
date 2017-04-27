@@ -177,6 +177,11 @@
 	"targetAudience": "Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
 	"abstract": "<p>From riding a camel to machine learning. Lets explore some of Alfresco Content Service's not so well known features.</p>",
 	"files":[
+
+		{
+			"name": "10 novel ways to use Alfresco.pdf",
+			"path": "/2017/assets/files/F11/10 novel ways to use Alfresco.pdf"
+		}
 	],
 	"speakers":[
 		{
@@ -239,6 +244,11 @@
 	"targetAudience": "Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
 	"abstract": "<p>Come and get a sneak peek at Alfresco Engineering, and how we work!</p><p>Learn how we manage a few millions line of code and a few dozen products.</p><p>Get updates on our migration to the Brave New World of git.</p>",
 	"files":[
+
+		{
+			"name": "Managing Alfresco Source Code.pptx",
+			"path": "/2017/assets/files/F14/Managing Alfresco Source Code.pptx"
+		}
 	],
 	"speakers":[
 		{
@@ -275,6 +285,16 @@
 			"name": "Presentacion_Beecon2017-0.9.pptx",
 			"path": "/2017/assets/files/F15/Presentacion_Beecon2017-0.9.pptx"
 		}
+,
+		{
+			"name": "Presentacion_Beecon2017-1.0.pdf",
+			"path": "/2017/assets/files/F15/Presentacion_Beecon2017-1.0.pdf"
+		}
+,
+		{
+			"name": "Presentacion_Beecon2017-1.0.pptx",
+			"path": "/2017/assets/files/F15/Presentacion_Beecon2017-1.0.pptx"
+		}
 	],
 	"speakers":[
 		{
@@ -301,6 +321,16 @@
 	"targetAudience": "System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
 	"abstract": "<p>This talk will describe the architecture, challenges, solutions and future work of implementing two-way synchronisation between Alfresco instances that are separated halfway across the world.</p><p>We will step through the creation of a module named AlfStream, showing the application of keeping two instances of Alfresco in Sync, even in the event of delays and network outages.</p><p>You will also see by building on Apache Camel, an Open Source EIP framework, you can fully exploit existing camel components to integrate Alfresco into external databases, applications and file systems.</p>",
 	"files":[
+
+		{
+			"name": "Presentation.pdf",
+			"path": "/2017/assets/files/F19/Presentation.pdf"
+		}
+,
+		{
+			"name": "Presentation.pptx",
+			"path": "/2017/assets/files/F19/Presentation.pptx"
+		}
 	],
 	"speakers":[
 		{
@@ -384,6 +414,11 @@
 	"targetAudience": "Business Users, Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
 	"abstract": "<p>Whatever challenges you’re facing, most probably others have experienced it before and found solutions that work.  This presentation is about general best practices and golden rules while deploying, configuring, extending and managing your alfresco solution. A great opportunity to take advantage of the consolidated experience gathered while working in many different Alfresco projects.</p>",
 	"files":[
+
+		{
+			"name": "Alfresco_Best_Practices_BC2017.pdf",
+			"path": "/2017/assets/files/F23/Alfresco_Best_Practices_BC2017.pdf"
+		}
 	],
 	"speakers":[
 		{
@@ -485,13 +520,13 @@
 {
 	"id": "F28",
 	"topic": "Workflows, ADF",
-	"title": "SSO IN/With Alfresco Activiti/ADF",
+	"title": "Integrate Cognitive service with ADF framework - (Detect sentiment topics and metadata from Images and text)",
 	"type": "Full Talk (30 m)",
 	"day": "April 27",
 	"hour": "12:15 - 12:45",
 	"room": "Room 1",
 	"targetAudience": "Developers starting to work with Alfresco, Experienced Alfresco developers",
-	"abstract": "<p>In order to provide a user with a single sign on experience a developer needs to implement a SSO solution. In this talk we are going to focus on how to use AUTH2 in Activiti/ADF. The goal of the presentation is to understand AUTH2.O and how to enable it.</p>",
+	"abstract": "<p>How to use an external Angular 2 component and ADF to enrich the Alfresco content service with cognitive analysis metadata and how to start a business process based on the collected data. The goal of the demo is to show the flexibility of the ADF framework and how to use it to integrate an external machine learning service in the Digital Business Platform.</p>",
 	"files":[
 	],
 	"speakers":[
@@ -519,6 +554,11 @@
 	"targetAudience": "Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
 	"abstract": "<p>Metadata is a critical component in digital transformation. The ability to accurately describe content empowers discovery and consumption both within a repository and in downstream systems.</p><p>During this talk we'll explore:</p><ul class='list-instyled'><li>The capabilities of the out of the box content model</li><li>Emerging trends and standards</li><li>Approaches to handle complex metadata needs</li></ul><p>This session is aimed at an intermediate audience.</p>",
 	"files":[
+
+		{
+			"name": "Bramley Metadata Hub.pdf",
+			"path": "/2017/assets/files/F31/Bramley Metadata Hub.pdf"
+		}
 	],
 	"speakers":[
 		{
@@ -1491,6 +1531,56 @@
 	"files":[
 
 		{
+			"name": "10_edit_reports.ogv",
+			"path": "/2017/assets/files/E09/10_edit_reports.ogv"
+		}
+,
+		{
+			"name": "1_setup_part1.ogv",
+			"path": "/2017/assets/files/E09/1_setup_part1.ogv"
+		}
+,
+		{
+			"name": "2_Setup_part2.ogv",
+			"path": "/2017/assets/files/E09/2_Setup_part2.ogv"
+		}
+,
+		{
+			"name": "3_Extract.ogv",
+			"path": "/2017/assets/files/E09/3_Extract.ogv"
+		}
+,
+		{
+			"name": "4_pentaho2alflytics.ogv",
+			"path": "/2017/assets/files/E09/4_pentaho2alflytics.ogv"
+		}
+,
+		{
+			"name": "5_show_report.ogv",
+			"path": "/2017/assets/files/E09/5_show_report.ogv"
+		}
+,
+		{
+			"name": "6_show_saiku.ogv",
+			"path": "/2017/assets/files/E09/6_show_saiku.ogv"
+		}
+,
+		{
+			"name": "7_run_spoon.ogv",
+			"path": "/2017/assets/files/E09/7_run_spoon.ogv"
+		}
+,
+		{
+			"name": "8_edit_job.ogv",
+			"path": "/2017/assets/files/E09/8_edit_job.ogv"
+		}
+,
+		{
+			"name": "9_run_prd.ogv",
+			"path": "/2017/assets/files/E09/9_run_prd.ogv"
+		}
+,
+		{
 			"name": "Next Gen Content Intelligence.odp",
 			"path": "/2017/assets/files/E09/Next Gen Content Intelligence.odp"
 		}
@@ -1623,15 +1713,15 @@
 	],
 	"speakers":[
 		{
-			"name": "Doug",
-			"surname": "Johnson",
-			"emailMD5": "d8483b2263049bb5617dd73c321c59c2",
-			"position": "Product Manager",
+			"name": "Thomas",
+			"surname": "De Meo",
+			"emailMD5": "80e6762f298ab478348ac43ee8814777",
+			"position": "Vice President of Product Management",
 			"company": "Alfresco",
-			"twitter": "",
-			"linkedin": "https://www.linkedin.com/in/douglasjohnson/",
+			"twitter": "tedemeo",
+			"linkedin": "https://www.linkedin.com/in/thomasdemeo/",
 			"website": "https://www.alfresco.com/",
-			"summary":"Doug Johnson has a 20-year history in building, deploying, and managing high-technology products. He has spent nearly 15 years is in the BPM space as a solution engineer, consultant, and 10 years managing various BPM, Enterprise Architecture, and Case Management products. He is a member of the Product Management team at Alfresco—running its Enterprise Open Source Process Management and Workflow capabilities. He comes to Alfresco from managing security products at ThreatTrack Security and at Ultramatics he managed the product creation and launch of products in Healthcare using IBM Watson.<br/>"
+			"summary":"With a mix of early start-up and global corporate experience, Thomas has focused his 25-year career in product roles icons including Adobe, HP and Citrix. With deep leadership and product management experience, he has contributed and led teams responsible for industry-leading product lines that each generated over $1B annually. Most recently Thomas served as Senior Director of Product Management at Citrix and focused on helping enterprises deliver apps and data across private, public and hybrid cloud infrastructure. While at HP, Thomas focused on integrated commerce and accessing apps and data across PC and mobile devices. Thomas spent 7 years at Adobe and led the Creative Suite product teams responsible for product integration, file and metadata management and delivered key interfaces into a range of content management systems.<br/>Thomas earned an MBA from San Jose State University and has an engineering undergraduate degree from Wentworth Institute of Technology in Boston.<br/>"
 		}
 		,
 		{
