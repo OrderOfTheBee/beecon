@@ -388,6 +388,26 @@
 	"targetAudience": "Business Users, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
 	"abstract": "<p>Records Management has typically been seen as an application on top of Alfresco. That's not just the case now. Providing a DoD certified application is still very important for us, but we also want to expand the use of the underlying governance capabilities provided in the RM module. In this session, I'll run through the work we've been doing for RM 2.6 to build the public APIs, and walk through an example of bringing those capabilities into external applications.</p>",
 	"files":[
+
+		{
+			"name": "Local 8080.postman_environment.json",
+			"path": "/2017/assets/files/F21/Local 8080.postman_environment.json"
+		}
+,
+		{
+			"name": "RM - the API story.pdf",
+			"path": "/2017/assets/files/F21/RM - the API story.pdf"
+		}
+,
+		{
+			"name": "RM - the API story.pptx",
+			"path": "/2017/assets/files/F21/RM - the API story.pptx"
+		}
+,
+		{
+			"name": "SAR Demo BeeCon.postman_collection.json",
+			"path": "/2017/assets/files/F21/SAR Demo BeeCon.postman_collection.json"
+		}
 	],
 	"speakers":[
 		{
@@ -628,6 +648,16 @@
 	"targetAudience": "Business Users, Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
 	"abstract": "<p>Machine Learning tools have become commonplace in the software industry, but they have infrequently been utilized in an ECM & BPM context. This presentation will review integration patterns between popular machine learning tools such as IBM's Watson and the Alfresco product suite. Real World examples will be reviewed.</p>",
 	"files":[
+
+		{
+			"name": "Machine Learning with Alfresco and Activiti - Jason Jolley.pdf",
+			"path": "/2017/assets/files/F35/Machine Learning with Alfresco and Activiti - Jason Jolley.pdf"
+		}
+,
+		{
+			"name": "Machine Learning with Alfresco and Activiti - Jason Jolley.pptx",
+			"path": "/2017/assets/files/F35/Machine Learning with Alfresco and Activiti - Jason Jolley.pptx"
+		}
 	],
 	"speakers":[
 		{
@@ -697,6 +727,11 @@
 	"targetAudience": "",
 	"abstract": "",
 	"files":[
+
+		{
+			"name": "Welcome Session.odp",
+			"path": "/2017/assets/files/F39/Welcome Session.odp"
+		}
 	],
 	"speakers":[
 		{
@@ -928,6 +963,11 @@
 		}
 ,
 		{
+			"name": "Boriss Mejias - Alfresco Worst Practices.pdf",
+			"path": "/2017/assets/files/FL01/Boriss Mejias - Alfresco Worst Practices.pdf"
+		}
+,
+		{
 			"name": "Oksana Kurysheva - Worst Practices Aikau.pdf",
 			"path": "/2017/assets/files/FL01/Oksana Kurysheva - Worst Practices Aikau.pdf"
 		}
@@ -1024,6 +1064,11 @@
 		{
 			"name": "L08-Javascript API based developments for improving your Alfresco experience [Lightning Talk (5 m)].pdf",
 			"path": "/2017/assets/files/FL02/L08-Javascript API based developments for improving your Alfresco experience [Lightning Talk (5 m)].pdf"
+		}
+,
+		{
+			"name": "Lightning Talk BeeCon - Writing for Alfresco Helen Mullally.pptx",
+			"path": "/2017/assets/files/FL02/Lightning Talk BeeCon - Writing for Alfresco Helen Mullally.pptx"
 		}
 	],
 	"speakers":[
@@ -1219,8 +1264,18 @@
 	"files":[
 
 		{
+			"name": "Automating the Alfresco Taxonomy - Lightning Talk.pdf",
+			"path": "/2017/assets/files/FL04/Automating the Alfresco Taxonomy - Lightning Talk.pdf"
+		}
+,
+		{
 			"name": "Beecon 2017 Taming large repositories.pptx",
 			"path": "/2017/assets/files/FL04/Beecon 2017 Taming large repositories.pptx"
+		}
+,
+		{
+			"name": "BeeCon2017_Lightning_Presentation_Custom_Emails.pptx",
+			"path": "/2017/assets/files/FL04/BeeCon2017_Lightning_Presentation_Custom_Emails.pptx"
 		}
 ,
 		{
@@ -1306,6 +1361,11 @@
 	"targetAudience": "Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
 	"abstract": "<p>A lot of effort has been put into creating a useful set of REST APIs in the 5.2 release, in this talk we'll cover those new APIs and have a sneak peek at what's coming next.</p><p>An overview of the new and enhanced APIs will be discussed and some of the key endpoints demonstrated via Postman. By the time you leave you should have enough knowledge to consume the APIs in your favourite programming language and create a simple client.</p><p>These APIs will be the foundation of all new clients developed by Alfresco so this is a must attend session!</p>",
 	"files":[
+
+		{
+			"name": "Exciting-Alfresco-APIs-BeeCon-2017.pdf",
+			"path": "/2017/assets/files/E01/Exciting-Alfresco-APIs-BeeCon-2017.pdf"
+		}
 	],
 	"speakers":[
 		{
@@ -1427,6 +1487,11 @@
 	"targetAudience": "Developers starting to work with Alfresco, Experienced Alfresco developers",
 	"abstract": "<p>BeeCon 2016 featured a discussion of how the Alfresco product development teams could better collaborate with open source contributors. During that panel, Alfresco management explained some of the challenges with accepting contributions and discussed ideas offered by the open source community for improving the situation.</p><p>This year we would like to report on the progress that we have made, and explain the ongoing initiatives to improve our open source collaboration.</p><p>The session will be moderated by Richard Esplin from Alfresco Product Management, and Boriss Mejias from the Order of the Bee. The panel will include Alfresco leadership from the Product Management and Product Development organizations at Alfresco. We plan to reserve lots of time for answering audience questions.</p>",
 	"files":[
+
+		{
+			"name": "BeeCon2017_Panel-Collaboration-Engineering.pdf",
+			"path": "/2017/assets/files/E06/BeeCon2017_Panel-Collaboration-Engineering.pdf"
+		}
 	],
 	"speakers":[
 		{
@@ -1477,6 +1542,11 @@
 	"targetAudience": "Business Users, Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
 	"abstract": "<p>Organizations of all sizes and in all industries are undertaking digital initiatives to increase their agility in the face of rapid market change. This digital transformation requires organizations to optimize productivity through people, processes, and information with an increase in speed of deployment, seamless integration, and intuitive experiences.</p><p>This presentation covers the guiding principles behind the Alfresco Digital Business Platform that allows adopters to conduct their business more intelligently as content finds users when and where they need it, processes directly improve outcomes, and people are informed to act or make decisions at any time or place. We explain how Alfresco products incorporate design thinking, platform thinking, and open thinking to provide the solutions that modern organizations demand.</p>",
 	"files":[
+
+		{
+			"name": "BeeCon_2017_Product_Roadmap.pdf",
+			"path": "/2017/assets/files/E07/BeeCon_2017_Product_Roadmap.pdf"
+		}
 	],
 	"speakers":[
 		{
@@ -1503,6 +1573,11 @@
 	"targetAudience": "Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
 	"abstract": "<p>Alfresco's REST APIs allow your custom apps to pull in rich data on your content and processes. This session uses practical examples and demos based on open source code to show how the Alfresco Unified JavaScript API can be used to quickly build out apps on top of the REST API, both from client-side apps and Node.js scripts.</p>",
 	"files":[
+
+		{
+			"name": "Developing Applications Against Alfresco Unified REST APIs.pdf",
+			"path": "/2017/assets/files/E08/Developing Applications Against Alfresco Unified REST APIs.pdf"
+		}
 	],
 	"speakers":[
 		{
@@ -1543,11 +1618,6 @@
 		{
 			"name": "2_Setup_part2.ogv",
 			"path": "/2017/assets/files/E09/2_Setup_part2.ogv"
-		}
-,
-		{
-			"name": "3_Extract.ogv",
-			"path": "/2017/assets/files/E09/3_Extract.ogv"
 		}
 ,
 		{
@@ -1710,6 +1780,11 @@
 	"targetAudience": "Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
 	"abstract": "<p>The wait is over, the release of Activiti 6 is neigh. Through both lecture and live demonstration, learn what is in the Activiti 6 engine and how this technology base will drive additional process- and case-powered use cases.</p>",
 	"files":[
+
+		{
+			"name": "The Wait is Over - Activiti 6 is Here.pdf",
+			"path": "/2017/assets/files/EF30/The Wait is Over - Activiti 6 is Here.pdf"
+		}
 	],
 	"speakers":[
 		{
@@ -2116,6 +2191,11 @@
 	"targetAudience": "System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
 	"abstract": "<p>In this presentation we will explore an implementation of a content transformer for Office documents, leveraging the micro-service architecture for scalable & reliable content transformations.</p>",
 	"files":[
+
+		{
+			"name": "BeeCon2017_Remote_JOD_Transformations.odp",
+			"path": "/2017/assets/files/L14/BeeCon2017_Remote_JOD_Transformations.odp"
+		}
 	],
 	"speakers":[
 		{
