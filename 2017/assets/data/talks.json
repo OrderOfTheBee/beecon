@@ -522,6 +522,11 @@
 	"targetAudience": "Developers starting to work with Alfresco, Experienced Alfresco developers",
 	"abstract": "<p>Whether you're an old-hand at Alfresco, or a beginner, there's always more things you can learn about it! Based on my experiences mentoring new Alfresco developers, helping answer questions on StackOverflow, and my own coding, I've pulled together a list of things you might not know, but should, about Alfresco. Come learn my top tips, tricks, APIs and more, leave a better and more productive Alfresco developer!</p>",
 	"files":[
+
+		{
+			"name": "25_Things.pdf",
+			"path": "/2017/assets/files/F27/25_Things.pdf"
+		}
 	],
 	"speakers":[
 		{
@@ -1618,6 +1623,11 @@
 		{
 			"name": "2_Setup_part2.ogv",
 			"path": "/2017/assets/files/E09/2_Setup_part2.ogv"
+		}
+,
+		{
+			"name": "3_Extract.ogv",
+			"path": "/2017/assets/files/E09/3_Extract.ogv"
 		}
 ,
 		{
