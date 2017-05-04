@@ -564,7 +564,21 @@
 			"type": "Full Talk (30 m)",
 			"targetAudience": "System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
 			"abstract": "<p>Delivering a piece of software is not the end of the journey, but the beginning of a story. Alerting and monitoring tools are key in the support, maintenance, continuous delivery and evolution of your software. Graylog is a great Open Source tool to plug into your architecture and facilitates this sometimes unappreciated work.</p><p>Join this talk to find out more about:</p><ul class='list-instyled'><li>Why Graylog can help you to alert and monitor your application</li><li>How it integrates into your architecture</li><li>How to perform cost effective log management as part of your ecosystem</li><li>What other benefits we can leverage from a Graylog integration</li></ul>"
-		},
+		}
+	]
+},
+{
+	"name": "Manolo",
+	"surname": "Swerts",
+	"emailMD5": "1f4376f1f0a41f0eb01b13b890e7cd8d",
+	"position": "Technical Architect",
+	"company": "Ixxus",
+	"twitter": "",
+	"linkedin": "https://www.linkedin.com/in/manoswerts/",
+	"website": "https://www.ixxus.com/",
+	"image": "/2017/img/speakers/ManoloSwerts.png",
+	"summary":"Technical Architect at Ixxus, order of the Bee member, working on Alfresco projects for more than 8 years",
+	"talks":[
 		{
 			"id": "F42",
 			"topic": "API's, ADF",
