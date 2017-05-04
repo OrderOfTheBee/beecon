@@ -277,23 +277,8 @@
 	"files":[
 
 		{
-			"name": "Presentacion_Beecon2017-0.9.pdf",
-			"path": "/2017/assets/files/F15/Presentacion_Beecon2017-0.9.pdf"
-		}
-,
-		{
-			"name": "Presentacion_Beecon2017-0.9.pptx",
-			"path": "/2017/assets/files/F15/Presentacion_Beecon2017-0.9.pptx"
-		}
-,
-		{
 			"name": "Presentacion_Beecon2017-1.0.pdf",
 			"path": "/2017/assets/files/F15/Presentacion_Beecon2017-1.0.pdf"
-		}
-,
-		{
-			"name": "Presentacion_Beecon2017-1.0.pptx",
-			"path": "/2017/assets/files/F15/Presentacion_Beecon2017-1.0.pptx"
 		}
 	],
 	"speakers":[
@@ -496,6 +481,11 @@
 	"targetAudience": "Business Users, Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers",
 	"abstract": "<p>Showcase of how alfresco does provisioning for regression testing on it's huge supported platforms matrix. Using chef and docker to build up infrastructure for testing and development. Instant Ad-hoc provisioning with jenkins, vagrant and docker-compose.</p>",
 	"files":[
+
+		{
+			"name": "UpAlreadyUSerious.pdf",
+			"path": "/2017/assets/files/F26/UpAlreadyUSerious.pdf"
+		}
 	],
 	"speakers":[
 		{
@@ -1440,6 +1430,11 @@
 	"targetAudience": "Newbies in Alfresco technologies, Developers starting to work with Alfresco, Experienced Alfresco developers",
 	"abstract": "<p>Alfresco SDK 3.0 was announced at BeeCon last year, it has finally arrived.</p><p>The new version is a major rewrite to address a lot of known issues such as upgrading, switching versions and handling artifact name changes. It also offers a set of new features such as full support for JAR modules, better hot reloading, support for Activiti extensions and much more. </p><p>This session will take you through all the details along with an in-depth live demo and answer all your questions.</p>",
 	"files":[
+
+		{
+			"name": "Alfresco SDK 3.0.pdf",
+			"path": "/2017/assets/files/E03/Alfresco SDK 3.0.pdf"
+		}
 	],
 	"speakers":[
 		{
