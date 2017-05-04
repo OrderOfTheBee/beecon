@@ -820,6 +820,11 @@
 	"targetAudience": "Business Users, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
 	"abstract": "<p>Alfresco’s Application Development Framework (ADF) could be one of the best technology decisions Alfresco has made in the last few years - the creation of responsive, adaptive and attractive User Interfaces have been taken to a new level.</p><p>At Ixxus we are excited to have already leveraged the benefits of this framework by integrating it into some of our products and projects. Join us in this session to find out more about:</p><ul class='list-instyled'><li>The benefits of ADF in Alfresco architectures</li><li>Our transition from Share Development to ADF</li><li>Pros and cons, plus the mistakes you should avoid</li><li>The widgets on our wishlist!</li></ul><br/>",
 	"files":[
+
+		{
+			"name": "A real ADF experience-3.pdf",
+			"path": "/2017/assets/files/F42/A real ADF experience-3.pdf"
+		}
 	],
 	"speakers":[
 		{
@@ -2096,6 +2101,11 @@
 	"targetAudience": "Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
 	"abstract": "<p>A walkthrough of how we use Swagger's tools inside Alfresco to generate specifications and client APIs automatically</p>",
 	"files":[
+
+		{
+			"name": "Automatic APIs with Swagger.pdf",
+			"path": "/2017/assets/files/L10/Automatic APIs with Swagger.pdf"
+		}
 	],
 	"speakers":[
 		{
@@ -2470,6 +2480,11 @@
 	"targetAudience": "Developers starting to work with Alfresco",
 	"abstract": "<p>This training session will cover basics for Alfresco development, focusing the practice on the use of the brand new Alfresco SDK 3.0.0.</p><p><a href='https://docs.google.com/forms/d/e/1FAIpQLSdlI0YYOgJtCFWHyvhLqZL-0DowjOtF73B8XqXaV9hYB37sgA/viewform' target='_blank'>Register your intention</a> to attend the training session. This registration will also be used to provide any updates or other details about the session in advance of BeeCon.</p>",
 	"files":[
+
+		{
+			"name": "Starting_Development_with_Alfresco.pdf",
+			"path": "/2017/assets/files/H03/Starting_Development_with_Alfresco.pdf"
+		}
 	],
 	"speakers":[
 		{
@@ -2496,6 +2511,16 @@
 	"targetAudience": "Developers starting to work with Alfresco",
 	"abstract": "<p>This training session will cover basics for Alfresco development, focusing the practice on the use of the brand new Alfresco SDK 3.0.0.</p><p><a href='https://docs.google.com/forms/d/e/1FAIpQLSdlI0YYOgJtCFWHyvhLqZL-0DowjOtF73B8XqXaV9hYB37sgA/viewform' target='_blank'>Register your intention</a> to attend the training session. This registration will also be used to provide any updates or other details about the session in advance of BeeCon.</p>",
 	"files":[
+
+		{
+			"name": "keensoft - Alfresco Learning - EN.pdf",
+			"path": "/2017/assets/files/H04/keensoft - Alfresco Learning - EN.pdf"
+		}
+,
+		{
+			"name": "keensoft - Alfresco Learning - ES.pdf",
+			"path": "/2017/assets/files/H04/keensoft - Alfresco Learning - ES.pdf"
+		}
 	],
 	"speakers":[
 		{
