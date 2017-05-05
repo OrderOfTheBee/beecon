@@ -729,8 +729,8 @@
 	"files":[
 
 		{
-			"name": "Welcome Session.odp",
-			"path": "/2017/assets/files/F39/Welcome Session.odp"
+			"name": "Welcome Session.pdf",
+			"path": "/2017/assets/files/F39/Welcome Session.pdf"
 		}
 	],
 	"speakers":[
@@ -1738,6 +1738,11 @@
 	"targetAudience": "Business Users, Newbies in Alfresco technologies, System Administrators, Developers starting to work with Alfresco, Experienced Alfresco developers, Architects and Technical Managers",
 	"abstract": "Last session on the conference. Q&A, open discussion",
 	"files":[
+
+		{
+			"name": "Closing session.pdf",
+			"path": "/2017/assets/files/E11/Closing session.pdf"
+		}
 	],
 	"speakers":[
 		{
