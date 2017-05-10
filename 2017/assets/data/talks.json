@@ -548,6 +548,11 @@
 	"targetAudience": "Developers starting to work with Alfresco, Experienced Alfresco developers",
 	"abstract": "<p>How to use an external Angular 2 component and ADF to enrich the Alfresco content service with cognitive analysis metadata and how to start a business process based on the collected data. The goal of the demo is to show the flexibility of the ADF framework and how to use it to integrate an external machine learning service in the Digital Business Platform.</p>",
 	"files":[
+
+		{
+			"name": "Integrate ccognitive services with ADF framework.pdf",
+			"path": "/2017/assets/files/F28/Integrate ccognitive services with ADF framework.pdf"
+		}
 	],
 	"speakers":[
 		{
