@@ -316,7 +316,7 @@
               <a target="_blank" ng-href="{{file.path}}">{{file.name}}</a>
             </div>
           </div>
-					<div ng-show="item.youtube">
+					<div ng-show="item.youtube != 'null'">
 						<a target="_blank" ng-href="{{item.youtube}}"><i class="fa fa-youtube"></i> Youtube video</a>
 					</div>
       </div>
@@ -426,14 +426,14 @@
 
 											<!-- Auditorium -->
 		                  <td ng-repeat="session in slot.sessions" class="session" ng-show="(session.place == 'Auditorium' && session.id != '' && (day.id == 'day2' || day.id == 'day3' || day.id == 'day4'))">
-												<a href="" ng-click="open(session)"><strong>{{session.title}}</strong><span ng-show="session.youtube != null"> <i class="fa fa-youtube"></i></span></a>
+												<a href="" ng-click="open(session)"><strong>{{session.title}}</strong><span ng-show="session.youtube != 'null'"> <i class="fa fa-youtube"></i></span></a>
 												<span ng-show="session.speakers"><br/>by <span ng-repeat="speaker in session.speakers"><span ng-if="!$first">, </span><a href="" ng-click="open2(speaker)">{{speaker.name}} {{speaker.surname}} @ {{speaker.company}}</a></span>
 											</td>
 		                  <td ng-repeat="session in slot.sessions" class="empty" ng-show="session.place == 'Auditorium' && session.id == '' && slot.sessions[0].id == '' && (day.id == 'day2' || day.id == 'day3' || day.id == 'day4')"></td>
 
 											<!-- Room 1 -->
 		                  <td ng-repeat="session in slot.sessions" class="session" ng-show="session.place == 'Room 1' && session.id != '' && (day.id == 'day2' || day.id == 'day3' || day.id == 'day4')">
-												<a href="" ng-click="open(session)"><strong>{{session.title}}</strong><span ng-show="session.youtube != null"> <i class="fa fa-youtube"></i></span></a>
+												<a href="" ng-click="open(session)"><strong>{{session.title}}</strong><span ng-show="session.youtube != 'null'"> <i class="fa fa-youtube"></i></span></a>
 
 												<span ng-show="session.speakers"><br/>by <span ng-repeat="speaker in session.speakers"><span ng-if="!$first">, </span><a href="" ng-click="open2(speaker)">{{speaker.name}} {{speaker.surname}} @ {{speaker.company}}</a></span>
 											</td>
