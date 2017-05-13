@@ -114,6 +114,7 @@ app.controller('AgendaCtrl', ['$scope', '$http', '$filter', '$timeout', '$uibMod
                             });
                             session.title = i[0].title;
                             session.type = i[0].type;
+                            session.youtube = i[0].youtube;
                             session.speakers = [];
                             session.speakers = i[0].speakers.slice(0);
                             session.abstract = i[0].abstract;

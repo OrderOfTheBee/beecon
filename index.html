@@ -313,9 +313,12 @@
 						<br/>
             <p class="lead"><strong>Resources</strong></p>
             <div ng-repeat="file in item.files">
-              <a target="_target" ng-href="{{file.path}}">{{file.name}}</a>
+              <a target="_blank" ng-href="{{file.path}}">{{file.name}}</a>
             </div>
           </div>
+					<div ng-show="item.youtube">
+						<a target="_blank" ng-href="{{item.youtube}}"><i class="fa fa-youtube"></i> Youtube video</a>
+					</div>
       </div>
       <div class="modal-footer">
         <div class="pull-right">
@@ -423,16 +426,15 @@
 
 											<!-- Auditorium -->
 		                  <td ng-repeat="session in slot.sessions" class="session" ng-show="(session.place == 'Auditorium' && session.id != '' && (day.id == 'day2' || day.id == 'day3' || day.id == 'day4'))">
-												<a href="" ng-click="open(session)"><strong>{{session.title}}</strong></a>
-												<a ng-href="{{session.files[session.files.length - 1].path}}" target='_blank' ng-show="session.files[session.files.length - 1].name == 'Video Recording of the Talk'"><i class="fa fa-youtube"></i></a>
+												<a href="" ng-click="open(session)"><strong>{{session.title}}</strong><span ng-show="session.youtube != null"> <i class="fa fa-youtube"></i></span></a>
 												<span ng-show="session.speakers"><br/>by <span ng-repeat="speaker in session.speakers"><span ng-if="!$first">, </span><a href="" ng-click="open2(speaker)">{{speaker.name}} {{speaker.surname}} @ {{speaker.company}}</a></span>
 											</td>
 		                  <td ng-repeat="session in slot.sessions" class="empty" ng-show="session.place == 'Auditorium' && session.id == '' && slot.sessions[0].id == '' && (day.id == 'day2' || day.id == 'day3' || day.id == 'day4')"></td>
 
 											<!-- Room 1 -->
 		                  <td ng-repeat="session in slot.sessions" class="session" ng-show="session.place == 'Room 1' && session.id != '' && (day.id == 'day2' || day.id == 'day3' || day.id == 'day4')">
-												<a href="" ng-click="open(session)"><strong>{{session.title}}</strong></a>
-												<a ng-href="{{session.files[session.files.length - 1].path}}" target='_blank' ng-show="session.files[session.files.length - 1].name == 'Video Recording of the Talk'"><i class="fa fa-youtube"></i></a>
+												<a href="" ng-click="open(session)"><strong>{{session.title}}</strong><span ng-show="session.youtube != null"> <i class="fa fa-youtube"></i></span></a>
+
 												<span ng-show="session.speakers"><br/>by <span ng-repeat="speaker in session.speakers"><span ng-if="!$first">, </span><a href="" ng-click="open2(speaker)">{{speaker.name}} {{speaker.surname}} @ {{speaker.company}}</a></span>
 											</td>
 		                  <td ng-repeat="session in slot.sessions" class="empty" ng-show="session.place == 'Room 1' && session.id == '' && slot.sessions[0].id == '' && (day.id == 'day2' || day.id == 'day3' || day.id == 'day4')"></td>
