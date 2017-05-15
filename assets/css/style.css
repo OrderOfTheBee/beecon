@@ -7965,3 +7965,10 @@ ul.atc-dropdown {
 .networking, .session, .room {
     text-align: center;
 }
+
+@media (min-width: 768px) {
+  div.modal-dialog {
+    width: 700px;
+    margin: 30px auto;
+  }
+}

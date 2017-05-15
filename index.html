@@ -318,7 +318,7 @@
           </div>
 					<div ng-show="item.youtube.length > 0">
 						<div ng-repeat="link in item.youtube">
-						<a target="_blank" ng-href="{{link.url}}"><i class="fa fa-youtube"></i> Youtube video</a>
+							<iframe id="ytplayer" type="text/html" width="640" height="360" src="{{trustSrc(link.embed)}}" frameborder="0"></iframe>
 					</div>
       </div>
       <div class="modal-footer">

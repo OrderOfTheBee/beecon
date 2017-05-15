@@ -64,7 +64,10 @@ app.controller('TalksCtrl', ['$scope', '$http', '$location', '$filter', '$timeou
     };
 }]);
 
-app.controller('AgendaCtrl', ['$scope', '$http', '$filter', '$timeout', '$uibModal', function($scope, $http, $filter, $timeout, $modal) {
+app.controller('AgendaCtrl', ['$scope', '$http', '$filter', '$timeout', '$uibModal', '$sce', function($scope, $http, $filter, $timeout, $modal, $sce) {
+    $scope.trustSrc = function(src) {
+        return $sce.trustAsResourceUrl(src);
+    }
     $scope.agenda = [];
     $http({
         method: 'GET',
@@ -108,13 +111,20 @@ app.controller('AgendaCtrl', ['$scope', '$http', '$filter', '$timeout', '$uibMod
                     }
                     endDate = date + hour + slot.time.split(' ')[2].split(':')[1];
                     $.each(slot.sessions, function(index3, session) {
-                        if (session.id[0] == "F" || session.id[0] == "E" || session.id == "BoF2" ||session.id == "BoF3" || session.id == "BoF4" || session.id == "BoF5" ||( session.id[0] == "H" && session.id[1] == "0")) {
+                        if (session.id[0] == "F" || session.id[0] == "E" || session.id == "BoF2" || session.id == "BoF3" || session.id == "BoF4" || session.id == "BoF5" || (session.id[0] == "H" && session.id[1] == "0")) {
                             var i = talks.filter(function(e) {
                                 return e.id == session.id;
                             });
                             session.title = i[0].title;
                             session.type = i[0].type;
                             session.youtube = i[0].youtube;
+                            session.trustSrc = function(src) {
+                                return $sce.trustAsResourceUrl(src);
+                            }
+                            for (var j = 0; j < session.youtube.length; j++) {
+                                session.youtube[j].url = session.youtube[j].url.replace("https://www.youtube.com/watch?v=", "");
+                                session.youtube[j].embed = "https://www.youtube.com/embed/" + session.youtube[j].url + "?origin=http://beecon.buzz"
+                            }
                             session.speakers = [];
                             session.speakers = i[0].speakers.slice(0);
                             session.abstract = i[0].abstract;
